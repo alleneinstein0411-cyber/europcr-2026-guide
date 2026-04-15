@@ -25,17 +25,24 @@ jobs:
 
       - name: Run check
         id: check
+        shell: bash
         run: |
+          # Capture exit code without bash -e aborting on non-zero
+          set +e
           python3 scripts/check-update.py > /tmp/result.json
           code=$?
+          set -e
           echo "exit_code=$code" >> $GITHUB_OUTPUT
-          echo "---"
+          echo "==== result.json ===="
           cat /tmp/result.json
-          echo "---"
-          # Extract key fields
-          echo "changed=$(jq -r .changed /tmp/result.json)" >> $GITHUB_OUTPUT
-          echo "reason=$(jq -r .reason /tmp/result.json)" >> $GITHUB_OUTPUT
-        continue-on-error: true
+          echo ""
+          echo "===================="
+          # Extract key fields (default to false if jq fails)
+          changed=$(jq -r '.changed // false' /tmp/result.json 2>/dev/null || echo "false")
+          reason=$(jq -r '.reason // ""' /tmp/result.json 2>/dev/null || echo "")
+          echo "changed=$changed" >> $GITHUB_OUTPUT
+          echo "reason=$reason" >> $GITHUB_OUTPUT
+          echo "Detected: changed=$changed, exit=$code"
 
       - name: Commit updated state
         if: steps.check.outputs.exit_code != '2'
