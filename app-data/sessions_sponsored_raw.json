@@ -1,0 +1,37 @@
+[
+  {
+    "_note": "Sponsored sessions from pages 35-55 are already included in their respective day files (sessions_wednesday_part2_raw.json and sessions_thursday_raw.json) with the 'sponsored' flag set. This file serves as a cross-reference index.",
+    "wednesday_sponsored_ids": [
+      "WED-1500-HANDSONLAB-003",
+      "WED-1635-MAILLOT-032",
+      "WED-1635-RM153-033",
+      "WED-1635-RM241-034",
+      "WED-1635-RM242AB-035",
+      "WED-1635-RM251-036",
+      "WED-1635-RM252A-037",
+      "WED-1635-RM252B-038",
+      "WED-1635-THEATEBLEU-040",
+      "WED-1635-THEATREBORDEAUX-041"
+    ],
+    "thursday_sponsored_ids": [
+      "THU-0830-HANDSONLAB-006",
+      "THU-1045-HANDSONLAB-063",
+      "THU-1230-RM251-091",
+      "THU-1230-RM252A-092",
+      "THU-1230-RM252B-093",
+      "THU-1230-THEATREBLEU-094",
+      "THU-1230-THEATREBORDEAUX-095",
+      "THU-1230-MAILLOT-096",
+      "THU-1230-RM153-097",
+      "THU-1230-RM241-098",
+      "THU-1230-RM242AB-099",
+      "THU-1340-RM153-100",
+      "THU-1340-RM241-101",
+      "THU-1340-RM242AB-102",
+      "THU-1340-RM251-103",
+      "THU-1340-RM252A-104",
+      "THU-1340-RM252B-105",
+      "THU-1430-HANDSONLAB-107"
+    ]
+  }
+]

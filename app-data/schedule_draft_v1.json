@@ -1,0 +1,521 @@
+{
+  "version": "1.0-draft",
+  "generatedAt": "2026-04-14",
+  "note": "Draft schedule - will be enriched with trial intelligence",
+  "conferenceDays": [
+    "2026-05-19",
+    "2026-05-20",
+    "2026-05-21"
+  ],
+  "days": [
+    {
+      "day": "Tuesday",
+      "date": "2026-05-19",
+      "theme": "Foundation day — LIVE cases, core techniques, LAA/structural orientation",
+      "blocks": [
+        {
+          "time": "09:45-10:00",
+          "pick": {
+            "sessionId": "TUE-0945-MAIN-001",
+            "title": "Welcome to EuroPCR 2026",
+            "type": "Ceremony",
+            "note": "開幕式，確認場地方位，拿大會資料"
+          },
+          "backups": []
+        },
+        {
+          "time": "10:00-11:30",
+          "pick": {
+            "sessionId": "TUE-1000-MAIN-001",
+            "title": "TAVI: LIVE Educational Case from Clinique Pasteur",
+            "type": "LIVE",
+            "speakerScore": 20,
+            "keyNames": [
+              "T. Cuisset(A)",
+              "R. Parma(A)",
+              "N. Dumonteil(A)",
+              "D. Tchetche(A)"
+            ],
+            "note": "Toulouse團隊是歐洲TAVI量最大的中心之一，Dumonteil和Tchetche都是S/A級操作者。開場LIVE case設定一天的學習基調。"
+          },
+          "backups": []
+        },
+        {
+          "time": "11:30-13:00",
+          "pick": {
+            "sessionId": "TUE-1130-MAIN-001",
+            "title": "PCI of left main stenosis: LIVE from Sant'Andrea University Hospital",
+            "type": "LIVE",
+            "speakerScore": 30,
+            "keyNames": [
+              "J. F. Lassen(S)",
+              "G. Stankovic(S)",
+              "G. G Toth(A)",
+              "E. Barbato(A)"
+            ],
+            "note": "兩位S級大師——Lassen（歐洲分叉教父）和Stankovic（左主幹PCI先驅）同台操刀，Toth帶來physiology視角，Barbato提供guideline觀點。今年LBT有左主幹長期預後數據，這場先打好基礎。"
+          },
+          "backups": [
+            {
+              "sessionId": "TUE-1155-BLEU-001",
+              "title": "Managing life-threatening TAVI complications",
+              "note": "如果TAVI是你的主攻方向，11:55開始的TAVI併發症case discussion（Mylotte A, Patterson A）也很優"
+            }
+          ]
+        },
+        {
+          "time": "13:10-14:40",
+          "pick": {
+            "sessionId": "TUE-1310-BLEU-002",
+            "title": "LIVE case: Complex multivessel disease management",
+            "type": "Symposium/LIVE",
+            "speakerScore": 32,
+            "keyNames": [
+              "J. Fajadet(S)",
+              "T. Cuisset(A)",
+              "B. Honton(A)",
+              "V. Paradies(A)",
+              "N. Dumonteil(A)"
+            ],
+            "note": "Fajadet是EuroPCR共同創辦人、全球複雜冠脈PCI的教科書級人物。配上Cuisset的ACS策略和Paradies的bifurcation DCB經驗，這場LIVE case的教學密度極高。"
+          },
+          "backups": [
+            {
+              "sessionId": "TUE-1310-252B-002",
+              "title": "How to become a CHAMPION in LAA closure",
+              "note": "Nielsen-Kudsk(S)親自講解CHAMPION-AF數據+LAA操作技巧，搭配Räber(A)——如果你想為Wed LBT的LAA subgroup做功課，選這場"
+            },
+            {
+              "sessionId": "TUE-1310-153-002",
+              "title": "DCB in contemporary PCI",
+              "note": "DCB備選——Ribichini(A)、Hildick-Smith(A)、Mashayekhi(A)三位A級講者談DCB實務"
+            }
+          ]
+        },
+        {
+          "time": "14:45-16:15",
+          "pick": {
+            "sessionId": "TUE-1445-MAIN-001",
+            "title": "Physiology-guided PCI: LIVE from Sant'Andrea University Hospital",
+            "type": "LIVE",
+            "speakerScore": 22,
+            "keyNames": [
+              "R. Al-Lamee(S)",
+              "E. Barbato(A)",
+              "N. Gonzalo(A)",
+              "M. A. Rosli(B)"
+            ],
+            "note": "Al-Lamee是ORBITA/ORBITA-2的PI，重新定義了冠脈生理學的臨床應用。看他如何在LIVE case中即時做physiology決策，配上Gonzalo的影像判讀，是頂級教學體驗。"
+          },
+          "backups": [
+            {
+              "sessionId": "TUE-1500-243-001",
+              "title": "Interventional therapy for hypertension (starts 15:00)",
+              "note": "Mahfoud(S)是全球renal denervation第一人，Ribichini(A)帶來歐洲實務觀點。如果你想了解HTN介入現狀，15:00轉場"
+            }
+          ]
+        },
+        {
+          "time": "16:30-18:00",
+          "pick": {
+            "sessionId": "TUE-1630-251-002",
+            "title": "IVUS and NIRS imaging: improve outcomes in stable and ACS",
+            "type": "Symposium",
+            "speakerScore": 20,
+            "keyNames": [
+              "J. Escaned(S)",
+              "R. Al-Lamee(S)"
+            ],
+            "note": "兩位S級——Escaned（IVUS guided PCI的歐洲權威、Madrid CCI主任）和Al-Lamee（physiology領袖）。IVUS + physiology的雙重視角，對日常PCI決策直接有用。"
+          },
+          "backups": [
+            {
+              "sessionId": "TUE-1630-MAILLOT-002",
+              "title": "Evolving bifurcation: DCB, angio-based FFR and novel techniques",
+              "note": "Stankovic(S) + Lassen(S) 雙S級——如果你對bifurcation/DCB更有興趣，選這場。含EBC DCB trial更新"
+            },
+            {
+              "sessionId": "TUE-1630-252B-002",
+              "title": "HI-PEITHO: Landmark PE RCT + practice guidelines",
+              "note": "Konstantinides發表HI-PEITHO RCT結果——如果你做PE catheter介入，這是必聽的landmark trial"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "date": "2026-05-20",
+      "theme": "Peak day — LBT + TAVI H2H + advanced coronary + structural frontiers",
+      "blocks": [
+        {
+          "time": "08:30-09:30",
+          "pick": {
+            "sessionId": "WED-0830-251-001",
+            "title": "Rethinking CAD: from ischaemia to atheroma",
+            "type": "Tutorial",
+            "speakerScore": 20,
+            "keyNames": [
+              "D. Capodanno(A)",
+              "R. Al-Lamee(S)",
+              "N. Gonzalo(A)"
+            ],
+            "note": "三位頂級學者重新框架冠脈疾病思維——從缺血導向轉為動脈粥樣硬化導向。Capodanno的meta-analysis視角+Al-Lamee的ORBITA洞見+Gonzalo的影像整合，這場會改變你對PCI適應症的思考。"
+          },
+          "backups": [
+            {
+              "sessionId": "WED-0830-THEATRE-001",
+              "title": "CTO BASIC Level I: LIVE from Bordeaux",
+              "note": "如果CTO是你的專攻——Escaned(S)、Diletti(A)、Agostoni(A)的CTO操刀教學"
+            },
+            {
+              "sessionId": "WED-0830-243-001",
+              "title": "Critical appraisal of recent LAA closure evidence",
+              "note": "Nielsen-Kudsk(S) + Räber(A) 解析CHAMPION-AF數據——為10:00 LBT的age subgroup做準備"
+            }
+          ]
+        },
+        {
+          "time": "09:45-10:45",
+          "pick": {
+            "sessionId": "WED-0945-BLEU-001",
+            "title": "★ Major Late-Breaking Trials from EuroPCR 2026 ★",
+            "type": "LBT",
+            "speakerScore": 65,
+            "keyNames": [
+              "M. Leon(S)",
+              "D. Capodanno(A)",
+              "H. Krumholz(A)",
+              "B. Prendergast(A)",
+              "N. Gonzalo(A)",
+              "R. Scarsini(A)",
+              "B. Bergmark(A)",
+              "J. E. Nielsen-Kudsk(S)",
+              "T. Cuisset(A)",
+              "D. Hildick-Smith(A)",
+              "P. Garot(A)"
+            ],
+            "note": "全會議最高優先！三大LBT：(1) Scarsini的TAVI冠脈IPD統合分析——決定TAVI前是否需要PCI的最高級別證據；(2) Bergmark的左主幹PCI vs CABG長期死亡率——Heart Team決策直接依據；(3) Nielsen-Kudsk的CHAMPION-AF年齡亞組——LAAC vs NOAC的患者選擇策略。討論團包含Leon(S)、Capodanno(A)、Krumholz(A)——Yale+TIMI+ESC guideline級別的點評。"
+          },
+          "backups": [],
+          "mandatory": true
+        },
+        {
+          "time": "10:45-12:15",
+          "pick": {
+            "sessionId": "WED-1045-MAIN-001",
+            "title": "Calcified coronary: LIVE from Clinique Pasteur",
+            "type": "LIVE",
+            "speakerScore": 32,
+            "keyNames": [
+              "J. Fajadet(S)",
+              "D. Milasinovic(A)",
+              "N. Dumonteil(A)",
+              "B. Farah(B)"
+            ],
+            "note": "Fajadet(S)親自操刀鈣化病變——他是全球PCI經驗最豐富的術者之一。配上Milasinovic的DCB/physiology專長，學習如何處理日常最棘手的鈣化冠脈。"
+          },
+          "backups": []
+        },
+        {
+          "time": "11:15-12:15",
+          "pick": {
+            "sessionId": "WED-1115-MAILLOT-001",
+            "title": "TAVI: head-to-head trials",
+            "type": "Hotline",
+            "speakerScore": 15,
+            "keyNames": [
+              "M. Leon(S)",
+              "T. Patterson(A)"
+            ],
+            "note": "Leon(S)——全球TAVI臨床試驗教父——主持TAVI瓣膜直接比較數據。這是選擇Evolut vs Sapien的關鍵證據場次。"
+          },
+          "backups": [
+            {
+              "sessionId": "WED-1115-243-001",
+              "title": "Antithrombotic therapy after TAVI",
+              "note": "Capodanno(A)+Hayashida(A)+Rudolph(A)——TAVI抗血栓策略是熱門議題，case-based討論"
+            }
+          ]
+        },
+        {
+          "time": "12:30-13:30",
+          "pick": {
+            "sessionId": "WED-1230-MAILLOT-002",
+            "title": "Left main PCI: how Ultreon 3.0 can improve decision making",
+            "type": "Symposium",
+            "speakerScore": 15,
+            "keyNames": [
+              "T. Johnson(A)",
+              "N. Gonzalo(A)",
+              "L. Räber(A)"
+            ],
+            "note": "三位A級左主幹/影像專家——Johnson（Leeds左主幹）、Gonzalo（OCT大師）、Räber（Bern）。OCT/IVUS在左主幹的實務應用，呼應上午LBT的左主幹IPD數據。"
+          },
+          "backups": [
+            {
+              "sessionId": "WED-1230-242AB-002",
+              "title": "Renal denervation 360°: ready for the future?",
+              "note": "Al-Lamee(S) + Mahfoud(S) 雙S級！如果HTN介入是你的興趣方向，這場雙S級對談極其難得"
+            },
+            {
+              "sessionId": "WED-1230-BLEU-002",
+              "title": "LIVE case: future-proof strategies (TAVI symposium)",
+              "note": "De Backer(A)+Abdel-Wahab(A)+Dumonteil(A)+Tchetche(A)——四位A級TAVI操刀者的LIVE case"
+            }
+          ]
+        },
+        {
+          "time": "13:40-14:40",
+          "pick": {
+            "sessionId": "WED-1340-MAILLOT-002",
+            "title": "High-def IVUS-guided strategies in calcified stenosis",
+            "type": "Symposium",
+            "speakerScore": 20,
+            "keyNames": [
+              "E. Barbato(A)",
+              "N. Gonzalo(A)",
+              "R. Diletti(A)",
+              "T. Johnson(A)"
+            ],
+            "note": "四位A級影像專家談IVUS在鈣化病變的策略——Barbato（ESC guideline作者）、Gonzalo（OCT/IVUS雙修）、Diletti（Rotterdam）、Johnson（Leeds）。鈣化處理+影像導引是日常PCI最需要的技能。"
+          },
+          "backups": [
+            {
+              "sessionId": "WED-1340-252B-002",
+              "title": "Large-bore thrombectomy in PE practice",
+              "note": "Mahfoud(S)+Cuisset(A)——如果你對PE介入有興趣"
+            }
+          ]
+        },
+        {
+          "time": "15:00-16:30",
+          "pick": {
+            "sessionId": "WED-1500-BLEU-001",
+            "title": "Choosing the right strategy for isolated ostial LAD/LCx stenting",
+            "type": "HowShouldITreat",
+            "speakerScore": 20,
+            "keyNames": [
+              "G. Stankovic(S)",
+              "N. Amabile(A)",
+              "M. Lesiak(A)"
+            ],
+            "note": "Stankovic(S)談左主幹近端策略——極其實用的主題。每天都會遇到的問題，頂級專家告訴你怎麼做。"
+          },
+          "backups": [
+            {
+              "sessionId": "WED-1500-MAIN-001",
+              "title": "TAVI aortic regurgitation: LIVE from Zurich",
+              "note": "Prendergast(A)+Lurz(A)+Hayashida(A)+Treede(A)——純AR TAVI是新前沿，LIVE case教學價值高"
+            }
+          ]
+        },
+        {
+          "time": "16:35-18:00",
+          "pick": {
+            "sessionId": "WED-1635-251-002",
+            "title": "Seeing differently: advanced imaging shaping modern structural practice",
+            "type": "Symposium",
+            "speakerScore": 20,
+            "keyNames": [
+              "J. E. Nielsen-Kudsk(S)",
+              "F. Praz(A)",
+              "M. Swaans(A)"
+            ],
+            "note": "Nielsen-Kudsk(S)的LAA closure影像+Praz(A)的structural影像——一天的structural知識收尾。配合上午LBT的CHAMPION-AF數據，深化理解。"
+          },
+          "backups": [
+            {
+              "sessionId": "WED-1635-242AB-002",
+              "title": "Beyond COAPT: advancing mitral TEER for Asian anatomy",
+              "note": "Maisano(S)——MitraClip發明者談亞洲解剖學的TEER，對亞洲術者特別相關"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "date": "2026-05-21",
+      "theme": "Deep dive day — DCB frontiers, LM/bifurcation mastery, TAVI durability",
+      "blocks": [
+        {
+          "time": "08:30-09:30",
+          "pick": {
+            "sessionId": "THU-0830-MAILLOT-001",
+            "title": "★ DCB in de novo lesions: SELUTION DeNovo + OPTIMAL ★",
+            "type": "TranslateTrials/Hotline",
+            "speakerScore": 25,
+            "keyNames": [
+              "J. Escaned(S)",
+              "E. Barbato(A)",
+              "M. Haude(A)",
+              "D. Milasinovic(A)"
+            ],
+            "note": "Escaned(S)主持，Barbato(A)+Haude(A)+Milasinovic(A)報告SELUTION DeNovo和OPTIMAL兩大DCB試驗更新。DCB取代DES用於de novo病變是未來5年最大的paradigm shift之一——這場集中展示最新臨床數據。"
+          },
+          "backups": [
+            {
+              "sessionId": "THU-0830-BLEU-001",
+              "title": "Routine primary PCI: what can go wrong?",
+              "note": "Lassen(S)——看S級術者如何處理日常PCI的意外狀況"
+            },
+            {
+              "sessionId": "THU-0830-MAIN-001",
+              "title": "TAVI: LIVE from Cleveland Clinic London",
+              "note": "Mylotte(A)+Patterson(A)的TAVI LIVE教學"
+            }
+          ]
+        },
+        {
+          "time": "09:45-10:45",
+          "pick": {
+            "sessionId": "THU-0945-243-001",
+            "title": "Is DCB the new gold standard for side branch in bifurcation?",
+            "type": "CaseDiscussion",
+            "speakerScore": 15,
+            "keyNames": [
+              "P. O'Kane(A)",
+              "V. Paradies(A)",
+              "D. Hildick-Smith(A)"
+            ],
+            "note": "承接08:30的DCB trial data，這場用case-based方式探討DCB在分叉病變側支的應用——O'Kane和Paradies都是歐洲DCB經驗最豐富的術者。實戰導向。"
+          },
+          "backups": [
+            {
+              "sessionId": "THU-0945-251-001",
+              "title": "Publishing in interventional cardiology",
+              "note": "Capodanno(A)+Al-Lamee(S)+Milasinovic(A)——學術寫作/審稿課，對想投稿的人很有價值"
+            },
+            {
+              "sessionId": "THU-0945-242AB-001",
+              "title": "TAVI - Procedural strategy (Hotline)",
+              "note": "Maccarthy(A)+Hayashida(A)——TAVI程序策略新數據"
+            }
+          ]
+        },
+        {
+          "time": "11:00-12:00",
+          "pick": {
+            "sessionId": "THU-1100-MAILLOT-001",
+            "title": "New evidence for coronary revascularisation",
+            "type": "Hotline",
+            "speakerScore": 5,
+            "keyNames": [
+              "H. Krumholz(A)"
+            ],
+            "note": "Krumholz(A)——Yale公衛+outcomes研究巨頭——在Hotline場報告冠脈血管重建新證據。具體內容待定，但Hotline場必有practice-changing數據。11:15可轉場。"
+          },
+          "backups": [
+            {
+              "sessionId": "THU-1115-242AB-001",
+              "title": "INOCA in patients with coronary artery disease",
+              "note": "Escaned(S)談INOCA——11:15開始，可從11:00場轉來"
+            },
+            {
+              "sessionId": "THU-1115-243-001",
+              "title": "Asymptomatic high-risk patients: can CT guide decisions?",
+              "note": "Al-Lamee(S)——ORBITA大師談CT在無症狀高風險患者的角色"
+            }
+          ]
+        },
+        {
+          "time": "12:30-14:00",
+          "pick": {
+            "sessionId": "THU-1230-BLEU-002",
+            "title": "★ LIVE case: Left main and complex bifurcation stenting ★",
+            "type": "Symposium/LIVE",
+            "speakerScore": 25,
+            "keyNames": [
+              "G. Stankovic(S)",
+              "T. Johnson(A)",
+              "M. Lesiak(A)",
+              "T. Hovasse(A)"
+            ],
+            "note": "Stankovic(S)操刀左主幹+複雜分叉支架——這是全會議左主幹LIVE case的巔峰場次。配合Wed LBT的左主幹長期預後數據，完整掌握最新LM PCI策略。"
+          },
+          "backups": [
+            {
+              "sessionId": "THU-1230-251-002",
+              "title": "CathWorks FFRangio System: physiology reimagined",
+              "note": "Al-Lamee(S)+Honton(A)——angio-based FFR系統，無導絲冠脈生理學的未來"
+            }
+          ]
+        },
+        {
+          "time": "13:40-14:40",
+          "pick": {
+            "sessionId": "THU-1340-252A-002",
+            "title": "LDL-C management: should it begin in the cathlab?",
+            "type": "Symposium",
+            "speakerScore": 5,
+            "keyNames": [
+              "B. Bergmark(A)"
+            ],
+            "note": "Bergmark(A)——上午LBT的左主幹IPD研究者——午後談院內啟動降脂治療。TIMI Study Group的降脂試驗經驗+左主幹數據視角，對cath lab的二級預防策略有直接啟示。"
+          },
+          "backups": [
+            {
+              "sessionId": "THU-1340-153-002",
+              "title": "Ascending into future with drug-coated balloons",
+              "note": "Hildick-Smith(A)——DCB未來方向，承接上午DCB主題"
+            }
+          ]
+        },
+        {
+          "time": "15:00-16:00",
+          "pick": {
+            "sessionId": "THU-1500-MAILLOT-001",
+            "title": "★ Spotlight: TAVI durability — evidence and future ★",
+            "type": "Tutorial",
+            "speakerScore": 20,
+            "keyNames": [
+              "M. Leon(S)",
+              "D. Capodanno(A)",
+              "N. Dumonteil(A)"
+            ],
+            "note": "Leon(S)+Capodanno(A)+Dumonteil(A)——TAVI耐久性是目前最關鍵的未回答問題。隨著TAVI適應症擴展到更年輕患者，10-15年的瓣膜壽命數據直接影響治療決策。三位頂級學者的綜合分析。"
+          },
+          "backups": [
+            {
+              "sessionId": "THU-1500-MAIN-001",
+              "title": "Mitral valve-in-valve and LAA closure: LIVE",
+              "note": "Modine(A)+De Backer(A)+Rosseel(B)+Bieliauskas(B)——二尖瓣valve-in-valve+LAA的LIVE case"
+            },
+            {
+              "sessionId": "THU-1500-THEATRE-001",
+              "title": "CTO ADVANCED: complications LIVE from Bordeaux",
+              "note": "Mashayekhi(A)+Garbo(A)——高難度CTO併發症處理LIVE case"
+            }
+          ]
+        },
+        {
+          "time": "16:15-18:00",
+          "pick": {
+            "sessionId": "THU-1615-153-001",
+            "title": "Ambiguous left main lesions: assess severity and decide",
+            "type": "HowShouldITreat",
+            "speakerScore": 15,
+            "keyNames": [
+              "J. F. Lassen(S)",
+              "N. Amabile(A)"
+            ],
+            "note": "Lassen(S)——左主幹模糊病變的severity評估和決策。這是每天都會遇到的臨床問題，歐洲分叉教父的實戰指導。16:30轉場看bifurcation LIVE。"
+          },
+          "backups": [
+            {
+              "sessionId": "THU-1630-MAIN-001",
+              "title": "Complex bifurcation PCI: LIVE from Leipzig Heart Center (16:30)",
+              "note": "Abdel-Wahab(A)+Hildick-Smith(A)+Paradies(A)+Sulimov(B)——16:30開始的bifurcation LIVE case，可從16:15場轉來"
+            },
+            {
+              "sessionId": "THU-1635-THEATRE-001",
+              "title": "IBERIS: first radial renal denervation LIVE (16:35)",
+              "note": "Mahfoud(S)+Ribichini(A)——全球首個radial approach renal denervation LIVE case！"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

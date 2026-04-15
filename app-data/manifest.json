@@ -1,0 +1,158 @@
+{
+  "project": "europcr2026-guide",
+  "status": "session_d_complete",
+  "conferenceDays": [
+    "2026-05-19",
+    "2026-05-20",
+    "2026-05-21"
+  ],
+  "conferenceDayCount": 3,
+  "note": "5/22 Fri not attending - leaving for Bourgogne road trip",
+  "pdfSource": {
+    "version": "14 April 2026",
+    "file": "programme_europcr2026_updated.pdf",
+    "pages": 192,
+    "downloadedAt": "2026-04-14",
+    "url": "https://interactive-programme.europa-organisation.com/pdf/europcr2026/programme_europcr2026.pdf"
+  },
+  "sessions": {
+    "extracted": true,
+    "total": 588,
+    "byDay": {
+      "Tuesday": 135,
+      "Wednesday": 223,
+      "Thursday": 189,
+      "Friday": 41
+    },
+    "files": {
+      "all": "sessions_all_v2.json",
+      "tuesday": "sessions_tue_v2.json",
+      "wednesday": "sessions_wed_v2.json",
+      "thursday": "sessions_thu_v2.json",
+      "friday": "sessions_fri_v2.json"
+    },
+    "source": "programme_europcr2026_updated.pdf (April 14 version, 192 pages)",
+    "extractionMethod": "PyMuPDF text extraction + Python parser + post-processing",
+    "knownLimitations": [
+      "Track colors determined by keyword heuristics (no image color analysis)",
+      "Some multi-line agenda items may be imperfectly joined",
+      "Sponsored sessions with 'See Sponsored Programme section' have empty agendas"
+    ]
+  },
+  "speakers": {
+    "listObtained": true,
+    "totalIdentified": 1020,
+    "byPriority": {
+      "critical": 3,
+      "high": 56,
+      "medium": 284,
+      "normal": 677
+    },
+    "researchQueue": {
+      "tier1_criticalHigh": 59,
+      "tier2_selectedMedium": 98,
+      "total": 157,
+      "note": "Tier 1 = LBT presenters + LIVE operators + multi-signal faculty. Tier 2 = Hotline anchors + ≥4 sessions + multi-signal medium speakers."
+    },
+    "researched": 60,
+    "verified": 0,
+    "files": {
+      "speakerList": "speaker-list.json",
+      "researchQueue": "speaker-research-queue.json"
+    },
+    "knownIssues": [
+      "17 single-letter name artifacts from PDF parsing (filtered out)",
+      "Some speakers appear only in agenda (not session-level roles) - captured via agendaItems",
+      "Combined names in agenda (e.g. 'A. Latib, D. Tchetche') split into individual entries"
+    ],
+    "researchBatches": [
+      "speakers/batch-001-lbt-critical.json (3: Scarsini, Bergmark, Nielsen-Kudsk)",
+      "speakers/batch-002-tavi-structural.json (5: Maisano, Modine, Lurz, De Backer, Tchetche)",
+      "speakers/batch-003-coronary-physiology.json (5: Escaned, Al-Lamee, Toth, Mahfoud, Räber)",
+      "speakers/batch-004-leftmain-bifurcation.json (5: Barbato, Stankovic, Fajadet, Johnson, Lassen)",
+      "speakers/batch-005-lbt-hotline-leaders.json (5: Leon, Capodanno, Gonzalo, Krumholz, Prendergast)",
+      "speakers/batch-006-cto-live.json (5: Dumonteil, Abdel-Wahab, Cuisset, Garbo, Mashayekhi)",
+      "speakers/batch-007-coronary-multisignal.json (7: Paradies, Milasinovic, Amabile, Ribichini, O'Kane, Rosli, Diletti)",
+      "speakers/batch-008a-structural-1.json (7: Rudolph, Praz, Rosseel, Haude, Mylotte, Hayashida, Swaans)",
+      "speakers/batch-008b-structural-2.json (7: Garot, Parma, Bieliauskas, Treede, Alhaddad, Maccarthy, Patterson)",
+      "speakers/batch-009-live-operators.json (8: Honton, Hovasse, Avran, Sulimov, Ayoub, Farah, Leibundgut, Agostoni)",
+      "speakers/batch-010-coronary-other.json (3: Hildick-Smith, Lesiak, E. Smith)"
+    ],
+    "tierDistribution": {
+      "S": 9,
+      "A": 44,
+      "B": 7,
+      "total": 60,
+      "tier1Complete": true
+    }
+  },
+  "trials": {
+    "identified": 8,
+    "researched": 8,
+    "verified": 0,
+    "domains": {
+      "TAVI_Coronary": 1,
+      "Left_Main": 1,
+      "LAA_AF": 2,
+      "PE": 1,
+      "DCB": 2,
+      "Coronary_Stenting": 1
+    },
+    "lbtSession": "WED-0945-BLEU-001",
+    "confirmedPresenters": {
+      "R. Scarsini": "TAVI coronary IPD meta-analysis (4 RCTs, n=1476)",
+      "B. Bergmark": "Left main PCI vs CABG long-term mortality IPD (4 RCTs, 10yr data)",
+      "J. E. Nielsen-Kudsk": "CHAMPION-AF age subgroup (LAA closure vs NOAC by age, n=3000)"
+    },
+    "additionalTrials": {
+      "HI-PEITHO": "S. Konstantinides, TUE-1630-252B, NEJM 2026 landmark PE RCT (n=544, 61% RRR)",
+      "SELUTION_DeNovo": "H. Routledge, THU-0830-MAILLOT, sirolimus DCB vs DES RCT (n=3323, NI met at 12mo)",
+      "OPTIMAL": "D. Milasinovic, THU-0830-MAILLOT, novel European DCB trial data",
+      "OPTION": "Context for LAA sessions, NEJM 2024 LAA after ablation (n=1600)",
+      "SORT_OUT_XII": "WED-1230-153, Evermine50 ultra-thin DES (50µm) recruitment update + DAPT trial"
+    },
+    "file": "trials/trials_intelligence_v1.json"
+  },
+  "schedule": {
+    "curated": true,
+    "confirmed": true,
+    "withBackups": true,
+    "totalBlocks": {
+      "Tuesday": 6,
+      "Wednesday": 7,
+      "Thursday": 6
+    },
+    "mandatorySessions": [
+      "WED-0945-BLEU-001 (Major Late-Breaking Trials)",
+      "THU-0830-MAILLOT-001 (DCB Trials: SELUTION DeNovo + OPTIMAL)",
+      "THU-1230-BLEU-002 (Left Main + Bifurcation LIVE: Stankovic S)"
+    ],
+    "changesFromDraft": [
+      "TUE-1630: IVUS+NIRS → Bifurcation DCB (Stankovic+Lassen+Scheller, Medtronic symposium)",
+      "WED-1500: Ostial LAD/LCx (Stankovic) → Calcified LM Learning Room (Barbato)",
+      "WED-1635: Structural imaging → Maisano TEER Asian anatomy",
+      "THU-1045: NEW — Bifurcation provisional Learning Room (Stankovic, full session)",
+      "THU-1100-1215: INOCA (Escaned) → dropped (replaced by full Bifurcation LR above)",
+      "THU-1340: LDL-C (Bergmark) → dropped (LM LIVE runs to 14:00)",
+      "THU-1500: TAVI durability (Leon) → Complication simulation calcified (Amibile, Milasinovic)"
+    ],
+    "registrationAlerts": [
+      "THU-1500-143-001: Go to Training Village desk FIRST THING Thursday morning (~18 spots)"
+    ],
+    "replayQueue": [
+      "THU-1100-MAILLOT-001 (Hotline: FFR 10yr + TUXEDO 2)",
+      "THU-1115-242AB-001 (INOCA: Escaned + Berry)",
+      "TUE-1630-252B-002 (HI-PEITHO discussion)"
+    ],
+    "files": {
+      "draft": "schedule_draft_v1.json",
+      "final": "schedule_final.json"
+    }
+  },
+  "app": {
+    "built": false,
+    "tested": false
+  },
+  "lastUpdated": "2026-04-14T26:00:00+08:00",
+  "nextStep": "Session E: Build offline HTML PWA app with speaker cards, trial cards, curated schedule, backup toggling"
+}

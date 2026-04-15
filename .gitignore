@@ -1,0 +1,45 @@
+# ============================================================
+# EuroPCR 2026 Guide — .gitignore
+#
+# Strategy: deny-by-default at project root, explicit allowlist
+# below. This prevents accidental commits of personal files
+# (tickets, hotel confirmations, DMG installers, docx drafts).
+# ============================================================
+
+# Deny everything at project root
+/*
+
+# Allow specific directories
+!/app/
+!/app-data/
+!/scripts/
+!/.claude/
+!/.github/
+
+# Allow specific files at root
+!/.gitignore
+!/README.md
+!/MAINTENANCE.md
+
+# Exclude within allowed dirs
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+.env
+.env.local
+*.log
+
+# Allow .claude (launch config) but exclude project logs
+/.claude/sessions/
+/.claude/scheduled-tasks/*.log
+
+# App: exclude dev-only
+/app/*.map
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo

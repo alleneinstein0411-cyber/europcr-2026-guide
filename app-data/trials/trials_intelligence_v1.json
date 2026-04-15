@@ -1,0 +1,190 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-04-14",
+  "method": "opus subagent, cognitive isolation, PubMed + WebSearch verified",
+  "totalTrials": 8,
+  "researchComplete": 8,
+  "pending": [],
+  "trials": [
+    {
+      "trialId": "tavi-coronary-ipd",
+      "trialName": "Coronary Revascularisation in TAVI Patients — IPD Meta-analysis of 4 RCTs",
+      "presenter": "R. Scarsini",
+      "sessionId": "WED-0945-BLEU-001",
+      "type": "IPD meta-analysis",
+      "domain": "TAVI + Coronary",
+      "status": "complete",
+      "question": "In TAVI candidates with concomitant CAD, does PCI improve outcomes? Which patients benefit? What is the optimal strategy?",
+      "clinicalImpact": "Highest-level evidence for managing CAD in TAVI candidates. Will shift practice from routine PCI toward selective physiology-guided approach. Will inform ESC/EAPCI guideline updates.",
+      "whyAttend": "四大隨機試驗（ACTIVATION/NOTION-3/FAITAVI/PRO-TAVI）共1476位患者的IPD統合分析——首度以統一框架回答TAVI合併冠心病的核心問題：哪些患者需要PCI？何時做？FFR導引還是血管攝影導引？這是TAVI冠脈處理策略的最高級別證據，直接影響每日臨床決策。",
+      "keyPmids": [
+        "34556269",
+        "39216095",
+        "41417623",
+        "41921523"
+      ],
+      "componentTrials": [
+        "ACTIVATION (n=235, JACC CI 2021): PCI vs no-PCI before TAVI — non-inferiority NOT met, essentially neutral",
+        "NOTION-3 (n=455, NEJM 2024): FFR-guided PCI vs conservative — PCI SUPERIOR (26% vs 36%, HR 0.71, p=0.04)",
+        "FAITAVI (n=320, EHJ 2025): FFR-guided vs angio-guided PCI — FFR SUPERIOR (8.5% vs 16%, HR 0.52, p=0.047)",
+        "PRO-TAVI (n=466, Lancet 2026): Deferral vs upfront PCI — Deferral NON-INFERIOR (24% vs 26%), less bleeding (6% vs 15%)"
+      ],
+      "totalPooled": 1476,
+      "expectedResult": "Modest overall PCI benefit (driven by MI/urgent revasc reduction), no mortality benefit, significant bleeding trade-off, critical subgroup heterogeneity favoring PCI in severe CAD (high SYNTAX, FFR-positive) while supporting conservative management in milder disease"
+    },
+    {
+      "trialId": "left-main-ipd",
+      "trialName": "Long-term Mortality PCI DES vs CABG for Left Main — Updated IPD of 4 RCTs",
+      "presenter": "B. Bergmark",
+      "sessionId": "WED-0945-BLEU-001",
+      "type": "IPD meta-analysis (updated long-term FU)",
+      "domain": "Left Main",
+      "status": "complete",
+      "question": "Does PCI with DES remain competitive vs CABG for left main disease beyond 5-10 years?",
+      "componentTrials": [
+        "SYNTAX (n=705, 10yr)",
+        "PRECOMBAT (n=600, 10yr)",
+        "NOBLE (n=1184, 10yr)",
+        "EXCEL (n=1905, 5yr)"
+      ],
+      "priorResult": "5yr IPD (Lancet 2021): all-cause death 11.2% PCI vs 10.2% CABG (HR 1.10, p=0.33). Bayesian: 85.7% probability CABG superior but <0.2%/yr difference.",
+      "emergingEvidence": "NOBLE 10yr (Lancet Apr 2026): NO mortality difference (23% vs 25%, HR 0.93, p=0.56). PRECOMBAT 10yr: no difference (14.5% vs 13.8%). SYNTAX 10yr: no difference in LM (24.2% vs 21.4%).",
+      "expectedResult": "10yr pooled IPD will likely show NO significant mortality difference, strengthening case for PCI in low-intermediate SYNTAX Score patients",
+      "clinicalImpact": "Directly affects Heart Team decision-making for left main disease. May shift guidelines toward equipoise for SYNTAX ≤32.",
+      "whyAttend": "三大RCT的10年數據已陸續發表——均顯示左主幹PCI vs CABG無顯著死亡率差異。Bergmark的更新版IPD統合分析將整合所有最長隨訪數據，可能是改變Heart Team決策和指南推薦的決定性證據。TIMI Study Group的嚴謹學術品質保證。",
+      "keyPmids": [
+        "34793745",
+        "41936368",
+        "32223567",
+        "31488373",
+        "31562798"
+      ]
+    },
+    {
+      "trialId": "champion-af-age",
+      "trialName": "CHAMPION-AF Age Subgroup Analysis — LAA Closure vs NOAC by Age",
+      "presenter": "J. E. Nielsen-Kudsk",
+      "sessionId": "WED-0945-BLEU-001",
+      "type": "Pre-specified subgroup analysis of landmark RCT",
+      "domain": "LAA / AF",
+      "status": "complete",
+      "question": "Does the benefit of LAA closure vs NOAC differ by patient age?",
+      "parentTrial": "CHAMPION-AF (NEJM Mar 2026, n=3000): LAAC noninferior for efficacy (5.7% vs 4.8%), SUPERIOR for bleeding (10.9% vs 19.0%, HR 0.55)",
+      "criticalContext": "CLOSURE-AF (NEJM Mar 2026, n=912, mean age 78, CHA2DS2-VASc 5.2) FAILED noninferiority → age is the key modifier",
+      "expectedResult": "Bleeding benefit amplified in elderly; efficacy noninferiority may be attenuated in very elderly (≥75) consistent with CLOSURE-AF signal",
+      "clinicalImpact": "Will define age thresholds for LAAC patient selection — critical for guidelines and Heart Team discussions",
+      "whyAttend": "CHAMPION-AF是首個以NOAC為對照的大型LAAC RCT，年齡分層分析回答最關鍵的臨床問題：哪些年齡層的病人可將LAAC視為第一線選擇？同月發表的CLOSURE-AF在高齡族群失敗，使此分析成為LAAC適應症的分水嶺。",
+      "keyPmids": [
+        "41910347",
+        "37279840",
+        "39555822",
+        "41849741"
+      ]
+    },
+    {
+      "trialId": "hi-peitho",
+      "trialName": "HI-PEITHO — Catheter-Directed Therapy for Intermediate-High Risk PE",
+      "presenter": "S. Konstantinides",
+      "sessionId": "TUE-1630-252B-002",
+      "type": "Landmark RCT (NEJM 2026)",
+      "domain": "Pulmonary Embolism",
+      "status": "complete",
+      "question": "Does USAT (EKOS) + anticoagulation reduce PE-related death/decompensation vs anticoagulation alone in intermediate-high risk PE?",
+      "design": "n=544, 59 sites, USA+Europe, USAT vs anticoagulation alone",
+      "mainResult": "PUBLISHED NEJM Mar 2026: primary endpoint 4.0% vs 10.3% (RR 0.39, P=0.005). 61% relative risk reduction. ZERO intracranial hemorrhage. NNT ~16.",
+      "clinicalImpact": "First positive hard-outcome RCT for catheter-based PE intervention. Opens PE as a new procedural domain for interventional cardiologists with Level 1 evidence.",
+      "whyAttend": "HI-PEITHO是第一個以硬終點證實導管導向治療優於單純抗凝的大型PE RCT——主要終點事件減少61%且零顆內出血。由PE管理世界權威Konstantinides（PEITHO PI + ESC指南主筆）親自報告。對介入心臟科開啟全新的PE介入領域。",
+      "keyPmids": [
+        "41910345",
+        "35588898",
+        "24716681",
+        "31504429"
+      ]
+    },
+    {
+      "trialId": "selution-denovo",
+      "trialName": "SELUTION DeNovo — Sirolimus DCB for De Novo Coronary Lesions",
+      "presenter": "H. Routledge",
+      "sessionId": "THU-0830-MAILLOT-001",
+      "type": "Landmark RCT (n=3323)",
+      "domain": "DCB",
+      "status": "complete",
+      "question": "Is sirolimus-eluting balloon (SELUTION SLR) with provisional stenting noninferior to DES for all-comer de novo coronary lesions?",
+      "design": "n=3323, 62 sites, 12 countries, SEB vs DES, 5yr follow-up",
+      "device": "SELUTION SLR: PLGA microspheres + sirolimus 1 µg/mm², sustained 90-day release mimicking DES pharmacokinetics",
+      "result12mo": "TCT 2025: TVF 5.3% vs 4.4% — noninferiority MET. 80% of DCB patients avoided stent.",
+      "euroPCR2026": "Expected: new subset analyses (complexity subgroups, small vessels, ACS, angiographic/OCT substudy)",
+      "clinicalImpact": "Paradigm shift: if confirmed at 5yr, sirolimus-DCB could replace DES as default PCI strategy — 'leave nothing behind'",
+      "whyAttend": "全球最大DCB RCT（3323例）首次在all-comers de novo病變驗證sirolimus DCB不劣於DES。12月TVF 5.3% vs 4.4%達到非劣性，80%球囊組免植支架。本次發表新亞組分析。對DCB取代DES的趨勢有決定性影響。",
+      "keyPmids": [
+        "36642225",
+        "36192319",
+        "40947326",
+        "41801438"
+      ]
+    },
+    {
+      "trialId": "optimal-dcb",
+      "trialName": "OPTIMAL — DCB Trial for De Novo Coronary Lesions",
+      "presenter": "D. Milasinovic",
+      "sessionId": "THU-0830-MAILLOT-001",
+      "type": "Clinical trial / study update (first presentation)",
+      "domain": "DCB",
+      "status": "complete",
+      "question": "Likely: DCB vs DES for de novo coronary lesions, or sirolimus vs paclitaxel DCB comparison",
+      "note": "No prior publications found — likely first presentation of novel European RCT data",
+      "presenterContext": "Belgrade, European Bifurcation Club leader, coronary physiology + imaging expert",
+      "clinicalImpact": "Complementary to SELUTION DeNovo — may provide European-origin DCB data for de novo lesions",
+      "whyAttend": "OPTIMAL是DCB-for-de-novo這一熱門領域的最新試驗更新，與SELUTION DeNovo同場發表。Milasinovic是歐洲年輕介入領袖，很可能是全新歐洲RCT數據的首次公開報告。",
+      "keyPmids": []
+    },
+    {
+      "trialId": "option-laa",
+      "trialName": "OPTION — LAA Closure vs OAC After AF Ablation",
+      "presenter": "Discussed in multiple LAA sessions",
+      "sessionId": "multiple",
+      "type": "Published landmark RCT (NEJM 2024)",
+      "domain": "LAA / AF",
+      "status": "complete",
+      "question": "Is LAAC with Watchman FLX noninferior to OAC for stroke prevention in AF patients undergoing catheter ablation?",
+      "design": "n=1600, AF ablation patients, Watchman FLX vs continued OAC",
+      "mainResult": "NEJM 2024: Noninferior for thromboembolic events (5.3% vs 5.8%). SUPERIOR for bleeding (8.5% vs 18.1%, ~56% reduction). 40.8% had concomitant ablation+LAAC.",
+      "subAnalyses": "Concomitant vs sequential LAAC equally safe/effective (Heart Rhythm 2025). AF recurrence does not affect LAAC stroke prevention benefit.",
+      "combinedLandscape": "OPTION + CHAMPION-AF + CLOSURE-AF together reshape LAA closure: Level 1 evidence supports LAAC with ~50% bleeding reduction, BUT very elderly/high-risk (CLOSURE-AF) may not benefit → patient selection is key.",
+      "whyKnowThis": "OPTION+CHAMPION-AF共同確立LAAC為NOAC的可行替代方案，但CLOSURE-AF的警示表明高齡高風險患者可能不適合。三項試驗交叉理解才能掌握LAAC的完整全景——這對參加EuroPCR多場LAA相關session至關重要。",
+      "keyPmids": [
+        "39555822",
+        "41910347",
+        "41849741"
+      ],
+      "relatedSessions": [
+        "WED-0830-243-001",
+        "TUE-1310-252B-002",
+        "WED-1635-251-002",
+        "TUE-1200-242AB-001"
+      ]
+    },
+    {
+      "trialId": "sort-out-xii",
+      "trialName": "SORT OUT XII — Ultra-thin Strut DES (Evermine50) + DAPT Duration in ACS",
+      "presenter": "E. H. Christiansen (expected)",
+      "sessionId": "WED-1230-153-002",
+      "type": "Pragmatic all-comers registry-based RCT (recruitment update)",
+      "domain": "Coronary Stenting",
+      "status": "complete",
+      "question": "TWO co-registered trials: (1) STENT: Evermine50 (50µm, world's thinnest) vs Xience/Promus EES; (2) DAPT: abbreviated vs guideline DAPT in ACS",
+      "design": "Each arm n=3150, Danish 3-centre registry-based RCT",
+      "enrollmentStatus": "As of May 2025: STENT 913/3150 (29%), DAPT 91/3150 (3%)",
+      "device": "Evermine50: 50µm CoCr strut, biodegradable PLLA+PLGA polymer, everolimus 1.25µg/mm² (Meril Life Sciences)",
+      "expectedAtEuroPCR": "Recruitment update + Evermine50 bench/registry data. Primary results not yet available.",
+      "seriesContext": "SORT OUT series: 2 of last 3 experimental stents FAILED (IX: BioFreedom, X: Combo) — this consortium is famously rigorous",
+      "clinicalImpact": "If Evermine50 passes SORT OUT's strict test, validates 4th-gen ultra-thin DES from Asia in Europe's most rigorous pragmatic RCT",
+      "whyAttend": "丹麥SORT OUT系列以嚴格著稱——近三次試驗中兩次實驗組失敗。SORT OUT XII首次以全球最薄支架柱（50µm）Evermine50在all-comers RCT中挑戰Xience/Promus。同時進行的DAPT試驗探索ACS患者縮短抗血小板治療。雖然目前仍在收案，但此Meril衛星會可了解最新進展。",
+      "keyPmids": [
+        "40406942",
+        "33823606",
+        "32434381"
+      ]
+    }
+  ]
+}

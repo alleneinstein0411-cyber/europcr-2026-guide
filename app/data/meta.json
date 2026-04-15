@@ -1,0 +1,23 @@
+{
+  "buildTime": "2026-04-15T04:11:54.112170+00:00",
+  "dataVersion": "1.0",
+  "projectStatus": "session_d_complete",
+  "pdfVersion": "14 April 2026",
+  "conferenceDays": [
+    "2026-05-19",
+    "2026-05-20",
+    "2026-05-21"
+  ],
+  "sourceHashes": {
+    "sessions": "385ec4b669c1c1dd",
+    "schedule": "692bdacea3e60eee",
+    "trials": "065b73dc393b586f",
+    "manifest": "f27ce1e770f2b2db"
+  },
+  "counts": {
+    "sessions": 547,
+    "speakers": 60,
+    "trials": 8,
+    "scheduledBlocks": 19
+  }
+}

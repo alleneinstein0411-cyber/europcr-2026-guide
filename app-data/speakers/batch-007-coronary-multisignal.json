@@ -1,0 +1,295 @@
+{
+  "batch": "007-coronary-multisignal",
+  "generatedAt": "2026-04-14",
+  "method": "opus subagent, cognitive isolation, PubMed + WebSearch verified",
+  "speakers": [
+    {
+      "name": "V. Paradies",
+      "fullName": "Valeria Paradies",
+      "institution": "Maasstad Ziekenhuis (Maasstad Hospital), Rotterdam, Netherlands",
+      "expertise": [
+        "bifurcation PCI",
+        "intravascular imaging (IVUS/OCT)",
+        "intravascular lithotripsy",
+        "coronary physiology",
+        "antithrombotic therapy after PCI",
+        "drug-coated balloons"
+      ],
+      "tier": "A",
+      "oneLiner": "鹿特丹 Maasstad 醫院介入心臟科醫師，專精分叉病灶 PCI、血管內超音波與腔內碎石術，積極主導多項多中心 RCT 並在歐洲大型試驗（PIONEER IV、ABILITY Diabetes）擔任核心研究員。",
+      "keyContributions": [
+        "PIONEER IV trial interim analysis — angiography-derived FFR vs usual care-guided PCI (Eur Heart J 2026, PMID 41841754)",
+        "ABILITY Diabetes Global — Abluminus DES+ vs XIENCE EES in diabetic patients, multicenter RCT (Lancet 2026, PMID 41520674)",
+        "PINNACLE-I trial — novel Hertz contact IVL device for calcified lesions (EuroIntervention 2026, PMID 41697662)",
+        "POEM trial sub-analysis — OAC monotherapy after PCI in high-bleeding-risk patients (Am Heart J 2025, PMID 41271123)",
+        "FITTER trial — PCSK9 inhibitors effect on non-culprit lesions with IVUS-NIRS (EuroIntervention 2025, PMID 40828313)",
+        "BENELUX-IVL registry — imaging-guided vs angiography-guided IVL for calcified lesions (Catheter Cardiovasc Interv 2025, PMID 40421715)"
+      ],
+      "whyListen": "Paradies 醫師在 EuroPCR 2026 主持六個場次，涵蓋從新冠狀動脈裝置 Hotline、複雜分叉 LIVE Leipzig 到 IVUS 模擬訓練，幾乎貫穿整個冠狀動脈介入議程。她在 DCB 用於側枝及複雜多血管分叉 LIVE 評述的角色，讓與會者能從一位當代多中心 RCT 核心研究員的視角，理解最新器械循證與實戰操作思維。對於關注分叉治療策略及抗血栓療程優化的介入醫師，她是不可錯過的講者。",
+      "pmids": [
+        "41841754",
+        "41520674",
+        "41697662",
+        "41271123",
+        "40828313",
+        "40421715"
+      ],
+      "euroPCR2026": {
+        "sessionIds": [
+          "TUE-1200-341-001",
+          "WED-1115-152-001",
+          "THU-1630-MAIN-001",
+          "TUE-1310-BLEU-002",
+          "WED-1340-THEATRE-002",
+          "THU-1230-241-002"
+        ],
+        "presentationTopic": "Evidence for new coronary devices (Hotline); IVUS hands-on; complex bifurcation PCI LIVE Leipzig (commentator); complex multivessel bifurcation LIVE; simulation-based coronary physiology; aspiration thrombectomy; DCB for side branch; DAPT in ACS",
+        "significance": "6 sessions spanning devices, imaging, live cases and simulation — uniquely positioned to bridge bench-to-bedside for the latest RCT data on IVL, DCB and IVUS-guided PCI"
+      }
+    },
+    {
+      "name": "D. Milasinovic",
+      "fullName": "Dejan Milasinovic",
+      "institution": "University Clinical Center of Serbia / Faculty of Medicine, University of Belgrade, Belgrade, Serbia",
+      "expertise": [
+        "chronic total occlusion (CTO) PCI",
+        "hybrid coronary revascularization",
+        "IVUS-guided PCI",
+        "left main and complex coronary PCI",
+        "chronic coronary syndrome management",
+        "EAPCI education and curriculum"
+      ],
+      "tier": "A",
+      "oneLiner": "貝爾格勒介入心臟科副教授、EAPCI 財務長（2024-2026），CTO 及混合血行重建領域的東歐代表性 KOL，亦是 EAPCI 冠狀動脈介入核心課程共同作者。",
+      "keyContributions": [
+        "Invasive vs conservative management of older NSTEACS patients — individual patient data meta-analysis (Eur Heart J 2024, PMID 38596853)",
+        "Left main trifurcation PCI — multicenter long-term outcome study with modified Medina LMT score (Minerva Cardiol Angiol 2025, PMID 40040499)",
+        "IVUS in free-floating stent struts after inadequate ostial Cx stenting — case report (Medicina 2024, PMID 39459351)",
+        "NSTEMI timing of invasive coronary angiography — nationwide US analysis (Cardiovasc Revasc Med 2025, PMID 40082138)",
+        "PICSO and embryonic recall hypothesis for myocardial regeneration — review (J Cardiovasc Dev Dis 2026, PMID 41745308)"
+      ],
+      "whyListen": "Milasinovic 醫師擔任 EAPCI 財務長，其學術影響力橫跨穩定型冠狀動脈症候群管理、CTO LIVE 與混合冠狀動脈血行重建 LIVE Paris，是歐洲指引制定的核心人物之一。在 THU-0800-MAIN-001 混合 LIVE 場次中，他作為 experienced advisor 的觀點尤其值得關注，因混合策略在台灣仍屬新興課題。同時，他在 IVUS 教學場次的豐富經驗，有助於介入醫師理解腔內影像引導在複雜病灶中的實務角色。",
+      "pmids": [
+        "38596853",
+        "40040499",
+        "39459351",
+        "40082138",
+        "41745308"
+      ],
+      "euroPCR2026": {
+        "sessionIds": [
+          "TUE-1200-252A-001",
+          "WED-1630-246-001",
+          "WED-1340-245-001",
+          "THU-0800-MAIN-001",
+          "THU-0830-152-001"
+        ],
+        "presentationTopic": "Translating trials in CCS management; CTO LIVE (anchorperson); complex coronary cases; hybrid coronary LIVE Paris (experienced advisor); IVUS tutorial",
+        "significance": "Covers full spectrum from evidence translation to LIVE cases — bridges EAPCI curriculum insight with real-time CTO and hybrid revascularization decision-making"
+      }
+    },
+    {
+      "name": "N. Amabile",
+      "fullName": "Nicolas Amabile",
+      "institution": "Institut Cardiovasculaire Paris Sud (ICPS), Hôpital Jacques Cartier, Massy, France",
+      "expertise": [
+        "calcified coronary lesions",
+        "intravascular lithotripsy (IVL)",
+        "IVUS / OCT-guided PCI",
+        "left main PCI",
+        "coronary physiology (FFR/OCT)",
+        "MINOCA diagnosis"
+      ],
+      "tier": "A",
+      "oneLiner": "巴黎南部心血管研究所介入心臟科醫師暨研究員，主導 CALIPSO 隨機試驗（OCT 策略 vs. 單純造影用於鈣化病灶），並在 IVL 用於左主幹及 IVUS/OCT 最佳化方面發表多篇重要論著。",
+      "keyContributions": [
+        "1-year outcomes of IVL for unprotected left main PCI — multicenter French registry (JACC Cardiovasc Interv 2025, PMID 41400603)",
+        "OPTI-XIENCE study — benefit of intracoronary techniques for stent optimization in high-risk PCI (Int J Cardiol 2025, PMID 40912463)",
+        "SNIPER survey — MINOCA diagnostic practices across European academic centres (J Cardiovasc Med 2025, PMID 41428430)",
+        "Phenomapping-derived selection of FFR or OCT to personalize PCI — FORZA trial secondary analysis (Open Heart 2025, PMID 40967674)",
+        "CALIPSO trial — OCT-based strategy vs angiography for calcified lesions (randomized, NCT; published data via ICPS group)"
+      ],
+      "whyListen": "Amabile 醫師在 EuroPCR 2026 的六個場次中，核心角色包括 HAVANE 模擬情境、鈣化病灶治療（THU-1500-344-001）及 IVUS 實作工作坊。他的 CALIPSO 試驗是目前最大規模的 OCT 引導 vs. 造影引導鈣化病灶 RCT，加上 IVL 用於左主幹的真實世界數據，使他成為鈣化病灶處理策略的頂尖歐洲意見領袖。對於面臨大量鈣化病灶挑戰的台灣術者，這些場次具有高度臨床轉化價值。",
+      "pmids": [
+        "41400603",
+        "40912463",
+        "41428430",
+        "40967674"
+      ],
+      "euroPCR2026": {
+        "sessionIds": [
+          "TUE-1200-THEATRE-001",
+          "WED-0830-THEATRE-001",
+          "WED-1115-152-001",
+          "THU-0830-152-001",
+          "THU-1500-344-001",
+          "WED-1340-242AB-001"
+        ],
+        "presentationTopic": "HAVANE simulation; simulation-based physiology and imaging; IVUS hands-on and tutorial; calcified lesion treatment (HowShouldITreat); coronary clinical cases; MLD assessment discussion",
+        "significance": "Primary resource for calcium modification strategy combining IVL, atherectomy, and imaging guidance — connects simulation training with RCT evidence from CALIPSO and French IVL registries"
+      }
+    },
+    {
+      "name": "F. L. Ribichini",
+      "fullName": "Flavio Luciano Ribichini",
+      "institution": "Division of Cardiology, Department of Medicine, University of Verona / Azienda Ospedaliera Universitaria Integrata di Verona, Verona, Italy",
+      "expertise": [
+        "renal denervation (RDN) for hypertension",
+        "complex coronary PCI",
+        "IVUS-guided PCI",
+        "ACS management",
+        "lipid-lowering therapy",
+        "TAVR / structural heart disease"
+      ],
+      "tier": "A",
+      "oneLiner": "維羅納大學心臟科教授、心臟科部主任，為義大利腎臟去神經術（RDN）領域權威，主導 GISE-SIIA 共識文件制定，並參與 OPTIMAL 左主幹 IVUS vs. 造影引導 NEJM 大型試驗。",
+      "keyContributions": [
+        "OPTIMAL trial — IVUS-guided vs angiography-guided PCI in unprotected left main coronary disease (N Engl J Med 2026, PMID 41911017)",
+        "ESC/EAPCI Clinical Consensus Statement — renal denervation in hypertension management (Eur Heart J 2023, PMID 36790101)",
+        "GISE-SIIA Position Paper — role of RDN in difficult-to-treat hypertension (Minerva Cardiol Angiol 2024, PMID 38535984)",
+        "GISE-SIIA Consensus Document on RDN (Italian, Giornale Italiano di Cardiologia 2023, PMID 37767848)",
+        "Renal denervation in moderate-to-severe CKD patients — Global SYMPLICITY Registry DEFINE (Hypertension 2025, PMID 41159269)",
+        "OPERA-TAVI registry — unfavorable aortic anatomy impact on TAVR outcomes (J Cardiovasc Med 2026, PMID 41703412)",
+        "Italian RDN real-world experience in CKD — first Italian study (PMC 2021, PMID 33481223)"
+      ],
+      "whyListen": "Ribichini 教授在 EuroPCR 2026 橫跨冠狀動脈、高血壓與心衰竭三大主題，其中腎臟去神經術（TUE-1310-344-002）是 2024 ESC 高血壓指引正式納入後的首次 EuroPCR 深度討論。作為 ESC/EAPCI 共識文件第一作者之一，他能提供 RDN 適應症選擇、操作技術與長期血壓管理的最完整歐洲觀點。台灣即將引進 RDN 術式的醫師應優先聆聽其講授。",
+      "pmids": [
+        "41911017",
+        "36790101",
+        "38535984",
+        "37767848",
+        "41159269",
+        "41703412"
+      ],
+      "euroPCR2026": {
+        "sessionIds": [
+          "TUE-1310-344-002",
+          "WED-0830-341-001",
+          "WED-1630-344-002",
+          "THU-0830-342-001",
+          "THU-1500-244-001",
+          "TUE-0800-341-001"
+        ],
+        "presentationTopic": "All You Need on RDN (evidence presenter); ACS coronary debate; hypertension crossover tutorial; MI case discussion; heart failure symposium; lipid-lowering all you need; stent placement and ACS management roles",
+        "significance": "Unique cross-track expertise linking coronary intervention, renal denervation, and heart failure — essential for understanding how hypertension device therapy integrates with interventional practice post-2024 ESC guidelines"
+      }
+    },
+    {
+      "name": "P. O'Kane",
+      "fullName": "Peter O'Kane",
+      "institution": "Dorset Heart Centre, Royal Bournemouth Hospital, University Hospitals Dorset, Bournemouth, United Kingdom",
+      "expertise": [
+        "rotational atherectomy (RA)",
+        "orbital atherectomy (OA)",
+        "IVUS-guided PCI",
+        "calcified coronary lesions",
+        "optical coherence tomography (OCT)",
+        "bifurcation PCI",
+        "laser atherectomy"
+      ],
+      "tier": "A",
+      "oneLiner": "英國皇家伯恩茅斯醫院 Dorset 心臟中心介入心臟科醫師，英國最高量非外科 PCI 中心的主任術者，同時擔任《介入心臟學評論》主編，是旋轉/軌道鑽石磨術及 IVUS 引導鈣化病灶處理的英國頂尖 proctor。",
+      "keyContributions": [
+        "OPTIMAL trial — IVUS-guided vs angiography-guided PCI in unprotected left main (N Engl J Med 2026, PMID 41911017)",
+        "CYCLOPES trial design and rationale — IVUS-based calcium modification algorithm for moderate-to-severe calcification (Catheter Cardiovasc Interv 2025, PMID 41408534)",
+        "Orbital atherectomy for complex coronary calcium modification — comprehensive review (J Pers Med 2025, PMID 41003118)",
+        "Rotablation in the very elderly — outcomes comparable to younger patients (Cardiovasc Revasc Med 2020, PMID 32739125)"
+      ],
+      "whyListen": "O'Kane 醫師是 RA/OA 及 IVUS 的國際 proctor，在 EuroPCR 2026 擔任四個 IVUS 教學場次的 physician trainer 及兩個 RA/OA 實作場次的主持人，提供英國最大量非手術 PCI 中心的第一手操作經驗。CYCLOPES 試驗（歐洲多中心 IVUS 鈣化算法研究）正在進行中，他的場次將整合最新鈣化處理循證與實務技術。",
+      "pmids": [
+        "41911017",
+        "41408534",
+        "41003118",
+        "32739125"
+      ],
+      "euroPCR2026": {
+        "sessionIds": [
+          "TUE-0800-152-001",
+          "WED-1115-151-001",
+          "WED-0800-152-001",
+          "THU-0830-152-001",
+          "THU-1115-151-001",
+          "TUE-1200-245-001"
+        ],
+        "presentationTopic": "IVUS tutorial (physician trainer); RA/OA hands-on (x2); IVUS learning session; coronary case discussions",
+        "significance": "Highest-volume UK non-surgical PCI operator and international proctor — indispensable for hands-on IVUS and calcium-modification (RA/OA) skills training at EuroPCR"
+      }
+    },
+    {
+      "name": "M. A. Rosli",
+      "fullName": "Mohd Ali Rosli",
+      "institution": "Institut Jantung Negara (National Heart Institute), Kuala Lumpur, Malaysia",
+      "expertise": [
+        "chronic total occlusion (CTO) PCI",
+        "complex coronary PCI",
+        "IVUS-guided PCI",
+        "coronary device evaluation",
+        "drug-eluting stent trials"
+      ],
+      "tier": "B",
+      "oneLiner": "馬來西亞國家心臟研究院（IJN）首席臨床官兼介入心臟科醫師，是東南亞 CTO 及複雜 PCI 的代表性人物，曾參與多項國際多中心藥物洗脫支架與生物可降解支架 RCT。",
+      "keyContributions": [
+        "REMEDEE trial 5-year results — novel combined sirolimus-eluting and EPC capturing Combo stent (Catheter Cardiovasc Interv 2019, PMID 31489742)",
+        "Propensity score matched comparison of polymer-free sirolimus DES vs BMS — observational study (Catheter Cardiovasc Interv 2017, PMID 28944613)",
+        "NCVD PCI Registry — Malaysia's first multicenter interventional cardiology registry (Med J Malaysia 2008, PMID 19230246)"
+      ],
+      "whyListen": "Rosli 醫師代表東南亞介入心臟學的重要聲音，在 EuroPCR 2026 擔任 CTO LIVE 的 experienced advisor 及冠狀動脈新裝置 Hotline 的 spokesperson。其在馬來西亞 IJN 建立的 NCVD PCI 登錄系統，是亞太地區介入心臟學品質改善的先驅模式。對於台灣術者而言，聽取其在亞裔病患 CTO 操作策略及裝置選擇的觀點具有直接參考價值。",
+      "pmids": [
+        "31489742",
+        "28944613",
+        "19230246"
+      ],
+      "euroPCR2026": {
+        "sessionIds": [
+          "WED-1630-246-001",
+          "TUE-0800-245-001",
+          "TUE-1200-341-001",
+          "WED-0830-245-001",
+          "THU-1230-243-001"
+        ],
+        "presentationTopic": "CTO LIVE (experienced advisor); coronary case discussion; coronary device hotline (spokesperson); CTO complex cases; coronary symposium",
+        "significance": "Asian perspective on CTO strategy and device selection — bridges Southeast Asian practice patterns with European evidence at a global stage"
+      }
+    },
+    {
+      "name": "R. Diletti",
+      "fullName": "Roberto Diletti",
+      "institution": "Thoraxcenter, Erasmus University Medical Center, Rotterdam, Netherlands",
+      "expertise": [
+        "IVUS-guided PCI",
+        "complex high-risk indicated procedures (CHIP)",
+        "drug-eluting stents",
+        "coronary physiology",
+        "ACS and multivessel PCI",
+        "bioresorbable vascular scaffolds"
+      ],
+      "tier": "A",
+      "oneLiner": "鹿特丹 Erasmus MC Thoraxcenter 介入心臟科醫師，主導 IVUS CHIP 試驗（歐洲最大規模 IVUS vs. 造影引導複雜 PCI RCT，2,020 例，2026 年 NEJM/ACC 發表），是當代複雜冠狀動脈 PCI 循證核心推動者。",
+      "keyContributions": [
+        "IVUS CHIP trial — IVUS-guided vs angiography-guided PCI in complex high-risk procedures (N Engl J Med 2026, ACC 2026 late-breaking; design PMID 41490527)",
+        "Immediate vs staged complete revascularization in STEMI with multivessel disease — updated meta-analysis post OPTION-STEMI (Kardiol Pol 2026, PMID 41919685)",
+        "Intracoronary imaging plaque vulnerability characteristics and MACE prediction — meta-analysis (Heart 2026, PMID 41887760)",
+        "Post-PCI FFR prognostic implications after DES implantation — systematic review and meta-analysis (JAMA Netw Open 2022, PMID 36136329)",
+        "BVS vs EES comparison of acute gain and late lumen loss — exploratory observational study (EuroIntervention 2014, PMID 24472767)"
+      ],
+      "whyListen": "Diletti 醫師的 IVUS CHIP 試驗結果（中性，但引發全球 IVUS 引導策略大辯論）於 2026 年 ACC 年會發表，EuroPCR 2026 是首個歐洲大型會議正式讓他及同行詳細詮釋的舞台。他同時參與複雜多血管 LIVE 場次及 ACS 辯論，代表 Erasmus 鄰班的最高複雜 PCI 技術水平。台灣高風險 CHIP 病患日益增多，聽取他對 IVUS 引導在此族群的適應症重新定義，對本地實務規劃至關重要。",
+      "pmids": [
+        "41490527",
+        "41919685",
+        "41887760",
+        "36136329",
+        "24472767"
+      ],
+      "euroPCR2026": {
+        "sessionIds": [
+          "TUE-1200-341-001",
+          "TUE-1310-BLEU-002",
+          "WED-0830-341-001",
+          "THU-1630-246-001"
+        ],
+        "presentationTopic": "Evidence for new coronary devices Hotline (DES evidence discussant); complex multivessel LIVE (discussant); ACS debate; complex LIVE (anchorperson/discussant)",
+        "significance": "PI of IVUS CHIP — the largest European IVUS-guided CHIP trial — presenting first-hand interpretation of neutral results in the context of ongoing global IVUS debate; anchors LIVE complex PCI sessions"
+      }
+    }
+  ]
+}

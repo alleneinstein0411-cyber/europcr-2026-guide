@@ -1,0 +1,273 @@
+{
+  "batch": "008a-structural-1",
+  "generatedAt": "2026-04-14",
+  "method": "opus subagent, cognitive isolation, PubMed + WebSearch verified",
+  "speakers": [
+    {
+      "name": "T. Rudolph",
+      "fullName": "Tanja Katharina Rudolph",
+      "institution": "Herz- und Diabeteszentrum NRW, Ruhr-Universität Bochum, Bad Oeynhausen, Germany",
+      "expertise": [
+        "TAVI / transcatheter aortic valve implantation",
+        "structural heart disease",
+        "valve-in-valve procedures",
+        "sex-specific outcomes in valvular disease",
+        "TAVI access and vascular closure"
+      ],
+      "tier": "A",
+      "oneLiner": "德國Bad Oeynhausen心臟中心TAVI主任，DEDICATE-DZHK6試驗核心研究者，深耕低中風險TAVI與性別差異預後。",
+      "keyContributions": [
+        "DEDICATE-DZHK6 RCT: sex-specific TAVI vs SAVR outcomes in low-to-intermediate risk — Eur Heart J 2026 (PMID 40900118)",
+        "PULSE registry: ultrasound-guided vs fluoroscopy access in TAVI, 9295 patients — Circ Cardiovasc Interv 2025 (PMID 40438925)",
+        "Multicenter 10-year TAVI trends registry (>33,000 cases, 2013-2023) — Dtsch Arztebl Int 2026 (PMID 41342060)",
+        "Long-term outcomes of bail-out valve-in-valve TAVI at index procedure — Clin Res Cardiol 2025 (PMID 40301223)",
+        "TAVI+PCI vs SAVR+CABG in intermediate-risk aortic stenosis with CAD — Clin Res Cardiol 2025 (PMID 40932482)"
+      ],
+      "whyListen": "Rudolph教授主導德國最大TAVI中心之一，並擔任DEDICATE-DZHK6試驗的核心研究者，該試驗是低中風險主動脈瓣狹窄最重要的隨機試驗之一。她在多個EuroPCR 2026場次擔任主持及發言人，涵蓋TAVI最新進展、冠狀動脈裝置熱線及創新技術，對於了解TAVI適應症擴展至年輕低風險族群的最新趨勢不可錯過。",
+      "pmids": [
+        "40900118",
+        "40438925",
+        "41342060",
+        "40301223",
+        "40932482"
+      ],
+      "euroPCR2026": {
+        "sessionIds": [
+          "TUE-0800-242AB-001",
+          "TUE-1200-341-001",
+          "WED-1340-242AB-001",
+          "THU-0945-242AB-001",
+          "THU-1340-344-002"
+        ],
+        "presentationTopic": "TAVI innovation and trends, coronary device hotline, TAVI case discussion, latest structural innovation",
+        "significance": "5場次跨coronary+structural雙軌，擔任anchor/discussant/spokesperson，是本屆大會TAVI領域曝光度最高的講者之一"
+      }
+    },
+    {
+      "name": "F. Praz",
+      "fullName": "Fabien Praz",
+      "institution": "Inselspital, Bern University Hospital, University of Bern, Switzerland",
+      "expertise": [
+        "transcatheter mitral valve repair (MitraClip / TEER)",
+        "transcatheter tricuspid valve repair",
+        "TAVI / transcatheter aortic valve implantation",
+        "3D intracardiac echocardiography guidance",
+        "structural heart disease decision-making"
+      ],
+      "tier": "A",
+      "oneLiner": "瑞士伯恩大學醫院二尖瓣暨三尖瓣介入主任，EuroTR登錄研究核心成員，歐洲結構性心臟病介入的一線KOL。",
+      "keyContributions": [
+        "EuroTR Risk Score (AI-derived) for predicting 1-year mortality after tricuspid TEER (N=1826) — JACC Cardiovasc Interv 2026 (PMID 41813281)",
+        "ESC guidelines application to real-world tricuspid TEER outcomes (EuroTR registry, N=1626) — JACC Cardiovasc Interv 2026 (PMID 41954543)",
+        "TRIGISTRY: residual TR grading after transcatheter tricuspid repair predicts 2-year survival — JACC Cardiovasc Interv 2024 (PMID 38752971)",
+        "JACC Cardiovascular Imaging Position Statement on 3D intracardiac echocardiography for structural heart interventions 2024 (PMID 38970594)",
+        "PCR Tricuspid Focus Group co-chair; EuroTR registry co-investigator"
+      ],
+      "whyListen": "Praz是目前歐洲在三尖瓣與二尖瓣經導管修復領域最活躍的臨床研究者之一，同時主導EuroTR大型歐洲登錄。在本屆EuroPCR他涵蓋LAA封堵證據、TAVI創新、結構性及二尖瓣介入等多軌，是結構性心臟病全方位了解的最佳聆聽對象。",
+      "pmids": [
+        "41813281",
+        "41954543",
+        "38752971",
+        "38970594"
+      ],
+      "euroPCR2026": {
+        "sessionIds": [
+          "TUE-0800-242AB-001",
+          "TUE-1200-341-001",
+          "WED-0830-243-001",
+          "WED-1115-242AB-001",
+          "THU-1500-242AB-001"
+        ],
+        "presentationTopic": "TAVI innovation, LAA closure evidence, structural heart symposium, mitral interventions",
+        "significance": "跨TAVI、LAA、結構性與二尖瓣四大議題，擔任anchor/discussant/facilitator/spokesperson，是結構性心臟病整體概覽的核心人物"
+      }
+    },
+    {
+      "name": "L. Rosseel",
+      "fullName": "Liesbeth Rosseel",
+      "institution": "Algemeen Stedelijk Ziekenhuis (ASZ) / OLV Heart Center, Aalst, Belgium",
+      "expertise": [
+        "TAVI / transcatheter aortic valve implantation",
+        "minimalist TAVI pathway",
+        "European TAVI practice patterns",
+        "structural heart disease",
+        "TAVI LIVE case procedures"
+      ],
+      "tier": "B",
+      "oneLiner": "比利時Aalst心臟中心介入心臟科醫師，2022年歐洲TAVI路徑調查主導者，擅長極簡化TAVI流程與現場操作示範。",
+      "keyContributions": [
+        "2022 European TAVI Pathway Registry: contemporary TAVI practice across 147 centres in 26 countries — Front Cardiovasc Med 2023 (PMID 37645516)",
+        "Fellowship training in structural heart interventions at Rigshospitalet Copenhagen and at Galway University Hospitals",
+        "Active TAVI LIVE operator at major European conferences including EuroPCR"
+      ],
+      "whyListen": "Rosseel是歐洲推動極簡化TAVI流程的實踐代表，主導了涵蓋26個歐洲國家的TAVI路徑現況大調查。她在EuroPCR 2026參與TAVI LIVE、結構性心臟病病例討論及試驗轉譯等場次，適合希望了解TAVI臨床落實細節與歐洲現況的與會者。",
+      "pmids": [
+        "37645516"
+      ],
+      "euroPCR2026": {
+        "sessionIds": [
+          "TUE-0800-BLEU-001",
+          "TUE-1200-252A-001",
+          "WED-0830-242AB-001",
+          "THU-1500-MAIN-001"
+        ],
+        "presentationTopic": "TAVI LIVE cases, translating trials into structural practice, structural case discussion",
+        "significance": "LIVE場次現場操作示範加上試驗轉譯討論，代表TAVI從實驗室到臨床落實的關鍵橋接視角"
+      }
+    },
+    {
+      "name": "M. Haude",
+      "fullName": "Michael Haude",
+      "institution": "Rheinland Klinikum Neuss GmbH (Lukaskrankenhaus), Neuss, Germany",
+      "expertise": [
+        "bioresorbable magnesium scaffold (DREAMS / Magmaris)",
+        "complex coronary intervention",
+        "coronary physiology (FFR, vFFR)",
+        "chronic total occlusion (CTO)",
+        "interventional cardiology education and simulation"
+      ],
+      "tier": "A",
+      "oneLiner": "德國Neuss大學附設醫院介入心臟科主任，全球生物可吸收鎂支架（BIOMAG/BIOSOLVE系列）首席PI，前EAPCI主席。",
+      "keyContributions": [
+        "BIOMAG-I first-in-human DREAMS 3G: 12-month results, 116 patients — EuroIntervention 2023 (PMID 37334655)",
+        "BIOSOLVE-II 3-year results: second-generation bioresorbable magnesium scaffold — EuroIntervention 2020 (PMID 30803936)",
+        "BIOSOLVE-II 12-month results: DREAMS 2G safety and performance — Eur Heart J 2016 (PMID 27190094)",
+        "BIOMAG-I 3-year results: DREAMS 3G scaffold — EuroIntervention 2025 (PMID 40392202)",
+        "LIPSIA-STRATEGY trial: vFFR vs wire-based FFR for coronary revascularization guidance — Trials 2026 (PMID 41923139)"
+      ],
+      "whyListen": "Haude是生物可吸收冠狀動脈支架研究的全球領頭人，從DREAMS 1G到第三代DREAMS 3G均擔任首席PI，同時身兼EAPCI前主席與歐洲介入心臟科教育推動者。他在EuroPCR 2026橫跨結構性心臟病治療、CTO LIVE操作及冠狀動脈教學場次，對複雜冠狀動脈及創新裝置有深入洞察。",
+      "pmids": [
+        "37334655",
+        "30803936",
+        "27190094",
+        "40392202",
+        "41923139"
+      ],
+      "euroPCR2026": {
+        "sessionIds": [
+          "WED-0830-242AB-001",
+          "WED-1630-246-001",
+          "THU-0800-MAIN-001",
+          "THU-1115-245-001",
+          "TUE-1200-252A-001"
+        ],
+        "presentationTopic": "Structural treatment decisions, CTO LIVE Paris, hybrid LIVE, coronary learning lab, translating trials",
+        "significance": "結構性與冠狀動脈雙軌資深主持人，CTO LIVE現場操作及冠狀動脈學習場次主持，是複雜介入與新裝置學習的核心人物"
+      }
+    },
+    {
+      "name": "D. Mylotte",
+      "fullName": "Darren Mylotte",
+      "institution": "Galway University Hospitals / University of Galway, Galway, Ireland",
+      "expertise": [
+        "TAVI / transcatheter aortic valve implantation",
+        "complex anatomical TAVI (bicuspid, LVOT calcification)",
+        "structural heart disease simulation",
+        "TAVI LIVE procedures",
+        "pacemaker prediction after TAVI"
+      ],
+      "tier": "A",
+      "oneLiner": "愛爾蘭國家TAVI先驅，引入愛爾蘭首例CoreValve Evolut R，深耕複雜TAVI解剖挑戰與LVOT幾何預後，EuroPCR資深LIVE操作者。",
+      "keyContributions": [
+        "LVOT tapered geometry as predictor of permanent pacemaker after TAVI with Evolut series — Catheter Cardiovasc Interv 2025 (PMID 41527207)",
+        "First TAVI implantation in Ireland (CoreValve Evolut R system) at Galway University Hospitals",
+        "ESC Young Investigator of the Year 2012; ACC Young Author Achievement Award 2013",
+        "PhD research focused on TAVI outcomes at ThoraxCentre Rotterdam and Institut Cardiovasculaire Paris Sud",
+        "European TAVI Pathway Registry co-author — Front Cardiovasc Med 2023 (PMID 37645516)"
+      ],
+      "whyListen": "Mylotte是愛爾蘭TAVI的開創者，具備在鹿特丹ThoraxCentre及巴黎ICV雙重TAVI訓練背景。他在EuroPCR 2026同時擔任TAVI LIVE主場操作者及結構性心臟病模擬教學負責人，對TAVI複雜解剖處理（如錐形LVOT、起搏器預防）有最前沿的臨床見解。",
+      "pmids": [
+        "41527207",
+        "37645516"
+      ],
+      "euroPCR2026": {
+        "sessionIds": [
+          "TUE-0800-BLEU-001",
+          "WED-1340-THEATRE-002",
+          "THU-0830-242AB-001",
+          "THU-1500-MAIN-001"
+        ],
+        "presentationTopic": "TAVI LIVE cases, structural simulation (HAVANE), TAVI case discussion",
+        "significance": "LIVE主場操作＋HAVANE模擬教學，代表TAVI技術傳承與實戰展示的最佳交叉點"
+      }
+    },
+    {
+      "name": "K. Hayashida",
+      "fullName": "Kentaro Hayashida",
+      "institution": "Department of Cardiology, Keio University School of Medicine, Tokyo, Japan",
+      "expertise": [
+        "TAVI / transcatheter aortic valve implantation",
+        "OCEAN-TAVI registry (Japan multicenter)",
+        "bioprosthetic valve failure and durability",
+        "paravalvular regurgitation outcomes",
+        "TAVI in high-risk and elderly populations"
+      ],
+      "tier": "A",
+      "oneLiner": "日本慶應義塾大學心臟科教授，OCEAN-TAVI全國多中心登錄PI，深耕TAVI瓣膜耐久性、長期預後及日本TAVI臨床實踐。",
+      "keyContributions": [
+        "10-year TAVI durability with balloon-expandable valve (SAPIEN XT, N=297, Japan multicenter) — JACC Asia 2026 (PMID 41830944)",
+        "OCEAN-TAVI: long-term impact of mild paravalvular regurgitation after TAVR (N=5068, up to 9-year follow-up) — JACC Cardiovasc Interv 2025 (PMID 41240022)",
+        "OCEAN-TAVI: prognostic implications of very low-gradient aortic stenosis after TAVI (N=7103) — Catheter Cardiovasc Interv 2025 (PMID 41355070)",
+        "OCEAN-TAVI: 1-year clinical and hemodynamic outcomes comparing latest-generation BEV vs SEV (N=1393) — Catheter Cardiovasc Interv 2025 (PMID 41327610)",
+        "OCEAN-TAVI: TAVR outcomes in nonagenarians—frailty and malnutrition as key prognostic factors (N=4623) — JACC Adv 2026 (PMID 41906603)"
+      ],
+      "whyListen": "Hayashida主持日本最大規模TAVI登錄研究OCEAN-TAVI，累積超過7000例以上長期隨訪資料，在瓣膜耐久性、輕度瓣周漏的長期影響及特殊族群預後（超高齡、低梯度）等議題有全球最豐富的真實世界資料。參與EuroPCR 2026結構性心臟病如何治療及TAVI全面回顧場次，是了解TAVI長期成果的必聽講者。",
+      "pmids": [
+        "41830944",
+        "41240022",
+        "41355070",
+        "41327610",
+        "41906603"
+      ],
+      "euroPCR2026": {
+        "sessionIds": [
+          "TUE-0800-BLEU-001",
+          "WED-0830-242AB-001",
+          "WED-1340-242AB-001",
+          "THU-0830-242AB-001"
+        ],
+        "presentationTopic": "TAVI LIVE cases, structural heart treatment decisions, TAVI case discussion",
+        "significance": "日本大規模TAVI登錄資料與歐洲LIVE操作的獨特結合，提供亞洲與歐洲TAVI實踐的比較視角"
+      }
+    },
+    {
+      "name": "M. Swaans",
+      "fullName": "Martin J. Swaans",
+      "institution": "St. Antonius Hospital, Nieuwegein, Netherlands",
+      "expertise": [
+        "left atrial appendage closure (WATCHMAN / Amulet)",
+        "interventional echocardiography (3D TEE guidance)",
+        "TAVI / transcatheter aortic valve implantation",
+        "structural heart interventions imaging",
+        "heart failure interventional management"
+      ],
+      "tier": "A",
+      "oneLiner": "荷蘭St. Antonius醫院結構性心臟病介入心臟科醫師，歐洲LAA封堵及介入式心臟超音波領域權威，主導荷蘭LAA封堵卓越中心。",
+      "keyContributions": [
+        "WATCHMAN LAA closure device review—current status and future perspectives — Expert Rev Med Devices 2020 (PMID 32543911)",
+        "Percutaneous LAA closure for stroke prevention in AF: Watchman as alternative to anticoagulation — Ned Tijdschr Geneeskd 2018 (PMID 30040296)",
+        "Novel stroke risk reduction in AF: LAA occlusion with focus on Watchman — Vasc Health Risk Manag 2017 (PMID 27621674)",
+        "MicroTEE feasibility for guidance in structural heart interventions — Neth Heart J 2017 (PMID 28887807)",
+        "European TAVI Pathway Registry co-author — Front Cardiovasc Med 2023 (PMID 37645516)"
+      ],
+      "whyListen": "Swaans是歐洲LAA封堵最資深的術者之一，並以「介入式心臟超音波」博士論文著稱，是3D TEE引導結構性心臟介入的全球資深教師。在EuroPCR 2026他涵蓋LAA封堵證據、LAA病例討論、TAVI全面回顧及心衰竭介入等四大領域，尤其LAA雙場是本屆大會LAA主題最完整的深度解析。",
+      "pmids": [
+        "32543911",
+        "30040296",
+        "27621674",
+        "28887807",
+        "37645516"
+      ],
+      "euroPCR2026": {
+        "sessionIds": [
+          "WED-0830-243-001",
+          "WED-1340-243-001",
+          "THU-0945-242AB-001",
+          "THU-1500-344-002"
+        ],
+        "presentationTopic": "LAA closure evidence review, LAA case discussion, TAVI 2026 all-you-need-to-know, heart failure interventions",
+        "significance": "LAA封堵從實證到病例的完整雙場次主持，加上心衰竭介入場次，是本屆大會LAA議題與心衰竭結構性介入的核心講者"
+      }
+    }
+  ]
+}

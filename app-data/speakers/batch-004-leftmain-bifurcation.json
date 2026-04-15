@@ -1,0 +1,67 @@
+{
+  "batch": "004-leftmain-bifurcation",
+  "generatedAt": "2026-04-14",
+  "method": "sonnet subagent, cognitive isolation, PubMed + WebSearch verified",
+  "speakers": [
+    {
+      "name": "E. Barbato",
+      "fullName": "Emanuele Barbato",
+      "institution": "Sapienza University of Rome, Italy",
+      "expertise": ["Coronary physiology (FFR/iFR)", "IVUS-guided PCI", "Complex coronary PCI", "EAPCI leadership"],
+      "tier": "A",
+      "oneLiner": "EAPCI前任會長，冠脈生理學與IVUS引導PCI的重要推動者，左主幹與複雜病變影像引導決策經驗豐富",
+      "keyContributions": ["EAPCI President (2022-2024)", "100+篇FFR臨床應用論文", "LIVE示範手術推廣IVUS引導策略"],
+      "whyListen": "EuroPCR現場手術示範核心術者，能直接展示IVUS引導左主幹PCI操作細節。",
+      "pmids": ["38811101", "33131299", "29923434"],
+      "sessionIds": ["6 sessions: LIVE operator x2, left main, IVUS anchorperson"]
+    },
+    {
+      "name": "G. Stankovic",
+      "fullName": "Goran Stankovic",
+      "institution": "University Clinical Center of Serbia / University of Belgrade, Serbia",
+      "expertise": ["Bifurcation PCI", "Left main interventions", "EBC consensus development", "Stent technique classification"],
+      "tier": "S",
+      "oneLiner": "歐洲分叉俱樂部(EBC)現任主席，主導多部分叉PCI技術共識文件，全球分叉技術標準化核心推手",
+      "keyContributions": ["EBC主席(自2014年)，主導第11-18屆分叉共識", "EBC MAIN RCT共同作者(Circulation 2025): LM bifurcation provisional策略", "EBC MADS-2分叉技術分類更新"],
+      "whyListen": "EBC主席主持分叉及左主幹session，EBC MAIN試驗結果將直接影響左主幹分叉PCI決策。",
+      "pmids": ["39907022", "38752714", "32579300"],
+      "sessionIds": ["6 sessions: bifurcation + left main anchorperson"]
+    },
+    {
+      "name": "J. Fajadet",
+      "fullName": "Jean Fajadet",
+      "institution": "Clinique Pasteur, Toulouse, France",
+      "expertise": ["Left main PCI", "DES development", "PCI vs CABG trials (SYNTAX/EXCEL)", "EuroPCR leadership"],
+      "tier": "S",
+      "oneLiner": "法國傳奇介入心臟科大師，EuroPCR聯合主席，深度參與SYNTAX/EXCEL等劃時代試驗，左主幹PCI歷史見證者與推動者",
+      "keyContributions": ["EuroPCR聯合主席，推動歐洲PCI教育數十年", "Left main management review (EHJ 2019)", "SYNTAX/EXCEL/FREEDOM trials participant"],
+      "whyListen": "左主幹PCI技術演進的活歷史，在分叉session中對術式選擇的歷史脈絡分析是教科書無法替代的學習。",
+      "pmids": ["29718158"],
+      "sessionIds": ["6 sessions: bifurcation discussant/facilitator/spokesperson"]
+    },
+    {
+      "name": "T. Johnson",
+      "fullName": "Thomas W. Johnson",
+      "institution": "Bristol Heart Institute, University of Bristol, UK",
+      "expertise": ["Left main PCI", "Bifurcation PCI", "IVUS/OCT-guided interventions", "EBC education"],
+      "tier": "A",
+      "oneLiner": "英國布里斯托心臟中心頂尖介入醫師，EBC核心成員，腔內影像引導左主幹及分叉PCI技術教育推廣貢獻卓著",
+      "keyContributions": ["EBC第16/18屆共識文件主要作者", "EBC MAIN trial co-author (Circulation 2025)", "EuroPCR 2026最活躍講者之一(8場)"],
+      "whyListen": "EuroPCR 2026 agenda中發言場次最多的講者之一(8場)，以實用導向技術細節見長，可獲得直接應用於術室的具體技巧。",
+      "pmids": ["38752714", "35570753", "39907022"],
+      "sessionIds": ["7 sessions: left main anchorperson, active agenda speaker"]
+    },
+    {
+      "name": "J. F. Lassen",
+      "fullName": "Jens Flensted Lassen",
+      "institution": "Odense University Hospital, Denmark",
+      "expertise": ["Bifurcation PCI", "Left main bifurcation", "EBC consensus", "Stent technique standardization"],
+      "tier": "S",
+      "oneLiner": "歐洲分叉俱樂部創始核心成員，連續主導多屆EBC共識，全球冠脈分叉PCI標準化奠基人，EBC MAIN試驗關鍵共同作者",
+      "keyContributions": ["EBC founding member, led all consensus documents since 2004", "EBC MAIN RCT (Circulation 2025): 467 pts across 35 hospitals", "EBC MADS-2 classification co-first author"],
+      "whyListen": "分叉PCI思想源頭，session代表最新EBC共識與EBC MAIN試驗的官方詮釋，提供「為什麼如此操作」的循證基礎。",
+      "pmids": ["39907022", "38752714", "32579300", "27173860"],
+      "sessionIds": ["4 sessions: left main + bifurcation key role"]
+    }
+  ]
+}

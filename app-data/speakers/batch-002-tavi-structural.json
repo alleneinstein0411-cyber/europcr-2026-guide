@@ -1,0 +1,67 @@
+{
+  "batch": "002-tavi-structural",
+  "generatedAt": "2026-04-14",
+  "method": "sonnet subagent, cognitive isolation, PubMed + WebSearch verified",
+  "speakers": [
+    {
+      "name": "F. Maisano",
+      "fullName": "Francesco Maisano",
+      "institution": "IRCCS San Raffaele, Milan, Italy",
+      "expertise": ["Transcatheter mitral valve repair (MitraClip co-inventor)", "Tricuspid interventions", "Structural heart innovation"],
+      "tier": "S",
+      "oneLiner": "Edge-to-edge二尖瓣修復技術共同發明者，結構性心臟病手術與介入最頂尖的先驅，逾20項專利",
+      "keyContributions": ["與Alfieri共同奠定edge-to-edge二尖瓣修復術基礎，催生MitraClip", "PCR三尖瓣焦點小組創辦人，推動TTVR共識", "逾1000篇發表，橫跨外科與結構介入"],
+      "whyListen": "同時是術者、發明家與教育者，在二尖瓣與三尖瓣session擔任主持人，提供從手術到經導管治療全光譜的獨特視野。",
+      "pmids": ["14688717", "39580719", "29770888"],
+      "sessionIds": ["7 sessions as anchorperson/spokesperson in mitral + tricuspid"]
+    },
+    {
+      "name": "T. Modine",
+      "fullName": "Thomas Modine",
+      "institution": "CHU de Bordeaux, France",
+      "expertise": ["TAVI", "TMVR", "Minimally invasive cardiac surgery", "Hybrid approaches"],
+      "tier": "A",
+      "oneLiner": "法國頂尖TAVI/TMVR混合型心臟外科醫師，RHEIA試驗（女性TAVI vs SAVR）共同作者，Mitral Focus Group聯合主任",
+      "keyContributions": ["RHEIA RCT共同作者：女性嚴重AS者TAVI優於SAVR (EHJ 2025)", "EuroPCR Mitral Focus Group聯合主任", "TAVI vs SAVR meta-analysis共同作者"],
+      "whyListen": "7個session中擔任主持人與Hotline發言人，代表RHEIA等最新試驗結果的第一線詮釋者。",
+      "pmids": ["40171878", "31329852"],
+      "sessionIds": ["7 sessions: mitral, TAVI, Hotline spokesperson"]
+    },
+    {
+      "name": "P. Lurz",
+      "fullName": "Philipp Lurz",
+      "institution": "Universitätsmedizin Mainz, Germany",
+      "expertise": ["Transcatheter mitral repair/replacement", "Tricuspid interventions (TEER/TTVR)", "Structural heart"],
+      "tier": "A",
+      "oneLiner": "德國頂尖結構性心臟病介入醫師，MATTERHORN試驗（TEER vs手術）與TRISCEND II（三尖瓣置換RCT）關鍵作者",
+      "keyContributions": ["MATTERHORN RCT: TEER vs surgery for secondary MR (NEJM 2024)", "TRISCEND II: transcatheter tricuspid replacement RCT (NEJM 2024)", "Mitral Focus Group聯合主任"],
+      "whyListen": "TAVI與二尖瓣LIVE術者，同時主持TAVI session；直接觀察最新RCT結果如何在真實操作中落實。",
+      "pmids": ["39216093", "39475399", "37994096"],
+      "sessionIds": ["5 sessions: LIVE operator x2, TAVI/mitral anchorperson"]
+    },
+    {
+      "name": "O. De Backer",
+      "fullName": "Ole De Backer",
+      "institution": "Rigshospitalet, Copenhagen, Denmark",
+      "expertise": ["TAVI", "LAA occlusion", "Mitral interventions", "Novel THV technologies"],
+      "tier": "A",
+      "oneLiner": "哥本哈根Rigshospitalet結構性心臟病全方位介入醫師，NOTION-2試驗核心作者，北歐結構性介入代表人物",
+      "keyContributions": ["NOTION-2 (low-risk TAVI) co-author (EHJ 2024)", "STR-OAC LAAO registry (LAA closure after OAC failure)", "PARADIGM study (next-gen bionic THV)"],
+      "whyListen": "5個session中擔任LIVE術者（含二尖瓣、TAVI、LAA），代表最廣泛的結構性介入技術組合。",
+      "pmids": ["38747246", "38795093"],
+      "sessionIds": ["5 sessions: LIVE operator, mitral/TAVI/LAA"]
+    },
+    {
+      "name": "D. Tchetche",
+      "fullName": "Didier Tchetche",
+      "institution": "Clinique Pasteur, Toulouse, France",
+      "expertise": ["TAVI (>5000 procedures)", "Bicuspid TAVI", "Sex-specific TAVI outcomes", "Structural programme leadership"],
+      "tier": "A",
+      "oneLiner": "RHEIA試驗主要PI（女性TAVI優於SAVR），累積逾5000例TAVI操作，歐洲TAVI技術優化與特殊族群研究核心人物",
+      "keyContributions": ["RHEIA trial PI: first female-dedicated TAVI vs SAVR RCT (EHJ 2025)", "Evolut low-risk and SMART trial co-author", "Bicuspid TAVI technique optimization"],
+      "whyListen": "TAVI LIVE術者+RHEIA試驗結果發言人，若患者族群含女性或二葉主動脈瓣，他的session提供直接改變決策的最新數據。",
+      "pmids": ["40171878", "30883053"],
+      "sessionIds": ["5 sessions: TAVI LIVE operator, structural spokesperson"]
+    }
+  ]
+}

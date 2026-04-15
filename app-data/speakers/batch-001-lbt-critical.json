@@ -1,0 +1,67 @@
+{
+  "batch": "001-lbt-critical",
+  "generatedAt": "2026-04-14",
+  "method": "opus subagent, cognitive isolation, PubMed + WebSearch verified",
+  "speakers": [
+    {
+      "name": "R. Scarsini",
+      "fullName": "Roberto Scarsini",
+      "institution": "University of Verona / AOUI Verona, Italy",
+      "expertise": ["Coronary physiology in TAVI patients", "FFR/iFR-guided PCI", "Computational coronary physiology (QFR)", "Coronary microvascular dysfunction"],
+      "tier": "A",
+      "oneLiner": "TAVI合併冠脈疾病的生理學導引PCI研究先驅，FAITAVI試驗核心研究者，正在主導四大RCT的IPD統合分析",
+      "keyContributions": [
+        "FAITAVI trial co-PI: FFR-guided PCI reduces MACCE vs angiography-guided PCI in TAVI patients (EHJ 2025)",
+        "FIRE trial investigator: physiology-guided complete revascularization in elderly MI patients",
+        "Pioneered QFR validation in severe aortic stenosis setting (Circ Cardiovasc Interv 2023)"
+      ],
+      "whyListen": "他在EuroPCR 2025以FAITAVI試驗震驚學界，2026年帶來四大RCT的IPD統合分析——這將是決定TAVI冠脈處理策略的最高級別證據。LBT必聽。",
+      "pmids": ["41417623", "40879426", "37712285"],
+      "euroPCR2026": {
+        "sessionIds": ["WED-0945-BLEU-001"],
+        "presentationTopic": "Coronary revascularisation in TAVI patients - IPD meta-analysis of 4 RCTs",
+        "significance": "IPD meta-analysis pooling FAITAVI, NOTION-3, ACTIVATION and one additional RCT - highest level evidence on coronary revascularization in TAVI candidates"
+      }
+    },
+    {
+      "name": "B. Bergmark",
+      "fullName": "Brian A. Bergmark",
+      "institution": "Brigham and Women's Hospital / TIMI Study Group / Harvard Medical School, USA",
+      "expertise": ["Left main PCI vs CABG", "Complex coronary intervention", "Lipid-lowering therapies", "Cardiovascular clinical trials (TIMI)"],
+      "tier": "A",
+      "oneLiner": "TIMI Study Group核心研究者，主導左主幹PCI vs CABG的IPD統合分析（Lancet 2021），兼具臨床操作與試驗設計雙重視角",
+      "keyContributions": [
+        "Led IPD meta-analysis of 4 RCTs (SYNTAX/PRECOMBAT/NOBLE/EXCEL) for left main PCI vs CABG (Lancet 2021, PMID 34793745)",
+        "Pooled analyses of LM revascularization in ACS (JAMA Cardiol 2023) and diabetes subgroups (Circulation 2024)",
+        "PI of FlowLab Study: first multicenter prospective coronary microvascular dysfunction testing (JACC Advances 2025)"
+      ],
+      "whyListen": "他是左主幹PCI vs CABG長期預後證據的核心整合者，這場LBT很可能發表更新版長期死亡率分析，將直接影響左主幹血管重建決策。THU場次的LDL-C討論也與其TIMI降脂試驗經驗相關。",
+      "pmids": ["34793745", "38465592", "37256598", "41014809"],
+      "euroPCR2026": {
+        "sessionIds": ["WED-0945-BLEU-001", "THU-1340-252A-002"],
+        "presentationTopic": "Long-term mortality PCI DES vs CABG for left main",
+        "significance": "Updated IPD meta-analysis extending follow-up beyond 5 years from all major left main RCTs - pivotal for guidelines and Heart Team decision-making"
+      }
+    },
+    {
+      "name": "J. E. Nielsen-Kudsk",
+      "fullName": "Jens Erik Nielsen-Kudsk",
+      "institution": "Aarhus University Hospital, Denmark",
+      "expertise": ["LAA closure", "Structural heart interventions", "Stroke prevention in AF", "Intracardiac echocardiography for LAAC"],
+      "tier": "S",
+      "oneLiner": "歐洲LAA封堵術最具影響力的臨床學者，CHAMPION-AF與OPTION兩大NEJM里程碑試驗共同研究者，主導歐洲LAAC植入者分類系統",
+      "keyContributions": [
+        "CHAMPION-AF trial co-investigator: NEJM 2026 landmark RCT proving LAA closure noninferior to NOACs (n=3000)",
+        "OPTION trial co-investigator: NEJM 2024 RCT demonstrating LAA closure superiority vs OAC after AF ablation",
+        "First author of ELAACC implanter classification system (EuroIntervention 2025)"
+      ],
+      "whyListen": "他同時參與CHAMPION-AF和OPTION兩項改寫指南的NEJM大型RCT，LBT場次報告CHAMPION-AF分年齡亞組分析，直接影響高齡vs年輕AF患者的LAAC vs NOAC決策。加上LAAC教學場和影像場，一次掌握歐洲頂尖LAAC觀點。",
+      "pmids": ["41910347", "39555822", "40464670", "40662526"],
+      "euroPCR2026": {
+        "sessionIds": ["WED-0945-BLEU-001", "WED-0830-243-001", "TUE-1310-252B-002", "WED-1635-251-002"],
+        "presentationTopic": "LAA closure vs NOAC outcomes by age group",
+        "significance": "Age-stratified subgroup analysis from CHAMPION-AF (NEJM 2026, n=3000) - directly addresses patient selection for LAAC vs NOAC"
+      }
+    }
+  ]
+}

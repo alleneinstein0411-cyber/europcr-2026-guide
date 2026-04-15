@@ -1,0 +1,67 @@
+{
+  "batch": "006-cto-live",
+  "generatedAt": "2026-04-14",
+  "method": "sonnet subagent, cognitive isolation, PubMed + WebSearch verified",
+  "speakers": [
+    {
+      "name": "N. Dumonteil",
+      "fullName": "Nicolas Dumonteil",
+      "institution": "Clinique Pasteur, Toulouse, France",
+      "expertise": ["TAVI", "Valve-in-valve", "Mitral/tricuspid interventions", "Bifurcation PCI", "Robotic-assisted PCI"],
+      "tier": "A",
+      "oneLiner": "法國杜魯斯Clinique Pasteur結構性心臟病重鎮，TAVI與二葉瓣手術頂尖實戰術者，267篇論文、6700+引用",
+      "keyContributions": ["ShortCut leaflet-splitting device pivotal trial (EHJ 2024)", "CENTER study (ViV-TAVI vs NV-TAVI)", "Clinique Pasteur TAVI care pathway design"],
+      "whyListen": "少數同時精通TAVI直播操作、分叉PCI及機器人輔助PCI的複合術者。現場手術可觀察到Clinique Pasteur的技術選擇與術中決策。",
+      "pmids": ["38747561", "35351288"],
+      "sessionIds": ["7 sessions: TAVI LIVE operator x2, TAVI/bifurcation/structural anchorperson"]
+    },
+    {
+      "name": "M. Abdel-Wahab",
+      "fullName": "Mohamed Abdel-Wahab",
+      "institution": "Heart Center Leipzig, Germany",
+      "expertise": ["TAVI", "Rotational atherectomy", "Bifurcation PCI", "Complex high-risk PCI (CHIP)"],
+      "tier": "A",
+      "oneLiner": "萊比錫心臟中心介入部門主任，歐洲最高量TAVI中心負責人，ROTAXUS與PREPARE-CALC兩項RCT PI，旋轉斑塊切除術標竿人物",
+      "keyContributions": ["ROTAXUS & PREPARE-CALC RCTs: modern evidence for rotational atherectomy", "ShortCut pivotal trial participant", "Delayed coronary obstruction after TAVI (JACC 2018)"],
+      "whyListen": "同時跨足TAVI與鈣化PCI兩大高難度領域，在歐洲最大量TAVI中心累積了難以匹敵的實務經驗。",
+      "pmids": ["38747561", "35482101", "34609284", "29622157"],
+      "sessionIds": ["6 sessions: LIVE operator, bifurcation/TAVI facilitator"]
+    },
+    {
+      "name": "T. Cuisset",
+      "fullName": "Thomas Cuisset",
+      "institution": "CHU Timone / Aix-Marseille Université, Marseille, France",
+      "expertise": ["Antiplatelet therapy/DAPT de-escalation", "ACS management", "Coronary physiology", "TAVI"],
+      "tier": "A",
+      "oneLiner": "馬賽CHU Timone導管室主任，EuroPCR課程主任委員，抗血小板治療降級策略與冠脈介入研究領袖",
+      "keyContributions": ["P2Y12 inhibitor switching international consensus (Circulation 2017)", "DAPT duration after ACS systematic review (Circ Cardiovasc Interv 2023)", "ACS post-PCI DAPT individualization review (TCV Med 2019)"],
+      "whyListen": "EuroPCR課程主任委員與LBT session審查者，掌握最新突破性試驗的第一手解讀。DAPT/TAVI/CTO三跨域罕見知識廣度。",
+      "pmids": ["29084738", "37609850", "31182263"],
+      "sessionIds": ["5 sessions: LBT reviewer, TAVI/bifurcation/CTO anchorperson"]
+    },
+    {
+      "name": "R. Garbo",
+      "fullName": "Roberto Garbo",
+      "institution": "Maria Pia Hospital, Turin, Italy",
+      "expertise": ["CTO PCI", "Retrograde CTO approach", "Calcified CTO", "Guiding catheter extensions"],
+      "tier": "A",
+      "oneLiner": "都靈CTO醫學中心主任，逾2200例CTO PCI（1100例逆行途徑），Turin CTO & CHIP Live Course創辦人，EuroCTO Club董事",
+      "keyContributions": ["ERCTO registry: contemporary CTO PCI, 89.1% success rate (EuroIntervention 2024)", "Guiding catheter extension consensus first author (JACC CI 2023)", "ERCTO calcified CTO + ACPMD analysis (JACC CI 2025)"],
+      "whyListen": "逾1100例逆行CTO的術者，歐洲最具實戰經驗的CTO專家之一。現場CTO直播手術是觀察逆行決策邏輯的罕見學習機會。",
+      "pmids": ["38343371", "37587590", "40500006"],
+      "sessionIds": ["4 sessions: CTO LIVE operator, active agenda speaker"]
+    },
+    {
+      "name": "K. Mashayekhi",
+      "fullName": "Kambis Mashayekhi",
+      "institution": "University Heart Center Freiburg / Heart Center Lahr, Germany",
+      "expertise": ["CTO PCI", "CTO crossing algorithms", "Calcified CTO", "CHIP"],
+      "tier": "A",
+      "oneLiner": "德國CTO頂尖術者，每年350+例CTO PCI，EuroCTO Club史上最年輕成員，共同主導EuroCTO 2019共識與ERCTO登記研究",
+      "keyContributions": ["CTO PCI 7 guiding principles consensus (Circulation 2019)", "EuroCTO 2019 consensus update (EuroIntervention)", "ERCTO calcified CTO + ACPMD analysis (JACC CI 2025)"],
+      "whyListen": "高頻次操作(350+例/年)與嚴謹學術完美結合，同時代表歐洲CTO技術前沿與循證醫學的少數講者。",
+      "pmids": ["31356129", "30636678", "40500006"],
+      "sessionIds": ["4 sessions: CTO key role, active agenda speaker"]
+    }
+  ]
+}

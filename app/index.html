@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0b1d3a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="EuroPCR 2026">
+<title>EuroPCR 2026 — Dr. Chang's Guide</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== Top bar ===== -->
+<header class="topbar">
+  <div class="topbar-left">
+    <h1>EuroPCR <span class="year">'26</span></h1>
+    <span class="subtitle" id="topbar-subtitle">Loading...</span>
+  </div>
+  <div class="topbar-right">
+    <button class="icon-btn" id="btn-search" aria-label="搜尋">🔍</button>
+    <button class="icon-btn" id="btn-settings" aria-label="設定">⚙️</button>
+  </div>
+</header>
+
+<!-- ===== Day tabs (only on schedule view) ===== -->
+<nav class="day-tabs" id="day-tabs">
+  <button class="day-tab" data-day="Tuesday"><span class="day-short">Tue</span><span class="day-date">5/19</span></button>
+  <button class="day-tab" data-day="Wednesday"><span class="day-short">Wed</span><span class="day-date">5/20</span></button>
+  <button class="day-tab" data-day="Thursday"><span class="day-short">Thu</span><span class="day-date">5/21</span></button>
+</nav>
+
+<!-- ===== Main content area ===== -->
+<main id="main">
+  <div class="loading-view" id="loading-view">
+    <div class="spinner"></div>
+    <p>Loading conference data...</p>
+  </div>
+</main>
+
+<!-- ===== Bottom nav ===== -->
+<nav class="bottom-nav">
+  <button class="nav-btn active" data-view="schedule">
+    <span class="nav-icon">📅</span>
+    <span class="nav-label">排程</span>
+  </button>
+  <button class="nav-btn" data-view="speakers">
+    <span class="nav-icon">👥</span>
+    <span class="nav-label">講者</span>
+  </button>
+  <button class="nav-btn" data-view="trials">
+    <span class="nav-icon">📑</span>
+    <span class="nav-label">試驗</span>
+  </button>
+  <button class="nav-btn" data-view="about">
+    <span class="nav-icon">ℹ️</span>
+    <span class="nav-label">更多</span>
+  </button>
+</nav>
+
+<!-- ===== Modal / Sheet container ===== -->
+<div class="sheet-backdrop" id="sheet-backdrop" hidden></div>
+<div class="sheet" id="sheet" hidden>
+  <div class="sheet-handle"></div>
+  <div class="sheet-content" id="sheet-content"></div>
+</div>
+
+<!-- ===== Toast for transient messages ===== -->
+<div class="toast" id="toast" hidden></div>
+
+<!-- ===== Templates ===== -->
+<template id="tpl-block">
+  <article class="block" data-block-id="">
+    <header class="block-head">
+      <span class="block-time"></span>
+      <span class="block-type"></span>
+      <span class="block-badge"></span>
+    </header>
+    <h2 class="block-title"></h2>
+    <div class="block-speakers"></div>
+    <p class="block-note"></p>
+    <div class="block-tags"></div>
+    <footer class="block-footer">
+      <button class="btn-detail">查看</button>
+      <button class="btn-edit">✏️ 編輯</button>
+    </footer>
+  </article>
+</template>
+
+<template id="tpl-speaker-chip">
+  <button class="chip speaker-chip" data-speaker-name="">
+    <span class="chip-name"></span>
+    <span class="chip-tier"></span>
+  </button>
+</template>
+
+<script src="app.js" defer></script>
+</body>
+</html>

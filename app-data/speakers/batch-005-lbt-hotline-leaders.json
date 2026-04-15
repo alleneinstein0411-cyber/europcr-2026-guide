@@ -1,0 +1,67 @@
+{
+  "batch": "005-lbt-hotline-leaders",
+  "generatedAt": "2026-04-14",
+  "method": "sonnet subagent, cognitive isolation, PubMed + WebSearch verified",
+  "speakers": [
+    {
+      "name": "M. Leon",
+      "fullName": "Martin B. Leon",
+      "institution": "Columbia University / Cardiovascular Research Foundation (CRF), New York, USA",
+      "expertise": ["TAVI/TAVR", "Structural heart disease", "Clinical trial design", "Coronary stenting"],
+      "tier": "S",
+      "oneLiner": "PARTNER試驗創始首席研究員，奠定TAVI從高風險到低風險擴展的全球循證基礎，當代結構性心臟病介入核心奠基者",
+      "keyContributions": ["PARTNER 1B trial PI (NEJM 2010): first TAVI mortality benefit in inoperable AS", "PARTNER 3 (NEJM 2019): TAVI superiority in low-risk", "Founded CRF & TCT, led 50+ trials, ALIGN-AR trial (Lancet 2024) extending TAVI to native AR"],
+      "whyListen": "LBT discussant及Hotline錨定角色，親眼見證新一代TAVI head-to-head試驗數據由最有資格詮釋的人來評析——其評論具定義指引走向的份量。",
+      "pmids": ["20961243", "30883058", "38552656"],
+      "sessionIds": ["WED-0945-BLEU-001 (LBT discussant)", "WED-1115-MAILLOT-001 (Hotline anchor)", "3 sessions"]
+    },
+    {
+      "name": "D. Capodanno",
+      "fullName": "Davide Capodanno",
+      "institution": "University of Catania, Italy",
+      "expertise": ["Antithrombotic therapy (DAPT/SAPT)", "TAVI antithrombotic strategy", "ACS pharmacology", "AF + PCI anticoagulation"],
+      "tier": "A",
+      "oneLiner": "歐洲抗血栓領域最多產的指引制定者之一，逾500篇論文，TAVI與PCI後抗血栓療法臨床試驗設計與解讀的核心聲音",
+      "keyContributions": ["TAVI antithrombotic treatment systematic review (2022)", "Ischemic stroke antithrombotic JACC State-of-the-Art Review (2023)", "ESC Thrombosis Working Group member, 4D-ACS trial design"],
+      "whyListen": "6場含LBT discussant及TAVI Hotline anchorperson，他將主導詮釋最新抗血栓RCT結果——每一個TAVI或ACS患者的抗血栓決策都將受影響。",
+      "pmids": ["35881777", "37793752"],
+      "sessionIds": ["WED-0945-BLEU-001 (LBT discussant)", "Hotline TAVI anchor", "6 sessions"]
+    },
+    {
+      "name": "N. Gonzalo",
+      "fullName": "Nieves Gonzalo",
+      "institution": "Hospital Clínico San Carlos, Madrid, Spain",
+      "expertise": ["Intravascular imaging (OCT/IVUS)", "Left main PCI", "Coronary physiology (FFR/QFR)", "Complex PCI"],
+      "tier": "A",
+      "oneLiner": "馬德里Hospital Clínico San Carlos介入心臟科頂尖女性，OCT與IVUS引導PCI歐洲代表性教育者，EuroIntervention副主編",
+      "keyContributions": ["ILUMIEN IV substudy: OCT post-PCI VFR predicts 2-year outcomes (JACC 2025)", "LM intermediate stenosis FFR vs IVUS review (Int J Cardiol 2018)", "170+ PubMed indexed publications"],
+      "whyListen": "7場涵蓋LBT spokesperson、IVUS/OCT教育及現場操作示範——直接向歐洲頂尖腔內影像教育者學習的機會。",
+      "pmids": ["40406943", "30223378"],
+      "sessionIds": ["WED-0945-BLEU-001 (LBT spokesperson)", "left main/IVUS/live educational", "7 sessions"]
+    },
+    {
+      "name": "H. Krumholz",
+      "fullName": "Harlan M. Krumholz",
+      "institution": "Yale School of Medicine / Yale CORE, New Haven, USA",
+      "expertise": ["Cardiovascular outcomes research", "Healthcare quality measurement", "Real-world data analysis", "Health policy"],
+      "tier": "A",
+      "oneLiner": "JACC總編輯、美國國家科學院院士，以大規模觀察性研究重新定義心肌梗塞醫療品質標準，循證醫學政策轉化代表人物",
+      "keyContributions": ["Yale CORE director, led US CMS readmission public reporting", "First-line hypertension drug comparative effectiveness (Lancet 2019, 4.9M pts)", "JACC Editor-in-Chief, champion of open science"],
+      "whyListen": "冠脈血運重建Hotline anchorperson，從outcomes research角度詮釋新試驗臨床意義——他的評論決定哪些數據真正改變臨床實踐。",
+      "pmids": ["31668726"],
+      "sessionIds": ["WED-0945-BLEU-001 (LBT discussant)", "THU-1100-MAILLOT-001 (Hotline anchor)", "2 sessions"]
+    },
+    {
+      "name": "B. Prendergast",
+      "fullName": "Bernard D. Prendergast",
+      "institution": "Cleveland Clinic London & Guy's and St Thomas' / King's College London, UK",
+      "expertise": ["Valvular heart disease", "TAVI", "Asymptomatic severe AS timing", "ESC Valvular WG chair"],
+      "tier": "A",
+      "oneLiner": "英國結構性心臟病權威，ESC瓣膜心臟病工作小組前主席，逾400篇發表，主要LBT場次主席——TAVI適應症辯論核心仲裁者",
+      "keyContributions": ["Asymptomatic severe AS early AVR meta-analysis (JACC 2024): 4 RCTs, 1427 pts", "ESC Valvular WG chair", "500+ TAVI and 3000+ PCI performed"],
+      "whyListen": "主持Major LBT大會場次，其指引制定背景使他能立即評估新數據對臨床實踐的實際影響。",
+      "pmids": ["39641732"],
+      "sessionIds": ["WED-0945-BLEU-001 (LBT anchorperson/chair)", "TAVI sessions", "2 sessions"]
+    }
+  ]
+}

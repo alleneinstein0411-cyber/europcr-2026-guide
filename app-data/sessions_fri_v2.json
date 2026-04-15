@@ -1,0 +1,1625 @@
+[
+  {
+    "id": "FRI-1745-MAILLOT-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "17:45",
+    "timeEnd": "19:30",
+    "room": "ROOM MAILLOT",
+    "track": "coronary",
+    "type": "Ceremony",
+    "title": "EuroIntervention Journal annual editorial board and award ceremony",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": null,
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 149
+  },
+  {
+    "id": "FRI-0900-MAIN-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "09:00",
+    "timeEnd": "10:30",
+    "room": "MAIN ARENA",
+    "track": "structural",
+    "type": "LIVE",
+    "title": "TAVI: LIVE Educational Case from Cleveland Clinic - London, UK",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "anchorpersons": [
+        "D. Blackman"
+      ],
+      "spokespersons": [
+        "C. Zukowski"
+      ],
+      "proceduralAnalysts": [
+        "F. Sawaya"
+      ],
+      "operators": [
+        "T. Patterson",
+        "S. Redwood"
+      ],
+      "discussants": [
+        "I. J. Amat-Santos",
+        "T. Rogers",
+        "S. Samargandy",
+        "M. Urena"
+      ],
+      "cathlabCoordinators": [
+        "V. Androshchuk"
+      ],
+      "onstageCoordinators": [
+        "B. Mcdonaugh"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [
+      {
+        "item": "Welcome and session objectives",
+        "speaker": "D. Blackman",
+        "pending": false
+      },
+      {
+        "item": "Patient presentation and imaging analysis",
+        "speaker": "F. Sawaya",
+        "pending": false
+      },
+      {
+        "item": "Discussion and audience interaction",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "Operator strategy",
+        "speaker": "C. Zukowski",
+        "pending": false
+      },
+      {
+        "item": "LIVE Case procedure",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "Debriefing and audience interaction",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "Final results and key learnings",
+        "speaker": "D. Blackman",
+        "pending": false
+      }
+    ],
+    "flags": [],
+    "page": 150
+  },
+  {
+    "id": "FRI-0900-143-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "09:00",
+    "timeEnd": "10:00",
+    "room": "CALCIUM SKILLS LAB (ROOM 143)",
+    "track": "coronary",
+    "type": "Simulation",
+    "title": "CALCIUM SKILLS LAB Imaging Simulation-based Imaging and devices in calcified lesions (OCT - Orbital atherectomy - Intravascular lithotripsy) kind support of Abbott, Heartroid and Shockwave Medical",
+    "subtitle": null,
+    "sponsor": "This session has been made possible thanks to the",
+    "speakers": {
+      "facilitators": [
+        "B. Honton",
+        "B. Vaquerizo"
+      ],
+      "imagingAnalysts": [
+        "A. Travieso"
+      ],
+      "mediaDrivers": [
+        "S. Fezzi"
+      ]
+    },
+    "learningObjectives": [
+      "To understand coronary calcium patterns using intracoronary imaging",
+      "To learn a step-by-step approach to the set up and safe use of orbital atherectomy",
+      "To learn a step-by-step approach to the set up and safe use of intravascular lithotripsy for coronary calcification"
+    ],
+    "agenda": [],
+    "flags": [
+      "sponsored"
+    ],
+    "page": 150
+  },
+  {
+    "id": "FRI-0900-HANDSON-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "09:00",
+    "timeEnd": "10:30",
+    "room": "HANDS ON LAB",
+    "track": "coronary",
+    "type": "Simulation",
+    "title": "Bailout options and techniques during PCI - Stent dislodgement Supported by an unrestricted educational grant from Terumo Learning Edge assigned on a first-come, first-served basis.",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "facilitators": [
+        "M. Haude"
+      ],
+      "physicianTrainers": [
+        "A. Aminian",
+        "P. Arkadiusz",
+        "M. Heigert",
+        "A. Sauguet",
+        "S. Sumitsuji"
+      ]
+    },
+    "learningObjectives": [
+      "To consider causes and avoidance strategies for stent dislodgement",
+      "To explore bailout options using existing devices",
+      "To determine the steps to successful retrieval in a case of simulated stent loss"
+    ],
+    "agenda": [],
+    "flags": [
+      "seatsLimited"
+    ],
+    "page": 150
+  },
+  {
+    "id": "FRI-0900-ACC-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "09:00",
+    "timeEnd": "10:00",
+    "room": "ABSTRACT & CASE CORNER",
+    "track": "coronary",
+    "type": "ClinicalCases",
+    "title": "1A Clinical Cases Challenging procedures for bifurcation lesions",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "moderators": [
+        "O. Sakhov",
+        "S. Watkins"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 150
+  },
+  {
+    "id": "FRI-0900-ACC-002",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "09:00",
+    "timeEnd": "10:00",
+    "room": "ABSTRACT & CASE CORNER",
+    "track": "coronary",
+    "type": "ClinicalCases",
+    "title": "1B Clinical Cases Beyond stent: use of DCB in CTO",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "moderators": [
+        "S. Alam",
+        "D. Giacoppo"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 151
+  },
+  {
+    "id": "FRI-0900-MAILLOT-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "09:00",
+    "timeEnd": "10:00",
+    "room": "ROOM MAILLOT",
+    "track": "coronary",
+    "type": "ClinicalCases",
+    "title": "Best coronary complications with the collaboration of the EuroIntervention Case Reports journal -",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "facilitators": [
+        "S. Brugaletta",
+        "E. Eeckhout",
+        "J. Yap"
+      ],
+      "discussants": [
+        "K. Angel",
+        "M. Ayoub"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 151
+  },
+  {
+    "id": "FRI-0900-241-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "09:00",
+    "timeEnd": "10:00",
+    "room": "ROOM 241",
+    "track": "coronary",
+    "type": "Abstracts",
+    "title": "In-stent restenosis: exploring novel solution for an old problem",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "moderators": [
+        "R. Campante Teles"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 151
+  },
+  {
+    "id": "FRI-0900-242AB-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "09:00",
+    "timeEnd": "10:00",
+    "room": "ROOM 242",
+    "track": "coronary",
+    "type": "AllYouNeedToKnow",
+    "title": "All you need to know - Intracoronary imaging for vulnerable plaque",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "anchorpersons": [
+        "T. Johnson"
+      ],
+      "spokespersons": [
+        "A. McInerney"
+      ],
+      "discussants": [
+        "E. Kedhi",
+        "P. Libby",
+        "E. Regar"
+      ]
+    },
+    "learningObjectives": [
+      "To understand the pathophysiology of vulnerable plaque",
+      "To consider the role of intracoronary imaging for defining vulnerability",
+      "To evaluate the options for treatment of plaque vulnerability"
+    ],
+    "agenda": [
+      {
+        "item": "Welcome and session objectives",
+        "speaker": "T. Johnson",
+        "pending": false
+      },
+      {
+        "item": "Understanding plaque evolution",
+        "speaker": "M. Joner",
+        "pending": false
+      },
+      {
+        "item": "Discussion and audience interaction Intravascular imaging of vulnerable",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "plaques",
+        "speaker": "E. Regar",
+        "pending": false
+      },
+      {
+        "item": "Discussion and audience interaction Is there a role for preventative PCI?",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "Discussion and audience interaction Targeting vulnerability through intensive medical therapy",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "Discussion and audience interaction",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "Session evaluation and key learnings",
+        "speaker": "A. McInerney",
+        "pending": false
+      }
+    ],
+    "flags": [],
+    "page": 152
+  },
+  {
+    "id": "FRI-0900-243-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "09:00",
+    "timeEnd": "10:00",
+    "room": "ROOM 243",
+    "track": "coronary",
+    "type": "Abstracts",
+    "title": "Is there a rule for DCB in ACS setting?",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "moderators": [
+        "D. Arroyo",
+        "R. Waksman"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 152
+  },
+  {
+    "id": "FRI-0900-251-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "09:00",
+    "timeEnd": "10:00",
+    "room": "ROOM 251",
+    "track": "coronary",
+    "type": "HowShouldITreat",
+    "title": "How should I treat my CTO? Adapting to local conditions",
+    "subtitle": "With the collaboration of Egyptian Working Group of Interventional Cardiology and Moroccan Society of Cardiology Zahran",
+    "sponsor": null,
+    "speakers": {
+      "anchorpersons": [
+        "D. Benzaroual",
+        "M. Seleem"
+      ],
+      "discussants": [
+        "A. M. Boutaleb",
+        "P. Deharo",
+        "M"
+      ]
+    },
+    "learningObjectives": [
+      "To describe the essential CTO toolbox when resources are limited",
+      "To outline pre-procedural preparation and procedural planning",
+      "To emphasise that an antegrade- first strategy, often combined with dual arterial access, is sufficient to achieve a high success rate in a large proportion of CTO procedures"
+    ],
+    "agenda": [
+      {
+        "item": "Welcome and session objectives",
+        "speaker": "M. Seleem",
+        "pending": false
+      },
+      {
+        "item": "Case 1 - Egypt - When the stakes rise: double CTO, a single remaining vessel, and",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "a near-fatal left main complication",
+        "speaker": "M. Gergis",
+        "pending": false
+      },
+      {
+        "item": "How would I treat case 1?",
+        "speaker": "A. M. Boutaleb",
+        "pending": false
+      },
+      {
+        "item": "Discussion and audience interaction",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "Case 1 - Treatment",
+        "speaker": "M. Gergis",
+        "pending": false
+      },
+      {
+        "item": "Case 1 - Key learnings",
+        "speaker": "M. Seleem",
+        "pending": false
+      },
+      {
+        "item": "Morocco - Case 2 - How should I treat my",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "CTO? Adapting to local conditions",
+        "speaker": "Z. Laraichi",
+        "pending": false
+      },
+      {
+        "item": "How would I treat case 2?",
+        "speaker": "M. Zahran",
+        "pending": false
+      },
+      {
+        "item": "Discussion and audience interaction",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "Case 2 - Treatment",
+        "speaker": "Z. Laraichi",
+        "pending": false
+      },
+      {
+        "item": "Case 2 - Key learnings",
+        "speaker": "D. Benzaroual",
+        "pending": false
+      },
+      {
+        "item": "Session evaluation and key learnings",
+        "speaker": "D. Benzaroual",
+        "pending": false
+      }
+    ],
+    "flags": [],
+    "page": 152
+  },
+  {
+    "id": "FRI-0900-252A-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "09:00",
+    "timeEnd": "10:00",
+    "room": "ROOM 252",
+    "track": "structural",
+    "type": "HowShouldITreat",
+    "title": "Challenges in treating tricuspid regurgitation",
+    "subtitle": "With the collaboration of AGIK/DGK and Chinese Society of Cardiology",
+    "sponsor": null,
+    "speakers": {
+      "anchorpersons": [
+        "M. Chen",
+        "T. Rudolph"
+      ],
+      "discussants": [
+        "J. Dreyfus",
+        "K. Klein",
+        "Y. Wang"
+      ]
+    },
+    "learningObjectives": [
+      "To learn about treatment options in tricuspid regurgitation",
+      "To understand tailored treatment in tricuspid regurgitation",
+      "To learn about complication management during tricuspid regurgitation procedures"
+    ],
+    "agenda": [
+      {
+        "item": "Welcome and session objectives",
+        "speaker": "M. Chen",
+        "pending": false
+      },
+      {
+        "item": "Case 1 - China - Barlow-like tricuspid",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "regurgitation",
+        "speaker": "X. D. Zhuang",
+        "pending": true
+      },
+      {
+        "item": "How would I treat case 1?",
+        "speaker": "K. Klein",
+        "pending": false
+      },
+      {
+        "item": "Discussion and audience interaction",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "Case 1 - Treatment",
+        "speaker": "X. D. Zhuang",
+        "pending": true
+      },
+      {
+        "item": "Case 1 - Key learnings",
+        "speaker": "M. Chen",
+        "pending": false
+      },
+      {
+        "item": "Case 2 - Germany - TTVI as bailout",
+        "speaker": "E. P. Tigges",
+        "pending": false
+      },
+      {
+        "item": "How would I treat case 2?",
+        "speaker": "Y. Wang",
+        "pending": true
+      },
+      {
+        "item": "Discussion and audience interaction",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "Case 2 - Treatment",
+        "speaker": "E. P. Tigges",
+        "pending": false
+      },
+      {
+        "item": "Case 2 - Key learnings",
+        "speaker": "T. Rudolph",
+        "pending": false
+      },
+      {
+        "item": "Session evaluation and key learnings",
+        "speaker": "T. Rudolph",
+        "pending": false
+      }
+    ],
+    "flags": [],
+    "page": 153
+  },
+  {
+    "id": "FRI-0900-252B-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "09:00",
+    "timeEnd": "10:00",
+    "room": "ROOM 252",
+    "track": "coronary",
+    "type": "ClinicalCases",
+    "title": "How to treat aortic regurgitation",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "moderators": [
+        "J. Byrne"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 153
+  },
+  {
+    "id": "FRI-0900-253-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "09:00",
+    "timeEnd": "10:00",
+    "room": "ROOM 253",
+    "track": "coronary",
+    "type": "Abstracts",
+    "title": "Left main PCI: predictions of risk and long-term clinical outcome",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "moderators": [
+        "S. Mansour",
+        "G. Shenoda"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 153
+  },
+  {
+    "id": "FRI-0900-ACC-003",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "09:00",
+    "timeEnd": "10:00",
+    "room": "ABSTRACT & CASE CORNER",
+    "track": "coronary",
+    "type": "Abstracts",
+    "title": "2A Abstracts Right-sided interventions and impact on the right heart",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "moderators": [
+        "N. Fam",
+        "A. Sannino"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 154
+  },
+  {
+    "id": "FRI-0900-ACC-004",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "09:00",
+    "timeEnd": "10:00",
+    "room": "ABSTRACT & CASE CORNER",
+    "track": "coronary",
+    "type": "ClinicalCases",
+    "title": "2B Complications Clinical Cases Technical decision-making for CTO PCI strategy",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "moderators": [
+        "J. Andréka",
+        "P. Meier"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 154
+  },
+  {
+    "id": "FRI-0900-ACC-005",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "09:00",
+    "timeEnd": "10:00",
+    "room": "ABSTRACT & CASE CORNER",
+    "track": "coronary",
+    "type": "ClinicalCases",
+    "title": "2C Clinical Cases Challenging PCI on bifurcation lesions",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "moderators": [
+        "K. Al Faraidy",
+        "L. Biasco"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 154
+  },
+  {
+    "id": "FRI-0900-ACC-006",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "09:00",
+    "timeEnd": "10:00",
+    "room": "ABSTRACT & CASE CORNER",
+    "track": "coronary",
+    "type": "ClinicalCases",
+    "title": "2D Clinical Cases Unusual clinical cases: thinking beyond the routine",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "moderators": [
+        "O. Goktekin",
+        "N. Van Der",
+        "Hoeven"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 155
+  },
+  {
+    "id": "FRI-0900-ACC2E-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "09:00",
+    "timeEnd": "10:00",
+    "room": "ABSTRACT & CASE CORNER 2E",
+    "track": "coronary",
+    "type": "ClinicalCases",
+    "title": "Atypical NSTEMI culprit lesions",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "moderators": [
+        "A. Ashraf Eissa",
+        "Z. Ghazzal"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 155
+  },
+  {
+    "id": "FRI-0900-ACC2F-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "09:00",
+    "timeEnd": "10:00",
+    "room": "ABSTRACT & CASE CORNER 2F",
+    "track": "coronary",
+    "type": "ClinicalCases",
+    "title": "Clinical decision making for CTO PCI strategy",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "moderators": [
+        "H. Noor"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 155
+  },
+  {
+    "id": "FRI-1015-143-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "10:15",
+    "timeEnd": "11:15",
+    "room": "CALCIUM SKILLS LAB (ROOM 143)",
+    "track": "coronary",
+    "type": "Simulation",
+    "title": "CALCIUM SKILLS LAB Complications Simulation-based Complication management in calcified lesions (entrapment, perforation) kind support of Boston Scientific, Heartroid and Terumo",
+    "subtitle": null,
+    "sponsor": "This session has been made possible thanks to the",
+    "speakers": {
+      "facilitators": [
+        "N. Amabile",
+        "K. Mahadevan",
+        "N. Salvatella Giralt"
+      ],
+      "mediaDrivers": [
+        "S. Sgreva"
+      ]
+    },
+    "learningObjectives": [
+      "To learn how to manage common complications encountered in treating calcified coronary artery disease",
+      "To discover an algorithmic approach to the management of vessel perforation",
+      "To understand an algorithmic approach to the management of burr/crown entrapment during rotational atherectomy or orbital atherectomy"
+    ],
+    "agenda": [],
+    "flags": [
+      "sponsored"
+    ],
+    "page": 155
+  },
+  {
+    "id": "FRI-1015-153-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "10:15",
+    "timeEnd": "11:15",
+    "room": "ROOM 153",
+    "track": "coronary",
+    "type": "MyToolbox",
+    "title": "From atherectomy to lithotripsy: choosing the right tool for the right calcium",
+    "subtitle": "With the collaboration of Euro4C Group Prieto, A. Seth",
+    "sponsor": null,
+    "speakers": {
+      "anchorpersons": [
+        "B. Vaquerizo"
+      ],
+      "spokespersons": [
+        "M. Alasnag"
+      ],
+      "discussants": [
+        "F. Miroslaw",
+        "F. Oliveri",
+        "A"
+      ]
+    },
+    "learningObjectives": [
+      "To review the latest updates in calcium modification devices and techniques",
+      "To choose the right tool based on calcium morphology (diffuse, nodular, eccentric, concentric - Through step-by-step case-based decision-making)",
+      "To improve procedural planning and lesion preparation for better outcomes"
+    ],
+    "agenda": [
+      {
+        "item": "Welcome and session objectives",
+        "speaker": "B. Vaquerizo",
+        "pending": false
+      },
+      {
+        "item": "Redefining calcium modification devices",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "and techniques - Part 1",
+        "speaker": "Z. Ali",
+        "pending": false
+      },
+      {
+        "item": "Key questions for the Expert Redefining calcium modification devices",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "and techniques - Part 2",
+        "speaker": "Z. Ali",
+        "pending": false
+      },
+      {
+        "item": "Key questions for the Expert",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "Summary and transition to the second",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "case",
+        "speaker": "M. Alasnag",
+        "pending": false
+      },
+      {
+        "item": "Rotational atherectomy, a classic",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "technique that still matters - Part 1",
+        "speaker": "A. Jurado",
+        "pending": false
+      },
+      {
+        "item": "Key questions for the Expert Rotational atherectomy, a classic",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "technique that still matters - Part 2",
+        "speaker": "A. Jurado",
+        "pending": false
+      },
+      {
+        "item": "Key questions for the Expert",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "Session evaluation and key learnings",
+        "speaker": "B. Vaquerizo",
+        "pending": false
+      }
+    ],
+    "flags": [],
+    "page": 156
+  },
+  {
+    "id": "FRI-1015-ACC-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "10:15",
+    "timeEnd": "11:15",
+    "room": "ABSTRACT & CASE CORNER",
+    "track": "coronary",
+    "type": "ClinicalCases",
+    "title": "1A Clinical Cases Overcoming challenging anatomy in calcified lesion PCI",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "moderators": [
+        "H. Al Lawati",
+        "M. J. Bertrand"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 156
+  },
+  {
+    "id": "FRI-1015-ACC-002",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "10:15",
+    "timeEnd": "11:15",
+    "room": "ABSTRACT & CASE CORNER",
+    "track": "coronary",
+    "type": "ClinicalCases",
+    "title": "1B Imaging Clinical Cases Spontaneous coronary artery dissection management with intracoronary imaging",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "moderators": [
+        "M. Al-Hijji",
+        "G. Guagliumi"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 156
+  },
+  {
+    "id": "FRI-1015-MAILLOT-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "10:15",
+    "timeEnd": "11:15",
+    "room": "ROOM MAILLOT",
+    "track": "coronary",
+    "type": "ClinicalCases",
+    "title": "Best structural complications with the collaboration of the EuroIntervention Case Reports journal -",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "facilitators": [
+        "S. Brugaletta",
+        "E. Eeckhout",
+        "J. Yap"
+      ],
+      "discussants": [
+        "L. Rosseel",
+        "M. Spagnolo"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 157
+  },
+  {
+    "id": "FRI-1015-241-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "10:15",
+    "timeEnd": "11:15",
+    "room": "ROOM 241",
+    "track": "structural,pulmonaryEmbolism",
+    "type": "Hotline",
+    "title": "LAA closure and pulmonary embolism hotline",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "anchorpersons": [
+        "L. Räber"
+      ],
+      "spokespersons": [
+        "L. Sanchis"
+      ],
+      "discussants": [
+        "A. S. F. Chui",
+        "U. Landes",
+        "S. Minha",
+        "J. Saw"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 157
+  },
+  {
+    "id": "FRI-1015-242AB-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "10:15",
+    "timeEnd": "11:15",
+    "room": "ROOM 242",
+    "track": "coronary",
+    "type": "AllYouNeedToKnow",
+    "title": "DCB: what we know and what we do not know",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "anchorpersons": [
+        "B. Scheller"
+      ],
+      "discussants": [
+        "D. Benedetto",
+        "A. Marchese",
+        "R. Rajagopal",
+        "U. Wickramarachchi"
+      ]
+    },
+    "learningObjectives": [
+      "To get up to date with the latest clinical data and trials on DCB",
+      "To identify anatomical and clinical scenarios where DCB is most likely",
+      "to succeed",
+      "To learn how to optimise your technique and outcomes when using DCB"
+    ],
+    "agenda": [
+      {
+        "item": "Welcome and session objectives",
+        "speaker": "B. Scheller",
+        "pending": false
+      },
+      {
+        "item": "How to define optimal lesion preparation",
+        "speaker": "S. Eccleshall",
+        "pending": false
+      },
+      {
+        "item": "Discussion and audience interaction Procedural strategies for lesion",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "preparation",
+        "speaker": "V. A. Jimenez Diaz",
+        "pending": false
+      },
+      {
+        "item": "Discussion and audience interaction Angio-based vs. intravascular imaging- based decision-making for DCB vs. DES:",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "any role for physiology?",
+        "speaker": "F. Kleber",
+        "pending": false
+      },
+      {
+        "item": "Discussion and audience interaction Evidence from randomised controlled trial: in-stent restenosis lost? Something beyond SVD? Recognition in future",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "guidelines?",
+        "speaker": "S. Fezzi",
+        "pending": false
+      },
+      {
+        "item": "Discussion and audience interaction",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "Session evaluation and key learnings",
+        "speaker": null,
+        "pending": false
+      }
+    ],
+    "flags": [],
+    "page": 157
+  },
+  {
+    "id": "FRI-1015-243-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "10:15",
+    "timeEnd": "11:15",
+    "room": "ROOM 243",
+    "track": "structural",
+    "type": "Abstracts",
+    "title": "TAVI in bicuspid - Planning to performance",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "moderators": [
+        "T. Nestelberger",
+        "T. Y. (. Xiong"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 158
+  },
+  {
+    "id": "FRI-1015-251-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "10:15",
+    "timeEnd": "11:15",
+    "room": "ROOM 251",
+    "track": "coronary",
+    "type": "HowShouldITreat",
+    "title": "Multivessel disease or left main disease",
+    "subtitle": "With the collaboration of Swiss Working Group Interventional Cardiology and Working Group for Interventional Cardiology of the Austrian Society of Cardiology",
+    "sponsor": null,
+    "speakers": {
+      "anchorpersons": [
+        "O. Gaemperli",
+        "A. Niessner"
+      ],
+      "discussants": [
+        "T. Bini",
+        "A. Schober",
+        "A. Wolf"
+      ]
+    },
+    "learningObjectives": [
+      "To understand what clinical and procedural factors influence revascularisation strategies in patients with multivessel or left main disease",
+      "To learn how intravascular physiology and imaging can guide revascularisation decisions and assist with treatment strategies",
+      "To understand which procedural factors translate into improved long- term results and good clinical outcomes"
+    ],
+    "agenda": [
+      {
+        "item": "Welcome and session objectives",
+        "speaker": "A. Niessner",
+        "pending": false
+      },
+      {
+        "item": "Case 1 - Austria - CT and IVUS-guided",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "complex left main PCI",
+        "speaker": "O. Kvavadze",
+        "pending": false
+      },
+      {
+        "item": "How would I treat case 1?",
+        "speaker": "T. Bini",
+        "pending": false
+      },
+      {
+        "item": "Discussion and audience interaction",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "Case 1 - Treatment",
+        "speaker": "O. Kvavadze",
+        "pending": false
+      },
+      {
+        "item": "Case 1 - Key learnings",
+        "speaker": "A. Niessner",
+        "pending": false
+      },
+      {
+        "item": "Case 2 - Switzerland - Management of target lesion failure after DCB only",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "treatment of CTO",
+        "speaker": "M. Tjeerdsma",
+        "pending": false
+      },
+      {
+        "item": "How would I treat case 2?",
+        "speaker": "A. Schober",
+        "pending": false
+      },
+      {
+        "item": "Discussion and audience interaction",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "Case 2 - Treatment",
+        "speaker": "M. Tjeerdsma",
+        "pending": false
+      },
+      {
+        "item": "Case 2 - Key learnings",
+        "speaker": "O. Gaemperli",
+        "pending": false
+      },
+      {
+        "item": "Session evaluation and key learnings",
+        "speaker": "O. Gaemperli",
+        "pending": false
+      }
+    ],
+    "flags": [],
+    "page": 158
+  },
+  {
+    "id": "FRI-1015-252A-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "10:15",
+    "timeEnd": "11:15",
+    "room": "ROOM 252",
+    "track": "coronary",
+    "type": "HowShouldITreat",
+    "title": "Calcium in the coronary arteries - What could go wrong?",
+    "subtitle": "With the collaboration of British Cardiovascular Intervention Society and Irish Cardiac Society Interventional Cardiology Working Group O'Kane",
+    "sponsor": null,
+    "speakers": {
+      "anchorpersons": [
+        "S. O'Connor",
+        "H. Routledge"
+      ],
+      "discussants": [
+        "B. Hennessey",
+        "D. Mylotte",
+        "P"
+      ]
+    },
+    "learningObjectives": [
+      "To select the appropriate strategy for PCI of calcified lesions",
+      "To anticipate complications in treatment of calcified lesions",
+      "To rapidly adapt techniques to manage complications effectively"
+    ],
+    "agenda": [
+      {
+        "item": "Welcome and session objectives",
+        "speaker": "S. O'Connor",
+        "pending": false
+      },
+      {
+        "item": "Case 1 - Ireland - STEMI - Between a rock",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "and a hard place",
+        "speaker": "R. Armstrong",
+        "pending": false
+      },
+      {
+        "item": "How would I treat case 1?",
+        "speaker": "P. O'Kane",
+        "pending": false
+      },
+      {
+        "item": "Discussion and audience interaction",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "Case 1 - Treatment",
+        "speaker": "R. Armstrong",
+        "pending": false
+      },
+      {
+        "item": "Case 1 - Key learnings",
+        "speaker": "S. O'Connor",
+        "pending": false
+      },
+      {
+        "item": "Case 2 - United Kingdom - Rotablation uncrossable lesion in anomalous origin",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "right coronary artery",
+        "speaker": "A. Mozid",
+        "pending": false
+      },
+      {
+        "item": "How would I treat case 2?",
+        "speaker": "B. Hennessey",
+        "pending": false
+      },
+      {
+        "item": "Discussion and audience interaction",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "Case 2 - Treatment",
+        "speaker": "A. Mozid",
+        "pending": false
+      },
+      {
+        "item": "Case 2 - Key learnings",
+        "speaker": "H. Routledge",
+        "pending": false
+      },
+      {
+        "item": "Session evaluation and key learnings",
+        "speaker": "H. Routledge",
+        "pending": false
+      }
+    ],
+    "flags": [],
+    "page": 159
+  },
+  {
+    "id": "FRI-1015-252B-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "10:15",
+    "timeEnd": "11:15",
+    "room": "ROOM 252",
+    "track": "structural",
+    "type": "ClinicalCases",
+    "title": "Challenges for TAVI in bicuspid",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "moderators": [
+        "A. Öner"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 159
+  },
+  {
+    "id": "FRI-1015-253-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "10:15",
+    "timeEnd": "11:15",
+    "room": "ROOM 253",
+    "track": "coronary,peripheralInterventions",
+    "type": "Abstracts",
+    "title": "Beyond coronary arteries: SVG and peripheral interventions",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "moderators": [
+        "F. Castriota",
+        "M. Squillace"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 159
+  },
+  {
+    "id": "FRI-1015-ACC-003",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "10:15",
+    "timeEnd": "11:15",
+    "room": "ABSTRACT & CASE CORNER",
+    "track": "coronary",
+    "type": "Abstracts",
+    "title": "2A Abstracts Diversity in coronary artery disease treatment",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "moderators": [
+        "A. B. Cid Alvarez"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 160
+  },
+  {
+    "id": "FRI-1015-ACC-004",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "10:15",
+    "timeEnd": "11:15",
+    "room": "ABSTRACT & CASE CORNER",
+    "track": "coronary",
+    "type": "ClinicalCases",
+    "title": "2B Complications Clinical Cases Complication management in CTO PCI - Part 2",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "moderators": [
+        "M. Abras",
+        "L. Verreault-Julien"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 160
+  },
+  {
+    "id": "FRI-1015-ACC-005",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "10:15",
+    "timeEnd": "11:15",
+    "room": "ABSTRACT & CASE CORNER",
+    "track": "coronary",
+    "type": "ClinicalCases",
+    "title": "2C Clinical Cases Left main PCI-complex procedures",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "moderators": [
+        "P. Chiam",
+        "E. Stabile"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 160
+  },
+  {
+    "id": "FRI-1015-ACC-006",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "10:15",
+    "timeEnd": "11:15",
+    "room": "ABSTRACT & CASE CORNER",
+    "track": "coronary",
+    "type": "ClinicalCases",
+    "title": "2D Clinical Cases Calcified lesions: when one dedicated device is not enough",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "moderators": [
+        "P. Chandra",
+        "T. Gori"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 160
+  },
+  {
+    "id": "FRI-1015-ACC2E-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "10:15",
+    "timeEnd": "11:15",
+    "room": "ABSTRACT & CASE CORNER 2E",
+    "track": "coronary",
+    "type": "ClinicalCases",
+    "title": "Innovative strategies in STEMI management",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "moderators": [
+        "L. Abid",
+        "N. Ali"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 161
+  },
+  {
+    "id": "FRI-1015-ACC2F-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "10:15",
+    "timeEnd": "11:15",
+    "room": "ABSTRACT & CASE CORNER 2F",
+    "track": "coronary",
+    "type": "ClinicalCases",
+    "title": "Challenging cases in calcified lesions PCI",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "moderators": [
+        "J. A. Gomez-Hospital",
+        "E. Guering"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 161
+  },
+  {
+    "id": "FRI-1030-MAIN-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "10:30",
+    "timeEnd": "11:00",
+    "room": "MAIN ARENA",
+    "track": "coronary",
+    "type": "Ceremony",
+    "title": "PCR's Got Talent Award, best abstract & best case Awards",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": null,
+    "learningObjectives": [],
+    "agenda": [],
+    "flags": [],
+    "page": 161
+  },
+  {
+    "id": "FRI-1100-MAIN-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "11:00",
+    "timeEnd": "12:30",
+    "room": "MAIN ARENA",
+    "track": "coronary",
+    "type": "LIVE",
+    "title": "Complex calcified lesion: LIVE Educational Case from Leipzig Heart Centre - Leipzig, Germany",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "anchorpersons": [
+        "A. Baumbach"
+      ],
+      "spokespersons": [
+        "F. Baslaib"
+      ],
+      "proceduralAnalysts": [
+        "F. Hellig"
+      ],
+      "operators": [
+        "M. Abdel-Wahab",
+        "D. Sulimov"
+      ],
+      "discussants": [
+        "F. L. Ribichini",
+        "R. Shlofmitz",
+        "M. Sobhy"
+      ],
+      "onstageCoordinators": [
+        "B. Mcdonaugh"
+      ],
+      "cathlabCoordinators": [
+        "H. J",
+        "Feistritzer"
+      ]
+    },
+    "learningObjectives": [],
+    "agenda": [
+      {
+        "item": "Welcome and session objectives",
+        "speaker": "A. Baumbach",
+        "pending": false
+      },
+      {
+        "item": "Patient presentation",
+        "speaker": "F. Baslaib",
+        "pending": true
+      },
+      {
+        "item": "Discussion and audience interaction",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "Imaging analysis",
+        "speaker": "F. Hellig",
+        "pending": false
+      },
+      {
+        "item": "Operator strategy",
+        "speaker": "A. Baumbach",
+        "pending": false
+      },
+      {
+        "item": "LIVE Case procedure",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "Debriefing and audience interaction",
+        "speaker": null,
+        "pending": false
+      },
+      {
+        "item": "Final results and key learnings",
+        "speaker": "A. Baumbach",
+        "pending": false
+      }
+    ],
+    "flags": [],
+    "page": 161
+  },
+  {
+    "id": "FRI-1100-HANDSON-001",
+    "day": "Friday",
+    "date": "2026-05-22",
+    "timeStart": "11:00",
+    "timeEnd": "12:30",
+    "room": "HANDS ON LAB",
+    "track": "coronary",
+    "type": "Simulation",
+    "title": "Bailout options and techniques during PCI - Mid-vessel perforation Supported by an unrestricted educational grant from Terumo Learning Edge assigned on a first-come, first-served basis.",
+    "subtitle": null,
+    "sponsor": null,
+    "speakers": {
+      "facilitators": [
+        "T. Johnson"
+      ],
+      "physicianTrainers": [
+        "P. Arkadiusz",
+        "O. Muller",
+        "J. Nolan",
+        "M. Oberhoff",
+        "G. Olivecrona"
+      ]
+    },
+    "learningObjectives": [
+      "To consider cause and avoidance strategies for mid-vessel perforation",
+      "To explore bailout options using existing devices",
+      "To determine the different solutions",
+      "to successfully treating mid-vessel perforation using simulation"
+    ],
+    "agenda": [],
+    "flags": [
+      "seatsLimited"
+    ],
+    "page": 161
+  }
+]

@@ -1,0 +1,210 @@
+{
+  "batch": "008b-structural-2",
+  "generatedAt": "2026-04-14",
+  "method": "opus subagent, cognitive isolation, PubMed + WebSearch verified",
+  "speakers": [
+    {
+      "name": "P. Garot",
+      "fullName": "Philippe Garot",
+      "institution": "Institut Cardiovasculaire Paris Sud (ICPS), Hôpital Privé Jacques Cartier, Ramsay Santé, Massy, France",
+      "expertise": [
+        "TAVI / transcatheter aortic valve implantation",
+        "coronary artery disease management in TAVI candidates",
+        "coronary events after TAVI",
+        "cerebral embolic protection during TAVI",
+        "TAVR hemodynamics and valve dysfunction",
+        "interventional cardiology"
+      ],
+      "tier": "A",
+      "oneLiner": "法國ICPS介入心臟科主任，專注TAVI技術分析與冠狀動脈疾病合併主動脈瓣狹窄之治療策略整合。",
+      "keyContributions": [
+        "Coronary revascularisation before TAVI (Lancet 2026, PMID 41921524) — commentator on pivotal debate",
+        "Coronary Events After TAVR: France TAVI Registry analysis, JACC Cardiovasc Interv 2025 (PMID 39880575)",
+        "OPERA-TAVI Registry: sex-related outcomes of Evolut PRO+ vs SAPIEN 3 Ultra, Am J Cardiol 2024 (PMID 38401656)",
+        "Cerebral embolic protection meta-analysis (752,164 patients), Catheter Cardiovasc Interv 2026 (PMID 41480822)",
+        "Elevated gradient after TAVR — diagnosis and management (Ann Cardiol Angeiol 2024, PMID 39126748)"
+      ],
+      "whyListen": "Garot領導ICPS（法國最活躍TAVI中心之一），在France TAVI Registry擁有豐富的國家級資料分析經驗。他在TAVI程序分析與冠狀動脈介入決策上具有獨特的雙軌視角，能有效轉譯大型試驗資料為臨床實踐指引。在EuroPCR 2026擔任TAVI LIVE程序分析師與冠狀動脈設備証據解說者，是掌握TAVI-CAD整合決策的關鍵聲音。",
+      "pmids": ["41921524", "41480822", "39880575", "39126748", "38401656"],
+      "euroPCR2026": {
+        "sessionIds": ["TUE-0800-BLEU-001", "TUE-1200-341-001"],
+        "presentationTopic": "TAVI LIVE程序分析；冠狀動脈設備新證據轉譯",
+        "significance": "橋接TAVI技術操作與冠狀動脈証據，對同時面對結構性心臟病與冠心病患者的介入科醫師具高度實用價值"
+      }
+    },
+    {
+      "name": "R. Parma",
+      "fullName": "Radoslaw Parma",
+      "institution": "Department of Cardiology and Structural Heart Diseases, Medical University of Silesia, Katowice, Poland",
+      "expertise": [
+        "TAVI / transcatheter aortic valve implantation",
+        "valve-in-valve TAVI (redo-TAVI)",
+        "structural heart disease",
+        "bicuspid aortic valve TAVI",
+        "TAVI pathway optimization",
+        "European interventional cardiology training (EAPCI)"
+      ],
+      "tier": "A",
+      "oneLiner": "波蘭結構性心臟病領域旗手，主導歐洲TAVI路徑調查與再次TAVI（ReTAVI）前瞻性登記研究。",
+      "keyContributions": [
+        "Redo-TAVI with ACURATE platform for short-frame THV failure, EuroIntervention 2025 (PMID 40958625)",
+        "ReTAVI registry design & rationale — multicentre prospective redo-TAVI study, Eur J Clin Invest 2024 (PMID 38767226)",
+        "ESC-EAPCI Atlas of Interventional Cardiology 2023 (50 countries), Eur Heart J 2025 (PMID 40878292)",
+        "2022 European TAVI Pathway Survey (26 countries, 147 centres), Front Cardiovasc Med 2023 (PMID 37645516)",
+        "Long-term mortality after TAVI in immunosuppressed patients: propensity-matched registry, Postepy Kardiol Interwencyjnej 2023 (PMID 37854972)"
+      ],
+      "whyListen": "Parma是歐洲TAVI訓練與認證委員會（EAPCI）主席，並擔任歐盟醫療器械專家小組成員，對TAVI程序標準化與品質提升有直接政策影響力。他在redo-TAVI（再次置換）的前瞻性研究設計代表該領域最前沿的臨床需求。在EuroPCR 2026涵蓋TAVI LIVE、結構創新與病例討論等多重角色，是本次大會結構心臟病議程的核心人物。",
+      "pmids": ["40958625", "38767226", "40878292", "37645516", "37854972"],
+      "euroPCR2026": {
+        "sessionIds": ["TUE-0800-BLEU-001", "WED-1340-344-001", "THU-0830-243-001", "THU-1500-MAIN-001"],
+        "presentationTopic": "TAVI LIVE案例；結構性心臟病創新；redo-TAVI策略",
+        "significance": "多場次深度參與，從技術操作到創新評估，是掌握2026結構性心臟病全貌的必聽講者"
+      }
+    },
+    {
+      "name": "G. Bieliauskas",
+      "fullName": "Gintautas Bieliauskas",
+      "institution": "The Heart Centre, Rigshospitalet, Copenhagen University Hospital, Copenhagen, Denmark",
+      "expertise": [
+        "TAVI / transcatheter aortic valve implantation",
+        "commissural alignment in TAVI",
+        "coronary access after TAVI",
+        "valve-in-valve procedures",
+        "new-generation TAVI platforms (Evolut FX+)",
+        "CT-based TAVI planning"
+      ],
+      "tier": "B",
+      "oneLiner": "哥本哈根Rigshospitalet TAVI術者，專精人工瓣膜置放精準技術——冠狀竇對齊與冠狀動脈可及性保存。",
+      "keyContributions": [
+        "Nordic consensus on Evolut FX+ TAVI — optimizing commissural alignment and coronary access, Front Cardiovasc Med 2025 (PMID 41293619)",
+        "Novel biomimetic balloon-expandable transcatheter heart valve 30-day outcomes, Catheter Cardiovasc Interv 2026 (PMID 41251720)",
+        "EAPCI/ESC consensus on CAD management in TAVI candidates — commissural alignment section, EuroIntervention 2023 (PMID 36811935)",
+        "Impact of intensified outpatient follow-up on rehospitalization after TAVI, 2025 (PMID 39900323)",
+        "Comparative study of TAVI views for two different valve systems, 2024 (PMID 38799802)"
+      ],
+      "whyListen": "Bieliauskas代表北歐TAVI技術精準化的新生代，專注於如何在置放瓣膜的同時保護未來冠狀動脈介入的可及性——這是低風險年輕患者TAVI的關鍵課題。在EuroPCR 2026擔任TAVI LIVE術者，實際展示高難度TAVI操作技術。",
+      "pmids": ["41293619", "41251720", "36811935", "39900323", "38799802"],
+      "euroPCR2026": {
+        "sessionIds": ["TUE-0800-BLEU-001", "WED-1115-242AB-001", "THU-1500-MAIN-001"],
+        "presentationTopic": "TAVI LIVE操作示範；新型瓣膜平台技術",
+        "significance": "現場示範精準TAVI植入技術，特別是冠狀竇對齊與新平台應用，對實際執行TAVI的術者有直接學習價值"
+      }
+    },
+    {
+      "name": "H. Treede",
+      "fullName": "Hendrik Treede",
+      "institution": "Department of Cardiac and Vascular Surgery, University Medical Center of the Johannes Gutenberg University, Mainz, Germany",
+      "expertise": [
+        "cardiac surgery",
+        "TAVI (surgical perspective)",
+        "transcatheter treatment of aortic regurgitation",
+        "JenaValve / dedicated AR transcatheter platforms",
+        "redo-TAVI and surgical TAVR explantation",
+        "minimally invasive cardiac surgery"
+      ],
+      "tier": "A",
+      "oneLiner": "德國美因茨大學心臟外科教授，ALIGN-AR試驗重要研究者，是橋接外科與導管瓣膜治療的關鍵心外科意見領袖。",
+      "keyContributions": [
+        "Managing Transcatheter Aortic Valve Failure — comprehensive review of redo-TAVI vs surgical explantation, Struct Heart 2026 (PMID 41853459)",
+        "ALIGN-AR extended pivotal trial (Trilogy valve, n=700, native aortic regurgitation), Lancet 2025 (PMID 41260228)",
+        "ALIGN-AR initial pivotal trial (Trilogy, n=180, pure native AR), Lancet 2024 (PMID 38552656)",
+        "Aortic regurgitation: from mechanisms to management, EuroIntervention 2024 (PMID 39219357)",
+        "Transaxillary access for JenaValve in pure native AR, JACC Cardiovasc Interv 2023 (PMID 37999706)"
+      ],
+      "whyListen": "Treede是全球少數具備豐富TAVI外科視角的心外科教授，在ALIGN-AR試驗中展現了外科對導管主動脈瓣逆流治療的貢獻。他對TAVI失敗後處理策略（redo-TAVI vs 手術摘除）的詳細論述，是2026年TAVI議程中最具實務性的外科觀點。",
+      "pmids": ["41853459", "41260228", "38552656", "39219357", "37999706"],
+      "euroPCR2026": {
+        "sessionIds": ["THU-0945-242AB-001", "THU-1500-MAIN-001"],
+        "presentationTopic": "2026年TAVI證據全面回顧；TAVI LIVE外科術者",
+        "significance": "作為心外科醫師參與TAVI LIVE，提供獨特的跨科別視角；其在ALIGN-AR的經驗使其成為主動脈瓣逆流導管治療的權威聲音"
+      }
+    },
+    {
+      "name": "I. Alhaddad",
+      "fullName": "Imad A. Alhaddad",
+      "institution": "Jordan Cardiovascular Center, Jordan Hospital, Amman, Jordan",
+      "expertise": [
+        "interventional cardiology",
+        "percutaneous coronary intervention (PCI)",
+        "lipid management and cardiovascular risk reduction",
+        "atrial fibrillation in Middle Eastern populations",
+        "TAVI",
+        "cardiovascular disease epidemiology in the Middle East"
+      ],
+      "tier": "B",
+      "oneLiner": "約旦心血管中心主任，中東介入心臟科領袖，擁有豐富的約旦PCI與心房顫動登記研究資料庫。",
+      "keyContributions": [
+        "COVID-TAVI Study: global impact of COVID-19 on TAVR activity (130 centres, 61 countries), JACC Cardiovasc Interv 2024 (PMID 38180419)",
+        "BioMime Morph coronary stent registry (long lesions, 3-year follow-up), Cardiovasc Revasc Med 2025 (PMID 40023706)",
+        "ANCORS-YW Study: atherosclerotic CVD risk factors in young Middle Eastern women, Global Heart 2024 (PMID 39035774)",
+        "Jordan Atrial Fibrillation Study: AF + CAD intersection in 2020 patients, Global Heart 2024 (PMID 38505303)",
+        "Jordan AF Study: elderly Middle Eastern AF demographics and risk profile, Vasc Health Risk Manag 2022 (PMID 35449533)"
+      ],
+      "whyListen": "Alhaddad是中東地區介入心臟科最具代表性的聲音，主導多項約旦國家級登記研究，對脂質管理、冠心病及AF在非西方族群的特殊表現有深入見解。在EuroPCR 2026跨越脂質降低、冠狀動脈病例與結構性治療三大議程，展現全方位的臨床視野。",
+      "pmids": ["38180419", "40023706", "39035774", "38505303", "35449533"],
+      "euroPCR2026": {
+        "sessionIds": ["TUE-0800-341-001", "WED-0830-245-001", "THU-1340-242AB-001"],
+        "presentationTopic": "脂質降低治療全面回顧；冠狀動脈臨床病例；結構性心臟病治療決策",
+        "significance": "代表非歐洲視角的臨床聲音，在跨議程的多重角色中提供中東族群的實踐經驗，豐富討論的多元性"
+      }
+    },
+    {
+      "name": "P. Maccarthy",
+      "fullName": "Philip Maccarthy",
+      "institution": "Department of Cardiology, King's College Hospital NHS Foundation Trust; Professor of Interventional Cardiology, King's College London, United Kingdom",
+      "expertise": [
+        "structural heart disease (TAVI, MitraClip, PFO/ASD closure)",
+        "coronary physiology and fractional flow reserve",
+        "FAME trial series (FAME, FAME 2, FAME 3)",
+        "UK TAVI trial",
+        "high-risk PCI",
+        "BCIS structural heart working group leadership"
+      ],
+      "tier": "A",
+      "oneLiner": "英國King's College Hospital介入心臟科教授，UK TAVI試驗研究者，是英國結構性心臟病介入臨床實踐制定的核心人物。",
+      "keyContributions": [
+        "UK TAVI randomized trial (n=913): TAVI vs surgery at moderately increased risk, JAMA 2022 (PMID 35579641) — centre co-investigator",
+        "Cost-utility analysis of TAVI vs surgery in low-risk patients (UK perspective, PARTNER 3 data), Appl Health Econ Health Policy 2025 (PMID 41203918)",
+        "UK TAVI Registry: concomitant CAD management in 2588 TAVI patients, Int J Cardiol 2015 (PMID 26209948)",
+        "Direct transapical TAVI avoiding balloon predilatation (novel technique), Eur J Cardiothorac Surg 2012 (PMID 22648924)",
+        "Contemporary TAVI practice review, Cardiol J 2017 (PMID 28248406)"
+      ],
+      "whyListen": "MacCarthy是英國結構性心臟病介入的領軍人物，主導PFO/ASD關閉、TAVI及MitraClip三大結構介入項目，並擔任英國心臟介入學會（BCIS）結構工作組主席。他在UK TAVI試驗中的核心參與，使其在TAVI適應症擴展辯論中具有高度說服力。對需要了解英國臨床實踐與NICE指引的聽眾尤其重要。",
+      "pmids": ["35579641", "41203918", "26209948", "22648924", "28248406"],
+      "euroPCR2026": {
+        "sessionIds": ["WED-0830-242AB-001", "WED-1340-242AB-001", "THU-0830-243-001"],
+        "presentationTopic": "結構性心臟病治療決策；熱線新結構証據；臨床病例討論",
+        "significance": "以英國大型試驗與真實世界數據為基礎，提供TAVI及複雜結構介入的循証決策框架，在Hotline session中對新證據即時解讀尤具價值"
+      }
+    },
+    {
+      "name": "T. Patterson",
+      "fullName": "Tiffany Patterson",
+      "institution": "Cardiovascular Directorate, Guy's and St Thomas' NHS Foundation Trust; King's College London, United Kingdom",
+      "expertise": [
+        "TAVI / transcatheter aortic valve implantation",
+        "valve-in-valve TAVI and coronary protection",
+        "PCI before TAVI (ACTIVATION trial)",
+        "prosthesis-patient mismatch after TAVI",
+        "extravalvular cardiac remodeling in aortic stenosis",
+        "wearable technology in TAVI outcome assessment"
+      ],
+      "tier": "A",
+      "oneLiner": "倫敦Guy's & St Thomas' TAVI術者，ACTIVATION隨機對照試驗主持人，專注TAVI前後冠狀動脈管理與左心室逆向重塑研究。",
+      "keyContributions": [
+        "ACTIVATION RCT (PI): PCI prior to TAVI in significant CAD — noninferiority not met, higher bleeding with PCI, JACC Cardiovasc Interv 2021 (PMID 34556269)",
+        "Extravalvular remodeling and smartwatch-recorded physical activity after TAVI (n=85), J Am Heart Assoc 2026 (PMID 41944153)",
+        "Prosthesis-patient mismatch after TAVI: prognostic effect of right-sided cardiopulmonary remodeling (n=1118), Can J Cardiol 2026 (PMID 41581752)",
+        "ViV-TAVI for failing stentless bioprosthetic aortic valves: international multicentre analysis (n=65), Catheter Cardiovasc Interv 2025 (PMID 41332114)",
+        "Acute coronary occlusion during valve-in-valve TAVI — prevention strategies, Eur Heart J 2024 (PMID 39056259)"
+      ],
+      "whyListen": "Patterson是ACTIVATION試驗的主持人，該試驗是全球第一個評估TAVI前是否應先行PCI的隨機試驗，其結果直接影響臨床指引。她同時在valve-in-valve TAVI冠狀動脈保護、PPM管理及可穿戴技術應用等前沿領域持續發表重要研究。在EuroPCR 2026擔任TAVI LIVE術者，結合豐富RCT設計經驗，是橋接試驗證據與操作實踐的理想聲音。",
+      "pmids": ["34556269", "41944153", "41581752", "41332114", "39056259"],
+      "euroPCR2026": {
+        "sessionIds": ["TUE-0800-BLEU-001", "TUE-1200-341-001", "THU-1500-MAIN-001"],
+        "presentationTopic": "TAVI LIVE操作示範；冠狀動脈設備Hotline討論",
+        "significance": "ACTIVATION試驗PI親身示範TAVI操作，為TAVI-CAD整合管理提供最直接的第一手臨床見解；其valve-in-valve冠狀動脈保護研究對高技術挑戰案例尤具指導意義"
+      }
+    }
+  ]
+}

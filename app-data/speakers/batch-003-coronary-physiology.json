@@ -1,0 +1,67 @@
+{
+  "batch": "003-coronary-physiology",
+  "generatedAt": "2026-04-14",
+  "method": "sonnet subagent, cognitive isolation, PubMed + WebSearch verified",
+  "speakers": [
+    {
+      "name": "J. Escaned",
+      "fullName": "Javier Escaned",
+      "institution": "Hospital Clínico San Carlos / Universidad Complutense de Madrid, Spain",
+      "expertise": ["Coronary physiology (FFR/iFR)", "CTO PCI", "IVUS/OCT", "Complex PCI"],
+      "tier": "S",
+      "oneLiner": "歐洲冠狀動脈生理學與CTO介入的頂尖權威，450篇以上索引論文，iFR/FFR臨床應用與CTO PCI標準化的核心推手",
+      "keyContributions": ["iFR與FFR演化綜述 (JACC 2017)", "CTO PCI七大指導原則共識 (Circulation 2019)", "Post-PCI FFR分層評估 (JACC CI 2023)"],
+      "whyListen": "iFR/FFR概念開創者之一，同時深耕CTO與IVUS。聽他主持的冠脈生理、CTO及IVUS session，直接獲得最前沿的複雜PCI決策邏輯。",
+      "pmids": ["28882237", "31356129", "37821185"],
+      "sessionIds": ["8 sessions: CTO, IVUS, coronary physiology anchorperson"]
+    },
+    {
+      "name": "R. Al-Lamee",
+      "fullName": "Rasha Al-Lamee",
+      "institution": "Imperial College London, UK",
+      "expertise": ["Stable angina and PCI outcomes", "Placebo-controlled interventional trials", "Coronary physiology"],
+      "tier": "S",
+      "oneLiner": "ORBITA與ORBITA-2試驗首席研究員，以安慰劑對照設計顛覆穩定型心絞痛PCI傳統認知，當代介入試驗設計標竿",
+      "keyContributions": ["ORBITA trial (Lancet 2017): first sham-controlled PCI RCT", "ORBITA-2 (NEJM 2023): PCI reduces angina after stopping anti-anginals", "iFR/FFR clinical application research"],
+      "whyListen": "主導改變穩定心絞痛PCI適應症思維的兩大landmark試驗。Hotline session中她的數據解讀直接影響介入決策證據基礎。",
+      "pmids": ["29103656", "38015442"],
+      "sessionIds": ["8 sessions: Hotline key role, anchorperson/discussant"]
+    },
+    {
+      "name": "G. G Toth",
+      "fullName": "Gábor G. Tóth",
+      "institution": "University Heart Center Graz, Austria",
+      "expertise": ["Coronary physiology (FFR)", "Left main PCI evaluation", "CABG guidance with FFR", "Bifurcation PCI"],
+      "tier": "A",
+      "oneLiner": "冠脈生理學與左主幹評估歐洲重要專家，深耕post-PCI FFR分層與CABG前生理評估，EAPCI年輕介入醫師委員會主席",
+      "keyContributions": ["FFR for CABG guidance systematic review (EHJ 2017)", "Post-PCI FFR stratification analysis (JACC CI 2023)", "Left main imaging + physiology integration"],
+      "whyListen": "Left main session提供從術前生理評估到術後FFR優化的完整視角，適合複雜PCI術者深化功能性評估概念。",
+      "pmids": ["28025191", "37821185"],
+      "sessionIds": ["6 sessions: left main anchorperson, coronary physiology"]
+    },
+    {
+      "name": "F. Mahfoud",
+      "fullName": "Felix Mahfoud",
+      "institution": "University Hospital Basel, Switzerland",
+      "expertise": ["Renal denervation for hypertension", "Interventional hypertension treatment", "Autonomic cardiovascular regulation"],
+      "tier": "S",
+      "oneLiner": "腎神經去支配術(RDN)治療高血壓的全球首席研究員，主導SPYRAL HTN系列試驗，逾500篇論文，歐洲指引核心人物",
+      "keyContributions": ["SPYRAL HTN-ON MED 36-month RCT (Lancet 2022): lasting BP reduction with RF RDN", "Catheter-based RDN meta-analysis of 10 RCTs (Circulation 2024)", "European consensus on RDN research roadmap"],
+      "whyListen": "RDN領域奠基人，其spokesperson角色代表對整體介入新技術的廣泛影響力。可掌握RDN最新臨床證據與未來適應症方向。",
+      "pmids": ["35390320", "39355923"],
+      "sessionIds": ["6 sessions: CTO anchorperson, spokesperson"]
+    },
+    {
+      "name": "L. Räber",
+      "fullName": "Lorenz Räber",
+      "institution": "Bern University Hospital (Inselspital), Switzerland",
+      "expertise": ["Intravascular imaging (OCT/IVUS)", "Coronary atherosclerosis imaging", "OCT-guided PCI", "Vulnerable plaque"],
+      "tier": "A",
+      "oneLiner": "歐洲腔內影像(OCT/IVUS)臨床應用頂尖專家，PACMAN-AMI試驗PI，EAPCI腔內影像共識文件第一作者",
+      "keyContributions": ["PACMAN-AMI trial (JAMA 2022): multimodal imaging assessment of PCSK9i in AMI", "EAPCI intravascular imaging consensus Part 1 (EHJ 2018)", "OCT in LM PCI and calcified lesions"],
+      "whyListen": "OCT引導PCI的歐洲代表人物，Hotline session角色預示將帶來最新影像導引介入試驗結果。",
+      "pmids": ["35368058", "29790954"],
+      "sessionIds": ["5 sessions: Hotline key role, intravascular imaging"]
+    }
+  ]
+}

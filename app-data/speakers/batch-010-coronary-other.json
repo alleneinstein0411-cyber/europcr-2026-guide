@@ -1,0 +1,131 @@
+{
+  "batch": "010-coronary-other",
+  "generatedAt": "2026-04-14",
+  "method": "opus subagent, cognitive isolation, PubMed + WebSearch verified",
+  "speakers": [
+    {
+      "name": "D. Hildick-Smith",
+      "fullName": "David Hildick-Smith",
+      "institution": "Sussex Cardiac Centre, University Hospitals Sussex, Brighton, UK",
+      "expertise": [
+        "left main bifurcation PCI",
+        "provisional vs dual-stent strategy",
+        "patent foramen ovale closure",
+        "complex coronary intervention",
+        "intracoronary imaging guidance"
+      ],
+      "tier": "A",
+      "oneLiner": "英國介入心臟學領軍人物，EBC MAIN 試驗首席研究員，左主幹分叉 PCI 策略的國際權威。",
+      "keyContributions": [
+        "EBC MAIN 試驗：左主幹分叉病變逐步臨時支架 vs. 雙支架策略 RCT，European Heart Journal 2021 (PMID 34002215)",
+        "NOBLE 試驗 10 年最終結果：左主幹 PCI vs. CABG 全因死亡無顯著差異，Lancet 2026 (PMID 41936368)",
+        "EBC MAIN 成像指引子分析：IVUS/OCT 對臨時 vs. 雙支架策略的影響，Catheter Cardiovasc Interv 2023 (PMID 37473405)",
+        "EBC MAIN 技術分析：近端優化技術與不順從球囊對預後的影響，Catheter Cardiovasc Interv 2023 (PMID 36709485)",
+        "歐洲分叉俱樂部第 18 屆共識：影像引導分叉 PCI 優化，EuroIntervention 2024 (PMID 38752714)",
+        "BCIS PFO 關閉立場聲明（主要作者），Interv Cardiol 2025 (PMID 40083814)",
+        "REDUCE 試驗 PFO 關閉後心房顫動分析，Catheter Cardiovasc Interv 2021 (PMID 34773685)",
+        "REDUCE 5 年結果（PFO 關閉 vs. 抗血小板），NEJM 2021 (PMID 33704944)"
+      ],
+      "whyListen": "Hildick-Smith 是歐洲分叉俱樂部（EBC）核心成員，主導了迄今最大規模的左主幹分叉 PCI 隨機試驗 EBC MAIN，並長期參與 NOBLE 試驗隨訪。他對分叉病變的技術細節（近端優化、jailed wire、球囊選擇）有極深入的實踐研究。在 EuroPCR 2026，他將作為 discussant 與 spokesperson，針對新型冠狀動脈器械及複雜多支血管 LIVE 病例發表見解，是冠狀動脈決策策略不可錯過的聲音。",
+      "pmids": [
+        "34002215",
+        "41936368",
+        "37473405",
+        "36709485",
+        "38752714",
+        "40083814",
+        "34773685",
+        "33704944"
+      ],
+      "euroPCR2026": {
+        "sessionIds": [
+          "TUE-1200-341-001",
+          "TUE-1310-BLEU-002",
+          "WED-1340-245-001"
+        ],
+        "presentationTopic": "新型冠狀動脈器械證據（Hotline discussant）、複雜多支血管 LIVE PCI 策略、左主幹/分叉臨床病例討論",
+        "significance": "三場 session 橫跨 Hotline 證據解讀、LIVE 手術即時評析與病例討論，是本屆冠狀動脈軌跡中少數兼具 RCT 主持與臨床操作深度的講者"
+      }
+    },
+    {
+      "name": "M. Lesiak",
+      "fullName": "Maciej Lesiak",
+      "institution": "1st Department of Cardiology, Poznan University of Medical Sciences, Poznan, Poland",
+      "expertise": [
+        "chronic total occlusion PCI",
+        "coronary bifurcation intervention",
+        "drug-coated balloon (DCB)",
+        "complex PCI",
+        "intravascular lithotripsy"
+      ],
+      "tier": "A",
+      "oneLiner": "波蘭頂尖介入心臟科教授，CTO、分叉病變與藥物塗層球囊領域的歐洲資深專家，發表逾 550 篇論文。",
+      "keyContributions": [
+        "歐洲分叉俱樂部第 18 屆共識（共同作者）：影像優化分叉 PCI，EuroIntervention 2024 (PMID 38752714)",
+        "CTO PCI 每日臨床實踐專家共識（波蘭心臟學會，主要作者），Adv Interv Cardiol 2021 (PMID 33868413)",
+        "藥物塗層球囊在 PCI 中的現有證據與新興希望（共同作者），Cardiol J 2025 (PMID 40223717)",
+        "MASTER DAPT 重複事件分析：高出血風險患者縮短 DAPT，JACC 2025 (PMID 40406944)",
+        "左主幹 IVL（血管內碎石）兩年預後分析，Adv Interv Cardiol 2025 (PMID 41743776)",
+        "ISR 與支架膨脹不足之 IVL 長期預後，Kardiol Pol 2025 (PMID 41532886)",
+        "CKD 患者 DCB vs. DES 治療 ISR 長期預後（CKD Dragon Registry），PLoS ONE 2025 (PMID 41460848)",
+        "複雜 PCI 急性與慢性冠狀動脈症候群一年預後比較，J Clin Med 2025 (PMID 39941402)"
+      ],
+      "whyListen": "Lesiak 教授是波蘭乃至中東歐最具影響力的介入心臟科教授之一，橫跨 CTO、分叉病變、DCB 與 IVL 多個領域均有豐富 RCT 及登錄研究貢獻。在本屆 EuroPCR，他身兼 anchorperson、discussant 與 facilitator 三種角色，主持 CTO 複雜病例討論、DCB 側支分叉 session 及模擬訓練工作坊，對於想深入了解 CTO 及 DCB 最新實踐的聽眾而言，是絕佳學習對象。",
+      "pmids": [
+        "38752714",
+        "33868413",
+        "40223717",
+        "40406944",
+        "41743776",
+        "41532886",
+        "41460848",
+        "39941402"
+      ],
+      "euroPCR2026": {
+        "sessionIds": [
+          "WED-0830-245-001",
+          "WED-1115-151-001",
+          "THU-0945-243-001",
+          "THU-1230-243-001"
+        ],
+        "presentationTopic": "CTO 複雜病例討論（anchorperson）、RA/OA 手術工作坊（facilitator）、DCB 側支分叉策略、冠狀動脈綜合研討會",
+        "significance": "四場 session 覆蓋 CTO 技術、DCB 分叉新趨勢與模擬訓練，是本屆冠狀動脈複雜介入課程最密集的波蘭講者"
+      }
+    },
+    {
+      "name": "E. Smith",
+      "fullName": "Elliot J. Smith",
+      "institution": "Barts Heart Centre, St. Bartholomew's Hospital, Barts Health NHS Trust, London, UK",
+      "expertise": [
+        "chronic total occlusion PCI",
+        "rotational atherectomy",
+        "complex coronary intervention",
+        "LIVE case demonstration",
+        "CTO retrograde technique"
+      ],
+      "tier": "B",
+      "oneLiner": "倫敦 Barts 心臟中心資深介入心臟科顧問，英國 CTO 與旋磨技術的重要推廣者，長期參與 EuroPCR LIVE 示範手術。",
+      "keyContributions": [
+        "CONSISTENT CTO 研究（共同作者）：DART 技術對血管內癒合無不良影響，JACC Cardiovasc Interv 2020 (PMID 32553333)",
+        "Pan-London CTO 世代研究：5496 例 CTO PCI 長期存活分析，Coron Artery Dis 2018 (PMID 29985189)",
+        "CTO PCI 成功再通與長期存活改善（Barts 單中心 836 例），JACC Cardiovasc Interv 2012 (PMID 22516393)",
+        "CTO PCI 輻射劑量降低策略（綜述），Curr Cardiol Rev 2016 (PMID 25847013)"
+      ],
+      "whyListen": "Smith 是英國 CTO PCI 領域的資深執行者，長期在 EuroPCR 等國際大會擔任 LIVE 案例示範醫師，具備豐富的旋磨與 CTO 手術實戰經驗。在本屆 EuroPCR 2026，他以 spokesperson 身份主導冠狀動脈 LIVE 案例解說及 DCB 分叉討論，對重視手術技術細節與即時決策的聽眾極具參考價值。",
+      "pmids": [
+        "32553333",
+        "29985189",
+        "22516393",
+        "25847013"
+      ],
+      "euroPCR2026": {
+        "sessionIds": [
+          "WED-0800-MAIN-001",
+          "THU-0945-243-001"
+        ],
+        "presentationTopic": "冠狀動脈 LIVE 案例解說（spokesperson）、DCB 側支分叉案例討論",
+        "significance": "作為 LIVE 大廳的 spokesperson，代表觀眾即時詮釋手術策略，是掌握 LIVE PCI 教育精華的關鍵角色"
+      }
+    }
+  ]
+}

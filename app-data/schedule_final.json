@@ -1,0 +1,448 @@
+{
+  "version": "2.0-final",
+  "generatedAt": "2026-04-14",
+  "confirmedAt": "2026-04-14",
+  "note": "Final curated schedule confirmed by Dr. Chang in Session D. Includes backup options preserved from draft. 3 sessions swapped from draft: Wed 15:00 → Calcified LM Learning Room, Thu 10:45 → Bifurcation Learning Room (new), Thu 15:00 → Complication Simulation. Tue 16:30 changed from HI-PEITHO to Bifurcation DCB symposium.",
+  "conferenceDays": [
+    "2026-05-19",
+    "2026-05-20",
+    "2026-05-21"
+  ],
+  "registrationAlerts": [
+    {
+      "session": "THU-1500-143-001",
+      "action": "Go to Training Village desk first thing Thursday morning to register",
+      "reason": "Hands-On Lab seats are first-come, first-served (~18 spots per session)",
+      "priority": "CRITICAL"
+    }
+  ],
+  "replayPlan": [
+    {
+      "sessionId": "WED-0945-BLEU-001",
+      "title": "Major Late-Breaking Trials",
+      "reason": "Attending in person but review replay for details missed",
+      "priority": "high"
+    },
+    {
+      "sessionId": "THU-1100-MAILLOT-001",
+      "title": "New evidence for coronary revascularisation (Hotline)",
+      "reason": "Skipped for INOCA originally, then chose Bifurcation Learning Room. 5 presentations including FFR 10yr IPD + TUXEDO 2 PCI vs CABG diabetics",
+      "priority": "high"
+    },
+    {
+      "sessionId": "THU-1115-242AB-001",
+      "title": "INOCA — Escaned + Berry",
+      "reason": "Chose Bifurcation Learning Room instead. ESC Class I new recommendation, case discussion format",
+      "priority": "medium"
+    },
+    {
+      "sessionId": "TUE-1630-252B-002",
+      "title": "HI-PEITHO PE landmark RCT discussion",
+      "reason": "Swapped for Bifurcation DCB. Data already published NEJM Mar 2026, read paper + watch replay",
+      "priority": "low"
+    }
+  ],
+  "days": [
+    {
+      "day": "Tuesday",
+      "date": "2026-05-19",
+      "theme": "LIVE immersion day — top operators, technique observation, bifurcation DCB",
+      "blocks": [
+        {
+          "time": "09:45-10:00",
+          "type": "Ceremony",
+          "pick": {
+            "sessionId": "TUE-0945-MAIN-001",
+            "title": "Welcome to EuroPCR 2026",
+            "note": "開幕式，確認場地方位，拿大會資料"
+          },
+          "backups": []
+        },
+        {
+          "time": "10:00-11:30",
+          "type": "LIVE",
+          "pick": {
+            "sessionId": "TUE-1000-MAIN-001",
+            "title": "TAVI: LIVE Educational Case from Clinique Pasteur",
+            "keyNames": ["T. Cuisset(A)", "R. Parma(A)", "N. Dumonteil(A)", "D. Tchetche(A)"],
+            "note": "Toulouse團隊TAVI LIVE。開場設定學習基調。"
+          },
+          "backups": []
+        },
+        {
+          "time": "11:30-13:00",
+          "type": "LIVE",
+          "pick": {
+            "sessionId": "TUE-1130-MAIN-001",
+            "title": "PCI of left main stenosis: LIVE from Sant'Andrea University Hospital",
+            "keyNames": ["J. F. Lassen(S)", "G. Stankovic(S)", "G. G Toth(A)", "E. Barbato(A)"],
+            "note": "雙S級——Lassen（歐洲分叉教父）+ Stankovic（左主幹先驅）操刀。為Wed LBT左主幹IPD打基礎。"
+          },
+          "backups": [
+            {
+              "sessionId": "TUE-1155-BLEU-001",
+              "title": "Managing life-threatening TAVI complications",
+              "note": "Mylotte(A), Patterson(A) TAVI併發症"
+            }
+          ]
+        },
+        {
+          "time": "13:10-14:40",
+          "type": "LIVE",
+          "pick": {
+            "sessionId": "TUE-1310-BLEU-002",
+            "title": "LIVE case: Complex multivessel disease management",
+            "keyNames": ["J. Fajadet(S)", "T. Cuisset(A)", "B. Honton(A)", "V. Paradies(A)", "N. Dumonteil(A)"],
+            "note": "Fajadet是EuroPCR共同創辦人，全球複雜冠脈PCI教科書級人物。教學密度極高。"
+          },
+          "backups": [
+            {
+              "sessionId": "TUE-1310-252B-002",
+              "title": "How to become a CHAMPION in LAA closure",
+              "note": "Nielsen-Kudsk(S) CHAMPION-AF數據+LAA操作技巧"
+            },
+            {
+              "sessionId": "TUE-1310-153-002",
+              "title": "DCB in contemporary PCI",
+              "note": "Ribichini(A)、Hildick-Smith(A)、Mashayekhi(A)"
+            }
+          ]
+        },
+        {
+          "time": "14:45-16:15",
+          "type": "LIVE",
+          "pick": {
+            "sessionId": "TUE-1445-MAIN-001",
+            "title": "Physiology-guided PCI: LIVE from Sant'Andrea University Hospital",
+            "keyNames": ["R. Al-Lamee(S)", "E. Barbato(A)", "N. Gonzalo(A)", "M. A. Rosli(B)"],
+            "note": "ORBITA/ORBITA-2 PI Al-Lamee即時做physiology決策，配Gonzalo影像判讀。"
+          },
+          "backups": [
+            {
+              "sessionId": "TUE-1500-243-001",
+              "title": "Interventional therapy for hypertension",
+              "note": "Mahfoud(S) renal denervation"
+            }
+          ]
+        },
+        {
+          "time": "16:30-17:15",
+          "type": "Symposium",
+          "changedFromDraft": true,
+          "draftPick": "TUE-1630-251-002 (IVUS+NIRS) → then TUE-1630-252B-002 (HI-PEITHO) → final: Bifurcation DCB",
+          "pick": {
+            "sessionId": "TUE-1630-MAILLOT-002",
+            "title": "Evolving bifurcation: DCB, angio-based FFR and side branch optimisation",
+            "keyNames": ["G. Stankovic(S)", "J. F. Lassen(S)", "B. Scheller", "F. Burzotta", "R. Kornowski"],
+            "sponsor": "Medtronic",
+            "note": "Stankovic+Lassen雙S + DCB之父Scheller。EBC DCB trial更新 + ostial LCx (Medina 0,0,1)策略 + CathWorks FFRangio無導絲生理學。45分鐘高密度。"
+          },
+          "backups": [
+            {
+              "sessionId": "TUE-1630-251-002",
+              "title": "IVUS and NIRS imaging: improve outcomes",
+              "note": "Escaned(S)+Al-Lamee(S) 雙S"
+            },
+            {
+              "sessionId": "TUE-1630-252B-002",
+              "title": "HI-PEITHO PE landmark discussion",
+              "note": "Konstantinides。數據已發表NEJM 2026/3，看回放即可"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "date": "2026-05-20",
+      "theme": "Peak day — paradigm shift + LBT + calcification mastery + structural frontier",
+      "blocks": [
+        {
+          "time": "08:30-09:30",
+          "type": "Tutorial",
+          "pick": {
+            "sessionId": "WED-0830-251-001",
+            "title": "Rethinking coronary artery disease: from ischaemia to atheroma (Lancet Commission)",
+            "keyNames": ["D. Capodanno(A)", "R. Al-Lamee(S)", "N. Gonzalo(A)", "P. Libby"],
+            "note": "Lancet Commission聯合場次。Peter Libby（動脈粥樣硬化教父）+ Al-Lamee ORBITA視角 + Gonzalo case discussion。改變PCI適應症思考。"
+          },
+          "backups": [
+            {
+              "sessionId": "WED-0830-THEATRE-001",
+              "title": "CTO BASIC LIVE",
+              "note": "Escaned(S) CTO教學，但Level I偏基礎"
+            }
+          ]
+        },
+        {
+          "time": "09:45-10:45",
+          "type": "LBT",
+          "mandatory": true,
+          "pick": {
+            "sessionId": "WED-0945-BLEU-001",
+            "title": "★ Major Late-Breaking Trials from EuroPCR 2026 ★",
+            "keyNames": ["M. Leon(S)", "D. Capodanno(A)", "H. Krumholz(A)", "B. Prendergast(A)", "N. Gonzalo(A)", "R. Scarsini(A)", "B. Bergmark(A)", "J. E. Nielsen-Kudsk(S)"],
+            "trials": [
+              "Scarsini: TAVI coronary IPD meta-analysis (4 RCTs, n=1476)",
+              "Bergmark: Left main PCI vs CABG 10yr mortality IPD (4 RCTs)",
+              "Nielsen-Kudsk: CHAMPION-AF age subgroup (LAA vs NOAC)"
+            ],
+            "note": "三大LBT。Bergmark左主幹IPD對你最相關。回放可重看。"
+          },
+          "backups": []
+        },
+        {
+          "time": "10:45-12:15",
+          "type": "LIVE",
+          "pick": {
+            "sessionId": "WED-1045-MAIN-001",
+            "title": "Calcified coronary: LIVE from Clinique Pasteur",
+            "keyNames": ["J. Fajadet(S)", "D. Milasinovic(A)", "N. Dumonteil(A)", "B. Farah(B)"],
+            "note": "Fajadet(S)操刀鈣化病變全程90分鐘。放棄同時段TAVI H2H（Leon S），因TAVI目前碰不到。"
+          },
+          "backups": []
+        },
+        {
+          "time": "12:30-13:30",
+          "type": "Symposium",
+          "pick": {
+            "sessionId": "WED-1230-MAILLOT-002",
+            "title": "Left main PCI: how Ultreon 3.0 can improve decision making",
+            "keyNames": ["T. Johnson(A)", "N. Gonzalo(A)", "L. Räber(A)"],
+            "note": "三位A級左主幹/影像專家。OCT/IVUS在左主幹實務應用，呼應上午LBT左主幹IPD。"
+          },
+          "backups": [
+            {
+              "sessionId": "WED-1230-242AB-002",
+              "title": "Renal denervation 360°",
+              "note": "Al-Lamee(S)+Mahfoud(S) 雙S，全會議唯一雙S對談"
+            },
+            {
+              "sessionId": "WED-1230-BLEU-002",
+              "title": "LIVE case: future-proof TAVI strategies",
+              "note": "De Backer(A)+Abdel-Wahab(A)+Dumonteil(A)+Tchetche(A)"
+            }
+          ]
+        },
+        {
+          "time": "13:40-14:40",
+          "type": "Symposium",
+          "pick": {
+            "sessionId": "WED-1340-MAILLOT-002",
+            "title": "High-def IVUS-guided strategies in calcified stenosis",
+            "keyNames": ["E. Barbato(A)", "N. Gonzalo(A)", "R. Diletti(A)", "T. Johnson(A)"],
+            "note": "四位A級影像專家。IVUS鈣化策略是日常PCI最需要的技能。"
+          },
+          "backups": []
+        },
+        {
+          "time": "15:00-16:30",
+          "type": "LearningRoom",
+          "changedFromDraft": true,
+          "draftPick": "WED-1500-BLEU-001 (Ostial LAD/LCx Stankovic S)",
+          "pick": {
+            "sessionId": "WED-1500-STUDIOA-001",
+            "title": "Calcified left main — Do it well, do it safely",
+            "keyNames": ["E. Barbato(A)", "N. Ryan"],
+            "experiencedAdvisor": "R. Al-Bawardy",
+            "format": "Learning Room — small group case discussion + open Q&A",
+            "note": "Barbato facilitator。鈣化左主幹安全處理。小組互動，LM+calcification雙重興趣命中。"
+          },
+          "backups": [
+            {
+              "sessionId": "WED-1500-BLEU-001",
+              "title": "Ostial LAD/LCx stenting — Stankovic(S)",
+              "note": "原首選。Stankovic在Thu還有3場。"
+            },
+            {
+              "sessionId": "WED-1500-HANDSON-001",
+              "title": "Bailout: mid-vessel perforation simulation",
+              "note": "Milasinovic(A) facilitator"
+            }
+          ]
+        },
+        {
+          "time": "16:35-18:00",
+          "type": "Symposium",
+          "pick": {
+            "sessionId": "WED-1635-242AB-002",
+            "title": "Beyond COAPT: advancing mitral TEER for Asian anatomy",
+            "keyNames": ["F. Maisano(S)"],
+            "note": "MitraClip發明者談亞洲解剖TEER策略。Structural前瞻佈局，對台灣場景直接相關。"
+          },
+          "backups": [
+            {
+              "sessionId": "WED-1635-251-002",
+              "title": "Advanced structural imaging — Nielsen-Kudsk(S), Praz(A)",
+              "note": "LAA+structural影像"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "date": "2026-05-21",
+      "theme": "Deep dive — DCB frontiers, bifurcation mastery, hands-on skills, LM closure",
+      "blocks": [
+        {
+          "time": "08:30-09:30",
+          "type": "Hotline",
+          "mandatory": true,
+          "pick": {
+            "sessionId": "THU-0830-MAILLOT-001",
+            "title": "★ DCB in de novo lesions: SELUTION DeNovo + OPTIMAL ★",
+            "keyNames": ["J. Escaned(S)", "E. Barbato(A)", "M. Haude(A)", "D. Milasinovic(A)"],
+            "note": "SELUTION DeNovo新亞組分析 + OPTIMAL首次發表。DCB取代DES是未來5年最大paradigm shift。"
+          },
+          "backups": [
+            {
+              "sessionId": "THU-0830-BLEU-001",
+              "title": "Routine primary PCI: what can go wrong?",
+              "note": "Lassen(S)"
+            }
+          ]
+        },
+        {
+          "time": "09:45-10:45",
+          "type": "CaseDiscussion",
+          "pick": {
+            "sessionId": "THU-0945-243-001",
+            "title": "Is DCB the new gold standard for side branch in bifurcation?",
+            "keyNames": ["P. O'Kane(A)", "V. Paradies(A)", "D. Hildick-Smith(A)"],
+            "discussants": ["S. L. Chen (陳紹良, DK Crush inventor)", "A. Lansky", "M. A. Rosli", "H. C. Tan"],
+            "note": "Case-based。Paradies教upfront DCB技巧，Hildick-Smith(EBC MAIN PI)談FBI after DCB，陳紹良帶來亞洲分叉觀點。學歐洲DCB實務的最佳場次。"
+          },
+          "backups": [
+            {
+              "sessionId": "THU-0945-251-001",
+              "title": "Publishing in interventional cardiology",
+              "note": "Capodanno(A)+Al-Lamee(S)+Milasinovic(A)"
+            }
+          ]
+        },
+        {
+          "time": "10:45-11:45",
+          "type": "LearningRoom",
+          "changedFromDraft": true,
+          "draftPick": "none (new addition, was 30min partial → upgraded to full session)",
+          "pick": {
+            "sessionId": "THU-1045-STUDIOA-001",
+            "title": "Provisional strategy for non-left main true bifurcation lesion",
+            "keyNames": ["G. Stankovic(S)"],
+            "facilitators": ["K. Rathod", "G. Stankovic"],
+            "experiencedAdvisor": "H. C. Tan",
+            "format": "Learning Room — small group, drop-in supported",
+            "note": "Stankovic(S) facilitator。Provisional策略優化+何時升級two-stent。小組互動，bifurcation核心技能。"
+          },
+          "backups": []
+        },
+        {
+          "time": "12:30-14:00",
+          "type": "LIVE",
+          "mandatory": true,
+          "pick": {
+            "sessionId": "THU-1230-BLEU-002",
+            "title": "★ LIVE case: Left main and complex bifurcation stenting ★",
+            "keyNames": ["G. Stankovic(S)", "T. Johnson(A)", "M. Lesiak(A)", "T. Hovasse(A)"],
+            "note": "Stankovic(S)操刀左主幹+複雜分叉。全會議LM LIVE巔峰場次。"
+          },
+          "backups": []
+        },
+        {
+          "time": "15:00-16:00",
+          "type": "Simulation",
+          "changedFromDraft": true,
+          "draftPick": "THU-1500-MAILLOT-001 (TAVI durability — Leon S, Capodanno)",
+          "registrationRequired": "Go to Training Village desk FIRST THING Thursday morning — only ~18 spots, first-come first-served",
+          "pick": {
+            "sessionId": "THU-1500-143-001",
+            "title": "Complication management in calcified lesions (entrapment, perforation)",
+            "keyNames": ["N. Amabile(A)", "D. Milasinovic(A)"],
+            "facilitators": ["N. Amabile", "K. Mahadevan", "D. Milasinovic"],
+            "sponsors": ["Boston Scientific", "Heartroid", "Terumo"],
+            "format": "Calcium Skills Lab — hands-on simulation, 3 participants per station",
+            "note": "鈣化PCI併發症模擬：burr entrapment + perforation處理。動手操作，教練一對三指導。⚠️ 早上先去Training Village登記！"
+          },
+          "backups": [
+            {
+              "sessionId": "THU-1500-MAILLOT-001",
+              "title": "TAVI durability — Leon(S), Capodanno(A), Dumonteil(A)",
+              "note": "原首選。TAVI目前碰不到，回放補。"
+            },
+            {
+              "sessionId": "THU-1500-142-001",
+              "title": "CT→fluoroscopy bifurcation projections — Stankovic(S), Toth(A)",
+              "note": "如果Simulation搶不到位，轉這場"
+            }
+          ]
+        },
+        {
+          "time": "16:15-18:00",
+          "type": "CaseDiscussion",
+          "pick": {
+            "sessionId": "THU-1615-153-001",
+            "title": "Ambiguous left main lesions: assess severity and decide",
+            "keyNames": ["J. F. Lassen(S)", "N. Amabile(A)"],
+            "note": "Lassen(S)談模糊左主幹病變的severity評估和決策。每天都遇到的問題。三天的完美收尾。"
+          },
+          "backups": [
+            {
+              "sessionId": "THU-1630-MAIN-001",
+              "title": "Complex bifurcation PCI LIVE from Leipzig (16:30)",
+              "note": "Abdel-Wahab(A)+Hildick-Smith(A)+Paradies(A)"
+            },
+            {
+              "sessionId": "THU-1635-THEATRE-001",
+              "title": "IBERIS radial RDN LIVE (16:35)",
+              "note": "Mahfoud(S) 全球首例radial RDN"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "totalBlocks": 20,
+    "byType": {
+      "LIVE": 6,
+      "Tutorial": 1,
+      "LBT": 1,
+      "Hotline": 1,
+      "Symposium": 5,
+      "CaseDiscussion": 3,
+      "LearningRoom": 2,
+      "Simulation": 1,
+      "Ceremony": 1
+    },
+    "byCategory": {
+      "frontline_LIVE_teaching": 13,
+      "handsOn_learningRoom_simulation": 3,
+      "trial_hotline": 2,
+      "caseDiscussion_interactive": 3,
+      "ceremony": 1
+    },
+    "byDay": {
+      "Tuesday": 6,
+      "Wednesday": 7,
+      "Thursday": 6
+    },
+    "speakerAppearances": {
+      "Stankovic_S": 5,
+      "Lassen_S": 4,
+      "Fajadet_S": 3,
+      "Al-Lamee_S": 3,
+      "Barbato_A": 4,
+      "Gonzalo_A": 4,
+      "Escaned_S": 1,
+      "Maisano_S": 1
+    },
+    "interestCoverage": {
+      "bifurcation_LM": "★★★★★ — 11 sessions touch this theme",
+      "complication_calcification": "★★★★ — 5 sessions (2 calcified LIVE, 1 IVUS calcified, 1 Learning Room, 1 Simulation)",
+      "CTO": "★ — not primary focus, no dedicated session",
+      "DCB": "★★★★ — 3 sessions (Hotline trials, case discussion, symposium)",
+      "structural": "★★ — 2 sessions (TAVI LIVE, Maisano TEER)"
+    }
+  }
+}
