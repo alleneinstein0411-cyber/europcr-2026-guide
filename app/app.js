@@ -536,7 +536,7 @@ function openSessionSheet(sessionId) {
         <h2>${escapeHtml(s.title)}</h2>
         ${s.subtitle ? `<p style="font-size:13px; color: var(--text-muted); margin-top: 4px">${escapeHtml(s.subtitle)}</p>` : ''}
       </div>
-      <button class="icon-btn" onclick="closeSheet()" style="background:var(--bg-subtle); flex-shrink:0">✕</button>
+      <button class="icon-btn" data-close style="background:var(--bg-subtle); flex-shrink:0">✕</button>
     </div>
 
     <div class="sheet-meta">
@@ -605,7 +605,7 @@ function openSessionSheet(sessionId) {
       ${associatedKey ? `
         <button class="btn-secondary" onclick="openEditSheetByKey('${associatedKey}')">✏️ 編輯排程</button>
       ` : ''}
-      <button class="btn-primary" onclick="closeSheet()">關閉</button>
+      <button class="btn-primary" data-close>關閉</button>
     </div>
   `;
   openSheet(html);
@@ -723,7 +723,7 @@ function openSpeakerSheet(name) {
             <h2>${escapeHtml(name)}</h2>
             <p class="speaker-fullname" style="color: var(--text-faint); font-style: italic">未研究過 — 只顯示議程出現紀錄</p>
           </div>
-          <button class="icon-btn" onclick="closeSheet()" style="background:var(--bg-subtle); flex-shrink:0">✕</button>
+          <button class="icon-btn" data-close style="background:var(--bg-subtle); flex-shrink:0">✕</button>
         </div>
 
         ${relatedSessions.length ? `
@@ -769,7 +769,7 @@ function openSpeakerSheet(name) {
           <p class="speaker-institution">${escapeHtml(sp.institution || '')}</p>
           <div class="speaker-tier-large ${sp.tier}">Tier ${sp.tier}</div>
         </div>
-        <button class="icon-btn" onclick="closeSheet()" style="background:var(--bg-subtle); flex-shrink:0">✕</button>
+        <button class="icon-btn" data-close style="background:var(--bg-subtle); flex-shrink:0">✕</button>
       </div>
 
       ${sp.oneLiner ? `<div class="speaker-oneliner">${escapeHtml(sp.oneLiner)}</div>` : ''}
@@ -860,7 +860,7 @@ function openTrialSheet(trialId) {
         <h2>${escapeHtml(t.trialName || t.trialId)}</h2>
         ${t.domain ? `<span class="trial-domain">${escapeHtml(t.domain)}</span>` : ''}
       </div>
-      <button class="icon-btn" onclick="closeSheet()" style="background:var(--bg-subtle); flex-shrink:0">✕</button>
+      <button class="icon-btn" data-close style="background:var(--bg-subtle); flex-shrink:0">✕</button>
     </div>
 
     ${t.question ? `
@@ -939,7 +939,7 @@ function openEditSheet(dayName, block, idx) {
         <h2>編輯排程</h2>
         <p style="font-size: 13px; color: var(--text-muted); margin-top: 2px">${escapeHtml(dayName)} ${escapeHtml(block.time)}</p>
       </div>
-      <button class="icon-btn" onclick="closeSheet()" style="background:var(--bg-subtle); flex-shrink:0">✕</button>
+      <button class="icon-btn" data-close style="background:var(--bg-subtle); flex-shrink:0">✕</button>
     </div>
 
     <div class="sheet-section">
@@ -981,7 +981,7 @@ function openEditSheet(dayName, block, idx) {
     </div>
 
     <div class="sheet-actions">
-      <button class="btn-secondary" onclick="closeSheet()">取消</button>
+      <button class="btn-secondary" data-close>取消</button>
       <button class="btn-primary" id="save-edit">儲存</button>
     </div>
   `;
@@ -1364,6 +1364,45 @@ function bindEvents() {
 
   // Sheet backdrop
   $('#sheet-backdrop').onclick = closeSheet;
+
+  // Delegated close handler — any element with data-close or class="close-sheet"
+  // inside the sheet will close it. This is more robust than inline onclick.
+  $('#sheet').addEventListener('click', (e) => {
+    const target = e.target.closest('[data-close], .close-sheet');
+    if (target) {
+      e.preventDefault();
+      e.stopPropagation();
+      closeSheet();
+    }
+  });
+
+  // Swipe-down-to-close gesture on the sheet handle
+  let touchStartY = null;
+  const sheetEl = $('#sheet');
+  sheetEl.addEventListener('touchstart', (e) => {
+    // Only start tracking if touch begins near the top of the sheet (handle area)
+    const rect = sheetEl.getBoundingClientRect();
+    const y = e.touches[0].clientY;
+    if (y - rect.top < 40) {
+      touchStartY = y;
+    } else {
+      touchStartY = null;
+    }
+  }, { passive: true });
+  sheetEl.addEventListener('touchmove', (e) => {
+    if (touchStartY === null) return;
+    const dy = e.touches[0].clientY - touchStartY;
+    if (dy > 0) {
+      sheetEl.style.transform = `translateY(${Math.min(dy, 300)}px)`;
+    }
+  }, { passive: true });
+  sheetEl.addEventListener('touchend', (e) => {
+    if (touchStartY === null) return;
+    const dy = (e.changedTouches[0]?.clientY ?? touchStartY) - touchStartY;
+    sheetEl.style.transform = '';
+    if (dy > 80) closeSheet();
+    touchStartY = null;
+  }, { passive: true });
 
   // Escape to close sheet
   document.addEventListener('keydown', (e) => {
