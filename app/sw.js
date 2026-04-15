@@ -18,8 +18,8 @@ const CACHE_NAME = `europcr2026-${CACHE_VERSION}`;
 const APP_SHELL = [
   './',
   './index.html',
-  './style.css',
-  './app.js',
+  './style.css?v=1.1.5',
+  './app.js?v=1.1.5',
   './manifest.webmanifest',
   './icons/icon.svg',
   './icons/icon-192.png',
