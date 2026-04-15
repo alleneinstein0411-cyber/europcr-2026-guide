@@ -1,0 +1,108 @@
+name: AI Briefing Generator
+
+on:
+  schedule:
+    # All times in UTC.
+    # Dr. Chang is in Taipei (UTC+8) or Paris (UTC+2 in May / CEST).
+
+    # Pre-trip final briefing: May 17, 15:00 UTC = 23:00 Taipei
+    - cron: '0 15 17 5 *'
+
+    # Paris eve (May 18 night, 20:00 Paris CEST = 18:00 UTC)
+    - cron: '0 18 18 5 *'
+
+    # Nightly during conference: May 19, 20, 21 at 20:00 Paris CEST = 18:00 UTC
+    # (briefing for the NEXT day)
+    - cron: '0 18 19,20,21 5 *'
+
+  workflow_dispatch:
+    inputs:
+      type:
+        description: "Briefing type"
+        required: true
+        default: "nightly"
+        type: choice
+        options:
+          - pre-trip
+          - paris-eve
+          - nightly
+          - weekly
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Determine briefing type
+        id: type
+        run: |
+          # Use manual input if provided; otherwise derive from date
+          if [[ -n "${{ inputs.type }}" ]]; then
+            echo "type=${{ inputs.type }}" >> $GITHUB_OUTPUT
+          else
+            # Get date in UTC
+            DATE=$(date -u +%m-%d)
+            case "$DATE" in
+              "05-17") echo "type=pre-trip" >> $GITHUB_OUTPUT ;;
+              "05-18") echo "type=paris-eve" >> $GITHUB_OUTPUT ;;
+              "05-19"|"05-20"|"05-21") echo "type=nightly" >> $GITHUB_OUTPUT ;;
+              *) echo "type=weekly" >> $GITHUB_OUTPUT ;;
+            esac
+          fi
+          echo "Selected: $(cat $GITHUB_OUTPUT)"
+
+      - name: Generate briefing
+        id: gen
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [[ -z "$ANTHROPIC_API_KEY" ]]; then
+            echo "::warning::ANTHROPIC_API_KEY secret not set — skipping briefing"
+            echo "skipped=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          python3 scripts/generate-briefing.py "${{ steps.type.outputs.type }}" > /tmp/briefing.md
+          echo "skipped=false" >> $GITHUB_OUTPUT
+
+      - name: Post as GitHub Issue
+        if: steps.gen.outputs.skipped != 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const briefing = fs.readFileSync('/tmp/briefing.md', 'utf8');
+            const type = '${{ steps.type.outputs.type }}';
+            const today = new Date().toISOString().slice(0, 10);
+
+            const typeLabels = {
+              'pre-trip': '🛫 行前最終 Briefing',
+              'paris-eve': '🇫🇷 巴黎飯店夜 Briefing',
+              'nightly': '🌙 會議日夜間 Briefing',
+              'weekly': '📊 週度巡檢 Briefing',
+            };
+
+            const emoji = {
+              'pre-trip': '🛫',
+              'paris-eve': '🇫🇷',
+              'nightly': '🌙',
+              'weekly': '📊',
+            };
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `${emoji[type]} ${typeLabels[type] || 'Briefing'} — ${today}`,
+              body: briefing,
+              labels: ['briefing', `briefing-${type}`],
+            });

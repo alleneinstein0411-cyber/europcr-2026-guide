@@ -1,0 +1,76 @@
+name: Weekly Schedule Sanity Check
+
+on:
+  schedule:
+    # Every Sunday at 12:13 UTC (20:13 Taipei, 14:13 Paris)
+    - cron: '13 12 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Verify schedule integrity
+        id: verify
+        run: |
+          python3 scripts/verify-schedule.py > /tmp/result.json
+          code=$?
+          echo "exit_code=$code" >> $GITHUB_OUTPUT
+          cat /tmp/result.json
+          echo ""
+          echo "healthy=$(jq -r .healthy /tmp/result.json)" >> $GITHUB_OUTPUT
+        continue-on-error: true
+
+      - name: Open issue if unhealthy
+        if: steps.verify.outputs.healthy != 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const result = JSON.parse(fs.readFileSync('/tmp/result.json', 'utf8'));
+
+            const body = `# ⚠️ Schedule Integrity Issue Detected
+
+            Some sessionIds referenced in your curated schedule no longer exist
+            in sessions_all_v2.json. This may mean:
+
+            - A PDF update changed session IDs (shouldn't happen, but possible)
+            - A session was removed from the programme
+            - An agenda data refresh invalidated some references
+
+            ## Missing Picks (${result.missingPicks.length})
+            \`\`\`json
+            ${JSON.stringify(result.missingPicks, null, 2)}
+            \`\`\`
+
+            ## Missing Backups (${result.missingBackups.length})
+            \`\`\`json
+            ${JSON.stringify(result.missingBackups, null, 2)}
+            \`\`\`
+
+            ## Next Steps
+
+            1. Investigate via the daily PDF check — has a new programme version been detected?
+            2. If yes, carefully review the diff and update \`schedule_final.json\`
+            3. If no, this might be a bug in the extraction pipeline
+            `;
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `⚠️ Schedule integrity issue (${new Date().toISOString().slice(0, 10)})`,
+              body,
+              labels: ['schedule-health', 'needs-review'],
+            });

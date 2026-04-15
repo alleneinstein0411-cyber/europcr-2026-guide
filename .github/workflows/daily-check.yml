@@ -1,0 +1,123 @@
+name: Daily PDF Update Check
+
+on:
+  schedule:
+    # Run daily at 01:07 UTC (09:07 Taipei, 03:07 Paris).
+    # Minute 7 (not :00) to avoid the hourly rush on GitHub's scheduler.
+    - cron: '7 1 * * *'
+  workflow_dispatch:  # allow manual trigger
+
+permissions:
+  contents: write   # to commit updated .last-check.json
+  issues: write     # to open an issue when PDF changes
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run check
+        id: check
+        run: |
+          python3 scripts/check-update.py > /tmp/result.json
+          code=$?
+          echo "exit_code=$code" >> $GITHUB_OUTPUT
+          echo "---"
+          cat /tmp/result.json
+          echo "---"
+          # Extract key fields
+          echo "changed=$(jq -r .changed /tmp/result.json)" >> $GITHUB_OUTPUT
+          echo "reason=$(jq -r .reason /tmp/result.json)" >> $GITHUB_OUTPUT
+        continue-on-error: true
+
+      - name: Commit updated state
+        if: steps.check.outputs.exit_code != '2'
+        run: |
+          git config user.name "europcr-bot"
+          git config user.email "europcr-bot@users.noreply.github.com"
+          if [[ -n $(git status --porcelain scripts/.last-check.json) ]]; then
+            git add scripts/.last-check.json
+            git commit -m "chore: update PDF check state ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+      - name: Open issue if PDF changed
+        if: steps.check.outputs.changed == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const result = JSON.parse(fs.readFileSync('/tmp/result.json', 'utf8'));
+
+            const body = `# 📢 EuroPCR Programme PDF Updated
+
+            **Detected at:** ${result.checkedAt}
+
+            **Reason:** ${result.reason}
+
+            ## Details
+
+            \`\`\`json
+            ${JSON.stringify(result.details, null, 2)}
+            \`\`\`
+
+            ## Next Steps
+
+            The programme PDF has new content. You probably want to:
+
+            1. Re-download the PDF:
+               \`\`\`
+               curl -o app-data/programme_europcr2026_updated.pdf \\
+                 "${result.url}"
+               \`\`\`
+
+            2. Re-extract sessions (manually or via your PDF extraction pipeline)
+
+            3. Run: \`python3 scripts/verify-schedule.py\` to check if any of your picks were affected
+
+            4. Review the diff carefully before updating the app
+
+            ---
+            *Auto-created by \`daily-check.yml\` workflow*
+            `;
+
+            // Check for existing open issue of same kind before opening a new one
+            const { data: existing } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'pdf-update',
+              per_page: 5,
+            });
+
+            if (existing.length) {
+              // Comment on the latest open issue instead of opening a new one
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing[0].number,
+                body: `Another change detected (${result.checkedAt}).\n\n\`\`\`json\n${JSON.stringify(result.details, null, 2)}\n\`\`\``,
+              });
+              return;
+            }
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `📢 EuroPCR Programme PDF Updated (${result.checkedAt.slice(0, 10)})`,
+              body,
+              labels: ['pdf-update', 'needs-review'],
+            });
+
+      - name: Mark failure
+        if: steps.check.outputs.exit_code == '2'
+        run: |
+          echo "::warning::check-update.py errored — check workflow logs"
+          exit 1
