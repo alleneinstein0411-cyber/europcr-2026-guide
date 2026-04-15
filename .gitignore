@@ -20,6 +20,7 @@
 !/.gitignore
 !/README.md
 !/MAINTENANCE.md
+!/READING-LIST.md
 
 # Exclude within allowed dirs
 __pycache__/
