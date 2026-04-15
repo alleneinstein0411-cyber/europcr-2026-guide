@@ -1,5 +1,7 @@
 # EuroPCR 2026 Guide
 
+**Live:** [europcr.ornithomania.net](https://europcr.ornithomania.net) (also at [alleneinstein0411-cyber.github.io/europcr-2026-guide](https://alleneinstein0411-cyber.github.io/europcr-2026-guide/))
+
 Personal offline-first PWA for navigating EuroPCR 2026 (19–22 May, Paris).
 
 ## Features
