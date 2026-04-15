@@ -493,6 +493,18 @@ function findSessionsForSpeaker(name) {
 
 function openSheet(contentHtml) {
   $('#sheet-content').innerHTML = contentHtml;
+
+  // Belt-and-suspenders: directly attach onclick to every close button.
+  // This works even if the delegated listener on #sheet is broken by some
+  // browser extension, SW caching, or other weirdness.
+  $$('#sheet-content [data-close], #sheet-content .close-sheet').forEach(btn => {
+    btn.onclick = (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      closeSheet();
+    };
+  });
+
   $('#sheet').hidden = false;
   $('#sheet-backdrop').hidden = false;
   UIState.sheetOpen = true;
@@ -1376,6 +1388,10 @@ function bindEvents() {
 
   // Sheet backdrop
   $('#sheet-backdrop').onclick = closeSheet;
+
+  // Persistent close button (belt-and-suspenders fallback, always in DOM)
+  const persistentClose = $('#sheet-persistent-close');
+  if (persistentClose) persistentClose.onclick = closeSheet;
 
   // Delegated close handler — any element with data-close or class="close-sheet"
   // inside the sheet will close it. This is more robust than inline onclick.

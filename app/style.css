@@ -610,6 +610,30 @@ a { color: var(--accent); text-decoration: none; }
   flex-shrink: 0;
 }
 
+/* Persistent close button — always visible in the sheet header, never depends
+   on the sheet-content being correctly rendered. Belt-and-suspenders guarantee
+   that the user can always close the sheet. */
+.sheet-persistent-close {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  z-index: 1;
+  padding: 6px 14px;
+  border-radius: 18px;
+  font-size: 13px;
+  font-weight: 600;
+  background: var(--accent);
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  touch-action: manipulation;
+}
+
+.sheet-persistent-close:active {
+  background: #991b1b;
+}
+
 .sheet-content {
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
