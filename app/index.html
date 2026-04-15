@@ -11,7 +11,7 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
-<link rel="stylesheet" href="style.css?v=1.1.5">
+<link rel="stylesheet" href="style.css?v=1.1.6">
 </head>
 <body>
 
@@ -63,10 +63,14 @@
 </nav>
 
 <!-- ===== Modal / Sheet container ===== -->
-<div class="sheet-backdrop" id="sheet-backdrop" hidden></div>
+<!-- Inline onclick: direct DOM manipulation, no function calls, no closure,
+     no module scope. Guaranteed to work on any browser. -->
+<div class="sheet-backdrop" id="sheet-backdrop" hidden
+     onclick="document.getElementById('sheet').hidden=true;document.getElementById('sheet-backdrop').hidden=true;document.body.style.overflow='';"></div>
 <div class="sheet" id="sheet" hidden>
   <div class="sheet-handle"></div>
-  <button id="sheet-persistent-close" class="sheet-persistent-close" aria-label="關閉" title="關閉（也可按 Esc）">✕ 關閉</button>
+  <button id="sheet-persistent-close" class="sheet-persistent-close" aria-label="關閉" title="關閉（也可按 Esc）"
+          onclick="event.stopPropagation();document.getElementById('sheet').hidden=true;document.getElementById('sheet-backdrop').hidden=true;document.body.style.overflow='';if(location.hash.match(/^#\/(session|speaker|trial)/))history.replaceState(null,'','#/schedule');">✕ 關閉</button>
   <div class="sheet-content" id="sheet-content"></div>
 </div>
 
@@ -99,6 +103,6 @@
   </button>
 </template>
 
-<script src="app.js?v=1.1.5" defer></script>
+<script src="app.js?v=1.1.6" defer></script>
 </body>
 </html>
