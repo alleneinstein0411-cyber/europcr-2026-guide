@@ -184,15 +184,21 @@ function handleRoute() {
 
   const view = parts[0] || 'schedule';
 
-  // Always ensure underlying view is rendered (prevents "Loading..." stuck state on deep links)
+  // Sheet routes: just open the sheet overlay; do NOT re-render #main.
+  // (Re-rendering during a click event can cause the click to be "absorbed"
+  //  by a freshly-rendered button underneath, including a close button.)
   const sheetRoutes = { session: true, speaker: true, trial: true };
   if (sheetRoutes[view]) {
-    if (UIState.currentView !== 'schedule' && UIState.currentView !== 'speakers' &&
-        UIState.currentView !== 'trials') {
-      switchView('schedule');
-    } else {
-      // Re-render current view to ensure topbar etc is up to date
-      render();
+    // If no underlying view was rendered yet (deep-link cold load), render once now.
+    if (!$('#main').firstChild) {
+      if (UIState.currentView === 'speakers') renderSpeakersView($('#main'));
+      else if (UIState.currentView === 'trials') renderTrialsView($('#main'));
+      else if (UIState.currentView === 'about') renderAboutView($('#main'));
+      else if (UIState.currentView === 'search') renderSearchView($('#main'));
+      else {
+        UIState.currentView = 'schedule';
+        switchView('schedule');
+      }
     }
     if (view === 'session' && parts[1]) {
       openSessionSheet(decodeURIComponent(parts[1]));
@@ -416,15 +422,57 @@ function renderSpeakerChip(ref) {
     tierEl.remove();
   }
   if (speakerIsResearched(name)) btn.classList.add('researched');
+  // Always clickable — even unresearched speakers get a minimal sessions-only card
   btn.onclick = (e) => {
     e.stopPropagation();
-    if (speakerIsResearched(name)) {
-      navigateTo(`#/speaker/${encodeURIComponent(name)}`);
-    } else {
-      toast(`${name} 未研究過（只出現在一般議程）`, '', 2000);
-    }
+    navigateTo(`#/speaker/${encodeURIComponent(name)}`);
   };
   return btn;
+}
+
+/**
+ * Find all sessions where a given speaker name appears (any role, any agenda item).
+ * Used for building minimal cards for unresearched speakers.
+ */
+function findSessionsForSpeaker(name) {
+  const matches = [];
+  const needle = name.toLowerCase();
+  for (const sid in AppData.sessions) {
+    const s = AppData.sessions[sid];
+    let found = false;
+
+    // Check speakers (grouped or flat)
+    if (s.speakers) {
+      if (Array.isArray(s.speakers)) {
+        if (s.speakers.some(sp => (sp.name || sp || '').toLowerCase() === needle)) found = true;
+      } else {
+        for (const role in s.speakers) {
+          const names = s.speakers[role] || [];
+          if (Array.isArray(names) && names.some(n => (n || '').toLowerCase() === needle)) {
+            found = true;
+            break;
+          }
+        }
+      }
+    }
+
+    // Check agenda items
+    if (!found && Array.isArray(s.agenda)) {
+      if (s.agenda.some(a => (a.speaker || '').toLowerCase() === needle)) found = true;
+    }
+
+    if (found) matches.push(s);
+  }
+
+  // Sort by day then time
+  const dayOrder = { Tuesday: 1, Wednesday: 2, Thursday: 3, Friday: 4 };
+  matches.sort((a, b) => {
+    const da = dayOrder[a.day] || 99, db = dayOrder[b.day] || 99;
+    if (da !== db) return da - db;
+    return (a.timeStart || '').localeCompare(b.timeStart || '');
+  });
+
+  return matches;
 }
 
 // -----------------------------------------------------------
@@ -464,14 +512,21 @@ function openSessionSheet(sessionId) {
   const trialsForSession = Object.values(AppData.trials)
     .filter(t => t.sessionId === sessionId || (Array.isArray(t.sessionId) && t.sessionId.includes(sessionId)));
 
-  // Find which block this sessionId is the pick of, for user notes
+  // Find which block this sessionId is associated with (as pick OR backup), for briefing + notes
   let associatedKey = null;
+  let associatedBriefing = null;
   AppData.schedule.days.forEach(d => {
     d.blocks.forEach(b => {
-      const r = resolveBlockPick(d.day, b);
-      if (r.pick && r.pick.sessionId === sessionId) {
+      if (b.pick && b.pick.sessionId === sessionId) {
         associatedKey = blockKey(d.day, b.time);
+        if (b.pick.briefing) associatedBriefing = b.pick.briefing;
       }
+      (b.backups || []).forEach(bu => {
+        if (bu.sessionId === sessionId) {
+          if (!associatedKey) associatedKey = blockKey(d.day, b.time);
+          if (!associatedBriefing && bu.briefing) associatedBriefing = bu.briefing;
+        }
+      });
     });
   });
 
@@ -491,7 +546,9 @@ function openSessionSheet(sessionId) {
       <span style="text-transform: capitalize">🏷️ ${escapeHtml(s.track || 'n/a')}</span>
     </div>
 
-    ${s.sponsor ? `<p style="font-size: 12px; color: var(--text-muted); margin-bottom: 14px">💼 Sponsored by ${escapeHtml(s.sponsor)}</p>` : ''}
+    ${s.sponsor ? `<p style="font-size: 12px; color: var(--text-muted); margin-bottom: 14px">💼 ${escapeHtml(s.sponsor.replace(/^Sponsored by\s+/i, 'Sponsored by '))}</p>` : ''}
+
+    ${associatedBriefing ? renderBriefingBox(associatedBriefing) : ''}
 
     ${trialsForSession.length ? `
       <div class="sheet-section">
@@ -527,7 +584,9 @@ function openSessionSheet(sessionId) {
               <div class="agenda-num">${i + 1}.</div>
               <div class="agenda-body">
                 ${escapeHtml(item.title || item.item || '')}
-                ${item.speaker ? `<div class="agenda-speaker">— ${escapeHtml(item.speaker)}</div>` : ''}
+                ${item.speaker ? `<div class="agenda-speaker">
+                  — <button class="speaker-link" onclick="event.stopPropagation(); navigateTo('#/speaker/${encodeURIComponent(item.speaker)}')">${escapeHtml(item.speaker)}</button>
+                </div>` : ''}
               </div>
             </div>
           `).join('')}
@@ -552,14 +611,33 @@ function openSessionSheet(sessionId) {
   openSheet(html);
 }
 
+/**
+ * Render the enriched briefing box for a curated block.
+ * The briefing comes from schedule_final.json > days[].blocks[].pick.briefing (or .backups[].briefing)
+ */
+function renderBriefingBox(b) {
+  if (!b) return '';
+  return `
+    <div class="briefing-box">
+      <h3>🎯 Dr. Chang's Briefing</h3>
+      ${b.summary ? `<div class="briefing-summary">${escapeHtml(b.summary)}</div>` : ''}
+      ${b.why_attend ? `<div class="briefing-why"><strong>為什麼要聽：</strong>${escapeHtml(b.why_attend)}</div>` : ''}
+      ${b.key_takeaways && b.key_takeaways.length ? `
+        <div style="margin-bottom: 6px; font-size: 12px; color: var(--text-muted); font-weight: 600">💡 聽完要帶走</div>
+        <ul class="briefing-takeaways">
+          ${b.key_takeaways.map(k => `<li>${escapeHtml(k)}</li>`).join('')}
+        </ul>
+      ` : ''}
+      ${b.watch_for ? `<div class="briefing-watch"><strong>⚡ 特別注意：</strong>${escapeHtml(b.watch_for)}</div>` : ''}
+    </div>
+  `;
+}
+
 function renderSpeakerChipHtml(name, role) {
   const researched = speakerIsResearched(name);
-  const action = researched
-    ? `navigateTo('#/speaker/${encodeURIComponent(name)}')`
-    : `toast('${escapeHtml(name)} 未研究過')`;
   return `
     <button class="chip speaker-chip${researched ? ' researched' : ''}"
-            onclick="event.stopPropagation(); ${action}">
+            onclick="event.stopPropagation(); navigateTo('#/speaker/${encodeURIComponent(name)}')">
       <span class="chip-name">${escapeHtml(name)}</span>
       ${role ? `<span style="font-size:10px; color: var(--text-muted); margin-left: 3px">${escapeHtml(role)}</span>` : ''}
     </button>
@@ -634,11 +712,49 @@ function renderSessionSpeakersSection(speakers) {
 
 function openSpeakerSheet(name) {
   const sp = AppData.speakers[name];
+
+  // Unresearched: show minimal card based on session appearances
   if (!sp) {
-    toast('講者未研究過', 'error');
+    const relatedSessions = findSessionsForSpeaker(name);
+    const html = `
+      <div class="speaker-card">
+        <div class="sheet-header">
+          <div>
+            <h2>${escapeHtml(name)}</h2>
+            <p class="speaker-fullname" style="color: var(--text-faint); font-style: italic">未研究過 — 只顯示議程出現紀錄</p>
+          </div>
+          <button class="icon-btn" onclick="closeSheet()" style="background:var(--bg-subtle); flex-shrink:0">✕</button>
+        </div>
+
+        ${relatedSessions.length ? `
+          <div class="sheet-section">
+            <h3>🗓️ Sessions at EuroPCR 2026 (${relatedSessions.length})</h3>
+            <ul class="sheet-list">
+              ${relatedSessions.slice(0, 30).map(s => `
+                <li class="clickable" onclick="navigateTo('#/session/${encodeURIComponent(s.id)}')">
+                  <div style="flex: 1; min-width: 0">
+                    <div style="font-size: 12px; color: var(--text-muted)">${escapeHtml(s.day)} ${escapeHtml(s.timeStart)} · ${escapeHtml(s.room || '')}</div>
+                    <div style="font-size: 13px; margin-top: 2px; line-height: 1.3">${escapeHtml(s.title)}</div>
+                  </div>
+                  <span style="color: var(--text-muted); flex-shrink: 0">→</span>
+                </li>
+              `).join('')}
+            </ul>
+            ${relatedSessions.length > 30 ? `<p style="text-align:center; color: var(--text-faint); font-size:12px; margin-top:8px">顯示前 30 場，共 ${relatedSessions.length} 場</p>` : ''}
+          </div>
+        ` : `
+          <div class="empty-state">
+            <p>查無相關場次</p>
+            <p style="font-size:12px; margin-top: 8px">可能是 PDF 解析造成的名字碎片</p>
+          </div>
+        `}
+      </div>
+    `;
+    openSheet(html);
     return;
   }
 
+  // Full speaker card (researched)
   // Find sessions this speaker is in
   const relatedSessions = (sp.sessionIds || [])
     .map(id => AppData.sessions[id])
