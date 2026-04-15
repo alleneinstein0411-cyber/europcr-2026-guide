@@ -188,6 +188,16 @@ function handleRoute() {
   // (Re-rendering during a click event can cause the click to be "absorbed"
   //  by a freshly-rendered button underneath, including a close button.)
   const sheetRoutes = { session: true, speaker: true, trial: true };
+
+  // Auto-close sheet when navigating away from a sheet route
+  // (catches back button, programmatic navigation, etc.)
+  if (!sheetRoutes[view] && UIState.sheetOpen) {
+    $('#sheet').hidden = true;
+    $('#sheet-backdrop').hidden = true;
+    UIState.sheetOpen = false;
+    document.body.style.overflow = '';
+  }
+
   if (sheetRoutes[view]) {
     // If no underlying view was rendered yet (deep-link cold load), render once now.
     if (!$('#main').firstChild) {
