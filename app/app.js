@@ -253,7 +253,9 @@ function switchView(view) {
 // -----------------------------------------------------------
 
 function render() {
-  $('#loading-view').hidden = true;
+  // loading-view is inside #main and gets wiped on first render, so guard it.
+  const loading = $('#loading-view');
+  if (loading) loading.hidden = true;
   updateTopBar();
   const main = $('#main');
   main.innerHTML = '';
