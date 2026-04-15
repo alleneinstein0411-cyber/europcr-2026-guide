@@ -34,6 +34,42 @@
         "40828313",
         "40421715"
       ],
+      "extendedBio": "Paradies 醫師在義大利完成心臟科訓練，曾於鹿特丹 Erasmus MC Thoraxcenter 深造介入心臟學，目前為 Maasstad Ziekenhuis 介入心臟科主治醫師。她在歐洲介入心臟學界以兼具臨床實務與多中心試驗協調能力著稱，並活躍於 EAPCI 女性介入醫師 (Women as One / EAPCI Women Committee) 倡議。職涯從單純的分叉病灶 operator 逐步擴展到抗血栓策略、DCB 與鈣化病灶器械研究，近年成為荷蘭多家中心 IVL 與 DES 多中心 RCT 的核心研究員。",
+      "signatureWork": "以 BENELUX-IVL 登錄研究（PMID 40421715）確立「影像引導 vs 造影引導」IVL 處理鈣化病灶的歐洲真實世界比較基準，並在 PIONEER IV 中驗證 angio-FFR 引導 PCI 策略。",
+      "recentActivity": "2025 年主導發表 FITTER 試驗 (PCSK9i 對非責任病變的影響，PMID 40828313) 與 POEM 次分析 (HBR 病人 OAC 單藥，PMID 41271123)。2026 年 PINNACLE-I (新型 IVL，PMID 41697662)、ABILITY Diabetes Global (Lancet，PMID 41520674) 及 PIONEER IV (Eur Heart J，PMID 41841754) 連續登上頂尖期刊，並獲邀在 EuroPCR 2026 擔任六場講座主持人。",
+      "conversationStarter": "可與她討論「HBR 病人 PCI 後單藥 OAC 是否應成為新常規」，以及「DCB 在分叉側枝 vs 小血管的適應症邊界」，她對這兩題有明確且以試驗資料為基礎的立場。",
+      "recentPapers": [
+        {
+          "title": "PIONEER IV: angiography-derived FFR vs usual care-guided PCI",
+          "year": 2026,
+          "pmid": "41841754",
+          "relevance": "展示影像與功能整合引導策略在多中心的臨床效益，是 EuroPCR 2026 Hotline 的重點試驗。"
+        },
+        {
+          "title": "ABILITY Diabetes Global: Abluminus DES+ vs XIENCE in diabetics",
+          "year": 2026,
+          "pmid": "41520674",
+          "relevance": "糖尿病亞族群 DES 比較，直接影響亞洲 (含台灣) 高 DM 盛行率族群的支架選擇。"
+        },
+        {
+          "title": "PINNACLE-I: novel Hertz contact IVL for calcified lesions",
+          "year": 2026,
+          "pmid": "41697662",
+          "relevance": "新一代 IVL 器械首批人體資料，開啟鈣化處理器械多元化時代。"
+        },
+        {
+          "title": "POEM sub-analysis: OAC monotherapy in HBR after PCI",
+          "year": 2025,
+          "pmid": "41271123",
+          "relevance": "為高出血風險病人 PCI 後抗血栓極簡化策略提供新證據。"
+        },
+        {
+          "title": "FITTER: PCSK9i effect on non-culprit lesions (IVUS-NIRS)",
+          "year": 2025,
+          "pmid": "40828313",
+          "relevance": "整合影像與血脂藥物療效評估，示範影像端點在藥物試驗的應用。"
+        }
+      ],
       "euroPCR2026": {
         "sessionIds": [
           "TUE-1200-341-001",
@@ -76,6 +112,42 @@
         "40082138",
         "41745308"
       ],
+      "extendedBio": "Milasinovic 醫師在貝爾格勒大學醫學院完成心臟科及介入心臟科訓練，並於德國萊比錫心臟中心 (Heart Center Leipzig) 進修複雜冠狀動脈介入。目前擔任塞爾維亞大學臨床中心介入心臟科副教授與 catheterization 實驗室資深主治，亦為 EAPCI 執行委員會財務長 (2024-2026) 與 EAPCI core curriculum 共同作者。其職涯軌跡從左主幹 / CTO 的臨床技術精進，擴展到 NSTEACS 管理證據整合與區域介入心臟學教育治理。",
+      "signatureWork": "主導老年 NSTEACS 病人介入 vs 保守策略的 individual patient data meta-analysis (Eur Heart J 2024, PMID 38596853)，為高齡族群介入決策提供當代最高等級實證。",
+      "recentActivity": "2024-2025 發表左主幹三分叉 PCI 長期預後分析 (PMID 40040499) 及 NSTEMI 介入時機的全美族群分析 (PMID 40082138)。2026 年於 J Cardiovasc Dev Dis 提出 PICSO 與胚胎記憶假說在心肌再生的新觀點 (PMID 41745308)，並持續參與 EAPCI 指引與教育課程制定。",
+      "conversationStarter": "可與他討論「75 歲以上 NSTEACS 是否應一律採介入策略」以及「混合血行重建在非轉診中心能否落地」，他在 IPD meta-analysis 後對族群分層有明確意見。",
+      "recentPapers": [
+        {
+          "title": "Invasive vs conservative management in older NSTEACS (IPD meta-analysis)",
+          "year": 2024,
+          "pmid": "38596853",
+          "relevance": "高齡病人介入決策的最高實證層級，直接影響急診與病房會診建議。"
+        },
+        {
+          "title": "Left main trifurcation PCI long-term outcomes",
+          "year": 2025,
+          "pmid": "40040499",
+          "relevance": "罕見但高風險解剖構型的長期資料，對左主幹策略討論具參考價值。"
+        },
+        {
+          "title": "NSTEMI timing of invasive coronary angiography — nationwide US analysis",
+          "year": 2025,
+          "pmid": "40082138",
+          "relevance": "大型族群資料驗證 2-24 小時介入窗在真實世界的預後意涵。"
+        },
+        {
+          "title": "PICSO and embryonic recall hypothesis for myocardial regeneration",
+          "year": 2026,
+          "pmid": "41745308",
+          "relevance": "將機械再灌流裝置與再生醫學連結，為 STEMI 後心肌保護開啟新思路。"
+        },
+        {
+          "title": "IVUS assessment of free-floating stent struts in ostial Cx stenting",
+          "year": 2024,
+          "pmid": "39459351",
+          "relevance": "分叉支架複雜解剖影像範例，可作為 IVUS 教學場次的實例。"
+        }
+      ],
       "euroPCR2026": {
         "sessionIds": [
           "TUE-1200-252A-001",
@@ -115,6 +187,36 @@
         "40912463",
         "41428430",
         "40967674"
+      ],
+      "extendedBio": "Amabile 醫師於巴黎接受心臟科訓練，曾赴美國加州大學舊金山分校 (UCSF) 進修血管生物學與微粒 (microparticle) 研究，之後回法國於 Hôpital Jacques Cartier (ICPS) 成為介入心臟科主治醫師及臨床研究主持人。其職涯結合轉譯醫學 (內皮功能、微粒) 與臨床介入，近年專注鈣化病灶影像引導與 IVL 應用，並主導多個法國多中心試驗。",
+      "signatureWork": "主持 CALIPSO 隨機試驗比較 OCT 引導 vs 造影引導鈣化病灶 PCI，是歐洲目前規模最大的影像引導鈣化策略 RCT 之一。",
+      "recentActivity": "2025 年連續發表法國多中心 IVL 用於非保護左主幹一年預後 (PMID 41400603)、OPTI-XIENCE 影像引導高風險 PCI 分析 (PMID 40912463)、SNIPER MINOCA 診斷調查 (PMID 41428430) 及 FORZA phenomapping 次分析 (PMID 40967674)，奠定鈣化病灶影像引導策略的歐洲實證基礎。",
+      "conversationStarter": "可與他討論「左主幹鈣化病灶該優先 IVL 還是 rotational atherectomy」，以及「MINOCA 是否應列入每間 cath lab 的標準診斷路徑」。",
+      "recentPapers": [
+        {
+          "title": "1-year outcomes of IVL for unprotected left main PCI (French registry)",
+          "year": 2025,
+          "pmid": "41400603",
+          "relevance": "左主幹 IVL 最大規模真實世界資料，支持 IVL 在高風險病灶的安全性。"
+        },
+        {
+          "title": "OPTI-XIENCE: intracoronary techniques for stent optimization",
+          "year": 2025,
+          "pmid": "40912463",
+          "relevance": "示範影像引導與功能性評估在高風險 PCI 的綜合效益。"
+        },
+        {
+          "title": "SNIPER survey: MINOCA diagnostic practices in Europe",
+          "year": 2025,
+          "pmid": "41428430",
+          "relevance": "揭示歐洲 MINOCA 診斷實務異質性，為 cath lab SOP 提供改善方向。"
+        },
+        {
+          "title": "Phenomapping FFR or OCT in FORZA secondary analysis",
+          "year": 2025,
+          "pmid": "40967674",
+          "relevance": "個人化選擇影像 vs 功能引導 PCI 的機器學習概念驗證。"
+        }
       ],
       "euroPCR2026": {
         "sessionIds": [
@@ -161,6 +263,42 @@
         "41159269",
         "41703412"
       ],
+      "extendedBio": "Ribichini 教授於義大利都靈大學完成心臟科訓練，之後長期服務於 Novara 與維羅納大學醫院，2010 年代起擔任維羅納大學心臟科部主任，並獲聘為內科醫學系教授。他是義大利最早一批系統性引進冠狀動脈支架、IVUS、renal denervation 技術的臨床研究者，近年更擴展至 TAVR 結構性介入。同時為 GISE (義大利介入心臟學會) 及 SIIA (義大利高血壓學會) 共同推動 RDN 共識的核心人物。",
+      "signatureWork": "第一作者之一的 ESC/EAPCI RDN 共識文件 (Eur Heart J 2023, PMID 36790101) 是歐洲指引納入 RDN 作為高血壓器械治療的里程碑文獻。",
+      "recentActivity": "2024-2025 相繼發表 GISE-SIIA 共識更新 (PMID 38535984)、SYMPLICITY CKD 子分析 (Hypertension 2025, PMID 41159269) 及 OPERA-TAVI 結構分析 (PMID 41703412)。2026 年以 OPTIMAL 試驗共同作者身分登上 NEJM (PMID 41911017)，正式確立 IVUS 引導在左主幹 PCI 的優勢。",
+      "conversationStarter": "可與他討論「2024 ESC 指引後 RDN 的臨床定位」以及「CKD 病人 RDN 是否比藥物更具長期效益」，他在兩者都是共識文件起草人。",
+      "recentPapers": [
+        {
+          "title": "OPTIMAL: IVUS vs angiography-guided PCI in unprotected left main",
+          "year": 2026,
+          "pmid": "41911017",
+          "relevance": "NEJM 重磅 RCT，確立左主幹 IVUS 引導的金標準地位。"
+        },
+        {
+          "title": "SYMPLICITY Registry DEFINE: RDN in moderate-to-severe CKD",
+          "year": 2025,
+          "pmid": "41159269",
+          "relevance": "CKD 族群 RDN 安全性與效能資料，填補指引外高需求族群的實證。"
+        },
+        {
+          "title": "GISE-SIIA Position Paper on RDN in difficult-to-treat hypertension",
+          "year": 2024,
+          "pmid": "38535984",
+          "relevance": "國家級共識文件，可作為台灣引進 RDN 的操作框架參考。"
+        },
+        {
+          "title": "OPERA-TAVI: unfavorable aortic anatomy and TAVR outcomes",
+          "year": 2026,
+          "pmid": "41703412",
+          "relevance": "多中心 registry 說明解剖不利族群的 TAVR 結果。"
+        },
+        {
+          "title": "ESC/EAPCI Clinical Consensus Statement on RDN",
+          "year": 2023,
+          "pmid": "36790101",
+          "relevance": "歐洲 RDN 指引性文件，第一作者之一。"
+        }
+      ],
       "euroPCR2026": {
         "sessionIds": [
           "TUE-1310-344-002",
@@ -201,6 +339,36 @@
         "41408534",
         "41003118",
         "32739125"
+      ],
+      "extendedBio": "O'Kane 醫師於英國接受心臟科訓練，並在倫敦與美國完成介入心臟學高級 fellowship，之後回到 Dorset Heart Centre 建立英國南部最高量非外科 PCI 中心。他是英國心臟介入學會 (BCIS) 多屆委員，並長期擔任 Interventional Cardiology Review 主編，個人年 PCI 量超過 500 例，並以 OCT/IVUS 整合及 RA/OA 鈣化處理聞名。其職涯重心從單純 operator 擴展到國際 proctor 及試驗設計者。",
+      "signatureWork": "共同設計並領導 CYCLOPES 試驗 (PMID 41408534)，建立 IVUS 導向中重度鈣化病灶的標準化處理演算法，是首批將影像量化標準納入 RCT primary protocol 的歐洲研究。",
+      "recentActivity": "2025 年發表 CYCLOPES 試驗設計 (PMID 41408534) 與軌道粥動脈切除術 (OA) 綜合回顧 (PMID 41003118)。2026 年以共同研究者身分參與 OPTIMAL 試驗 (NEJM，PMID 41911017)，並在 EuroPCR 2026 擔任六場 IVUS / RA / OA 教學場次核心講師。",
+      "conversationStarter": "可與他討論「OA 是否真的比 RA 在鈣化瘤 (nodule) 更有優勢」以及「IVUS 鈣化角度演算法何時應升級為 OCT」，這些是 CYCLOPES 設計中的關鍵選擇。",
+      "recentPapers": [
+        {
+          "title": "OPTIMAL: IVUS vs angiography-guided PCI in unprotected left main",
+          "year": 2026,
+          "pmid": "41911017",
+          "relevance": "確立左主幹 IVUS 引導的金標準。"
+        },
+        {
+          "title": "CYCLOPES trial design: IVUS-based calcium modification algorithm",
+          "year": 2025,
+          "pmid": "41408534",
+          "relevance": "首個以影像量化為入組標準的鈣化處理 RCT，可能改寫 EAPCI 鈣化指引。"
+        },
+        {
+          "title": "Orbital atherectomy for complex coronary calcium modification (review)",
+          "year": 2025,
+          "pmid": "41003118",
+          "relevance": "OA 技術與適應症系統性整理，適合台灣剛引進 OA 的中心參考。"
+        },
+        {
+          "title": "Rotablation in the very elderly — outcomes vs younger patients",
+          "year": 2020,
+          "pmid": "32739125",
+          "relevance": "高齡鈣化病灶 RA 安全性資料，對高齡社會的台灣具參考價值。"
+        }
       ],
       "euroPCR2026": {
         "sessionIds": [
@@ -279,6 +447,42 @@
         "41887760",
         "36136329",
         "24472767"
+      ],
+      "extendedBio": "Diletti 醫師於義大利接受心臟科訓練，2010 年前後加入鹿特丹 Erasmus MC Thoraxcenter，先在 Patrick Serruys 門下從事支架與 BVS 研究，之後升任主治醫師並領導多項複雜 PCI RCT。現為 Thoraxcenter 介入心臟科主治與臨床試驗主持人，長期帶領歐洲複雜 PCI 的試驗網絡，研究焦點從 BVS、即時多血管血行重建演進到 IVUS CHIP 的影像引導策略。",
+      "signatureWork": "主導 IVUS CHIP 試驗 (2,020 例，設計見 PMID 41490527)，是歐洲最大規模的複雜高風險 PCI 影像引導 RCT，結果於 NEJM 2026 / ACC 2026 late-breaking 發表，中性結果重新定義 IVUS 在 CHIP 的適應症。",
+      "recentActivity": "2026 年 ACC 發表 IVUS CHIP 中性結果引發全球辯論；同年於 Heart 發表腔內影像斑塊易損性與 MACE 預測 meta-analysis (PMID 41887760)，並於 Kardiol Pol 更新 STEMI 多血管完全血行重建 meta-analysis (PMID 41919685)。持續擔任 Thoraxcenter 複雜 PCI RCT 的 PI。",
+      "conversationStarter": "可與他深聊「IVUS CHIP 中性結果後，IVUS 是否仍該列入所有 CHIP 例行」以及「STEMI 多血管即時 vs 分期血行重建的最新立場」，他是兩個議題的 trialist。",
+      "recentPapers": [
+        {
+          "title": "IVUS CHIP trial design and rationale",
+          "year": 2025,
+          "pmid": "41490527",
+          "relevance": "歐洲最大複雜 PCI 影像引導 RCT 的正式設計文件。"
+        },
+        {
+          "title": "Immediate vs staged complete revascularization in STEMI (updated meta-analysis)",
+          "year": 2026,
+          "pmid": "41919685",
+          "relevance": "整合 OPTION-STEMI 後最新證據，直接影響 STEMI cath lab 決策。"
+        },
+        {
+          "title": "Intracoronary imaging plaque vulnerability and MACE prediction",
+          "year": 2026,
+          "pmid": "41887760",
+          "relevance": "為預防性 PCI (vulnerable plaque) 概念提供影像端點量化支持。"
+        },
+        {
+          "title": "Post-PCI FFR prognostic implications after DES",
+          "year": 2022,
+          "pmid": "36136329",
+          "relevance": "post-PCI FFR 作為品管指標的里程碑 meta-analysis。"
+        },
+        {
+          "title": "BVS vs EES acute gain and late lumen loss comparison",
+          "year": 2014,
+          "pmid": "24472767",
+          "relevance": "BVS 時代的量化影像資料，對理解支架設計演進有背景價值。"
+        }
       ],
       "euroPCR2026": {
         "sessionIds": [

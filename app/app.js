@@ -766,6 +766,34 @@ function renderSpeakerDetail(main, name) {
 
     ${sp.oneLiner ? `<div class="speaker-oneliner">${escapeHtml(sp.oneLiner)}</div>` : ''}
 
+    ${sp.extendedBio ? `
+      <div class="sheet-section">
+        <h3>📖 深度介紹</h3>
+        <p style="font-size: 14px; line-height: 1.65; margin: 0">${escapeHtml(sp.extendedBio)}</p>
+      </div>
+    ` : ''}
+
+    ${sp.signatureWork ? `
+      <div class="sheet-section signature-box">
+        <h3>⭐ 代表作</h3>
+        <p style="font-size: 14px; line-height: 1.55; margin: 0; font-weight: 500">${escapeHtml(sp.signatureWork)}</p>
+      </div>
+    ` : ''}
+
+    ${sp.recentActivity ? `
+      <div class="sheet-section">
+        <h3>📡 2024-2026 動態</h3>
+        <p style="font-size: 14px; line-height: 1.6; margin: 0">${escapeHtml(sp.recentActivity)}</p>
+      </div>
+    ` : ''}
+
+    ${sp.conversationStarter ? `
+      <div class="sheet-section convo-box">
+        <h3>💬 碰面可以聊</h3>
+        <p style="font-size: 14px; line-height: 1.6; margin: 0; font-style: italic">${escapeHtml(sp.conversationStarter)}</p>
+      </div>
+    ` : ''}
+
     ${sp.expertise && sp.expertise.length ? `
       <div class="sheet-section">
         <h3>🧠 Expertise</h3>
@@ -791,7 +819,22 @@ function renderSpeakerDetail(main, name) {
       </div>
     ` : ''}
 
-    ${sp.pmids && sp.pmids.length ? `
+    ${sp.recentPapers && sp.recentPapers.length ? `
+      <div class="sheet-section">
+        <h3>📚 近期重要著作</h3>
+        <ul class="paper-list">
+          ${sp.recentPapers.map(p => `
+            <li>
+              ${p.pmid
+                ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${encodeURIComponent(p.pmid)}/" target="_blank" rel="noopener" class="paper-title">${escapeHtml(p.title || '')}</a>`
+                : `<span class="paper-title">${escapeHtml(p.title || '')}</span>`}
+              ${p.year ? `<span class="paper-year">(${escapeHtml(String(p.year))})</span>` : ''}
+              ${p.relevance ? `<div class="paper-relevance">${escapeHtml(p.relevance)}</div>` : ''}
+            </li>
+          `).join('')}
+        </ul>
+      </div>
+    ` : (sp.pmids && sp.pmids.length ? `
       <div class="sheet-section">
         <h3>📚 Key PMIDs</h3>
         <div class="pmid-list">
@@ -801,7 +844,7 @@ function renderSpeakerDetail(main, name) {
           `).join('')}
         </div>
       </div>
-    ` : ''}
+    ` : '')}
 
     ${relatedSessions.length ? `
       <div class="sheet-section">

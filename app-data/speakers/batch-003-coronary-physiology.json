@@ -13,7 +13,18 @@
       "keyContributions": ["iFR與FFR演化綜述 (JACC 2017)", "CTO PCI七大指導原則共識 (Circulation 2019)", "Post-PCI FFR分層評估 (JACC CI 2023)"],
       "whyListen": "iFR/FFR概念開創者之一，同時深耕CTO與IVUS。聽他主持的冠脈生理、CTO及IVUS session，直接獲得最前沿的複雜PCI決策邏輯。",
       "pmids": ["28882237", "31356129", "37821185"],
-      "sessionIds": ["8 sessions: CTO, IVUS, coronary physiology anchorperson"]
+      "sessionIds": ["8 sessions: CTO, IVUS, coronary physiology anchorperson"],
+      "extendedBio": "Escaned於馬德里Complutense大學完成醫學與介入訓練，長年任職Hospital Clínico San Carlos介入心臟科主任，同時擔任Complutense大學教授。職涯橫跨三大主軸：冠脈生理學（iFR先驅研究者之一）、CTO PCI標準化、以及腔內影像整合決策，發表論文逾450篇，為EuroPCR與ESC多項共識文件核心撰寫者。近年重心延伸至PPG（pullback pressure gradient）與冠脈微循環評估框架。",
+      "signatureWork": "與Davies、Sen等人共同推動iFR進入臨床實務，並主導DEFINE-FLAIR與iFR-SWEDEHEART次分析，確立non-hyperaemic pressure ratio與FFR在臨床決策上的等效性地位。",
+      "recentActivity": "2024-2026年持續主導PPG Global registry次分析（Circulation 2024、CCI 2025），探討病變分布型態對PCI後FFR與殘餘心絞痛的預測價值。2026年參與SCAI angiography-derived physiology專家共識、Canadian Coronary Physiology Registry設計，推動無導絲生理評估與微血管功能標準化。",
+      "conversationStarter": "對於PPG quantification與focal vs. diffuse CAD的治療策略分層，以及angiography-derived FFR何時可取代壓力導絲，他持明確立場，適合深入討論殘餘心絞痛的結構性病因。",
+      "recentPapers": [
+        {"title": "Influence of Pathophysiologic Patterns of Coronary Artery Disease on Immediate PCI Outcomes (PPG Global)", "year": 2024, "pmid": "38742491", "relevance": "PPG index預測PCI後最佳生理化結果能力優於單純FFR，改變14%病人治療決策。"},
+        {"title": "Impact of Sex on Residual Angina After PCI (PPG sub-analysis)", "year": 2025, "pmid": "41408672", "relevance": "女性病人PCI後FFR較高但殘餘心絞痛更多，揭示性別差異在功能性優化之外的機轉。"},
+        {"title": "Angiography-Derived Physiology for CAD Assessment: SCAI Expert Opinion", "year": 2026, "pmid": "41868766", "relevance": "SCAI專家共識整理ADP臨床應用框架，Escaned為核心撰寫者。"},
+        {"title": "Defining Population at Risk and Assessment of Coronary Microvascular/Vasomotor Dysfunction", "year": 2026, "pmid": "41611080", "relevance": "加拿大冠脈生理登錄研究設計論文，將微循環評估標準化以供未來臨床試驗使用。"},
+        {"title": "Rationale and design of the Pullback Pressure Gradient (PPG) global registry", "year": 2023, "pmid": "37611857", "relevance": "PPG Global登錄研究的方法論基礎，奠定病變分布型態量化評估的臨床框架。"}
+      ]
     },
     {
       "name": "R. Al-Lamee",
@@ -25,7 +36,16 @@
       "keyContributions": ["ORBITA trial (Lancet 2017): first sham-controlled PCI RCT", "ORBITA-2 (NEJM 2023): PCI reduces angina after stopping anti-anginals", "iFR/FFR clinical application research"],
       "whyListen": "主導改變穩定心絞痛PCI適應症思維的兩大landmark試驗。Hotline session中她的數據解讀直接影響介入決策證據基礎。",
       "pmids": ["29103656", "38015442"],
-      "sessionIds": ["8 sessions: Hotline key role, anchorperson/discussant"]
+      "sessionIds": ["8 sessions: Hotline key role, anchorperson/discussant"],
+      "extendedBio": "Al-Lamee於Imperial College London完成醫學訓練與介入心臟學專科養成，師承Darrel Francis，現任Imperial臨床講座與Imperial College Healthcare NHS Trust顧問介入醫師。職涯以方法學嚴謹著稱，專注穩定型冠心病PCI真實療效評估，為ORBITA系列sham-controlled試驗的首席研究員。亦為EuroPCR、TCT、AHA熱門Hotline的固定主持人與討論者。",
+      "signatureWork": "2017年ORBITA為首個sham-controlled PCI RCT，2023年ORBITA-2（NEJM）進一步證實在停用抗心絞痛藥的穩定病人中，PCI可顯著減少心絞痛負荷，重塑stable angina PCI的證據根基。",
+      "recentActivity": "2024-2026年持續產出ORBITA-2次分析：2025-2026 JACC發表age-stratified analysis（PMID 41603507）與症狀-解剖不匹配分析，並撰寫Current Opinion in Cardiology綜述整合ORBITA-2、ORBITA-STAR與ORBITA-COSMIC的症狀預測模型。為EuroPCR 2026多場Hotline與Great Debate核心講者。",
+      "conversationStarter": "對「穩定冠心病PCI是否應先以生理評估或症狀型態篩選病人」她有明確資料支持的立場——典型Rose angina病人獲益最大，非典型症狀獲益接近安慰劑。",
+      "recentPapers": [
+        {"title": "Association Between Age and PCI Effectiveness in Stable CAD: Secondary Analysis of ORBITA-2", "year": 2026, "pmid": "41603507", "relevance": "ORBITA-2年齡分層次分析，顯示年長者症狀緩解效益更大但跑步機時間改善有限。"},
+        {"title": "Symptoms, Coronary Artery Disease and PCI: Connecting the Dots", "year": 2025, "pmid": "40920179", "relevance": "整合ORBITA-2與ORBITA-STAR的症狀-療效預測綜述，重塑PCI病人選擇邏輯。"},
+        {"title": "Twists and Turns on the Road to Angina Relief", "year": 2025, "pmid": "40930616", "relevance": "JACC社論，闡述PCI vs. CABG在慢性冠心病症狀緩解的共同決策框架。"}
+      ]
     },
     {
       "name": "G. G Toth",
@@ -37,7 +57,16 @@
       "keyContributions": ["FFR for CABG guidance systematic review (EHJ 2017)", "Post-PCI FFR stratification analysis (JACC CI 2023)", "Left main imaging + physiology integration"],
       "whyListen": "Left main session提供從術前生理評估到術後FFR優化的完整視角，適合複雜PCI術者深化功能性評估概念。",
       "pmids": ["28025191", "37821185"],
-      "sessionIds": ["6 sessions: left main anchorperson, coronary physiology"]
+      "sessionIds": ["6 sessions: left main anchorperson, coronary physiology"],
+      "extendedBio": "Tóth於匈牙利接受醫學訓練後赴比利時OLV Aalst隨Bernard De Bruyne完成冠脈生理學專精訓練，現任奧地利Graz大學心臟中心介入心臟科資深顧問醫師。職涯以FFR方法學、CABG前功能性評估、左主幹整合性決策見長，為EAPCI Young Committee前任主席、EuroIntervention編輯群成員。臨床研究同時延伸至周邊動脈FFR與QFR角色。",
+      "signatureWork": "主導FFR-guided CABG方法學確立（EHJ 2017）與post-PCI FFR分層共識，近年將功能性評估概念延伸至below-the-knee周邊介入（Medicina 2025）。",
+      "recentActivity": "2024-2026年在Catheterization and Cardiovascular Interventions發表性別相關FFR閾值差異研究（PMID 39658875），並於Frontiers in Cardiovascular Medicine探討QFR於anatomy-only PCI決策中的補充價值。2025年擴展BTK-FFR與skin perfusion pressure的周邊血管應用研究。",
+      "conversationStarter": "對於女性病人診斷性DS cut-off是否應從50%調整至59%、以及FFR是否應常規納入CABG術前評估，他有系統性資料支持的觀點。",
+      "recentPapers": [
+        {"title": "Gender-Based Specificities of Fractional Flow Reserve Measurement", "year": 2024, "pmid": "39658875", "relevance": "3770例研究顯示女性FFR在同樣DS下較高，提出性別化診斷閾值建議。"},
+        {"title": "Operator Decision-Making in Angiography-Only Guided Revascularization: a QFR-based Functional Assessment", "year": 2024, "pmid": "38468724", "relevance": "即便FFR使用率高，仍有10%病例存在angiography-QFR不一致，支持整合QFR於決策流程。"},
+        {"title": "Long-Term Prognostic Value of Post-Revascularization FFR and Skin Perfusion Toe Pressure in CLTI", "year": 2025, "pmid": "41011110", "relevance": "將冠脈生理評估概念延伸至下肢CLTI，FFR≥0.80對應SPTP約100 mmHg。"}
+      ]
     },
     {
       "name": "F. Mahfoud",
@@ -49,7 +78,16 @@
       "keyContributions": ["SPYRAL HTN-ON MED 36-month RCT (Lancet 2022): lasting BP reduction with RF RDN", "Catheter-based RDN meta-analysis of 10 RCTs (Circulation 2024)", "European consensus on RDN research roadmap"],
       "whyListen": "RDN領域奠基人，其spokesperson角色代表對整體介入新技術的廣泛影響力。可掌握RDN最新臨床證據與未來適應症方向。",
       "pmids": ["35390320", "39355923"],
-      "sessionIds": ["6 sessions: CTO anchorperson, spokesperson"]
+      "sessionIds": ["6 sessions: CTO anchorperson, spokesperson"],
+      "extendedBio": "Mahfoud於德國Saarland大學完成醫學訓練與心臟學專科，2023年轉任瑞士巴塞爾大學心臟中心心臟科主任兼Cardiovascular Research Institute Basel (CRIB) 共同主持人。職涯核心為介入性高血壓治療，是SPYRAL HTN系列sham-controlled RCT全球首席研究員之一，發表論文逾500篇。同時擔任歐洲高血壓學會與ESC RDN立場文件主撰寫者。",
+      "signatureWork": "主導SPYRAL HTN-OFF MED與ON MED sham-controlled RCT確立RF-RDN降壓療效，推動RDN正式納入2024 ESH高血壓指引治療選項。",
+      "recentActivity": "2024-2026年擴展研究至multi-organ denervation：2025年於EuroIntervention發表hepatic + renal combined denervation豬模型研究（PMID 40887984），在JACC CI發表RDN於高血壓與慢性心衰的最新整合綜述（PMID 40803758）。2025年EuroIntervention發表pooled analysis釐清基礎SBP對RDN降壓幅度的劑量反應關係（PMID 41489714）。",
+      "conversationStarter": "對RDN是否應從「treatment-resistant hypertension」擴展至中階高血壓甚至心衰病人，以及hepatic denervation作為multi-organ sympathetic modulation的下一步，他有明確路線圖。",
+      "recentPapers": [
+        {"title": "Renal Denervation in Hypertension and Chronic Heart Failure", "year": 2025, "pmid": "40803758", "relevance": "JACC CI綜述整合RDN於高血壓與CHF的最新證據，並提出multi-organ denervation概念。"},
+        {"title": "A Preclinical Study of Combined Hepatic and Renal Artery Denervation", "year": 2025, "pmid": "40887984", "relevance": "豬模型顯示combined hepatic-renal RF denervation可使肝腎組織NE降低>84%，奠定臨床試驗基礎。"},
+        {"title": "Impact of Baseline Systolic Blood Pressure on BP Changes Following Renal Denervation", "year": 2025, "pmid": "41489714", "relevance": "3377例pooled analysis建立baseline SBP與RDN降壓幅度的線性預測模型，協助臨床共同決策。"}
+      ]
     },
     {
       "name": "L. Räber",
@@ -61,7 +99,18 @@
       "keyContributions": ["PACMAN-AMI trial (JAMA 2022): multimodal imaging assessment of PCSK9i in AMI", "EAPCI intravascular imaging consensus Part 1 (EHJ 2018)", "OCT in LM PCI and calcified lesions"],
       "whyListen": "OCT引導PCI的歐洲代表人物，Hotline session角色預示將帶來最新影像導引介入試驗結果。",
       "pmids": ["35368058", "29790954"],
-      "sessionIds": ["5 sessions: Hotline key role, intravascular imaging"]
+      "sessionIds": ["5 sessions: Hotline key role, intravascular imaging"],
+      "extendedBio": "Räber於瑞士Bern大學完成醫學訓練與心臟學專科，受業於Stephan Windecker，現任Bern University Hospital (Inselspital) 介入心臟科資深顧問與冠脈腔內影像研究核心PI。主導PACMAN-AMI、IBIS-4等多中心影像導引試驗，與NIRS-IVUS、OCT多模態成像團隊為EAPCI腔內影像共識的核心撰寫群。近年擴展至AI輔助影像分析與vulnerable plaque長期預後。",
+      "signatureWork": "主導PACMAN-AMI試驗（JAMA 2022），以IVUS+NIRS+OCT三模態影像證實alirocumab加statin在AMI後可達三合一plaque regression（面積、脂質、纖維帽）。",
+      "recentActivity": "2023-2026年產出豐富：2023 JACC發表triple regression（PMID 37640248），2025 Atherosclerosis（PMID 41313919）與2024 Frontiers Cardiovasc Med AI-OCT scoping review（PMID 38742173）、2025 EHJ Digital Health AI-OCT systematic review（PMID 40110224）。2026年發表首個全自動IVUS-OCT co-registration深度學習框架（PMID 41755813），推動多模態影像AI標準化。",
+      "conversationStarter": "對於OCT是否應成為ACS與複雜病變的常規導引（vs. IVUS）、以及AI-assisted plaque characterization何時能進入日常導管室流程，他有明確臨床實證立場。",
+      "recentPapers": [
+        {"title": "Concomitant Coronary Atheroma Regression and Stabilization in Response to Lipid-Lowering Therapy (PACMAN-AMI)", "year": 2023, "pmid": "37640248", "relevance": "PACMAN-AMI次分析定義「三合一逆轉」概念，alirocumab組達成率40.8% vs. placebo 23%，對應1年事件減少。"},
+        {"title": "Effect of Alirocumab on Coronary Plaque Stratified by Atherothrombotic Risk", "year": 2025, "pmid": "41313919", "relevance": "PACMAN-AMI風險分層次分析，發現非極高風險病人plaque regression反而更明顯，挑戰傳統思維。"},
+        {"title": "Artificial Intelligence for the Analysis of Intracoronary OCT Images: a Systematic Review", "year": 2025, "pmid": "40110224", "relevance": "EHJ Digital Health系統性回顧AI-OCT模型設計與偏誤來源，為臨床導入提供評估框架。"},
+        {"title": "A Novel Framework for Fully Automated Co-registration of IVUS and OCT Imaging Data", "year": 2026, "pmid": "41755813", "relevance": "首個端到端深度學習IVUS-OCT共配位框架，<90秒處理單一血管，performance與專家分析者相當。"},
+        {"title": "Automatic Assessment of Atherosclerotic Plaque Features by Intracoronary Imaging: a Scoping Review", "year": 2024, "pmid": "38742173", "relevance": "整理42篇OCT與26篇IVUS AI工具，指出當前自動化工具報告品質異質且聚焦於鈣化偵測。"}
+      ]
     }
   ]
 }

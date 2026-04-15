@@ -21,7 +21,37 @@
         "sessionIds": ["WED-0945-BLEU-001"],
         "presentationTopic": "Coronary revascularisation in TAVI patients - IPD meta-analysis of 4 RCTs",
         "significance": "IPD meta-analysis pooling FAITAVI, NOTION-3, ACTIVATION and one additional RCT - highest level evidence on coronary revascularization in TAVI candidates"
-      }
+      },
+      "extendedBio": "Scarsini於義大利Verona大學接受心臟科及介入訓練，並曾赴倫敦Imperial College追隨Justin Davies團隊深入研習冠脈生理學，將iFR/QFR方法學帶回義大利本土。目前擔任Verona大學附設醫院（AOUI Verona）主動脈瓣膜及冠脈介入資深主治醫師，是義大利少數同時跨足結構性心臟病與冠脈生理學兩大領域的年輕學者。他長期專注於主動脈瓣狹窄對冠脈壓力－流量關係的動態影響，此研究主軸自博士訓練延續至今，並逐步從單中心觀察研究推進到多中心RCT主導者的角色。",
+      "signatureWork": "主導FAITAVI隨機試驗（European Heart Journal 2025），首度證明TAVI合併顯著冠脈病變患者採用FFR生理學導引PCI策略較傳統造影導引可降低MACCE，改寫TAVI合併CAD的處置典範。",
+      "recentActivity": "2024-2025年陸續發表TAVI後心外膜與微循環功能動態變化（Circ Cardiovasc Interv 2025）及SGLT2i在TAVI糖尿病患者的心臟保護效應（Cardiovasc Diabetol 2024）。2025-2026年同時為FAITAVI主要結果論文的通訊作者之一，並統籌FAITAVI、NOTION-3、ACTIVATION等四項RCT的個案層級統合分析，預定於EuroPCR 2026 LBT場次首發。",
+      "conversationStarter": "可以請教他對NOTION-3與FAITAVI結論看似分歧的解讀：同樣是TAVI合併CAD，為何生理學導引的結論不盡一致？以及QFR在重度主動脈瓣狹窄下究竟是否可取代導線式FFR——這是他近年反覆在論壇中力辯的議題。",
+      "recentPapers": [
+        {
+          "title": "Physiology vs angiography-guided percutaneous coronary intervention in transcatheter aortic valve implantation: the FAITAVI trial",
+          "year": 2025,
+          "pmid": "41417623",
+          "relevance": "首個比較生理學導引vs造影導引PCI策略於TAVI患者的RCT，定義FFR在瓣膜族群的臨床價值"
+        },
+        {
+          "title": "Effect of TAVI on Epicardial Functional Indices and Their Relationship to Coronary Microvascular Function",
+          "year": 2025,
+          "pmid": "40211959",
+          "relevance": "機轉研究闡明TAVI後FFR/iFR數值變化背後的心外膜與微循環交互作用，對解讀TAVI前後生理學指標至關重要"
+        },
+        {
+          "title": "Influence of physiological patterns of coronary disease on fractional flow reserve and instantaneous wave-free ratio changes in patients undergoing TAVI",
+          "year": 2024,
+          "pmid": "39603391",
+          "relevance": "區分局部性與瀰漫性CAD在TAVI後FFR/iFR變化差異，提供選擇PCI時機的臨床判讀依據"
+        },
+        {
+          "title": "SGLT2-inhibitors in diabetic patients with severe aortic stenosis and cardiac damage undergoing transcatheter aortic valve implantation (TAVI)",
+          "year": 2024,
+          "pmid": "39574095",
+          "relevance": "延伸他在TAVI患者藥物共病管理的研究視野，為TAVI合併糖尿病患者加上SGLT2i帶來臨床實證"
+        }
+      ]
     },
     {
       "name": "B. Bergmark",
@@ -41,7 +71,37 @@
         "sessionIds": ["WED-0945-BLEU-001", "THU-1340-252A-002"],
         "presentationTopic": "Long-term mortality PCI DES vs CABG for left main",
         "significance": "Updated IPD meta-analysis extending follow-up beyond 5 years from all major left main RCTs - pivotal for guidelines and Heart Team decision-making"
-      }
+      },
+      "extendedBio": "Bergmark在Harvard Medical School完成醫學訓練，於Brigham and Women's Hospital完成內科及心臟介入專科訓練，並長期浸潤於由Marc Sabatine與Eugene Braunwald建立的TIMI Study Group——這是全球最具影響力的心血管試驗統合機構之一。目前為BWH介入心臟科主治醫師、Harvard Medical School副教授，同時擔任TIMI Study Group的重要計畫領導。他的學術路徑橫跨介入手術房與大型試驗統計中心，這使他同時能從臨床決策者與試驗設計者兩端審視左主幹血管重建爭議。",
+      "signatureWork": "領導SYNTAX、PRECOMBAT、NOBLE、EXCEL四大左主幹RCT的個案層級統合分析（Lancet 2021, PMID 34793745），至今仍是左主幹PCI vs CABG決策的最高級別證據基礎。",
+      "recentActivity": "2024-2026年積極參與APOC3抑制劑olezarsen系列試驗，包括NEJM 2025中度高三酸甘油脂症主試驗與Circulation 2026的Essence-TIMI 73b冠脈斑塊影像子研究，擴展其脂質代謝介入研究版圖。同時於2025年以PI身份發表FlowLab Study（JACC Advances 2025），首次以多中心前瞻性方法標準化微循環功能評估。",
+      "conversationStarter": "可以請教他如何看待左主幹IPD分析在五年以上延長追蹤出現的死亡率交叉現象，以及在左主幹複雜病變下他個人是否會把SYNTAX score放在Heart Team決策的哪個順位——這是他在多場辯論中明確表達過保留意見的議題。",
+      "recentPapers": [
+        {
+          "title": "Effect of APOC3 Inhibition with Olezarsen on Coronary Atherosclerosis: Essence-TIMI 73b Imaging Study",
+          "year": 2026,
+          "pmid": "41910513",
+          "relevance": "首次以冠脈影像證明APOC3抑制劑可影響斑塊負擔，連結脂質新機轉與冠脈疾病進展"
+        },
+        {
+          "title": "Olezarsen for Managing Severe Hypertriglyceridemia and Pancreatitis Risk",
+          "year": 2025,
+          "pmid": "41211918",
+          "relevance": "重度高三酸甘油脂症新藥實證，對於難治型脂質異常合併殘餘心血管風險患者具臨床價值"
+        },
+        {
+          "title": "Multicenter Prospective Assessment of Coronary Microvascular Dysfunction: Primary Results of the FlowLab Study",
+          "year": 2025,
+          "pmid": "41014809",
+          "relevance": "首個多中心前瞻CMD評估研究，為ANOCA/INOCA族群的標準化生理學檢測奠定基礎"
+        },
+        {
+          "title": "Targeting APOC3 with Olezarsen in Moderate Hypertriglyceridemia",
+          "year": 2025,
+          "pmid": "40888739",
+          "relevance": "中度高三酸甘油脂症族群的第三期試驗結果，將影響殘餘脂質風險治療指引"
+        }
+      ]
     },
     {
       "name": "J. E. Nielsen-Kudsk",
@@ -61,7 +121,43 @@
         "sessionIds": ["WED-0945-BLEU-001", "WED-0830-243-001", "TUE-1310-252B-002", "WED-1635-251-002"],
         "presentationTopic": "LAA closure vs NOAC outcomes by age group",
         "significance": "Age-stratified subgroup analysis from CHAMPION-AF (NEJM 2026, n=3000) - directly addresses patient selection for LAAC vs NOAC"
-      }
+      },
+      "extendedBio": "Nielsen-Kudsk於丹麥Aarhus University完成心臟科與介入訓練，長期扎根於Aarhus University Hospital，目前為資深介入心臟專科教授，亦擔任European Left Atrial Appendage Club（ELAACC）核心成員。他的學術主軸從早期的肺動脈高壓與成人先心病介入，於2010年代逐步轉向左心耳封堵，將Aarhus打造成北歐最高量的LAAC中心之一。他長期倡議以標準化影像與程序訓練規範LAAC的品質管理，是歐洲少數能同時從手術量、試驗設計與教育訓練三面向影響領域的學者。",
+      "signatureWork": "擔任CHAMPION-AF（NEJM 2026, n≈3000）的共同研究者，該試驗首度證明Watchman FLX於非瓣膜性AF患者對比NOAC達到非劣效，重塑LAAC的適應症定位。",
+      "recentActivity": "2024-2026年為CHAMPION-AF主論文（NEJM 2026）共同作者，並於2026年再以Amulet IDE試驗出血併發症長期分析（JAMA Cardiology 2026）及新一代雙密封Conformal LAAC裝置VERITAS研究（JACC Clin Electrophysiol 2026）維持在裝置評估前沿。同時參與ELAACC第二版transseptal puncture共識（JSCAI 2026），整合歐洲多中心的標準作業規範。",
+      "conversationStarter": "可以請教他對CHAMPION-AF「與NOAC比非劣效但未勝出」結果的臨床實務解讀——哪些病人他仍會積極推薦LAAC？以及他對後封堵抗凝策略從雙抗到單一DOAC低劑量的偏好演變，這些都是他近年在ELAACC積極推動的實踐改革。",
+      "recentPapers": [
+        {
+          "title": "Left Atrial Appendage Closure or Anticoagulation for Atrial Fibrillation (CHAMPION-AF)",
+          "year": 2026,
+          "pmid": "41910347",
+          "relevance": "決定性NEJM大型RCT，為LAAC vs NOAC於一般AF族群提供首個非劣效證據，直接影響未來指引"
+        },
+        {
+          "title": "Incidence, Predictors, Management, and Clinical Impact of Major Bleeding Following Left Atrial Appendage Occlusion: The Amulet IDE Randomized Clinical Trial",
+          "year": 2026,
+          "pmid": "41879767",
+          "relevance": "Amulet IDE長期資料揭示LAAC後主要出血預測因子與預後，對術後抗栓管理具實務意義"
+        },
+        {
+          "title": "Transseptal Puncture for Left Atrial Appendage Closure: A Consensus Document From the Second European Left Atrial Appendage Club",
+          "year": 2026,
+          "pmid": "41868775",
+          "relevance": "歐洲LAAC訓練與穿刺技術標準化共識，為中心品質管理與術者訓練路徑提供框架"
+        },
+        {
+          "title": "Early Outcomes With a Next-Generation Dual-Seal Left Atrial Appendage Occluder: Results From the VERITAS Study",
+          "year": 2026,
+          "pmid": "41701134",
+          "relevance": "新一代雙密封LAAC裝置早期臨床資料，反映裝置世代更新的技術方向"
+        },
+        {
+          "title": "Antithrombotic strategies and DOAC dosing following left atrial appendage occlusion: a network meta-analysis",
+          "year": 2026,
+          "pmid": "41288078",
+          "relevance": "整合LAAC術後抗栓策略證據，直接支援臨床個人化用藥決策"
+        }
+      ]
     }
   ]
 }

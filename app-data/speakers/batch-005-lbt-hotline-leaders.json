@@ -13,7 +13,16 @@
       "keyContributions": ["PARTNER 1B trial PI (NEJM 2010): first TAVI mortality benefit in inoperable AS", "PARTNER 3 (NEJM 2019): TAVI superiority in low-risk", "Founded CRF & TCT, led 50+ trials, ALIGN-AR trial (Lancet 2024) extending TAVI to native AR"],
       "whyListen": "LBT discussant及Hotline錨定角色，親眼見證新一代TAVI head-to-head試驗數據由最有資格詮釋的人來評析——其評論具定義指引走向的份量。",
       "pmids": ["20961243", "30883058", "38552656"],
-      "sessionIds": ["WED-0945-BLEU-001 (LBT discussant)", "WED-1115-MAILLOT-001 (Hotline anchor)", "3 sessions"]
+      "sessionIds": ["WED-0945-BLEU-001 (LBT discussant)", "WED-1115-MAILLOT-001 (Hotline anchor)", "3 sessions"],
+      "extendedBio": "Leon為哥倫比亞大學醫學中心心臟內科教授、New York-Presbyterian/Columbia結構性心臟病中心創辦主任，同時為Cardiovascular Research Foundation (CRF)執行董事與TCT年會創辦人。他早期於美國國家心肺血液研究所(NHLBI)受訓並擔任雷射與介入心臟病學主任，1990年代由華盛頓Washington Hospital Center轉至紐約後建立全球最具影響力的結構性心臟病試驗網絡。其職涯軌跡從冠狀動脈支架早期關鍵試驗（BENESTENT、STRESS）跨入TAVI時代，成為定義過去二十年介入心臟病學方向的核心人物。",
+      "signatureWork": "自PARTNER 1B（2010年NEJM發表，首次證實TAVI在無法手術嚴重主動脈狹窄患者中降低死亡率）到PARTNER 3（2019年NEJM，低手術風險TAVI非劣效與優效），他所設計與主導的PARTNER系列試驗徹底改寫主動脈瓣置換臨床決策路徑。",
+      "recentActivity": "2024年於Ann Thorac Surg發表PARTNER 3外科組5年長期追蹤結果，確認低風險外科AVR長期表現；同年與Généreux、Prendergast等於JACC共同發表無症狀重度AS早期AVR 4項RCT整合分析（1427位患者）。2024-2025年持續主導PARTNER 3與SMART等試驗長期追蹤，並於2024 Structural Heart發表TAVR期間快速心室節律方法論回顧。",
+      "conversationStarter": "他對「無症狀重度AS是否應早期介入」的立場最值得請教——近期EARLY TAVR與EVOLVED等試驗結果不一致，他如何看待生物標記（fibrosis）與心功能下降時機在決策中的權重。",
+      "recentPapers": [
+        {"title": "Aortic Valve Replacement vs Clinical Surveillance in Asymptomatic Severe Aortic Stenosis: A Systematic Review and Meta-Analysis", "year": 2024, "pmid": "39641732", "relevance": "4項RCT共1427位患者整合分析，顯示早期AVR顯著降低非計畫心衰住院與中風——直接影響本屆LBT的無症狀AS場次討論基調。"},
+        {"title": "Five-Year Outcomes in Low-Risk Patients Undergoing Surgery in the PARTNER 3 Trial", "year": 2024, "pmid": "39694217", "relevance": "PARTNER 3外科組5年追蹤，確認低風險SAVR長期生存與再介入率低，為TAVI vs SAVR長期比較提供外科基準。"},
+        {"title": "Contemporary Review of the Methods for Rapid Ventricular Pacing During Transcatheter Aortic Valve Replacement", "year": 2024, "pmid": "40124080", "relevance": "TAVR程序技術優化回顧，探討以LV導線取代RV節律減少併發症，對日常技術操作有直接影響。"}
+      ]
     },
     {
       "name": "D. Capodanno",
@@ -25,7 +34,16 @@
       "keyContributions": ["TAVI antithrombotic treatment systematic review (2022)", "Ischemic stroke antithrombotic JACC State-of-the-Art Review (2023)", "ESC Thrombosis Working Group member, 4D-ACS trial design"],
       "whyListen": "6場含LBT discussant及TAVI Hotline anchorperson，他將主導詮釋最新抗血栓RCT結果——每一個TAVI或ACS患者的抗血栓決策都將受影響。",
       "pmids": ["35881777", "37793752"],
-      "sessionIds": ["WED-0945-BLEU-001 (LBT discussant)", "Hotline TAVI anchor", "6 sessions"]
+      "sessionIds": ["WED-0945-BLEU-001 (LBT discussant)", "Hotline TAVI anchor", "6 sessions"],
+      "extendedBio": "Capodanno為西西里島Catania大學心血管內科教授暨臨床介入心臟學部主任，任職於A.O.U. Policlinico \"G. Rodolico - San Marco\"。他自Catania大學醫學院畢業後即於當地完成心臟內科與介入訓練，與Corrado Tamburino長期合作建立歐洲南部最具學術產能的介入研究團隊之一。他目前為EuroIntervention副主編、ESC血栓工作小組成員，並擔任多項歐洲ACS與結構性心臟病指引文件的撰寫與方法學核心。",
+      "signatureWork": "以抗血栓藥物比較研究（DAPT降階、單一抗血小板、TAVI術後OAC策略）的系列整合分析與試驗設計著稱，其2022年TAVI抗血栓治療系統性回顧（Eur Heart J）與多份ESC共識文件形塑現行臨床實踐。",
+      "recentActivity": "2025年於Expert Rev Cardiovasc Ther發表左心耳封堵術後抗血栓治療最新回顧，主張DOAC優於高強度組合療法。2025-2026持續主導DAPT降階研究並參與REAC-TAVI 2試驗設計（TAVI術後ticagrelor vs aspirin），同時與Angiolillo、Ortega-Paz等於2025年Expert Opin Drug Saf發表ACS口服抗血小板長期安全性回顧，整合基因與臨床特徵的個人化決策框架。",
+      "conversationStarter": "他對「TAVI術後是否應常規使用DOAC或低劑量直接抑制劑」的立場值得深入討論——ATLANTIS、ADAPT-TAVR等試驗結果不一致下，他如何平衡亞臨床瓣膜血栓與出血風險。",
+      "recentPapers": [
+        {"title": "Antithrombotic therapy after left atrial appendage occlusion", "year": 2025, "pmid": "40151884", "relevance": "LAAO術後抗血栓方案最新整合，對AF + 高出血風險患者決策路徑有直接意義，且與TAVI + AF亞群決策框架相通。"},
+        {"title": "Rationale and design of REAC-TAVI 2: Single antiplatelet treatment with ticagrelor vs aspirin after transcatheter aortic valve implantation", "year": 2025, "pmid": "41177202", "relevance": "針對TAVI高缺血風險患者比較低劑量ticagrelor與aspirin，直接挑戰現行aspirin單一療法標準——Hotline討論重點。"},
+        {"title": "Long-term safety of oral antiplatelet strategies for patients with acute coronary syndrome undergoing percutaneous coronary intervention", "year": 2025, "pmid": "41194586", "relevance": "ACS後DAPT降階、縮短、個人化策略的最新回顧，整合基因檢測與臨床風險分層——日常PCI決策核心參考。"}
+      ]
     },
     {
       "name": "N. Gonzalo",
@@ -37,7 +55,17 @@
       "keyContributions": ["ILUMIEN IV substudy: OCT post-PCI VFR predicts 2-year outcomes (JACC 2025)", "LM intermediate stenosis FFR vs IVUS review (Int J Cardiol 2018)", "170+ PubMed indexed publications"],
       "whyListen": "7場涵蓋LBT spokesperson、IVUS/OCT教育及現場操作示範——直接向歐洲頂尖腔內影像教育者學習的機會。",
       "pmids": ["40406943", "30223378"],
-      "sessionIds": ["WED-0945-BLEU-001 (LBT spokesperson)", "left main/IVUS/live educational", "7 sessions"]
+      "sessionIds": ["WED-0945-BLEU-001 (LBT spokesperson)", "left main/IVUS/live educational", "7 sessions"],
+      "extendedBio": "Gonzalo為馬德里Complutense大學Hospital Clínico San Carlos介入心臟科主治醫師暨腔內影像計畫主持人，並為CIBER-CV心血管研究網絡核心成員。她在Hospital Clínico San Carlos完成介入訓練後赴荷蘭Erasmus Thoraxcenter於Patrick Serruys指導下取得博士學位，專注於OCT成像與冠狀動脈生理評估整合。回到馬德里後與Javier Escaned共同建立歐洲最具產能的腔內影像與生理學臨床研究中心，現為EuroIntervention副主編並多次於EuroPCR擔任主要教育講者。",
+      "signatureWork": "以OCT衍生的生理學評估（virtual flow reserve）結合腔內影像形態學作為PCI後預後預測指標的系列研究最具原創性，特別是2025年JACC發表的ILUMIEN IV亞研究確立VFR獨立於MSA預測2年臨床結果。",
+      "recentActivity": "2025年於JACC發表ILUMIEN IV亞研究（2057位患者），證實post-PCI OCT-based VFR獨立預測2年target vessel failure。2025年於Cardiovasc Revasc Med發表冠狀動脈震波成形術（IVL）在不同鈣化形態與血流動力學模式的療效分析，顯示瀰漫性病灶IVL後功能性結果仍次佳。持續參與REAC-TAVI 2及EMPOWER CAD（女性鈣化CAD之IVL研究）等多中心試驗設計。",
+      "conversationStarter": "她對「OCT-guided PCI的臨床成本效益門檻」的實務觀點值得請教——ILUMIEN IV主試驗未達顯著TLF下降，她如何看待physiology-anatomy整合工作流程在真實世界落地的條件。",
+      "recentPapers": [
+        {"title": "Impact of Optical Coherence Tomography-Based Post-PCI Physiology Assessment to Predict Clinical Outcomes: An ILUMIEN-IV Substudy", "year": 2025, "pmid": "40406943", "relevance": "確立OCT-based VFR作為post-PCI獨立預後指標，將影像與生理學整合入日常decision-making——她本次LBT的關鍵發言基礎。"},
+        {"title": "Impact of lesion hemodynamic pattern and calcium morphology on the functional efficacy of coronary intravascular lithotripsy", "year": 2025, "pmid": "40263013", "relevance": "OCT引導下IVL治療88個鈣化病灶，顯示瀰漫性病灶術後OFR/QFR與MSA仍次佳——改變鈣化病灶預處理策略思考。"},
+        {"title": "Left ventricular functional recovery after complex high-risk indicated percutaneous coronary intervention supported with microaxial flow pump", "year": 2025, "pmid": "41118302", "relevance": "CHIP-PCI合併微軸流幫浦支持的9項研究整合分析（2370位患者），LVEF平均改善6.7%——高風險PCI實務決策參考。"},
+        {"title": "Equity in Modifying Plaque of Women With Undertreated Calcified Coronary Artery Disease: Design and Rationale of EMPOWER CAD study", "year": 2024, "pmid": "39649816", "relevance": "針對介入試驗女性代表性不足的前瞻研究，反映她長期關注CAD性別差異議題的學術立場。"}
+      ]
     },
     {
       "name": "H. Krumholz",
@@ -49,7 +77,16 @@
       "keyContributions": ["Yale CORE director, led US CMS readmission public reporting", "First-line hypertension drug comparative effectiveness (Lancet 2019, 4.9M pts)", "JACC Editor-in-Chief, champion of open science"],
       "whyListen": "冠脈血運重建Hotline anchorperson，從outcomes research角度詮釋新試驗臨床意義——他的評論決定哪些數據真正改變臨床實踐。",
       "pmids": ["31668726"],
-      "sessionIds": ["WED-0945-BLEU-001 (LBT discussant)", "THU-1100-MAILLOT-001 (Hotline anchor)", "2 sessions"]
+      "sessionIds": ["WED-0945-BLEU-001 (LBT discussant)", "THU-1100-MAILLOT-001 (Hotline anchor)", "2 sessions"],
+      "extendedBio": "Krumholz為耶魯醫學院Harold H. Hines Jr講座教授暨心血管內科資深主治醫師，並創立與主持Yale-New Haven Hospital的Center for Outcomes Research and Evaluation (CORE)。他哈佛醫學院畢業後於Beth Israel Hospital完成內科住院醫師及心臟學fellowship，於1992年加入耶魯並開創以大規模行政資料庫與臨床登錄研究為核心的心血管結果研究典範。他同時為美國國家醫學院(NAM)院士、JACC期刊主編，並長期擔任美國CMS心肌梗塞與心衰再入院公開報告指標的學術架構設計者。",
+      "signatureWork": "領導耶魯CORE為美國CMS設計第一代醫院心肌梗塞與心衰30日死亡率與再入院率公開報告指標（2008年起），此舉將醫療品質透明化推向全國政策層級，並促成hospital pay-for-performance改革。",
+      "recentActivity": "2025年於Lancet Infect Dis主導PAX LC第二期RCT，評估nirmatrelvir-ritonavir治療長新冠（未達主要終點）。2025年於medRxiv以機器學習建模分析AMI合併心因性休克患者PCI中Impella vs IABP的異質性治療效應。2026年於Lancet Neurol共同發表阿茲海默症預防療法政策評論，持續在循證醫療政策轉化扮演核心聲音。",
+      "conversationStarter": "他對「RCT vs 大規模觀察性資料在新藥物或裝置核准角色」的立場值得深入——在Impella AMI-CS試驗結果矛盾下，他如何評估subgroup heterogeneity建模在ESC/AHA指引採納時的證據等級。",
+      "recentPapers": [
+        {"title": "Modeling In-Hospital Mortality Among Patients Undergoing Percutaneous Coronary Intervention with Acute Myocardial Infarction Complicated by Cardiogenic Shock Receiving Mechanical Circulatory Support", "year": 2025, "pmid": "41358283", "relevance": "15796例NCDR資料機器學習分析，顯示Impella整體較IABP死亡率升高10.4%但某亞群受惠——直接衝擊AMI-CS機械循環支持使用策略。"},
+        {"title": "Nirmatrelvir-ritonavir versus placebo-ritonavir in individuals with long COVID in the USA (PAX LC): a double-blind, randomised, placebo-controlled, phase 2, decentralised trial", "year": 2025, "pmid": "40188838", "relevance": "去中心化RCT方法學新典範，雖未達主要終點但確立大規模分散式試驗可行性——反映他推動試驗科學創新立場。"},
+        {"title": "A path to preventing cognitive impairment due to Alzheimer's disease: initiatives beginning in the USA", "year": 2026, "pmid": "41722593", "relevance": "跨領域政策評論，展現他在預防醫學證據轉化與健康保險覆蓋決策的宏觀思維，與心血管領域品質指標設計邏輯相通。"}
+      ]
     },
     {
       "name": "B. Prendergast",
@@ -61,7 +98,17 @@
       "keyContributions": ["Asymptomatic severe AS early AVR meta-analysis (JACC 2024): 4 RCTs, 1427 pts", "ESC Valvular WG chair", "500+ TAVI and 3000+ PCI performed"],
       "whyListen": "主持Major LBT大會場次，其指引制定背景使他能立即評估新數據對臨床實踐的實際影響。",
       "pmids": ["39641732"],
-      "sessionIds": ["WED-0945-BLEU-001 (LBT anchorperson/chair)", "TAVI sessions", "2 sessions"]
+      "sessionIds": ["WED-0945-BLEU-001 (LBT anchorperson/chair)", "TAVI sessions", "2 sessions"],
+      "extendedBio": "Prendergast為Cleveland Clinic London結構性心臟病主任暨Guy's and St Thomas' NHS Foundation Trust心臟內科顧問醫師，並為King's College London臨床心臟學教授。他於Oxford完成內科訓練後於倫敦St Thomas' Hospital完成心臟學fellowship，早期於巴斯Royal United Hospital建立區域瓣膜心臟病中心並擔任主任逾十年，2014年轉回倫敦St Thomas' 成為英國最大規模瓣膜病中心之一的領導者。他曾任歐洲心臟學會瓣膜心臟病工作小組主席與ESC瓣膜病指引撰寫委員。",
+      "signatureWork": "2024年於JACC主導無症狀重度AS早期AVR 4項RCT整合分析（1427位患者），證實早期介入顯著降低非計畫心衰住院與中風風險，重塑現行ESC/AHA指引對「等待症狀出現」保守策略的挑戰基礎。",
+      "recentActivity": "2025年於JSCAI擴充前述整合分析納入觀察性研究（共16項、5346位患者），強化早期AVR降低全因與心血管死亡之證據。2025年於JAMA共同發表EVOLVED試驗結果（224位有心肌纖維化的無症狀重度AS患者早期介入vs 保守管理，主要終點未顯著但減少症狀進展）。2025年於JAHA發表針對純粹自然主動脈瓣閉鎖不全專用裝置vs 常規TAVI的系統性回顧。",
+      "conversationStarter": "他對「EARLY TAVR試驗結果是否足以改寫ESC 2021指引的Class IIa/IIb建議」的立場值得請教——EVOLVED未達主要終點下，他如何權衡RCT異質性與早期介入的臨床門檻。",
+      "recentPapers": [
+        {"title": "Aortic Valve Replacement vs Clinical Surveillance in Asymptomatic Severe Aortic Stenosis: A Systematic Review and Meta-Analysis", "year": 2024, "pmid": "39641732", "relevance": "他主導的4項RCT整合分析，為現行無症狀重度AS早期介入臨床辯論的核心證據基礎——本屆LBT討論必然引用。"},
+        {"title": "Aortic Valve Replacement in Asymptomatic Severe Aortic Stenosis: A Systematic Review and Meta-Analysis", "year": 2025, "pmid": "40933099", "relevance": "將觀察性研究與RCT合併分析（16項、5346位患者），強化早期AVR生存獲益證據——延伸前述JACC分析深度。"},
+        {"title": "Early Intervention in Patients With Asymptomatic Severe Aortic Stenosis and Myocardial Fibrosis: The EVOLVED Randomized Clinical Trial", "year": 2025, "pmid": "39466640", "relevance": "EVOLVED RCT顯示心肌纖維化為陽性之無症狀重度AS患者早期介入未顯著降低主要終點但減少症狀進展，為TAVI適應症辯論重要反證。"},
+        {"title": "Dedicated Versus Conventional Devices in Patients With Pure Native Aortic Regurgitation: A Systematic Review and Meta-Analysis", "year": 2025, "pmid": "41147394", "relevance": "19項研究整合顯示專用裝置在純粹自然AR上30日死亡率4.7%、裝置成功率93%——擴展TAVI適應症至AR的最新證據。"}
+      ]
     }
   ]
 }

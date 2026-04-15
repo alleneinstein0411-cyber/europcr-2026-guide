@@ -19,16 +19,46 @@
       "oneLiner": "法國克利尼克帕斯特爾醫院介入心臟科核心術者，TARGET-FIRST試驗共同PI，專精鈣化病灶與分叉處理。",
       "keyContributions": [
         "TARGET-FIRST RCT (NEJM 2025): AMI完全血運重建後一個月P2Y12單藥治療不劣於雙抗，出血顯著減少 — PMID 40888726",
-        "France PCI登錄研究：P2Y12預處理與支架血栓降低相關（逾53,898例）— PMID 41173457",
+        "France PCI登錄研究：P2Y12預處理與支架血栓降低相關(逾53,898例)— PMID 41173457",
         "IVL用於未保護左主幹PCI一年結果報告，JACC Cardiovasc Interv 2025 — PMID 41400603"
       ],
-      "whyListen": "Honton同時身兼術者與臨床試驗PI，在鈣化病灶前處理（IVL、RA）及抗血小板策略均有高水準實戰成果。他參與TARGET-FIRST NEJM論文，是目前歐洲最具代表性的複雜冠狀動脈介入術者之一。EuroPCR週三現場手術及週四複雜分叉LIVE Leipzig均可直接觀摩其操作手法與決策邏輯，對介入心臟科醫師而言極具學習價值。",
+      "whyListen": "Honton同時身兼術者與臨床試驗PI，在鈣化病灶前處理(IVL、RA)及抗血小板策略均有高水準實戰成果。他參與TARGET-FIRST NEJM論文，是目前歐洲最具代表性的複雜冠狀動脈介入術者之一。EuroPCR週三現場手術及週四複雜分叉LIVE Leipzig均可直接觀摩其操作手法與決策邏輯，對介入心臟科醫師而言極具學習價值。",
       "pmids": [
         "40888726",
         "41173457",
         "41400603",
         "41597314",
         "41428430"
+      ],
+      "extendedBio": "Honton於法國接受介入心臟科訓練，現任土魯斯克利尼克帕斯特爾醫院介入心臟科核心術者，該院是法國南部高容量複雜PCI中心。他長期專注於鈣化病灶前處理、左主幹及分叉介入，並積極參與跨國多中心RCT的設計與執行。近年以TARGET-FIRST研究共同PI身分登上NEJM，躋身法國新世代具試驗驅動力的介入心臟科代表人物。",
+      "signatureWork": "TARGET-FIRST試驗(NEJM 2025)證實AMI完全血運重建後僅一個月雙抗即可轉為P2Y12單藥，挑戰傳統12個月DAPT教條。",
+      "recentActivity": "2025年同時發表TARGET-FIRST NEJM、France PCI大型登錄P2Y12預處理分析與左主幹IVL一年結果，在NEJM、JACC Cardiovasc Interv多本主流期刊均有主要作者貢獻。2026年EuroPCR擔任四場現場手術術者與討論者，涵蓋多支病變、分叉LIVE Leipzig及冠狀動脈決策論壇。",
+      "conversationStarter": "對「AMI後DAPT要不要縮短到一個月」與「左主幹重度鈣化IVL vs RA首選」有明確的試驗數據立場，適合從TARGET-FIRST設計與法國實務出發開啟對話。",
+      "recentPapers": [
+        {
+          "title": "One-Month DAPT after Complete Revascularization for Acute Myocardial Infarction (TARGET-FIRST)",
+          "year": 2025,
+          "pmid": "40888726",
+          "relevance": "NEJM原著；重新定義AMI後DAPT期程的里程碑試驗"
+        },
+        {
+          "title": "P2Y12 inhibitor pretreatment and stent thrombosis in the France PCI registry",
+          "year": 2025,
+          "pmid": "41173457",
+          "relevance": "53,898例真實世界資料，支持預處理降低早期支架血栓"
+        },
+        {
+          "title": "One-year outcomes of intravascular lithotripsy for unprotected left main PCI",
+          "year": 2025,
+          "pmid": "41400603",
+          "relevance": "左主幹鈣化病灶IVL安全性與耐久性的前瞻性資料"
+        },
+        {
+          "title": "MINOCA diagnostic practices across 42 European centres (SNIPER)",
+          "year": 2025,
+          "pmid": "41428430",
+          "relevance": "共同作者；揭示歐洲MINOCA診斷與指引落差"
+        }
       ],
       "euroPCR2026": {
         "sessionIds": [
@@ -68,6 +98,36 @@
         "41624567",
         "41428430"
       ],
+      "extendedBio": "Hovasse為法國培養的介入心臟科醫師，長期任職於ICPS(Institut Cardiovasculaire Paris Sud)暨Hôpital Privé Jacques Cartier，該院是法國最具國際聲譽的結構性心臟病與複雜冠狀動脈中心之一。他橫跨CTO、影像引導PCI與TAVI，參與逾350篇PubMed發表，並為多項歐洲多中心RCT的共同作者。其職涯軌跡反映ICPS團隊從Lefèvre、Chevalier世代延續至現代影像與AI驅動介入的路徑。",
+      "signatureWork": "IVUS-CHIP與FAST III兩項2026年NEJM隨機試驗的核心術者，分別重塑複雜PCI的影像引導選擇與生理學評估流程。",
+      "recentActivity": "2025-2026年以核心術者身分同年共同署名兩篇NEJM原著(IVUS-CHIP、FAST III)，另於Eur Heart J Digital Health發表數位孿生於冠狀動脈介入之综述。EuroPCR 2026擔任anchorperson，涵蓋現場手術、RA/OA模擬與分叉LIVE Leipzig共四場。",
+      "conversationStarter": "對「IVUS引導是否真能改善複雜PCI硬終點」以及「vFFR能否取代傳統壓力導絲」有第一手RCT經驗，適合切入影像/生理學整合策略。",
+      "recentPapers": [
+        {
+          "title": "Intravascular Ultrasound vs Angiography-Guided Complex PCI (IVUS-CHIP)",
+          "year": 2026,
+          "pmid": "41911016",
+          "relevance": "NEJM原著；歐洲複雜PCI影像引導最大型RCT"
+        },
+        {
+          "title": "Vessel Fractional Flow Reserve vs Wire-Based FFR (FAST III)",
+          "year": 2026,
+          "pmid": "41910382",
+          "relevance": "NEJM原著；37中心驗證vFFR不劣效性"
+        },
+        {
+          "title": "Digital twin applications in coronary and structural heart interventions",
+          "year": 2025,
+          "pmid": "41624567",
+          "relevance": "數位孿生技術在介入心臟科的前瞻性综述"
+        },
+        {
+          "title": "Long-term outcomes following complex PCI in contemporary registries",
+          "year": 2025,
+          "pmid": "41490527",
+          "relevance": "複雜PCI長期追蹤資料，支持IVUS引導價值"
+        }
+      ],
       "euroPCR2026": {
         "sessionIds": [
           "WED-0800-MAIN-001",
@@ -94,9 +154,9 @@
       "tier": "A",
       "oneLiner": "法國瓦朗謝納醫院CTO介入術者，MLCTO課程共同主任，擁有逾2500例CTO手術經驗，歐洲CTO俱樂部核心成員。",
       "keyContributions": [
-        "EuroCTO登錄研究：IVUS技術性應用於CTO-PCI獨立預測技術成功（OR 1.39），15,226例分析，Clin Res Cardiol 2025 — PMID 41182347",
-        "ReCross微導管用於前向CTO PCI多中心觀察研究（技術成功率96%），Catheter Cardiovasc Interv 2025 — PMID 40384369",
-        "CTO PCI 2026年更新综述（涵蓋最新策略、影像與器材），J Invasive Cardiol 2026 — PMID 41712930",
+        "EuroCTO登錄研究：IVUS技術性應用於CTO-PCI獨立預測技術成功(OR 1.39)，15,226例分析，Clin Res Cardiol 2025 — PMID 41182347",
+        "ReCross微導管用於前向CTO PCI多中心觀察研究(技術成功率96%)，Catheter Cardiovasc Interv 2025 — PMID 40384369",
+        "CTO PCI 2026年更新综述(涵蓋最新策略、影像與器材)，J Invasive Cardiol 2026 — PMID 41712930",
         "IDE指數：IVUS量化切割球囊效率新指標，切割球囊在鈣化病灶的多中心研究，Catheter Cardiovasc Interv 2026 — PMID 41947029"
       ],
       "whyListen": "Avran是法國乃至歐洲CTO領域最活躍的術者兼教育者之一，在前向與逆向技術均有豐富積累，並致力於建立CTO訓練體系。他的現場手術展示通常包含IVUS引導再入真腔技巧，是學習CTO策略決策的難得機會。",
@@ -106,6 +166,42 @@
         "41712930",
         "41947029",
         "40500006"
+      ],
+      "extendedBio": "Avran於法國完成介入心臟科訓練，現任瓦朗謝納醫院CTO主任，是Mastering Live CTO(MLCTO)課程共同創辦人與主任，個人CTO手術經驗已超過2500例。他同時為歐洲CTO俱樂部(EuroCTO Club)核心成員，多年來推動前向解剖導引(ADR)、逆向技術與IVUS引導再入的標準化教學，為法語世界CTO訓練中樞。",
+      "signatureWork": "共同領導EuroCTO登錄研究(15,226例)確立IVUS技術性應用為CTO技術成功的獨立預測因子，並將此發現轉化為MLCTO課程教學核心。",
+      "recentActivity": "2025-2026年發表多項關鍵CTO研究：EuroCTO IVUS分析(Clin Res Cardiol 2025)、ReCross微導管多中心經驗、2026 CTO綜合綜述及IDE切割球囊量化指標。EuroPCR 2026擔任三場CTO與RA/OA相關現場手術與模擬課程的術者/教師。",
+      "conversationStarter": "對「IVUS導引逆向真腔再入的成功關鍵步驟」與「台灣CTO中心如何建立像MLCTO的系統化訓練」有具體實務見解，適合切入CTO教學體系話題。",
+      "recentPapers": [
+        {
+          "title": "IVUS use and technical success in EuroCTO registry (15,226 CTO-PCI)",
+          "year": 2025,
+          "pmid": "41182347",
+          "relevance": "迄今最大CTO-PCI登錄影像分析，奠定IVUS引導標準"
+        },
+        {
+          "title": "ReCross microcatheter for antegrade CTO PCI — multicenter experience",
+          "year": 2025,
+          "pmid": "40384369",
+          "relevance": "新一代微導管前向CTO 96%技術成功率驗證"
+        },
+        {
+          "title": "CTO PCI: 2026 update on strategies, imaging and devices",
+          "year": 2026,
+          "pmid": "41712930",
+          "relevance": "最新CTO策略、影像與器材整合綜述"
+        },
+        {
+          "title": "IDE index for IVUS-quantified cutting balloon efficacy",
+          "year": 2026,
+          "pmid": "41947029",
+          "relevance": "切割球囊在鈣化病灶的新量化指標(IDE)"
+        },
+        {
+          "title": "Plaque modification devices in severely calcified CTO (ERCTO)",
+          "year": 2025,
+          "pmid": "40500006",
+          "relevance": "鈣化CTO器材選擇與技術成功率(79%→97.6%)"
+        }
       ],
       "euroPCR2026": {
         "sessionIds": [
@@ -133,7 +229,7 @@
       "oneLiner": "德國萊比錫心臟中心介入心臟科醫師，PREPARE-CALC試驗共同研究者，專精嚴重鈣化病灶旋磨處理與分叉複雜手術。",
       "keyContributions": [
         "PREPARE-CALC與ISAR-CALC匯總分析：RA對比改良球囊與超高壓球囊處理嚴重鈣化病灶的隨機試驗，JACC Cardiovasc Interv 2022 — PMID 36137691",
-        "ROTA-STEMI多中心研究：STEMI合併嚴重鈣化旋磨安全性分析（12歐洲中心），Can J Cardiol 2024 — PMID 38147962",
+        "ROTA-STEMI多中心研究：STEMI合併嚴重鈣化旋磨安全性分析(12歐洲中心)，Can J Cardiol 2024 — PMID 38147962",
         "旋磨技術現況與兩項隨機試驗洞見综述，Clin Res Cardiol 2022 — PMID 35482101",
         "分叉冠狀動脈穿孔處理：有孔覆膜支架雙支架策略病例系列，Catheter Cardiovasc Interv 2025 — PMID 41457941"
       ],
@@ -171,9 +267,9 @@
       "oneLiner": "德國波鴻魯爾大學北萊茵-威斯特法倫心臟中心CTO與高風險PCI主任，ERCTO登錄研究核心研究者。",
       "keyContributions": [
         "EuroCTO登錄研究：IVUS技術應用與CTO技術成功的關係，15,226例，Clin Res Cardiol 2025 — PMID 41182347",
-        "ERCTO嚴重鈣化CTO中鈣化斑塊修飾器材影響分析（ACPMD組技術成功率97.6% vs 79.1%），JACC Cardiovasc Interv 2025 — PMID 40500006",
-        "ReCross微導管前向CTO PCI多中心觀察研究（主要作者，技術成功96%），Catheter Cardiovasc Interv 2025 — PMID 40384369",
-        "HFmrEF合併CTO的長期預後影響研究（CTO-PCI成功可改善存活率），J Am Heart Assoc 2025 — PMID 40847486"
+        "ERCTO嚴重鈣化CTO中鈣化斑塊修飾器材影響分析(ACPMD組技術成功率97.6% vs 79.1%)，JACC Cardiovasc Interv 2025 — PMID 40500006",
+        "ReCross微導管前向CTO PCI多中心觀察研究(主要作者，技術成功96%)，Catheter Cardiovasc Interv 2025 — PMID 40384369",
+        "HFmrEF合併CTO的長期預後影響研究(CTO-PCI成功可改善存活率)，J Am Heart Assoc 2025 — PMID 40847486"
       ],
       "whyListen": "Ayoub橫跨冠狀動脈CTO與心臟衰竭兩個軌道，代表著現代複雜PCI中「不只開通血管，更要改善預後」的思維轉變。他在ERCTO的系列研究為鈣化CTO的器材選擇提供最強循證支持，並涉及HAVANE模擬課程，讓參與者能在安全環境中體驗高難度場景。",
       "pmids": [
@@ -182,6 +278,36 @@
         "40384369",
         "40847486",
         "41878935"
+      ],
+      "extendedBio": "Ayoub於德國接受介入心臟科訓練，現任波鴻魯爾大學附屬Herz- und Diabeteszentrum NRW(Bad Oeynhausen)CTO與高風險PCI主任。該院是歐洲最大的心臟糖尿病複合中心之一，擁有完整從CTO、鈣化病灶到心臟衰竭與結構性心臟病的介入照護體系。他近年以ERCTO登錄主要作者身分推動鈣化CTO器材選擇的循證化，並將CTO成功與HFmrEF長期存活連結。",
+      "signatureWork": "ERCTO嚴重鈣化CTO分析證明鈣化斑塊修飾器材(ACPMD)可將技術成功率由79.1%提升至97.6%，重塑鈣化CTO器材選擇指引。",
+      "recentActivity": "2025年同年發表四項關鍵研究：EuroCTO IVUS、ERCTO鈣化、ReCross微導管及HFmrEF合併CTO長期預後(J Am Heart Assoc)。2026 EuroPCR擔任三場涵蓋CTO現場手術、HAVANE模擬與心衰/冠狀動脈病例討論的術者，是本批次少數橫跨冠狀動脈與心衰主題的講者。",
+      "conversationStarter": "對「CTO-PCI要不要在HFmrEF先開通」以及「鈣化CTO該先選ACPMD還是傳統導線升級策略」有明確的登錄研究立場，可從ERCTO鈣化分析切入。",
+      "recentPapers": [
+        {
+          "title": "Plaque modification devices improve success in severely calcified CTO (ERCTO)",
+          "year": 2025,
+          "pmid": "40500006",
+          "relevance": "ACPMD策略將技術成功率由79%提升至97.6%"
+        },
+        {
+          "title": "IVUS use and CTO technical success in EuroCTO registry",
+          "year": 2025,
+          "pmid": "41182347",
+          "relevance": "15,226例CTO-PCI確立IVUS引導獨立貢獻"
+        },
+        {
+          "title": "ReCross microcatheter for antegrade CTO PCI (multicenter)",
+          "year": 2025,
+          "pmid": "40384369",
+          "relevance": "主要作者；新世代微導管96%技術成功"
+        },
+        {
+          "title": "CTO-PCI and long-term outcomes in HFmrEF",
+          "year": 2025,
+          "pmid": "40847486",
+          "relevance": "首度證明CTO成功改善HFmrEF存活率"
+        }
       ],
       "euroPCR2026": {
         "sessionIds": [
@@ -206,11 +332,11 @@
         "live case procedures"
       ],
       "tier": "B",
-      "oneLiner": "法國土魯斯克利尼克帕斯特爾醫院介入心臟科共同主任（1999年起），專精藥物塗層球囊與支架內再狹窄治療。",
+      "oneLiner": "法國土魯斯克利尼克帕斯特爾醫院介入心臟科共同主任(1999年起)，專精藥物塗層球囊與支架內再狹窄治療。",
       "keyContributions": [
-        "CVT-DCB Everolimus藥物塗層球囊首次人體試驗3年長期追蹤（TLF率9.8%，持續安全有效），Am J Cardiol 2026 — PMID 41759564",
+        "CVT-DCB Everolimus藥物塗層球囊首次人體試驗3年長期追蹤(TLF率9.8%，持續安全有效)，Am J Cardiol 2026 — PMID 41759564",
         "CVT-ISR首次人體試驗：新型依維莫司DCB治療支架內再狹窄優越性確認，Coron Artery Dis 2024 — PMID 39601687",
-        "SNIPER歐洲多中心調查：MINOCA診斷實踐現況與指引落差分析（42歐洲中心），J Cardiovasc Med 2025 — PMID 41428430"
+        "SNIPER歐洲多中心調查：MINOCA診斷實踐現況與指引落差分析(42歐洲中心)，J Cardiovasc Med 2025 — PMID 41428430"
       ],
       "whyListen": "Farah身為土魯斯克利尼克帕斯特爾介入心臟科共同主任逾25年，其實戰LIVE手術經驗豐厚，特別在DCB治療再狹窄的新世代選項上有重要的第一手發表。他與Honton同一機構，能呈現高容量中心的完整PCI策略視角。",
       "pmids": [
@@ -243,13 +369,13 @@
       "tier": "A",
       "oneLiner": "瑞士巴塞爾大學醫院介入心臟科主任，CHIP與CTO領域國際核心術者，RODIN-CUT技術及Side Flap技術的共同發展者。",
       "keyContributions": [
-        "IDE指數：IVUS量化切割球囊效率新方法（RODIN-CUT技術50例多中心驗證），Catheter Cardiovasc Interv 2026 — PMID 41947029",
-        "CTO PCI 2026年更新综述（涵蓋最新AI工具、IVUS引導再入、逆向技術），J Invasive Cardiol 2026 — PMID 41712930",
+        "IDE指數：IVUS量化切割球囊效率新方法(RODIN-CUT技術50例多中心驗證)，Catheter Cardiovasc Interv 2026 — PMID 41947029",
+        "CTO PCI 2026年更新综述(涵蓋最新AI工具、IVUS引導再入、逆向技術)，J Invasive Cardiol 2026 — PMID 41712930",
         "Side Flap技術：主動脈-開口病灶支架過度突出的系統化管理，Catheter Cardiovasc Interv 2026 — PMID 41808303",
-        "CTO-PCI在SYNTAX評分分層的存活獲益Meta分析（高SYNTAX組獲益最大），Eur Heart J Open 2026 — PMID 41929393",
+        "CTO-PCI在SYNTAX評分分層的存活獲益Meta分析(高SYNTAX組獲益最大)，Eur Heart J Open 2026 — PMID 41929393",
         "遠端橈動脈入路用於複雜PCI的現況與展望综述，Cardiovasc Interv Ther 2025 — PMID 41420686"
       ],
-      "whyListen": "Leibundgut是瑞士複雜PCI（CHIP）領域的代表人物，在主動脈開口病灶、鈣化病灶切割球囊處理及CTO均有創新技術發表。他同時擔任anchorperson，能在現場手術中提供即時系統性技術詮釋。2026年他共有3項議程項目，是本批次發表密度最高的術者之一。",
+      "whyListen": "Leibundgut是瑞士複雜PCI(CHIP)領域的代表人物，在主動脈開口病灶、鈣化病灶切割球囊處理及CTO均有創新技術發表。他同時擔任anchorperson，能在現場手術中提供即時系統性技術詮釋。2026年他共有3項議程項目，是本批次發表密度最高的術者之一。",
       "pmids": [
         "41947029",
         "41712930",
@@ -257,6 +383,42 @@
         "41929393",
         "41420686",
         "41951170"
+      ],
+      "extendedBio": "Leibundgut於瑞士接受內科與心臟科訓練，現任巴塞爾大學醫院介入心臟科主任，長年投入CHIP(複雜高風險介入)與CTO的技術創新。他與國際同儕共同提出RODIN-CUT切割球囊定位技術、Side Flap主動脈開口支架過度突出處理技術，並持續推動遠端橈動脈入路於複雜PCI的應用。其研究風格偏重「發明可重現的技術範式」，使巴塞爾成為中歐CHIP教學中心之一。",
+      "signatureWork": "共同發展RODIN-CUT與Side Flap技術，並以IDE指數量化切割球囊效率，為鈣化與主動脈開口病灶提供可複製的操作範式。",
+      "recentActivity": "2025-2026年發表六篇主要論文，涵蓋IDE指數(Catheter Cardiovasc Interv)、Side Flap技術、CTO 2026綜述、SYNTAX分層CTO存活Meta分析及遠端橈動脈入路綜述。EuroPCR 2026擔任兩場(三項議程)anchorperson，教學密度極高。",
+      "conversationStarter": "對「主動脈開口病灶支架該怎麼精準對位」、「切割球囊何時比IVL更適合」以及「高SYNTAX病患該不該積極做CTO」有鮮明技術觀點，可切入CHIP範式對話。",
+      "recentPapers": [
+        {
+          "title": "IDE index — IVUS-quantified cutting balloon efficacy (RODIN-CUT)",
+          "year": 2026,
+          "pmid": "41947029",
+          "relevance": "首度系統量化切割球囊效率的多中心驗證"
+        },
+        {
+          "title": "Side Flap technique for aorto-ostial stent protrusion management",
+          "year": 2026,
+          "pmid": "41808303",
+          "relevance": "主動脈開口病灶處理新技術範式"
+        },
+        {
+          "title": "CTO-PCI survival benefit stratified by SYNTAX score (meta-analysis)",
+          "year": 2026,
+          "pmid": "41929393",
+          "relevance": "高SYNTAX病患從CTO-PCI獲益最大"
+        },
+        {
+          "title": "CTO PCI 2026 update: AI, IVUS re-entry and retrograde techniques",
+          "year": 2026,
+          "pmid": "41712930",
+          "relevance": "當代CTO技術整合綜述"
+        },
+        {
+          "title": "Distal radial access for complex PCI — state of the art",
+          "year": 2025,
+          "pmid": "41420686",
+          "relevance": "複雜PCI遠端橈動脈入路可行性綜述"
+        }
       ],
       "euroPCR2026": {
         "sessionIds": [
@@ -282,10 +444,10 @@
       "tier": "A",
       "oneLiner": "比利時安特衛普ZAS米德爾海姆醫院介入心臟科醫師，逾330篇發表，PROCTOR隨機試驗、ERCTO登錄核心研究者，CTO與複雜PCI國際專家。",
       "keyContributions": [
-        "PROCTOR RCT（JACC 2025）：CABG術後靜脈橋血管失效時，靜脈橋PCI相較自然血管PCI在1年MACE率上優越（主要作者），J Am Coll Cardiol 2025 — PMID 41159978",
+        "PROCTOR RCT(JACC 2025)：CABG術後靜脈橋血管失效時，靜脈橋PCI相較自然血管PCI在1年MACE率上優越(主要作者)，J Am Coll Cardiol 2025 — PMID 41159978",
         "EuroCTO登錄研究：IVUS技術性應用與CTO成功獨立相關，Clin Res Cardiol 2025 — PMID 41182347",
         "ERCTO嚴重鈣化CTO：鈣化斑塊修飾器材可將技術成功率由79%提升至97.6%，JACC Cardiovasc Interv 2025 — PMID 40500006",
-        "遠端橈動脈入路用於複雜PCI现況综述（DISCO COMPLEX試驗），Cardiovasc Interv Ther 2025 — PMID 41420686",
+        "遠端橈動脈入路用於複雜PCI现況综述(DISCO COMPLEX試驗)，Cardiovasc Interv Ther 2025 — PMID 41420686",
         "CTO-PCI SYNTAX評分分層存活獲益Meta分析，Eur Heart J Open 2026 — PMID 41929393"
       ],
       "whyListen": "Agostoni擁有逾330篇發表及高度多元的臨床研究組合，從CTO到TAVI、從橈動脈入路到靜脈橋血管PCI均有高水平貢獻。PROCTOR試驗顛覆了傳統「優先開通自然血管」的指引建議，是近年最重要的冠狀動脈隨機試驗之一。他在複雜LIVE現場手術中將展示高階技術，適合任何有興趣學習複雜冠狀動脈策略的醫師觀摩。",
@@ -296,6 +458,42 @@
         "41420686",
         "41929393",
         "41947029"
+      ],
+      "extendedBio": "Agostoni於義大利米蘭接受醫學訓練，後在荷蘭烏特勒支大學與比利時安特衛普發展介入心臟科職涯，現任ZAS Middelheim HartCentrum資深介入術者。他的研究橫跨CTO、TAVI、結構性心臟病與靜脈橋血管PCI，PubMed發表逾330篇，是歐洲少數同時在冠狀動脈與結構性心臟病兩個軌道皆具高發表量的術者。近年以PROCTOR試驗主要作者身分登上JACC，成為後CABG血運重建爭議的關鍵證據提供者。",
+      "signatureWork": "PROCTOR隨機試驗(JACC 2025)證明CABG術後橋血管失效時，直接PCI橋血管比改做自然血管PCI一年MACE率更優，挑戰長年指引方向。",
+      "recentActivity": "2025-2026年同時貢獻PROCTOR(JACC)、EuroCTO IVUS、ERCTO鈣化CTO、遠端橈動脈綜述與SYNTAX分層Meta分析等六項主要論文，涵蓋冠狀動脈介入最關鍵的幾個議題。EuroPCR 2026擔任兩場複雜冠狀動脈現場手術術者。",
+      "conversationStarter": "對「CABG後橋血管失效到底該做橋血管還是原生血管」以及「遠端橈動脈能否成為複雜PCI主流入路」有第一手RCT與登錄證據，可從PROCTOR結果切入。",
+      "recentPapers": [
+        {
+          "title": "PCI of failed SVG vs native vessel after CABG (PROCTOR RCT)",
+          "year": 2025,
+          "pmid": "41159978",
+          "relevance": "JACC原著；顛覆後CABG血運重建策略的關鍵RCT"
+        },
+        {
+          "title": "IVUS use and CTO technical success in EuroCTO registry",
+          "year": 2025,
+          "pmid": "41182347",
+          "relevance": "15,226例CTO登錄IVUS獨立預測成功"
+        },
+        {
+          "title": "Plaque modification devices in severely calcified CTO (ERCTO)",
+          "year": 2025,
+          "pmid": "40500006",
+          "relevance": "鈣化CTO器材選擇循證依據"
+        },
+        {
+          "title": "Distal radial access for complex PCI — DISCO COMPLEX perspective",
+          "year": 2025,
+          "pmid": "41420686",
+          "relevance": "遠端橈動脈於複雜PCI的現況綜述"
+        },
+        {
+          "title": "CTO-PCI SYNTAX-stratified survival meta-analysis",
+          "year": 2026,
+          "pmid": "41929393",
+          "relevance": "CTO-PCI獲益在高SYNTAX病患最顯著"
+        }
       ],
       "euroPCR2026": {
         "sessionIds": [

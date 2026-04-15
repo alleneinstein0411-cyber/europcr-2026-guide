@@ -13,7 +13,18 @@
       "keyContributions": ["ShortCut leaflet-splitting device pivotal trial (EHJ 2024)", "CENTER study (ViV-TAVI vs NV-TAVI)", "Clinique Pasteur TAVI care pathway design"],
       "whyListen": "少數同時精通TAVI直播操作、分叉PCI及機器人輔助PCI的複合術者。現場手術可觀察到Clinique Pasteur的技術選擇與術中決策。",
       "pmids": ["38747561", "35351288"],
-      "sessionIds": ["7 sessions: TAVI LIVE operator x2, TAVI/bifurcation/structural anchorperson"]
+      "sessionIds": ["7 sessions: TAVI LIVE operator x2, TAVI/bifurcation/structural anchorperson"],
+      "extendedBio": "杜魯斯Clinique Pasteur結構性心臟病團隊核心成員，與Didier Tchétché共同打造GCVI介入心血管團隊，為歐洲最大量TAVI中心之一。長期投入經導管瓣膜治療的臨床試驗與術式演進，從退化性三葉瓣、二葉瓣到valve-in-valve、冠脈阻塞風險處理皆有深厚累積。近年同時將觸角延伸至二尖瓣/三尖瓣介入與機器人輔助PCI，是少數橫跨結構與冠脈介入的複合型術者。",
+      "signatureWork": "共同主持ShortCut專屬瓣葉切割裝置的全球樞紐試驗（EHJ 2024），證實60位高冠脈阻塞風險ViV-TAVI患者中瓣葉切割成功率100%、30天冠脈阻塞自由率95%。",
+      "recentActivity": "2024-2025年持續以共同作者身份參與Navitor平台在二葉瓣主動脈狹窄的NavIIgister多中心註冊、LVOT鈣化對BAV-TAVI早期結果影響的分析；2025年RHEIA trial（女性TAVI vs SAVR隨機試驗）於歐洲心臟期刊發表，Dumonteil為共同作者。同時持續擔任EuroPCR TAVI LIVE與結構session的現場術者與審查者。",
+      "conversationStarter": "對「二葉瓣TAVI是否該用專屬策略而非套用三葉瓣經驗」有明確立場，尤其在LVOT鈣化量大時自擴張與球擴張瓣膜選擇的權衡。",
+      "recentPapers": [
+        {"title": "Leaflet modification before TAVI in patients at risk for coronary obstruction: the ShortCut study", "year": 2024, "pmid": "38747561", "relevance": "冠脈阻塞高風險ViV-TAVI族群中瓣葉切割裝置全球樞紐試驗主要論文"},
+        {"title": "Transcatheter vs. surgical aortic valve replacement in women: the RHEIA trial", "year": 2025, "pmid": "40171878", "relevance": "女性專屬TAVI vs SAVR隨機試驗，1年複合終點證實TAVI優於外科"},
+        {"title": "The NavIIgister: TAVI With the Navitor Platform in Bicuspid Anatomy", "year": 2025, "pmid": "40963180", "relevance": "Navitor自擴張瓣於二葉瓣解剖多中心登記，裝置成功率91.5%"},
+        {"title": "Impact of LVOT Calcification on Early Outcome in Bicuspid AV TAVI with SEV vs BEV", "year": 2025, "pmid": "40614952", "relevance": "LVOT鈣化對二葉瓣TAVI結果的影響，直接關聯現場瓣膜選擇邏輯"},
+        {"title": "Contemporary Transcatheter Heart Valves for TAVI in Bicuspid Aortic Anatomy", "year": 2025, "pmid": "40283668", "relevance": "第二/三代THV於二葉瓣的現況回顧，反映GCVI的臨床哲學"}
+      ]
     },
     {
       "name": "M. Abdel-Wahab",
@@ -25,7 +36,16 @@
       "keyContributions": ["ROTAXUS & PREPARE-CALC RCTs: modern evidence for rotational atherectomy", "ShortCut pivotal trial participant", "Delayed coronary obstruction after TAVI (JACC 2018)"],
       "whyListen": "同時跨足TAVI與鈣化PCI兩大高難度領域，在歐洲最大量TAVI中心累積了難以匹敵的實務經驗。",
       "pmids": ["38747561", "35482101", "34609284", "29622157"],
-      "sessionIds": ["6 sessions: LIVE operator, bifurcation/TAVI facilitator"]
+      "sessionIds": ["6 sessions: LIVE operator, bifurcation/TAVI facilitator"],
+      "extendedBio": "埃及亞歷山卓大學醫學訓練出身，德國Bad Segeberg心臟中心展開介入養成，後轉任萊比錫大學心臟中心介入部門主任。同時橫跨結構性心臟病（TAVI）與複雜鈣化冠脈介入（CHIP/旋磨）兩大領域，並以同時擔任ROTAXUS與PREPARE-CALC兩項隨機試驗的主要研究者聞名。持續以高產出論文、國際指引撰寫與EuroPCR/TCT現場術者身份，塑造當代鈣化冠脈與TAVI實務標準。",
+      "signatureWork": "身為ROTAXUS與PREPARE-CALC兩項隨機試驗的PI，為現代DES時代旋磨術於重度鈣化病灶的循證地位奠定基石，並在Clin Res Cardiol 2022彙整兩試驗共同分析。",
+      "recentActivity": "2024年以共同作者身份發表ShortCut瓣葉切割裝置全球樞紐試驗（EHJ）；2025年繼續以Segeberg TAVI Registry衍生分析探討重度主動脈狹窄患者TAVI前旋磨術的院內結果，發現與非AS患者MACE率相當。持續擔任萊比錫TAVI LIVE session現場術者與歐洲結構性/鈣化PCI session主持。",
+      "conversationStarter": "對「鈣化病灶一線策略選擇」（旋磨 vs IVL vs 軌道式）具明確觀點，尤其主張在嚴重表淺鈣化且需瓣膜橫越前，旋磨仍是最可預期的選項。",
+      "recentPapers": [
+        {"title": "Leaflet modification before TAVI in patients at risk for coronary obstruction: the ShortCut study", "year": 2024, "pmid": "38747561", "relevance": "ShortCut裝置樞紐試驗，共同作者身份代表Leipzig TAVI中心"},
+        {"title": "Rotational atherectomy for calcified coronary lesions in severe aortic stenosis before TAVI", "year": 2025, "pmid": "40198826", "relevance": "TAVI前旋磨於重度AS族群的院內結果，Segeberg Registry分析"},
+        {"title": "Rotational atherectomy of calcified coronary lesions: insights from two randomized trials", "year": 2022, "pmid": "35482101", "relevance": "ROTAXUS+PREPARE-CALC兩RCT彙整分析，鈣化PCI實務指引級文獻"}
+      ]
     },
     {
       "name": "T. Cuisset",
@@ -37,7 +57,18 @@
       "keyContributions": ["P2Y12 inhibitor switching international consensus (Circulation 2017)", "DAPT duration after ACS systematic review (Circ Cardiovasc Interv 2023)", "ACS post-PCI DAPT individualization review (TCV Med 2019)"],
       "whyListen": "EuroPCR課程主任委員與LBT session審查者，掌握最新突破性試驗的第一手解讀。DAPT/TAVI/CTO三跨域罕見知識廣度。",
       "pmids": ["29084738", "37609850", "31182263"],
-      "sessionIds": ["5 sessions: LBT reviewer, TAVI/bifurcation/CTO anchorperson"]
+      "sessionIds": ["5 sessions: LBT reviewer, TAVI/bifurcation/CTO anchorperson"],
+      "extendedBio": "馬賽Aix-Marseille大學醫學訓練，長期任職CHU Timone心臟科，現為該院介入心臟學主任並擔任C2VN INSERM/INRA聯合實驗室研究員，同時是EuroPCR課程委員會核心成員之一。臨床上橫跨ACS、冠脈生理學、TAVI與DAPT個人化，學術上以血小板反應性檢測、P2Y12抑制劑切換與DAPT降級策略的系列研究在歐洲享譽。",
+      "signatureWork": "2017年Circulation發表的P2Y12抑制劑切換國際共識（第一作者），首次把「ACS後從強效P2Y12切換至clopidogrel」流程化，是當代DAPT降級實作的里程碑。",
+      "recentActivity": "2023年於Circ Cardiovasc Interv發表ACS短期DAPT與降級策略的網絡統合分析，顯示非導引式降級在減少MACE與出血同時最具優勢；2025年參與France PCI registry大型真實世界分析（Can J Cardiol），支持P2Y12預處理仍能降低院內stent thrombosis；2026年JAMA Cardiol APERITIF試驗共同作者，探討前壁STEMI加低劑量rivaroxaban預防LV thrombus。",
+      "conversationStarter": "對「ACS後DAPT降級應該何時、怎麼降」有鮮明立場，傾向支持非導引式降級優於基因/血小板功能導引，並對P2Y12預處理的利弊持續發聲。",
+      "recentPapers": [
+        {"title": "Low-Dose Rivaroxaban to Prevent LV Thrombosis After Anterior MI: The APERITIF RCT", "year": 2026, "pmid": "41739450", "relevance": "前壁STEMI低劑量Xa抑制劑加DAPT的隨機試驗，Cuisset為法國FACT共同作者"},
+        {"title": "Impact of P2Y12 Inhibitors Pretreatment on Stent Thrombosis: France PCI Registry", "year": 2025, "pmid": "41173457", "relevance": "真實世界大型登記對P2Y12預處理的效益再確認"},
+        {"title": "Abbreviated or Standard APT After PCI in Diabetic Patients at High Bleeding Risk (MASTER DAPT)", "year": 2024, "pmid": "39603779", "relevance": "MASTER DAPT糖尿病亞組分析，支持HBR族群縮短DAPT"},
+        {"title": "Abbreviated or Standard DAPT by Sex in Patients at High Bleeding Risk", "year": 2024, "pmid": "37991745", "relevance": "MASTER DAPT性別分層分析"},
+        {"title": "Short-Term DAPT and DAPT De-Escalation Strategies for ACS: Systematic Review and Network Meta-Analysis", "year": 2023, "pmid": "37609850", "relevance": "ACS後短期DAPT與降級策略網絡統合分析，Cuisset為共同資深作者"}
+      ]
     },
     {
       "name": "R. Garbo",
@@ -49,7 +80,18 @@
       "keyContributions": ["ERCTO registry: contemporary CTO PCI, 89.1% success rate (EuroIntervention 2024)", "Guiding catheter extension consensus first author (JACC CI 2023)", "ERCTO calcified CTO + ACPMD analysis (JACC CI 2025)"],
       "whyListen": "逾1100例逆行CTO的術者，歐洲最具實戰經驗的CTO專家之一。現場CTO直播手術是觀察逆行決策邏輯的罕見學習機會。",
       "pmids": ["38343371", "37587590", "40500006"],
-      "sessionIds": ["4 sessions: CTO LIVE operator, active agenda speaker"]
+      "sessionIds": ["4 sessions: CTO LIVE operator, active agenda speaker"],
+      "extendedBio": "義大利都靈Maria Pia Hospital（GVM Care & Research）介入心臟學部門主任，並主掌同院CTO專責單位，長期位居歐洲CTO單人案例量前段班。Turin CTO & CHIP Live Course創辦人，EuroCTO Club董事會成員，是把逆行途徑（retrograde approach）由少數高手技藝推廣為歐陸標準化流程的關鍵人物之一。在ERCTO（European Registry of Chronic Total Occlusion）研究架構中，Garbo長期擔任核心合作中心與共同作者。",
+      "signatureWork": "以ERCTO 2021-2022超過8,600例的分析（EuroIntervention 2024），確立當代歐洲CTO PCI成功率89.1%、逆行途徑仍是複雜病灶不可取代手段的里程碑實證。",
+      "recentActivity": "2025年於JACC Cardiovasc Interv發表ERCTO重度鈣化CTO搭配進階鈣化改造裝置（ACPMD）分析，顯示ACPMD組技術成功率97.6%、MACCE顯著較低；2025-2026年持續擔任ERCTO IVUS技術使用、近端CTO成果、MCS於CTO PCI等多篇系統性論文共同作者；2026年JIC CTO PCI年度更新重要署名人之一。",
+      "conversationStarter": "對「逆行途徑的真正適應症邊界」有強烈觀點——反對把逆行當作萬用救援，主張antegrade+進階鈣化改造在多數複雜鈣化CTO中仍應是首選。",
+      "recentPapers": [
+        {"title": "Contemporary outcomes of CTO PCI in Europe: the ERCTO registry", "year": 2024, "pmid": "38343371", "relevance": "當代歐洲CTO PCI里程碑登記研究，Garbo為核心中心共同作者"},
+        {"title": "Procedural Impact of Advanced Calcific Plaque Modification Devices Within CTO PCI (ERCTO)", "year": 2025, "pmid": "40500006", "relevance": "重度鈣化CTO配合ACPMD的ERCTO分析"},
+        {"title": "CTO PCI: Present and Future", "year": 2025, "pmid": "40223600", "relevance": "Brilakis領銜的CTO PCI現況與展望回顧，Garbo為共同作者"},
+        {"title": "Technical use of IVUS in CTO PCI: insights from the Euro-CTO registry", "year": 2025, "pmid": "41182347", "relevance": "ERCTO IVUS技術應用分析，Garbo為通訊作者"},
+        {"title": "CTO PCI: 2026 update", "year": 2026, "pmid": "41712930", "relevance": "最新CTO PCI年度國際共識更新"}
+      ]
     },
     {
       "name": "K. Mashayekhi",
@@ -61,7 +103,19 @@
       "keyContributions": ["CTO PCI 7 guiding principles consensus (Circulation 2019)", "EuroCTO 2019 consensus update (EuroIntervention)", "ERCTO calcified CTO + ACPMD analysis (JACC CI 2025)"],
       "whyListen": "高頻次操作(350+例/年)與嚴謹學術完美結合，同時代表歐洲CTO技術前沿與循證醫學的少數講者。",
       "pmids": ["31356129", "30636678", "40500006"],
-      "sessionIds": ["4 sessions: CTO key role, active agenda speaker"]
+      "sessionIds": ["4 sessions: CTO key role, active agenda speaker"],
+      "extendedBio": "德國University Heart Center Freiburg-Bad Krozingen訓練出身，現同時任職Freiburg大學心臟中心介入心臟暨血管科與Heart Center Lahr內科/心臟科，是歐洲最年輕獲選加入EuroCTO Club的術者之一。共同起草2019年歐美CTO七大指導原則與EuroCTO共識，並深度參與ERCTO登記研究的設計與分析，學術與高量CTO操作（逾年350例）並行，是當代歐洲CTO PCI方法論的塑造者。",
+      "signatureWork": "共同主導2019年Circulation發表的全球CTO PCI七大指導原則（含北美、歐洲、日本共識整合），把雜亂的技術流派收斂為可教學的標準化算法。",
+      "recentActivity": "2025年共同資深作者身份發表ERCTO重度鈣化CTO+ACPMD分析（JACC CI）；近兩年持續以共同作者參與ERCTO IVUS技術使用、近端CTO成果、DCB於CTO的統合分析、MCS於CTO PCI系統性回顧；2026年JIC CTO PCI年度更新重要署名人；同時共同發表ZOLUTION新穎3D wiring技術論文（CCI 2026）。",
+      "conversationStarter": "對「鈣化CTO何時該先用orbital/IVL介入、何時直接上旋磨」有明確演算法思考，並主張dissection/re-entry應盡量避免，因為會顯著抬高MACCE。",
+      "recentPapers": [
+        {"title": "Procedural Impact of Advanced Calcific Plaque Modification Devices Within CTO PCI (ERCTO)", "year": 2025, "pmid": "40500006", "relevance": "重度鈣化CTO+ACPMD的ERCTO分析，Mashayekhi為共同第一作者"},
+        {"title": "Technical use of IVUS in CTO PCI: insights from the Euro-CTO registry", "year": 2025, "pmid": "41182347", "relevance": "ERCTO中IVUS技術用途的登記分析"},
+        {"title": "Drug-coated balloons and hybrid strategies vs DES in CTO: systematic review and meta-analysis", "year": 2025, "pmid": "41173448", "relevance": "CTO中DCB vs DES統合分析，Mashayekhi為共同作者"},
+        {"title": "A Novel 3D Wiring Technique - ZOLUTION", "year": 2026, "pmid": "41924990", "relevance": "新穎3D wiring技術論文，國際CTO社群聯名方法學發表"},
+        {"title": "CTO PCI: 2026 update", "year": 2026, "pmid": "41712930", "relevance": "最新CTO PCI年度國際共識更新"},
+        {"title": "Mechanical Circulatory Support Use in CTO PCI: A Systematic Review", "year": 2026, "pmid": "41925217", "relevance": "CTO PCI中機械循環輔助使用的系統性回顧"}
+      ]
     }
   ]
 }

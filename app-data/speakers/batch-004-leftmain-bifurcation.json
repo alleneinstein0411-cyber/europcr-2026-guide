@@ -13,7 +13,16 @@
       "keyContributions": ["EAPCI President (2022-2024)", "100+篇FFR臨床應用論文", "LIVE示範手術推廣IVUS引導策略"],
       "whyListen": "EuroPCR現場手術示範核心術者，能直接展示IVUS引導左主幹PCI操作細節。",
       "pmids": ["38811101", "33131299", "29923434"],
-      "sessionIds": ["6 sessions: LIVE operator x2, left main, IVUS anchorperson"]
+      "sessionIds": ["6 sessions: LIVE operator x2, left main, IVUS anchorperson"],
+      "extendedBio": "Barbato在那不勒斯Federico II大學完成醫學與心臟科訓練，並於比利時Aalst的OLV Cardiovascular Center與Bernard De Bruyne團隊深耕冠脈生理學十餘年。現任羅馬Sapienza大學臨床與分子醫學系教授，主持冠脈生理介入中心。學術生涯由基礎血流動力學研究起家，逐步擴展至臨床試驗主導與ESC/EAPCI指引制訂，為歐洲FFR臨床應用普及的關鍵人物。",
+      "signatureWork": "推動FFR從研究工具轉化為臨床決策標準，並共同主導2024 ESC慢性冠心病指引中介入治療章節，將生理學引導策略納入Class I建議。",
+      "recentActivity": "2024年卸任EAPCI會長後持續活躍於臨床試驗，2024-2025年以senior author身分參與P3 Study（JACC Imaging 2024）探討PPG+FFR預測易損斑塊。2025年於Circ Cardiovasc Interv發表TAVI對FFR/RFR即時影響之多中心研究，顯示TAVI後FFR一致性優於靜息指標。續任EuroPCR LIVE示範核心術者。",
+      "conversationStarter": "對於NHPR（如iFR、RFR）是否可完全取代FFR持保留立場，特別是在非LAD血管診斷準確性的異質性，2025年JAHA meta-analysis是其近期強烈主張的證據來源。",
+      "recentPapers": [
+        {"title": "Diagnostic Performance of Non-Hyperemic Pressure Ratios Versus FFR Stratified by Coronary Artery: IPD Meta-Analysis", "year": 2025, "pmid": "41553082", "relevance": "證明NHPR在非LAD血管敏感度顯著較低，挑戰「iFR可全面取代FFR」主流觀點"},
+        {"title": "Effect of TAVI on Epicardial Functional Indices and Their Relationship to Coronary Microvascular Function", "year": 2025, "pmid": "40211959", "relevance": "TAVI後FFR變化較RFR一致性高，影響AS合併CAD患者的生理學評估策略"},
+        {"title": "Predictors for Vulnerable Plaque in Functionally Significant Lesions (P3 Study)", "year": 2024, "pmid": "39269415", "relevance": "PPG>0.65+FFR≤0.70組合預測易損斑塊，為生理學+影像整合決策提供新依據"}
+      ]
     },
     {
       "name": "G. Stankovic",
@@ -25,7 +34,16 @@
       "keyContributions": ["EBC主席(自2014年)，主導第11-18屆分叉共識", "EBC MAIN RCT共同作者(Circulation 2025): LM bifurcation provisional策略", "EBC MADS-2分叉技術分類更新"],
       "whyListen": "EBC主席主持分叉及左主幹session，EBC MAIN試驗結果將直接影響左主幹分叉PCI決策。",
       "pmids": ["39907022", "38752714", "32579300"],
-      "sessionIds": ["6 sessions: bifurcation + left main anchorperson"]
+      "sessionIds": ["6 sessions: bifurcation + left main anchorperson"],
+      "extendedBio": "Stankovic於貝爾格勒大學完成心臟科訓練，並於米蘭San Raffaele醫院Antonio Colombo團隊完成介入研修，將歐洲技術脈絡帶回塞爾維亞。現任貝爾格勒大學臨床中心心臟科主任、貝爾格勒大學醫學院教授。自2014年擔任EBC主席以來，已主導包含第11至18屆的多屆分叉共識，將分叉介入從經驗性操作推向標準化技術框架。",
+      "signatureWork": "主導MADS-2分叉技術分類（EuroIntervention 2018）與EBC第18屆angiography-guided PCI共識（EuroIntervention 2024），成為全球分叉PCI教學與註冊研究的通用語言。",
+      "recentActivity": "2025年Circulation發表EBC MAIN試驗結果：467名真正左主幹分叉患者隨機分派，證實stepwise provisional策略在3年TLR顯著優於upfront dual-stent（8.3% vs 15.6%）。2024年主導EBC第18屆共識強調優化血管攝影引導之關鍵步驟。持續主持EuroPCR分叉session。",
+      "conversationStarter": "強烈主張stepwise provisional應為非複雜左主幹分叉的預設策略，但承認側支直徑≥3.25mm或病變≥10mm時upfront 2-stent仍具價值，此分層決策是近期演講主軸。",
+      "recentPapers": [
+        {"title": "Stepwise Provisional Versus Systematic Dual-Stent Strategies for True Left Main Coronary Bifurcation Lesions (EBC MAIN)", "year": 2025, "pmid": "39907022", "relevance": "確立provisional為左主幹分叉預設策略，定義upfront 2-stent的特定適應症"},
+        {"title": "PCI for Bifurcation Coronary Lesions Using Optimised Angiographic Guidance: 18th EBC Consensus", "year": 2024, "pmid": "38752714", "relevance": "在IVUS/OCT未普及的現實下提供優化血管攝影引導路徑"},
+        {"title": "Definitions and Standardized Endpoints for Treatment of Coronary Bifurcations", "year": 2024, "pmid": "39742225", "relevance": "統一分叉試驗終點定義，為未來RCT設計基礎"}
+      ]
     },
     {
       "name": "J. Fajadet",
@@ -37,7 +55,15 @@
       "keyContributions": ["EuroPCR聯合主席，推動歐洲PCI教育數十年", "Left main management review (EHJ 2019)", "SYNTAX/EXCEL/FREEDOM trials participant"],
       "whyListen": "左主幹PCI技術演進的活歷史，在分叉session中對術式選擇的歷史脈絡分析是教科書無法替代的學習。",
       "pmids": ["29718158"],
-      "sessionIds": ["6 sessions: bifurcation discussant/facilitator/spokesperson"]
+      "sessionIds": ["6 sessions: bifurcation discussant/facilitator/spokesperson"],
+      "extendedBio": "Fajadet於圖盧茲大學完成心臟科訓練，1980年代加入圖盧茲Clinique Pasteur並協助建立法國最早期的介入心臟科團隊之一，與Jean Marco共同將Pasteur打造為歐洲PCI訓練重鎮。其職業軌跡涵蓋POBA、BMS、DES各世代支架研發，並長期擔任EuroPCR聯合主席，是歐洲介入心臟醫學教育體系的奠基人物之一。",
+      "signatureWork": "擔任EuroPCR聯合主席逾二十年，推動LIVE示範手術格式成為全球介入教育標準，並為SYNTAX、EXCEL、FREEDOM等左主幹/多血管RCT的早期推動者。",
+      "recentActivity": "2023年EuroIntervention發表R-EVOLUTION研究，驗證R-One機器人PCI系統在歐洲多中心的安全性與有效性，顯示術者輻射暴露減少77-84%。持續擔任EuroPCR聯合主席並活躍於左主幹及分叉session。",
+      "conversationStarter": "對於機器人PCI在左主幹/分叉複雜病變的角色持開放但務實立場，認為輻射防護與人因工程是下一個十年必然趨勢，但術者觸感仍不可完全取代。",
+      "recentPapers": [
+        {"title": "Evaluation of the R-One Robotic System for PCI: the R-EVOLUTION Study", "year": 2023, "pmid": "36602883", "relevance": "歐洲多中心機器人PCI首個前瞻研究，證明輻射減量與臨床安全性"},
+        {"title": "Left Main Coronary Artery Disease: Pathophysiology, Diagnosis, and Treatment (EHJ Review)", "year": 2018, "pmid": "29718158", "relevance": "左主幹疾病管理權威綜述，至今仍為臨床決策參考框架"}
+      ]
     },
     {
       "name": "T. Johnson",
@@ -49,7 +75,16 @@
       "keyContributions": ["EBC第16/18屆共識文件主要作者", "EBC MAIN trial co-author (Circulation 2025)", "EuroPCR 2026最活躍講者之一(8場)"],
       "whyListen": "EuroPCR 2026 agenda中發言場次最多的講者之一(8場)，以實用導向技術細節見長，可獲得直接應用於術室的具體技巧。",
       "pmids": ["38752714", "35570753", "39907022"],
-      "sessionIds": ["7 sessions: left main anchorperson, active agenda speaker"]
+      "sessionIds": ["7 sessions: left main anchorperson, active agenda speaker"],
+      "extendedBio": "Johnson於布里斯托大學完成醫學訓練與心臟科fellowship，現為布里斯托心臟中心介入心臟科主任醫師與布里斯托大學臨床教授。長期專注於腔內影像引導之複雜PCI，為EBC核心board成員，主導多屆共識文件的技術章節，亦擔任多項英國NIHR臨床試驗主持人。以技術細節講述能力與實用導向教學風格聞名於歐洲介入圈。",
+      "signatureWork": "作為EBC第16屆（two-stent techniques）與第18屆（angiography-guided PCI）共識的核心作者，將DK crush、POT、kissing balloon等關鍵步驟的操作細節標準化。",
+      "recentActivity": "2025年為EBC MAIN（Circulation 2025, 467 pts）共同作者。2024年主導EBC第18屆優化血管攝影引導共識。近期亦深度參與OCT引導複雜PCI教學，並在EuroPCR 2026擔任7場次發言者，涵蓋左主幹主持人、分叉技術演示與case-based teaching。",
+      "conversationStarter": "對於「影像引導PCI是否應為所有左主幹介入之Class I建議」持明確支持立場，但在資源受限情境下強調優化血管攝影引導（pre-PCI多角度分析、QCA、stent enhancement）仍具可行性。",
+      "recentPapers": [
+        {"title": "Stepwise Provisional Versus Systematic Dual-Stent Strategies for True Left Main Coronary Bifurcation Lesions (EBC MAIN)", "year": 2025, "pmid": "39907022", "relevance": "作為共同作者，為左主幹分叉provisional策略的臨床代言人之一"},
+        {"title": "PCI for Bifurcation Coronary Lesions Using Optimised Angiographic Guidance: 18th EBC Consensus", "year": 2024, "pmid": "38752714", "relevance": "核心作者，提供影像引導不可及時的實用技術替代路徑"},
+        {"title": "Treatment of Coronary Bifurcation Lesions, Part II: Implanting Two Stents (16th EBC Consensus)", "year": 2022, "pmid": "35570753", "relevance": "two-stent技術step-by-step操作手冊，為全球術者訓練核心文獻"}
+      ]
     },
     {
       "name": "J. F. Lassen",
@@ -61,7 +96,16 @@
       "keyContributions": ["EBC founding member, led all consensus documents since 2004", "EBC MAIN RCT (Circulation 2025): 467 pts across 35 hospitals", "EBC MADS-2 classification co-first author"],
       "whyListen": "分叉PCI思想源頭，session代表最新EBC共識與EBC MAIN試驗的官方詮釋，提供「為什麼如此操作」的循證基礎。",
       "pmids": ["39907022", "38752714", "32579300", "27173860"],
-      "sessionIds": ["4 sessions: left main + bifurcation key role"]
+      "sessionIds": ["4 sessions: left main + bifurcation key role"],
+      "extendedBio": "Lassen於丹麥完成心臟科與介入訓練，早期主要學術基地為Aarhus University Hospital，現任Odense University Hospital與南丹麥大學心臟科教授。自2004年EBC成立以來即為創始核心成員，連續主導自第1屆至第16屆的共識文件撰寫，是歐洲分叉介入思想的主要塑造者。其研究風格融合嚴謹RCT設計與臨床操作細節，長期培育北歐與東歐分叉介入人才。",
+      "signatureWork": "擔任EBC第16屆two-stent技術共識（EuroIntervention 2022）第一作者，並為EBC MAIN RCT關鍵共同作者，完整連結技術共識與大型臨床試驗證據鏈。",
+      "recentActivity": "2025年Circulation發表EBC MAIN結果作為共同作者（代表Odense中心參與，35家醫院跨11國）。2024年共同作者EBC第18屆共識。2023年於EuroIntervention持續發表分叉技術相關綜述，維持EBC共識每屆更新節奏。於EuroPCR 2026負責左主幹與分叉的4場關鍵session。",
+      "conversationStarter": "強烈主張分叉技術選擇不應依靠「個人偏好」，而應基於MADS-2解剖分類+側支重要性的循證算法，並對DK crush在特定亞群（大側支、長病變）的不可替代性有明確立場。",
+      "recentPapers": [
+        {"title": "Stepwise Provisional Versus Systematic Dual-Stent Strategies for True Left Main Coronary Bifurcation Lesions (EBC MAIN)", "year": 2025, "pmid": "39907022", "relevance": "共同作者，親自代表EBC詮釋試驗結果的臨床意涵"},
+        {"title": "PCI for Bifurcation Coronary Lesions Using Optimised Angiographic Guidance: 18th EBC Consensus", "year": 2024, "pmid": "38752714", "relevance": "EBC共識連續作者，完整參與分叉PCI標準化歷程"},
+        {"title": "Treatment of Coronary Bifurcation Lesions, Part II: Implanting Two Stents (16th EBC Consensus)", "year": 2022, "pmid": "35570753", "relevance": "第一作者，定義two-stent技術的step-by-step操作標準"}
+      ]
     }
   ]
 }

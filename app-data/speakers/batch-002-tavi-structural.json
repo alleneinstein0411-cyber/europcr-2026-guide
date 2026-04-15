@@ -13,7 +13,16 @@
       "keyContributions": ["與Alfieri共同奠定edge-to-edge二尖瓣修復術基礎，催生MitraClip", "PCR三尖瓣焦點小組創辦人，推動TTVR共識", "逾1000篇發表，橫跨外科與結構介入"],
       "whyListen": "同時是術者、發明家與教育者，在二尖瓣與三尖瓣session擔任主持人，提供從手術到經導管治療全光譜的獨特視野。",
       "pmids": ["14688717", "39580719", "29770888"],
-      "sessionIds": ["7 sessions as anchorperson/spokesperson in mitral + tricuspid"]
+      "sessionIds": ["7 sessions as anchorperson/spokesperson in mitral + tricuspid"],
+      "extendedBio": "Maisano於米蘭維塔-薩盧特聖拉斐爾大學受訓，早年師從Ottavio Alfieri完成心臟外科訓練，後於蘇黎世大學醫院擔任心臟外科主任並建立全歐最具規模的結構性心臟病中心。現為IRCCS San Raffaele心臟外科主任與Vita-Salute San Raffaele大學教授，同時擔任歐洲心臟團隊暨結構介入計畫領導人。其職涯橫跨外科與介入，是少數兼具MitraClip、Cardioband、Pascal等多種裝置第一人體試驗經驗的創新者。",
+      "signatureWork": "與Alfieri合作奠定edge-to-edge二尖瓣修復原理，後續主導MitraClip在歐洲上市前研究，並共同發起COAPT/EVEREST系列試驗架構。",
+      "recentActivity": "2024-2026年持續擔任PCR Tricuspid Focus Group主席，推動TRISCEND II與TriClip bRIGHT等三尖瓣新裝置試驗的歐洲資料判讀；2024年JACC發表三尖瓣置換綜述。同時主導San Raffaele mitral/tricuspid LIVE轉播中心，並參與Edwards Evoque及Abbott VDYNE第三代裝置的臨床評估。",
+      "conversationStarter": "他對「三尖瓣TEER vs TTVR適應症分野」有明確立場——強調解剖篩選而非單純以RV功能判斷，這與部分北美團隊偏好激進置換策略不同，是絕佳的破冰話題。",
+      "recentPapers": [
+        {"title": "Transcatheter Tricuspid Valve Replacement", "year": 2024, "pmid": "39580719", "relevance": "JACC綜述：整理TTVR裝置與患者篩選原則，是三尖瓣介入門診必讀"},
+        {"title": "Midterm results of edge-to-edge mitral valve repair without annuloplasty", "year": 2003, "pmid": "14688717", "relevance": "奠定MitraClip臨床基礎的經典論文，仍是edge-to-edge決策依據"},
+        {"title": "Mitral Valve Interventions in Structural Heart Disease", "year": 2018, "pmid": "29770888", "relevance": "結構性二尖瓣介入全景綜述，適合住院醫師複習"}
+      ]
     },
     {
       "name": "T. Modine",
@@ -25,7 +34,15 @@
       "keyContributions": ["RHEIA RCT共同作者：女性嚴重AS者TAVI優於SAVR (EHJ 2025)", "EuroPCR Mitral Focus Group聯合主任", "TAVI vs SAVR meta-analysis共同作者"],
       "whyListen": "7個session中擔任主持人與Hotline發言人，代表RHEIA等最新試驗結果的第一線詮釋者。",
       "pmids": ["40171878", "31329852"],
-      "sessionIds": ["7 sessions: mitral, TAVI, Hotline spokesperson"]
+      "sessionIds": ["7 sessions: mitral, TAVI, Hotline spokesperson"],
+      "extendedBio": "Modine於里爾大學醫學院完成心臟外科訓練後，曾於多倫多多家中心接受結構性心臟病深造，後回到法國里爾大學醫院建立TAVI與微創二尖瓣手術團隊，2021年轉任波爾多CHU擔任心血管醫學與外科服務主任。其特色在於同時執行TAVI、TMVR、經心尖與完全經股路徑等全光譜術式，是歐洲少數真正兼顧外科與介入的「結構性心臟病混合術者」代表。",
+      "signatureWork": "作為RHEIA試驗共同主要研究者，首次以女性為單一納入族群證實TAVI在主動脈瓣狹窄的一年主要終點優於SAVR（EHJ 2025）。",
+      "recentActivity": "2024-2026年持續擔任EuroPCR Mitral Focus Group聯合主任，主導TMVR多中心共識；2025年在EHJ發表RHEIA試驗主要結果後，於多場ESC與TCT發表次分析。同時參與Tendyne、Sapien M3等經導管二尖瓣裝置的歐洲註冊計畫。",
+      "conversationStarter": "對「女性TAVI是否應成為預設選項、而非共同決策中的平衡選項」他有鮮明主張，這是目前歐洲指引修訂中的熱點。",
+      "recentPapers": [
+        {"title": "Transcatheter vs. surgical aortic valve replacement in women: the RHEIA trial", "year": 2025, "pmid": "40171878", "relevance": "女性AS族群首見正面RCT，直接改變臨床決策"},
+        {"title": "Transcatheter Aortic-Valve Replacement with a Self-Expanding Valve in Low-Risk Patients", "year": 2019, "pmid": "31329852", "relevance": "Evolut low-risk試驗長期資料延伸基礎"}
+      ]
     },
     {
       "name": "P. Lurz",
@@ -37,7 +54,16 @@
       "keyContributions": ["MATTERHORN RCT: TEER vs surgery for secondary MR (NEJM 2024)", "TRISCEND II: transcatheter tricuspid replacement RCT (NEJM 2024)", "Mitral Focus Group聯合主任"],
       "whyListen": "TAVI與二尖瓣LIVE術者，同時主持TAVI session；直接觀察最新RCT結果如何在真實操作中落實。",
       "pmids": ["39216093", "39475399", "37994096"],
-      "sessionIds": ["5 sessions: LIVE operator x2, TAVI/mitral anchorperson"]
+      "sessionIds": ["5 sessions: LIVE operator x2, TAVI/mitral anchorperson"],
+      "extendedBio": "Lurz於倫敦Royal Brompton Hospital完成心臟磁振造影與先天性心臟病訓練，後回德國於萊比錫心臟中心建立結構性介入與影像整合團隊，擔任心臟介入組主任多年後，2023年接任美因茨大學醫學中心（Universitätsmedizin Mainz）心臟病科主任。其職涯橫跨影像、臨床試驗設計與介入執行，是少數能同時擔任研究者與LIVE術者的歐洲中生代領袖。",
+      "signatureWork": "主持MATTERHORN試驗，證實TEER在次發性二尖瓣逆流可作為替代手術的有效選項（NEJM 2024）。",
+      "recentActivity": "2024年於NEJM連續發表MATTERHORN與TRISCEND II兩大RCT，確立TEER與TTVR在二尖瓣與三尖瓣的RCT等級證據；2025-2026年轉任美因茨後持續擔任EuroPCR mitral/tricuspid LIVE術者，並主導下一代TTVR長期追蹤研究。",
+      "conversationStarter": "對「secondary MR應先做GDMT多久才上TEER」有實務立場——主張不需等到四藥齊全，這與部分美國團隊相當不同。",
+      "recentPapers": [
+        {"title": "Transcatheter Repair versus Mitral-Valve Surgery for Secondary Mitral Regurgitation", "year": 2024, "pmid": "39216093", "relevance": "MATTERHORN主結果，secondary MR治療決策直接依據"},
+        {"title": "Transcatheter Valve Replacement in Severe Tricuspid Regurgitation", "year": 2024, "pmid": "39475399", "relevance": "TRISCEND II主結果，三尖瓣置換首見RCT證據"},
+        {"title": "Transcatheter mitral valve implantation for native valve disease", "year": 2023, "pmid": "37994096", "relevance": "TMVI綜述，整理裝置選擇與解剖篩選"}
+      ]
     },
     {
       "name": "O. De Backer",
@@ -49,7 +75,16 @@
       "keyContributions": ["NOTION-2 (low-risk TAVI) co-author (EHJ 2024)", "STR-OAC LAAO registry (LAA closure after OAC failure)", "PARADIGM study (next-gen bionic THV)"],
       "whyListen": "5個session中擔任LIVE術者（含二尖瓣、TAVI、LAA），代表最廣泛的結構性介入技術組合。",
       "pmids": ["38747246", "38795093"],
-      "sessionIds": ["5 sessions: LIVE operator, mitral/TAVI/LAA"]
+      "sessionIds": ["5 sessions: LIVE operator, mitral/TAVI/LAA"],
+      "extendedBio": "De Backer於比利時根特大學完成醫學與心臟病訓練後轉赴哥本哈根大學Rigshospitalet進修結構性介入，現為該院介入心臟病科資深顧問與哥本哈根大學副教授。其職涯以北歐嚴謹的註冊研究傳統為基礎，從NOTION系列到STR-OAC LAAO，一路建立以真實世界長期追蹤驗證新技術的學術品牌，是北歐少見同時精通TAVI、LAAO與二尖瓣介入的全方位術者。",
+      "signatureWork": "作為NOTION-2試驗核心作者，首次在低風險且含二葉主動脈瓣患者的RCT中提供TAVI長期資料（EHJ 2024）。",
+      "recentActivity": "2024-2026年持續主導STR-OAC LAAO註冊研究，探討口服抗凝失敗後LAA封堵的臨床定位；2025年於《Cardiovasc Revasc Med》共同發表國際AD HOC bicuspid TAVI註冊，2026年續發Sievers type 1 mixed BAV TAVI分析。同時參與PARADIGM等下一代仿生THV第一人體研究。",
+      "conversationStarter": "對「LAAO在DOAC失敗個案是否應提前介入」有清晰立場，與多數電生理派偏保守觀點形成對比，是相當有話題性的討論點。",
+      "recentPapers": [
+        {"title": "Transcatheter aortic valve implantation in low-risk tricuspid or bicuspid aortic stenosis: the NOTION-2 trial", "year": 2024, "pmid": "38747246", "relevance": "低風險TAVI含BAV族群長期資料，影響年輕患者決策"},
+        {"title": "Left Atrial Appendage Occlusion in Patients With Anticoagulation Failure vs Anticoagulation Contraindication", "year": 2024, "pmid": "38795093", "relevance": "STR-OAC關鍵分析，釐清LAAO適應症邊界"},
+        {"title": "Comparison between severe R-L and R-NC raphe-type bicuspid aortic valve stenosis treated with TAVI", "year": 2025, "pmid": "40447554", "relevance": "BAV TAVI精準解剖分型分析，與Tchetche共同資深作者"}
+      ]
     },
     {
       "name": "D. Tchetche",
@@ -61,7 +96,18 @@
       "keyContributions": ["RHEIA trial PI: first female-dedicated TAVI vs SAVR RCT (EHJ 2025)", "Evolut low-risk and SMART trial co-author", "Bicuspid TAVI technique optimization"],
       "whyListen": "TAVI LIVE術者+RHEIA試驗結果發言人，若患者族群含女性或二葉主動脈瓣，他的session提供直接改變決策的最新數據。",
       "pmids": ["40171878", "30883053"],
-      "sessionIds": ["5 sessions: TAVI LIVE operator, structural spokesperson"]
+      "sessionIds": ["5 sessions: TAVI LIVE operator, structural spokesperson"],
+      "extendedBio": "Tchetche於法國里爾大學醫學院完成內科與心臟介入訓練，後於巴黎與美國完成結構性心臟病進修，之後長期在圖盧茲Clinique Pasteur發展全歐高量能的TAVI中心，現任該院Groupe Cardiovasculaire Interventionnel（GCVI）共同主任。其職涯獨特之處在於以私立醫療中心打造學術等級研究量能，累積逾5000例TAVI，並成為女性、BAV等特殊族群TAVI研究的歐洲領銜PI。",
+      "signatureWork": "擔任RHEIA試驗主要研究者，首次完成以女性為單一族群之TAVI vs SAVR RCT並達到主要終點（EHJ 2025）。",
+      "recentActivity": "2024-2026年持續發表RHEIA次分析與echo substudy（J Am Heart Assoc 2025）；主導國際AD HOC BAV TAVI註冊，2025-2026連續於《Cardiovasc Revasc Med》與《Rev Esp Cardiol》發表Sievers type 1 BAV TAVI精準分析，鞏固其在BAV TAVI領域的國際領導地位。",
+      "conversationStarter": "對「年輕BAV患者TAVI vs SAVR」有獨到看法——他不認為BAV本身是TAVI禁忌，但強調Sievers type與raphe calcification必須細分，這在台灣多數中心仍是保守議題。",
+      "recentPapers": [
+        {"title": "Transcatheter vs. surgical aortic valve replacement in women: the RHEIA trial", "year": 2025, "pmid": "40171878", "relevance": "作為PI的主要結果，女性TAVI決策的最新依據"},
+        {"title": "Echocardiographic Results of TAVI vs SAVR in Women: The RHEIA Trial", "year": 2025, "pmid": "41467363", "relevance": "RHEIA echo substudy，瓣膜血流動力學與心臟損傷分期"},
+        {"title": "Comparison between severe R-L and R-NC raphe-type bicuspid aortic valve stenosis treated with TAVI", "year": 2025, "pmid": "40447554", "relevance": "AD HOC註冊：raphe位置與PPI風險分析"},
+        {"title": "Transcatheter aortic valve intervention in mixed Sievers type 1 bicuspid aortic valve disease", "year": 2026, "pmid": "41794358", "relevance": "最新BAV TAVI分析，mixed disease預後竟優於pure stenosis"},
+        {"title": "Transcatheter Aortic-Valve Replacement with a Self-Expanding Valve in Low-Risk Patients", "year": 2019, "pmid": "30883053", "relevance": "Evolut low-risk共同作者，低風險TAVI基礎論文"}
+      ]
     }
   ]
 }

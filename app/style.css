@@ -629,6 +629,83 @@ a { color: var(--accent); text-decoration: none; }
   padding-bottom: 24px;
 }
 
+/* Signature work box — for speaker "代表作" */
+.sheet-section.signature-box {
+  padding: 14px 16px;
+  background: linear-gradient(135deg, var(--accent-soft) 0%, rgba(251, 191, 36, 0.08) 100%);
+  border: 1px solid var(--border);
+  border-left: 4px solid #fbbf24;
+  border-radius: 10px;
+  margin-bottom: 18px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .sheet-section.signature-box {
+    background: linear-gradient(135deg, rgba(251, 191, 36, 0.12) 0%, rgba(239, 68, 68, 0.06) 100%);
+  }
+}
+
+.sheet-section.signature-box h3 {
+  color: #d97706;
+}
+
+/* Conversation starter box */
+.sheet-section.convo-box {
+  padding: 12px 14px;
+  background: var(--bg-subtle);
+  border-left: 3px solid var(--tier-b);
+  border-radius: 0 8px 8px 0;
+  margin-bottom: 18px;
+}
+
+.sheet-section.convo-box h3 {
+  color: var(--tier-b);
+}
+
+/* Paper list for recentPapers */
+.paper-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.paper-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.paper-list li:last-child {
+  border-bottom: none;
+}
+
+.paper-title {
+  font-weight: 500;
+  color: var(--text);
+  text-decoration: none;
+}
+
+a.paper-title {
+  color: var(--accent);
+  text-decoration: underline dotted;
+  text-underline-offset: 2px;
+}
+
+.paper-year {
+  color: var(--text-muted);
+  font-size: 12px;
+  margin-left: 4px;
+  font-variant-numeric: tabular-nums;
+}
+
+.paper-relevance {
+  color: var(--text-muted);
+  font-size: 12px;
+  margin-top: 4px;
+  line-height: 1.5;
+}
+
 /* Sheet content styles */
 .sheet-header {
   display: flex;
