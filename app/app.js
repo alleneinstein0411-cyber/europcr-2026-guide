@@ -1215,6 +1215,14 @@ function renderAboutView(main) {
       <button class="btn-secondary" onclick="resetUserData()" style="margin-top: 8px; background: var(--accent-soft); color: var(--accent); width: 100%">🗑️ 清除所有修改（小心）</button>
     </div>
 
+    <div style="background: var(--bg-elevated); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-bottom: 16px">
+      <h3 style="font-size: 14px; margin-bottom: 10px">🔄 App 更新</h3>
+      <p style="font-size: 12px; color: var(--text-muted); margin-bottom: 12px; line-height: 1.5">
+        如果 App 看起來怪怪的、點擊沒反應、或是剛更新了但看不到新內容，按這個按鈕強制重新載入。
+      </p>
+      <button class="btn-primary" onclick="hardRefresh()" style="width: 100%">🔄 強制重新整理（清快取 + 重載）</button>
+    </div>
+
     <div style="background: var(--bg-elevated); border: 1px solid var(--border); border-radius: 12px; padding: 16px">
       <h3 style="font-size: 14px; margin-bottom: 10px">🚨 登記提醒</h3>
       ${(AppData.schedule.registrationAlerts || []).map(a => `
@@ -1278,6 +1286,29 @@ function resetUserData() {
   UserState.reset();
   toast('已清除', 'success');
   render();
+}
+
+async function hardRefresh() {
+  if (!confirm('這會清除快取並重新下載所有資料。你的備註和排程選擇都會保留（存在本機）。繼續？')) return;
+  try {
+    // Delete all caches
+    const keys = await caches.keys();
+    await Promise.all(keys.map(k => caches.delete(k)));
+
+    // Unregister all service workers
+    if (navigator.serviceWorker) {
+      const regs = await navigator.serviceWorker.getRegistrations();
+      await Promise.all(regs.map(r => r.unregister()));
+    }
+
+    toast('快取已清除，重新載入中...', 'success');
+    // Reload bypassing cache
+    setTimeout(() => {
+      location.reload(true);
+    }, 600);
+  } catch (err) {
+    toast('清除失敗：' + err.message, 'error');
+  }
 }
 
 // -----------------------------------------------------------
@@ -1360,5 +1391,6 @@ window.openEditSheetByKey = openEditSheetByKey;
 window.exportUserData = exportUserData;
 window.importUserData = importUserData;
 window.resetUserData = resetUserData;
+window.hardRefresh = hardRefresh;
 
 init();
