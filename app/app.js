@@ -25,9 +25,10 @@ const AppData = {
 };
 
 const UIState = {
-  currentView: 'schedule',  // 'schedule' | 'speakers' | 'trials' | 'about'
+  currentView: 'schedule',  // 'schedule' | 'speakers' | 'trials' | 'about' | 'session' | 'speaker' | 'trial' | 'edit' | 'search'
   currentDay: 'Tuesday',    // 'Tuesday' | 'Wednesday' | 'Thursday'
-  sheetOpen: false,
+  detailId: null,           // current session/speaker/trial id if in detail view
+  previousScheduleDay: 'Tuesday',  // so back button returns to the right day
 };
 
 const LS_KEY = 'europcr2026.userState.v1';
@@ -184,46 +185,26 @@ function handleRoute() {
 
   const view = parts[0] || 'schedule';
 
-  // Sheet routes: just open the sheet overlay; do NOT re-render #main.
-  // (Re-rendering during a click event can cause the click to be "absorbed"
-  //  by a freshly-rendered button underneath, including a close button.)
-  const sheetRoutes = { session: true, speaker: true, trial: true };
-
-  // Auto-close sheet when navigating away from a sheet route
-  // (catches back button, programmatic navigation, etc.)
-  if (!sheetRoutes[view] && UIState.sheetOpen) {
-    $('#sheet').hidden = true;
-    $('#sheet-backdrop').hidden = true;
-    UIState.sheetOpen = false;
-    document.body.style.overflow = '';
+  // Remember the last schedule day so we can restore it when user hits back
+  if (view === 'schedule' && parts[1]) {
+    UIState.previousScheduleDay = parts[1];
   }
 
-  if (sheetRoutes[view]) {
-    // If no underlying view was rendered yet (deep-link cold load), render once now.
-    if (!$('#main').firstChild) {
-      if (UIState.currentView === 'speakers') renderSpeakersView($('#main'));
-      else if (UIState.currentView === 'trials') renderTrialsView($('#main'));
-      else if (UIState.currentView === 'about') renderAboutView($('#main'));
-      else if (UIState.currentView === 'search') renderSearchView($('#main'));
-      else {
-        UIState.currentView = 'schedule';
-        switchView('schedule');
-      }
-    }
-    if (view === 'session' && parts[1]) {
-      openSessionSheet(decodeURIComponent(parts[1]));
-    } else if (view === 'speaker' && parts[1]) {
-      openSpeakerSheet(decodeURIComponent(parts[1]));
-    } else if (view === 'trial' && parts[1]) {
-      openTrialSheet(decodeURIComponent(parts[1]));
-    }
-    return;
-  }
-
-  // Non-sheet routes
   if (view === 'schedule') {
     if (parts[1]) UIState.currentDay = parts[1];
     switchView('schedule');
+  } else if (view === 'session' && parts[1]) {
+    UIState.detailId = decodeURIComponent(parts[1]);
+    switchView('session');
+  } else if (view === 'speaker' && parts[1]) {
+    UIState.detailId = decodeURIComponent(parts[1]);
+    switchView('speaker');
+  } else if (view === 'trial' && parts[1]) {
+    UIState.detailId = decodeURIComponent(parts[1]);
+    switchView('trial');
+  } else if (view === 'edit' && parts[1]) {
+    UIState.detailId = decodeURIComponent(parts[1]);  // blockKey like "Tuesday-16:30"
+    switchView('edit');
   } else if (view === 'speakers') {
     switchView('speakers');
   } else if (view === 'trials') {
@@ -239,11 +220,12 @@ function handleRoute() {
 
 function switchView(view) {
   UIState.currentView = view;
-  // Update nav state
+  // Update nav state — detail pages don't light up a nav button
+  const topLevelViews = { schedule: true, speakers: true, trials: true, about: true, search: true };
   $$('.nav-btn').forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.view === view);
+    btn.classList.toggle('active', topLevelViews[view] && btn.dataset.view === view);
   });
-  // Show/hide day tabs
+  // Day tabs show only on the main schedule view
   $('#day-tabs').classList.toggle('hidden', view !== 'schedule');
   render();
 }
@@ -259,31 +241,61 @@ function render() {
   updateTopBar();
   const main = $('#main');
   main.innerHTML = '';
+  // Scroll to top on any view change
+  main.scrollTop = 0;
+  window.scrollTo(0, 0);
 
-  if (UIState.currentView === 'schedule') {
-    renderSchedule(main);
-  } else if (UIState.currentView === 'speakers') {
-    renderSpeakersView(main);
-  } else if (UIState.currentView === 'trials') {
-    renderTrialsView(main);
-  } else if (UIState.currentView === 'about') {
-    renderAboutView(main);
-  } else if (UIState.currentView === 'search') {
-    renderSearchView(main);
+  switch (UIState.currentView) {
+    case 'schedule':  renderSchedule(main); break;
+    case 'speakers':  renderSpeakersView(main); break;
+    case 'trials':    renderTrialsView(main); break;
+    case 'about':     renderAboutView(main); break;
+    case 'search':    renderSearchView(main); break;
+    case 'session':   renderSessionDetail(main, UIState.detailId); break;
+    case 'speaker':   renderSpeakerDetail(main, UIState.detailId); break;
+    case 'trial':     renderTrialDetail(main, UIState.detailId); break;
+    case 'edit':      renderEditView(main, UIState.detailId); break;
   }
+}
+
+/**
+ * A back button header used by all detail/subpage views.
+ * Returns the page to the schedule, restoring the previously viewed day.
+ */
+function renderBackHeader(title, subtitle) {
+  const header = document.createElement('header');
+  header.className = 'detail-header';
+  header.innerHTML = `
+    <button class="back-btn" aria-label="返回">
+      <span>←</span>
+      <span>返回排程</span>
+    </button>
+    <div class="detail-header-title">
+      <h1>${escapeHtml(title || '')}</h1>
+      ${subtitle ? `<p>${escapeHtml(subtitle)}</p>` : ''}
+    </div>
+  `;
+  header.querySelector('.back-btn').onclick = () => {
+    navigateTo(`#/schedule/${encodeURIComponent(UIState.previousScheduleDay || 'Tuesday')}`);
+  };
+  return header;
 }
 
 function updateTopBar() {
   const sub = $('#topbar-subtitle');
-  if (UIState.currentView === 'schedule') {
-    const day = AppData.schedule.days.find(d => d.day === UIState.currentDay);
-    sub.textContent = day ? day.theme.split('—')[0].trim() : '';
-  } else if (UIState.currentView === 'speakers') {
-    sub.textContent = `${Object.keys(AppData.speakers).length} researched speakers`;
-  } else if (UIState.currentView === 'trials') {
-    sub.textContent = `${Object.keys(AppData.trials).length} trials`;
-  } else {
-    sub.textContent = '';
+  switch (UIState.currentView) {
+    case 'schedule': {
+      const day = AppData.schedule.days.find(d => d.day === UIState.currentDay);
+      sub.textContent = day ? day.theme.split('—')[0].trim() : '';
+      break;
+    }
+    case 'speakers': sub.textContent = `${Object.keys(AppData.speakers).length} researched speakers`; break;
+    case 'trials':   sub.textContent = `${Object.keys(AppData.trials).length} trials`; break;
+    case 'session':  sub.textContent = '場次詳情'; break;
+    case 'speaker':  sub.textContent = '講者卡片'; break;
+    case 'trial':    sub.textContent = '試驗詳情'; break;
+    case 'edit':     sub.textContent = '編輯排程'; break;
+    default:         sub.textContent = '';
   }
 }
 
@@ -409,7 +421,7 @@ function renderBlock(dayName, block, idx) {
   };
   article.querySelector('.btn-edit').onclick = (e) => {
     e.stopPropagation();
-    openEditSheet(dayName, block, idx);
+    navigateTo(`#/edit/${encodeURIComponent(blockKey(dayName, block.time))}`);
   };
 
   // Clicking the block itself opens detail (shortcut)
@@ -491,45 +503,15 @@ function findSessionsForSpeaker(name) {
 // Sheet (bottom modal) — open/close
 // -----------------------------------------------------------
 
-function openSheet(contentHtml) {
-  $('#sheet-content').innerHTML = contentHtml;
-
-  // Belt-and-suspenders: directly attach onclick to every close button.
-  // This works even if the delegated listener on #sheet is broken by some
-  // browser extension, SW caching, or other weirdness.
-  $$('#sheet-content [data-close], #sheet-content .close-sheet').forEach(btn => {
-    btn.onclick = (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      closeSheet();
-    };
-  });
-
-  $('#sheet').hidden = false;
-  $('#sheet-backdrop').hidden = false;
-  UIState.sheetOpen = true;
-  document.body.style.overflow = 'hidden';
-}
-
-function closeSheet() {
-  $('#sheet').hidden = true;
-  $('#sheet-backdrop').hidden = true;
-  UIState.sheetOpen = false;
-  document.body.style.overflow = '';
-  // Clear hash if we're on a detail route
-  if (location.hash.match(/^#\/(session|speaker|trial)/)) {
-    history.replaceState(null, '', '#/' + UIState.currentView);
-  }
-}
-
 // -----------------------------------------------------------
-// Session detail sheet
+// Session detail page
 // -----------------------------------------------------------
 
-function openSessionSheet(sessionId) {
+function renderSessionDetail(main, sessionId) {
   const s = AppData.sessions[sessionId];
   if (!s) {
-    toast('場次資料不存在', 'error');
+    main.innerHTML = '';
+    main.appendChild(renderBackHeader('場次資料不存在', sessionId));
     return;
   }
 
@@ -554,15 +536,13 @@ function openSessionSheet(sessionId) {
     });
   });
 
-  const html = `
-    <div class="sheet-header">
-      <div>
-        <h2>${escapeHtml(s.title)}</h2>
-        ${s.subtitle ? `<p style="font-size:13px; color: var(--text-muted); margin-top: 4px">${escapeHtml(s.subtitle)}</p>` : ''}
-      </div>
-      <button class="icon-btn" data-close style="background:var(--bg-subtle); flex-shrink:0">✕</button>
-    </div>
+  // Back header (always present, always clickable — it's rendered into #main)
+  main.innerHTML = '';
+  main.appendChild(renderBackHeader(s.title, s.subtitle));
 
+  const body = document.createElement('div');
+  body.className = 'detail-body';
+  body.innerHTML = `
     <div class="sheet-meta">
       <span>📅 ${escapeHtml(s.day)} ${escapeHtml(s.date)}</span>
       <span>⏰ ${escapeHtml(s.timeStart)}-${escapeHtml(s.timeEnd)}</span>
@@ -625,14 +605,13 @@ function openSessionSheet(sessionId) {
       </div>
     ` : ''}
 
-    <div class="sheet-actions">
-      ${associatedKey ? `
-        <button class="btn-secondary" onclick="openEditSheetByKey('${associatedKey}')">✏️ 編輯排程</button>
-      ` : ''}
-      <button class="btn-primary" data-close>關閉</button>
-    </div>
+    ${associatedKey ? `
+      <div class="sheet-actions" style="margin-top: 24px">
+        <button class="btn-primary" onclick="navigateTo('#/edit/${encodeURIComponent(associatedKey)}')">✏️ 編輯排程</button>
+      </div>
+    ` : ''}
   `;
-  openSheet(html);
+  main.appendChild(body);
 }
 
 /**
@@ -731,139 +710,129 @@ function renderSessionSpeakersSection(speakers) {
 }
 
 // -----------------------------------------------------------
-// Speaker sheet
+// Speaker detail page
 // -----------------------------------------------------------
 
-function openSpeakerSheet(name) {
+function renderSpeakerDetail(main, name) {
   const sp = AppData.speakers[name];
+  main.innerHTML = '';
 
   // Unresearched: show minimal card based on session appearances
   if (!sp) {
     const relatedSessions = findSessionsForSpeaker(name);
-    const html = `
-      <div class="speaker-card">
-        <div class="sheet-header">
-          <div>
-            <h2>${escapeHtml(name)}</h2>
-            <p class="speaker-fullname" style="color: var(--text-faint); font-style: italic">未研究過 — 只顯示議程出現紀錄</p>
-          </div>
-          <button class="icon-btn" data-close style="background:var(--bg-subtle); flex-shrink:0">✕</button>
-        </div>
+    main.appendChild(renderBackHeader(name, '未研究過 — 只顯示議程出現紀錄'));
 
-        ${relatedSessions.length ? `
-          <div class="sheet-section">
-            <h3>🗓️ Sessions at EuroPCR 2026 (${relatedSessions.length})</h3>
-            <ul class="sheet-list">
-              ${relatedSessions.slice(0, 30).map(s => `
-                <li class="clickable" onclick="navigateTo('#/session/${encodeURIComponent(s.id)}')">
-                  <div style="flex: 1; min-width: 0">
-                    <div style="font-size: 12px; color: var(--text-muted)">${escapeHtml(s.day)} ${escapeHtml(s.timeStart)} · ${escapeHtml(s.room || '')}</div>
-                    <div style="font-size: 13px; margin-top: 2px; line-height: 1.3">${escapeHtml(s.title)}</div>
-                  </div>
-                  <span style="color: var(--text-muted); flex-shrink: 0">→</span>
-                </li>
-              `).join('')}
-            </ul>
-            ${relatedSessions.length > 30 ? `<p style="text-align:center; color: var(--text-faint); font-size:12px; margin-top:8px">顯示前 30 場，共 ${relatedSessions.length} 場</p>` : ''}
-          </div>
-        ` : `
-          <div class="empty-state">
-            <p>查無相關場次</p>
-            <p style="font-size:12px; margin-top: 8px">可能是 PDF 解析造成的名字碎片</p>
-          </div>
-        `}
-      </div>
-    `;
-    openSheet(html);
-    return;
-  }
-
-  // Full speaker card (researched)
-  // Find sessions this speaker is in
-  const relatedSessions = (sp.sessionIds || [])
-    .map(id => AppData.sessions[id])
-    .filter(Boolean);
-
-  const html = `
-    <div class="speaker-card">
-      <div class="sheet-header">
-        <div>
-          <h2>${escapeHtml(sp.name)}</h2>
-          <p class="speaker-fullname">${escapeHtml(sp.fullName || '')}</p>
-          <p class="speaker-institution">${escapeHtml(sp.institution || '')}</p>
-          <div class="speaker-tier-large ${sp.tier}">Tier ${sp.tier}</div>
-        </div>
-        <button class="icon-btn" data-close style="background:var(--bg-subtle); flex-shrink:0">✕</button>
-      </div>
-
-      ${sp.oneLiner ? `<div class="speaker-oneliner">${escapeHtml(sp.oneLiner)}</div>` : ''}
-
-      ${sp.expertise && sp.expertise.length ? `
-        <div class="sheet-section">
-          <h3>🧠 Expertise</h3>
-          <div class="speaker-expertise-list">
-            ${sp.expertise.map(e => `<span class="tag">${escapeHtml(e)}</span>`).join('')}
-          </div>
-        </div>
-      ` : ''}
-
-      ${sp.keyContributions && sp.keyContributions.length ? `
-        <div class="sheet-section">
-          <h3>📝 Key Contributions</h3>
-          <ul style="padding-left: 20px; margin: 0">
-            ${sp.keyContributions.map(c => `<li style="margin-bottom: 4px; font-size: 13px; line-height: 1.45">${escapeHtml(c)}</li>`).join('')}
-          </ul>
-        </div>
-      ` : ''}
-
-      ${sp.whyListen ? `
-        <div class="sheet-section">
-          <h3>🎯 Why Listen</h3>
-          <p style="font-size: 14px; line-height: 1.55; margin: 0">${escapeHtml(sp.whyListen)}</p>
-        </div>
-      ` : ''}
-
-      ${sp.pmids && sp.pmids.length ? `
-        <div class="sheet-section">
-          <h3>📚 Key PMIDs</h3>
-          <div class="pmid-list">
-            ${sp.pmids.map(p => `
-              <a href="https://pubmed.ncbi.nlm.nih.gov/${encodeURIComponent(p)}/" target="_blank" rel="noopener"
-                 style="display:inline-block; padding: 4px 10px; margin: 0 4px 4px 0; background: var(--bg-subtle); border-radius: 4px; font-size: 12px; color: var(--accent)">${escapeHtml(p)}</a>
-            `).join('')}
-          </div>
-        </div>
-      ` : ''}
-
+    const body = document.createElement('div');
+    body.className = 'detail-body';
+    body.innerHTML = `
       ${relatedSessions.length ? `
         <div class="sheet-section">
           <h3>🗓️ Sessions at EuroPCR 2026 (${relatedSessions.length})</h3>
           <ul class="sheet-list">
-            ${relatedSessions.slice(0, 20).map(s => `
+            ${relatedSessions.slice(0, 30).map(s => `
               <li class="clickable" onclick="navigateTo('#/session/${encodeURIComponent(s.id)}')">
                 <div style="flex: 1; min-width: 0">
-                  <div style="font-size: 12px; color: var(--text-muted)">${escapeHtml(s.day)} ${escapeHtml(s.timeStart)}</div>
+                  <div style="font-size: 12px; color: var(--text-muted)">${escapeHtml(s.day)} ${escapeHtml(s.timeStart)} · ${escapeHtml(s.room || '')}</div>
                   <div style="font-size: 13px; margin-top: 2px; line-height: 1.3">${escapeHtml(s.title)}</div>
                 </div>
                 <span style="color: var(--text-muted); flex-shrink: 0">→</span>
               </li>
             `).join('')}
           </ul>
+          ${relatedSessions.length > 30 ? `<p style="text-align:center; color: var(--text-faint); font-size:12px; margin-top:8px">顯示前 30 場，共 ${relatedSessions.length} 場</p>` : ''}
         </div>
-      ` : ''}
-    </div>
+      ` : `
+        <div class="empty-state">
+          <p>查無相關場次</p>
+          <p style="font-size:12px; margin-top: 8px">可能是 PDF 解析造成的名字碎片</p>
+        </div>
+      `}
+    `;
+    main.appendChild(body);
+    return;
+  }
+
+  // Full speaker card (researched)
+  const relatedSessions = (sp.sessionIds || [])
+    .map(id => AppData.sessions[id])
+    .filter(Boolean);
+
+  main.appendChild(renderBackHeader(sp.name, `${sp.fullName || ''} · ${sp.institution || ''}`));
+
+  const body = document.createElement('div');
+  body.className = 'detail-body speaker-card';
+  body.innerHTML = `
+    <div class="speaker-tier-large ${sp.tier}" style="margin-bottom: 12px">Tier ${sp.tier}</div>
+
+    ${sp.oneLiner ? `<div class="speaker-oneliner">${escapeHtml(sp.oneLiner)}</div>` : ''}
+
+    ${sp.expertise && sp.expertise.length ? `
+      <div class="sheet-section">
+        <h3>🧠 Expertise</h3>
+        <div class="speaker-expertise-list">
+          ${sp.expertise.map(e => `<span class="tag">${escapeHtml(e)}</span>`).join('')}
+        </div>
+      </div>
+    ` : ''}
+
+    ${sp.keyContributions && sp.keyContributions.length ? `
+      <div class="sheet-section">
+        <h3>📝 Key Contributions</h3>
+        <ul style="padding-left: 20px; margin: 0">
+          ${sp.keyContributions.map(c => `<li style="margin-bottom: 4px; font-size: 13px; line-height: 1.45">${escapeHtml(c)}</li>`).join('')}
+        </ul>
+      </div>
+    ` : ''}
+
+    ${sp.whyListen ? `
+      <div class="sheet-section">
+        <h3>🎯 Why Listen</h3>
+        <p style="font-size: 14px; line-height: 1.55; margin: 0">${escapeHtml(sp.whyListen)}</p>
+      </div>
+    ` : ''}
+
+    ${sp.pmids && sp.pmids.length ? `
+      <div class="sheet-section">
+        <h3>📚 Key PMIDs</h3>
+        <div class="pmid-list">
+          ${sp.pmids.map(p => `
+            <a href="https://pubmed.ncbi.nlm.nih.gov/${encodeURIComponent(p)}/" target="_blank" rel="noopener"
+               style="display:inline-block; padding: 4px 10px; margin: 0 4px 4px 0; background: var(--bg-subtle); border-radius: 4px; font-size: 12px; color: var(--accent)">${escapeHtml(p)}</a>
+          `).join('')}
+        </div>
+      </div>
+    ` : ''}
+
+    ${relatedSessions.length ? `
+      <div class="sheet-section">
+        <h3>🗓️ Sessions at EuroPCR 2026 (${relatedSessions.length})</h3>
+        <ul class="sheet-list">
+          ${relatedSessions.slice(0, 20).map(s => `
+            <li class="clickable" onclick="navigateTo('#/session/${encodeURIComponent(s.id)}')">
+              <div style="flex: 1; min-width: 0">
+                <div style="font-size: 12px; color: var(--text-muted)">${escapeHtml(s.day)} ${escapeHtml(s.timeStart)}</div>
+                <div style="font-size: 13px; margin-top: 2px; line-height: 1.3">${escapeHtml(s.title)}</div>
+              </div>
+              <span style="color: var(--text-muted); flex-shrink: 0">→</span>
+            </li>
+          `).join('')}
+        </ul>
+      </div>
+    ` : ''}
   `;
-  openSheet(html);
+  main.appendChild(body);
 }
 
 // -----------------------------------------------------------
-// Trial sheet
+// Trial detail page
 // -----------------------------------------------------------
 
-function openTrialSheet(trialId) {
+function renderTrialDetail(main, trialId) {
   const t = AppData.trials[trialId];
+  main.innerHTML = '';
+
   if (!t) {
-    toast('試驗資料不存在', 'error');
+    main.appendChild(renderBackHeader('試驗資料不存在', trialId));
     return;
   }
 
@@ -878,15 +847,11 @@ function openTrialSheet(trialId) {
     ['Prior Result', t.priorResult || t.result12mo || ''],
   ].filter(([, v]) => v);
 
-  const html = `
-    <div class="sheet-header">
-      <div>
-        <h2>${escapeHtml(t.trialName || t.trialId)}</h2>
-        ${t.domain ? `<span class="trial-domain">${escapeHtml(t.domain)}</span>` : ''}
-      </div>
-      <button class="icon-btn" data-close style="background:var(--bg-subtle); flex-shrink:0">✕</button>
-    </div>
+  main.appendChild(renderBackHeader(t.trialName || t.trialId, t.domain));
 
+  const body = document.createElement('div');
+  body.className = 'detail-body';
+  body.innerHTML = `
     ${t.question ? `
       <div class="trial-question">
         <strong>核心問題：</strong>${escapeHtml(t.question)}
@@ -939,17 +904,31 @@ function openTrialSheet(trialId) {
       </div>
     ` : ''}
   `;
-  openSheet(html);
+  main.appendChild(body);
 }
 
 // -----------------------------------------------------------
-// Edit sheet (backup swap + notes + tags)
+// Edit view (backup swap + notes + tags)
 // -----------------------------------------------------------
 
-function openEditSheet(dayName, block, idx) {
-  const key = blockKey(dayName, block.time);
-  const resolved = resolveBlockPick(dayName, block);
+function renderEditView(main, key) {
+  // key = "Day-HH:MM"
+  const [dayName, time] = key.split('-', 2);
 
+  const day = AppData.schedule.days.find(d => d.day === dayName);
+  if (!day) {
+    main.innerHTML = '';
+    main.appendChild(renderBackHeader('排程不存在', key));
+    return;
+  }
+  const block = day.blocks.find(b => b.time.startsWith(time));
+  if (!block) {
+    main.innerHTML = '';
+    main.appendChild(renderBackHeader('時段不存在', key));
+    return;
+  }
+
+  const resolved = resolveBlockPick(dayName, block);
   const currentIsMain = !resolved.isBackup && !resolved.isCustom && !resolved.skipped;
 
   const options = [
@@ -957,15 +936,12 @@ function openEditSheet(dayName, block, idx) {
     ...(block.backups || []).map((b, i) => ({ type: 'backup', idx: i, option: b }))
   ];
 
-  const html = `
-    <div class="sheet-header">
-      <div>
-        <h2>編輯排程</h2>
-        <p style="font-size: 13px; color: var(--text-muted); margin-top: 2px">${escapeHtml(dayName)} ${escapeHtml(block.time)}</p>
-      </div>
-      <button class="icon-btn" data-close style="background:var(--bg-subtle); flex-shrink:0">✕</button>
-    </div>
+  main.innerHTML = '';
+  main.appendChild(renderBackHeader('編輯排程', `${dayName} ${block.time}`));
 
+  const body = document.createElement('div');
+  body.className = 'detail-body';
+  body.innerHTML = `
     <div class="sheet-section">
       <h3>🎯 選擇場次</h3>
       ${options.map(o => `
@@ -1005,37 +981,39 @@ function openEditSheet(dayName, block, idx) {
     </div>
 
     <div class="sheet-actions">
-      <button class="btn-secondary" data-close>取消</button>
+      <button class="btn-secondary" id="cancel-edit">取消</button>
       <button class="btn-primary" id="save-edit">儲存</button>
     </div>
   `;
-  openSheet(html);
+  main.appendChild(body);
 
   // Wire up interactions
-  $$('.tag-chip', $('#sheet-content')).forEach(chip => {
+  $$('.tag-chip', body).forEach(chip => {
     chip.onclick = () => chip.classList.toggle('active');
   });
 
-  $('#save-edit').onclick = () => {
+  $('#save-edit', body).onclick = () => {
     saveEdit(dayName, block);
   };
-}
+  $('#cancel-edit', body).onclick = () => {
+    navigateTo(`#/schedule/${encodeURIComponent(UIState.previousScheduleDay || dayName)}`);
+  };
 
-function openEditSheetByKey(key) {
-  // Find the block by key "Day-HH:MM"
-  const [dayName, time] = key.split('-', 2);
-  const fullTime = time; // Already HH:MM
-
-  const day = AppData.schedule.days.find(d => d.day === dayName);
-  if (!day) return;
-  const idx = day.blocks.findIndex(b => b.time.startsWith(fullTime));
-  if (idx < 0) return;
-  openEditSheet(dayName, day.blocks[idx], idx);
+  // Set initial radio selection based on current state
+  const radios = $$('input[name="pick"]', body);
+  if (resolved.skipped) {
+    radios.forEach(r => { if (r.value === 'skip') r.checked = true; });
+  } else if (resolved.isBackup) {
+    radios.forEach(r => { if (r.value === `backup:${resolved.backupIdx}`) r.checked = true; });
+  } else {
+    radios.forEach(r => { if (r.value === 'main:') r.checked = true; });
+  }
 }
 
 function saveEdit(dayName, block) {
   const key = blockKey(dayName, block.time);
-  const picked = $('input[name="pick"]:checked', $('#sheet-content'));
+  const main = $('#main');
+  const picked = $('input[name="pick"]:checked', main);
 
   if (picked) {
     const val = picked.value;
@@ -1050,19 +1028,19 @@ function saveEdit(dayName, block) {
   }
 
   // Save note
-  const note = $('#note-editor').value.trim();
+  const note = $('#note-editor', main).value.trim();
   if (note) UserState.notes[key] = note;
   else delete UserState.notes[key];
 
   // Save tags
-  const activeTags = $$('.tag-chip.active', $('#sheet-content')).map(c => c.dataset.tag);
+  const activeTags = $$('.tag-chip.active', main).map(c => c.dataset.tag);
   if (activeTags.length) UserState.tags[key] = activeTags;
   else delete UserState.tags[key];
 
   UserState.save();
   toast('已儲存', 'success');
-  closeSheet();
-  render();
+  // Navigate back to schedule
+  navigateTo(`#/schedule/${encodeURIComponent(dayName)}`);
 }
 
 // -----------------------------------------------------------
@@ -1386,55 +1364,14 @@ function bindEvents() {
   $('#btn-search').onclick = () => navigateTo('#/search');
   $('#btn-settings').onclick = () => navigateTo('#/about');
 
-  // Sheet backdrop
-  $('#sheet-backdrop').onclick = closeSheet;
-
-  // Persistent close button (belt-and-suspenders fallback, always in DOM)
-  const persistentClose = $('#sheet-persistent-close');
-  if (persistentClose) persistentClose.onclick = closeSheet;
-
-  // Delegated close handler — any element with data-close or class="close-sheet"
-  // inside the sheet will close it. This is more robust than inline onclick.
-  $('#sheet').addEventListener('click', (e) => {
-    const target = e.target.closest('[data-close], .close-sheet');
-    if (target) {
-      e.preventDefault();
-      e.stopPropagation();
-      closeSheet();
-    }
-  });
-
-  // Swipe-down-to-close gesture on the sheet handle
-  let touchStartY = null;
-  const sheetEl = $('#sheet');
-  sheetEl.addEventListener('touchstart', (e) => {
-    // Only start tracking if touch begins near the top of the sheet (handle area)
-    const rect = sheetEl.getBoundingClientRect();
-    const y = e.touches[0].clientY;
-    if (y - rect.top < 40) {
-      touchStartY = y;
-    } else {
-      touchStartY = null;
-    }
-  }, { passive: true });
-  sheetEl.addEventListener('touchmove', (e) => {
-    if (touchStartY === null) return;
-    const dy = e.touches[0].clientY - touchStartY;
-    if (dy > 0) {
-      sheetEl.style.transform = `translateY(${Math.min(dy, 300)}px)`;
-    }
-  }, { passive: true });
-  sheetEl.addEventListener('touchend', (e) => {
-    if (touchStartY === null) return;
-    const dy = (e.changedTouches[0]?.clientY ?? touchStartY) - touchStartY;
-    sheetEl.style.transform = '';
-    if (dy > 80) closeSheet();
-    touchStartY = null;
-  }, { passive: true });
-
-  // Escape to close sheet
+  // Escape = back to schedule (when on any detail view)
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && UIState.sheetOpen) closeSheet();
+    if (e.key === 'Escape') {
+      const detailViews = { session: true, speaker: true, trial: true, edit: true };
+      if (detailViews[UIState.currentView]) {
+        navigateTo(`#/schedule/${encodeURIComponent(UIState.previousScheduleDay || 'Tuesday')}`);
+      }
+    }
   });
 
   // Hash change
@@ -1452,9 +1389,7 @@ if ('serviceWorker' in navigator) {
 
 // Expose some functions for inline event handlers
 window.navigateTo = navigateTo;
-window.closeSheet = closeSheet;
 window.toast = toast;
-window.openEditSheetByKey = openEditSheetByKey;
 window.exportUserData = exportUserData;
 window.importUserData = importUserData;
 window.resetUserData = resetUserData;
