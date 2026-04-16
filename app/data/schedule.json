@@ -1,5 +1,5 @@
 {
-  "version": "2.2-backups-expanded",
+  "version": "2.4-thu1500-acs-swap",
   "generatedAt": "2026-04-14",
   "confirmedAt": "2026-04-14",
   "note": "Final curated schedule confirmed by Dr. Chang in Session D. Includes backup options preserved from draft. 3 sessions swapped from draft: Wed 15:00 → Calcified LM Learning Room, Thu 10:45 → Bifurcation Learning Room (new), Thu 15:00 → Complication Simulation. Tue 16:30 changed from HI-PEITHO to Bifurcation DCB symposium.",
@@ -8,14 +8,7 @@
     "2026-05-20",
     "2026-05-21"
   ],
-  "registrationAlerts": [
-    {
-      "session": "THU-1500-143-001",
-      "action": "Go to Training Village desk first thing Thursday morning to register",
-      "reason": "Hands-On Lab seats are first-come, first-served (~18 spots per session)",
-      "priority": "CRITICAL"
-    }
-  ],
+  "registrationAlerts": [],
   "replayPlan": [
     {
       "sessionId": "WED-0945-BLEU-001",
@@ -39,6 +32,12 @@
       "sessionId": "TUE-1630-252B-002",
       "title": "HI-PEITHO PE landmark RCT discussion",
       "reason": "Swapped for Bifurcation DCB. Data already published NEJM Mar 2026, read paper + watch replay",
+      "priority": "low"
+    },
+    {
+      "sessionId": "THU-1500-143-001",
+      "title": "Complication management in calcified lesions (Hands-on Sim)",
+      "reason": "換成 Götberg+Mehta 雙 S ACS multivessel。Rota 併發症處理國內有機會訓練，優先度較低。有空可看回放 moderator 講解部分。",
       "priority": "low"
     }
   ],
@@ -859,41 +858,50 @@
         },
         {
           "time": "15:00-16:00",
-          "type": "Simulation",
+          "type": "CaseDiscussion",
           "changedFromDraft": true,
-          "draftPick": "THU-1500-MAILLOT-001 (TAVI durability — Leon S, Capodanno)",
-          "registrationRequired": "Go to Training Village desk FIRST THING Thursday morning — only ~18 spots, first-come first-served",
+          "draftPick": "THU-1500-MAILLOT-001 (TAVI durability) → THU-1500-143-001 (Rota Complication Sim) → THU-1500-BLEU-001 (Multivessel ACS dual-S) [2026-04-16]",
           "pick": {
-            "sessionId": "THU-1500-143-001",
-            "title": "Complication management in calcified lesions (entrapment, perforation)",
+            "sessionId": "THU-1500-BLEU-001",
+            "title": "Challenges of multivessel disease in ACS",
             "keyNames": [
-              "N. Amabile(A)",
-              "D. Milasinovic(A)"
+              "M. Götberg(S)",
+              "S. Mehta(S)",
+              "M. Al-Hijji(B)",
+              "R. Colleran(A)"
             ],
-            "facilitators": [
-              "N. Amabile",
-              "K. Mahadevan",
-              "D. Milasinovic"
-            ],
-            "sponsors": [
-              "Boston Scientific",
-              "Heartroid",
-              "Terumo"
-            ],
-            "format": "Calcium Skills Lab — hands-on simulation, 3 participants per station",
-            "note": "鈣化PCI併發症模擬：burr entrapment + perforation處理。動手操作，教練一對三指導。⚠️ 早上先去Training Village登記！",
+            "note": "★★ 雙 S 同台：Götberg(S) anchor + Mehta(S) disc。SLIM + COMPLETE + iFR-SWEDEHEART 真人現場。",
             "briefing": {
-              "summary": "Calcium Skills Lab hands-on — 鈣化 PCI 併發症處理模擬：burr entrapment + perforation。Amabile + Mahadevan + Milasinovic 教練一對三指導。Boston Scientific + Heartroid + Terumo 贊助。",
-              "why_attend": "你要的『動手練』精準對應。Complication 在你興趣排序第二。這種 burr entrapment 實戰你回國很難複製（模擬器才能安全練）。",
+              "summary": "★★ 雙 S 同台 — Götberg (iFR-SWEDEHEART PI, Lund) 當 anchorperson，Mehta (COMPLETE trial PI, McMaster) 當 discussant，搭 Al-Hijji + Colleran。60 分鐘 Case Discussion 聚焦多血管 ACS 的罪魁 vs 非罪魁識別、FFR/iFR + IVUS/OCT 整合、分階段血運重建時機。",
+              "why_attend": "你原本選的 Rota 併發症模擬在國內也能練，犧牲價值較低。這場是 EuroPCR 唯一能同時聽到 Götberg + Mehta 本人當場辯論多血管 ACS 決策的機會 — 兩個寫進 ESC / ACC guideline 的 trial PI 同場，現場 nuance 勝過讀 paper。",
               "key_takeaways": [
-                "Burr entrapment 的 stepwise bailout algorithm",
-                "Perforation 的 covered stent / coil / fat embolization 使用時機",
-                "影像在 complication 判讀的角色"
+                "Mehta 對 COMPLETE-2（staged timing + physiology-guided）的最新立場 — 2026 即將公布",
+                "Götberg 如何回答「STEMI non-culprit lesion 急性期 microvascular dysfunction 會不會騙過 iFR」",
+                "FFR vs iFR 在 NSTEMI 多血管 index procedure 的策略選擇（SLIM 框架落地）"
               ],
-              "watch_for": "⚠️ Thu 早上一到會場直接衝 Training Village 櫃台登記！僅約 18 個名額 first-come first-served。"
+              "watch_for": "Götberg 當 anchor，決定討論順序與攻擊角度 — 注意他怎麼 push Mehta 回答 COMPLETE-2 是否會推翻 culprit-only 的 NSTEMI 建議。"
             }
           },
           "backups": [
+            {
+              "sessionId": "THU-1500-143-001",
+              "title": "Complication management in calcified lesions (entrapment, perforation)",
+              "keyNames": [
+                "N. Amabile(A)",
+                "D. Milasinovic(A)"
+              ],
+              "note": "鈣化PCI併發症模擬：burr entrapment + perforation處理。動手操作，教練一對三指導。⚠️ 早上先去Training Village登記！",
+              "briefing": {
+                "summary": "Calcium Skills Lab hands-on — 鈣化 PCI 併發症處理模擬：burr entrapment + perforation。Amabile + Mahadevan + Milasinovic 教練一對三指導。Boston Scientific + Heartroid + Terumo 贊助。",
+                "why_attend": "你要的『動手練』精準對應。Complication 在你興趣排序第二。這種 burr entrapment 實戰你回國很難複製（模擬器才能安全練）。",
+                "key_takeaways": [
+                  "Burr entrapment 的 stepwise bailout algorithm",
+                  "Perforation 的 covered stent / coil / fat embolization 使用時機",
+                  "影像在 complication 判讀的角色"
+                ],
+                "watch_for": "⚠️ Thu 早上一到會場直接衝 Training Village 櫃台登記！僅約 18 個名額 first-come first-served。"
+              }
+            },
             {
               "sessionId": "THU-1500-MAILLOT-001",
               "title": "TAVI durability — Leon(S), Capodanno(A), Dumonteil(A)",
@@ -951,28 +959,10 @@
                 ],
                 "watch_for": "三案例均涉及程序失敗與併發症救援，而非單純技術執行—反映實務中最常見的困境。"
               }
-            },
-            {
-              "sessionId": "THU-1500-BLEU-001",
-              "title": "Challenges of multivessel disease in ACS",
-              "keyNames": [
-                "M. Götberg(S)",
-                "S. Banerjee",
-                "M. Al-Hijji(B)",
-                "R. Colleran(A)"
-              ],
-              "note": "ACS 多血管疾病診斷與血運重建分期。Götberg 主持（FFR 背景）。",
-              "briefing": {
-                "summary": "ACS 多血管疾病的冠脈診斷與治療規劃：罪魁 vs 非罪魁識別，生理（FFR/iFR）+ 影像（IVUS/OCT）整合決策，分階段血運重建時機。Götberg 主持，國際討論（Al-Hijji、Colleran、Martin Moreiras、Mehta）。",
-                "why_attend": "多血管 ACS 的「診斷邏輯」與「決策框架」為核心—需整合影像與生理判斷病變優先順序。台灣高血壓患者多血管疾病普遍，此場提供系統性篩選與分期策略。Götberg 是 iFR 研究的重要人物，加分。",
-                "key_takeaways": [
-                  "ACS 急性期多血管的罪魁鑑別：症狀、心電圖、影像三角驗證",
-                  "FFR/iFR 與 IVUS/OCT 整合決策（何時同時評估、何時分期）",
-                  "Index vs staged 多血管 PCI 的長期結果與選擇框架"
-                ]
-              }
             }
-          ]
+          ],
+          "swappedAt": "2026-04-16",
+          "swapReason": "Rota 併發症國內可訓，換 Götberg+Mehta 雙 S ACS multivessel discussion（EuroPCR 唯一機會）"
         },
         {
           "time": "16:15-18:00",
@@ -1063,5 +1053,11 @@
       "structural": "★★ — 2 sessions (TAVI LIVE, Maisano TEER)"
     }
   },
-  "v22Note": "Added 13 complication/ACS-STEMI/vulnerable-plaque backups with briefings across 5 blocks. 編輯排程時現在可一鍵檢視同時段所有場次。"
+  "v22Note": "Added 13 complication/ACS-STEMI/vulnerable-plaque backups with briefings across 5 blocks. 編輯排程時現在可一鍵檢視同時段所有場次。",
+  "lastSwap": {
+    "date": "2026-04-16",
+    "block": "Thursday 15:00-16:00",
+    "from": "THU-1500-143-001 (Rota Complications Hands-on)",
+    "to": "THU-1500-BLEU-001 (Multivessel ACS - Götberg+Mehta dual S)"
+  }
 }
