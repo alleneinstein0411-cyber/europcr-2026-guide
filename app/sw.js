@@ -24,11 +24,11 @@ const APP_SHELL = [
   './icons/icon.svg',
   './icons/icon-192.png',
   './icons/icon-512.png',
-  './data/meta.json?v=v23',
-  './data/schedule.json?v=v23',
-  './data/sessions.json?v=v23',
-  './data/speakers.json?v=v23',
-  './data/trials.json?v=v23',
+  './data/meta.json?v=v23a',
+  './data/schedule.json?v=v23a',
+  './data/sessions.json?v=v23a',
+  './data/speakers.json?v=v23a',
+  './data/trials.json?v=v23a',
 ];
 
 // ---- Install: precache everything ----

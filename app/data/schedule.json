@@ -133,7 +133,7 @@
               "sessionId": "TUE-1200-153-001",
               "title": "All we need to know about vulnerable plaque",
               "keyNames": [
-                "S. Brugaletta",
+                "S. Brugaletta(A)",
                 "I. Celikkale",
                 "E. Fernández Peregrina",
                 "E. Gutierrez"
@@ -257,9 +257,9 @@
               "sessionId": "TUE-1445-252B-001",
               "title": "Effective strategies for preventing and resolving complications of PCI in STEMI or left main patients: a case-based educational session",
               "keyNames": [
-                "A. Erglis",
-                "Z. Piroth",
-                "N. Amabile"
+                "A. Erglis(A)",
+                "Z. Piroth(A)",
+                "N. Amabile(A)"
               ],
               "note": "★★★ STEMI + LM + 併發症三合一。Erglis + Piroth + Amabile，三國（匈/拉/烏）複雜案例。",
               "briefing": {
@@ -278,7 +278,7 @@
               "title": "STEMI with multivessel disease",
               "keyNames": [
                 "A. Achim",
-                "G. G Toth"
+                "G. G Toth(A)"
               ],
               "note": "★ STEMI 多血管病變 Learning Room。Achim + Toth 帶，Noc 當 advisor。",
               "briefing": {
@@ -345,7 +345,7 @@
               "sessionId": "TUE-1630-ACC-004",
               "title": "2C Clinical Cases STEMI presenting with cardiogenic shock",
               "keyNames": [
-                "M. Ayoub"
+                "M. Ayoub(A)"
               ],
               "note": "★ STEMI + cardiogenic shock 病例課程。DanGer Shock（NEJM 2024）同代情境。",
               "briefing": {
@@ -363,7 +363,7 @@
               "title": "Complex anatomy in STEMI patients",
               "keyNames": [
                 "A. Mirza",
-                "M. Sabate"
+                "M. Sabate(S)"
               ],
               "note": "Complex anatomy STEMI。Sabate 是複雜 PCI/LM 先驅。",
               "briefing": {
@@ -395,7 +395,7 @@
               "D. Capodanno(A)",
               "R. Al-Lamee(S)",
               "N. Gonzalo(A)",
-              "P. Libby"
+              "P. Libby(S)"
             ],
             "note": "Lancet Commission聯合場次。Peter Libby（動脈粥樣硬化教父）+ Al-Lamee ORBITA視角 + Gonzalo case discussion。改變PCI適應症思考。",
             "briefing": {
@@ -423,7 +423,7 @@
               "sessionId": "WED-0830-BLEU-001",
               "title": "Managing complex calcified PCI: pitfalls and complications",
               "keyNames": [
-                "E. Barbato",
+                "E. Barbato(A)",
                 "A. Øksnes",
                 "J. Delgado Silva",
                 "E. Fabris"
@@ -446,7 +446,7 @@
               "keyNames": [
                 "E. Margetic",
                 "A. Sakamoto",
-                "N. Cruden"
+                "N. Cruden(A)"
               ],
               "note": "★ IVUS 引導 PCI 最佳化 + 併發症管理。CVIT（日本）+ 蘇格蘭 + 克羅埃西亞三國案例。",
               "briefing": {
@@ -464,10 +464,10 @@
               "sessionId": "WED-0830-341-001",
               "title": "Innovative strategy in ACS",
               "keyNames": [
-                "M. Sabate",
+                "M. Sabate(S)",
                 "H. C. Tan",
                 "L. Abid",
-                "D. Moliterno"
+                "D. Moliterno(A)"
               ],
               "note": "ACS Hotline 論壇。Sabate + Moliterno + Stefanini。新興證據辯論。",
               "briefing": {
@@ -916,9 +916,9 @@
               "sessionId": "THU-1500-252B-001",
               "title": "Complication management during STEMI intervention: Czech Republic - Greece and Iraq present their cases",
               "keyNames": [
-                "M. Hamilos",
-                "V. Kocka",
-                "R. Byrne",
+                "M. Hamilos(A)",
+                "V. Kocka(A)",
+                "R. Byrne(S)",
                 "J. Sitar"
               ],
               "note": "★★ STEMI 介入併發症管理。Hamilos + Kocka 主持，Byrne/Tsigkas 討論。Ping-pong 技巧案例。",
@@ -936,7 +936,7 @@
               "sessionId": "THU-1500-251-001",
               "title": "A series of complex real word challenges STEMI treatment from very different countries",
               "keyNames": [
-                "K. Bainey",
+                "K. Bainey(A)",
                 "B. G. Libungan",
                 "G. Hirlekar"
               ],
@@ -956,10 +956,10 @@
               "sessionId": "THU-1500-BLEU-001",
               "title": "Challenges of multivessel disease in ACS",
               "keyNames": [
-                "M. Götberg",
+                "M. Götberg(S)",
                 "S. Banerjee",
-                "M. Al-Hijji",
-                "R. Colleran"
+                "M. Al-Hijji(B)",
+                "R. Colleran(A)"
               ],
               "note": "ACS 多血管疾病診斷與血運重建分期。Götberg 主持（FFR 背景）。",
               "briefing": {

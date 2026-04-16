@@ -249,7 +249,7 @@ async function loadData() {
   const files = ['meta.json', 'schedule.json', 'sessions.json', 'speakers.json', 'trials.json'];
   // Cache-bust JSON so users pick up data changes without needing a SW bump.
   // DATA_VERSION should be incremented whenever app/data/*.json changes.
-  const DATA_VERSION = 'v23';
+  const DATA_VERSION = 'v23a';
   const loaded = await Promise.all(files.map(f =>
     fetch(base + f + '?v=' + DATA_VERSION).then(r => {
       if (!r.ok) throw new Error(`Failed to load ${f}: ${r.status}`);
