@@ -12,7 +12,7 @@
 'use strict';
 
 // Bump this when you want all clients to clear their cache.
-const CACHE_VERSION = 'v2.3.0';
+const CACHE_VERSION = 'v2.3.2';
 const CACHE_NAME = `europcr2026-${CACHE_VERSION}`;
 
 const APP_SHELL = [
@@ -24,11 +24,11 @@ const APP_SHELL = [
   './icons/icon.svg',
   './icons/icon-192.png',
   './icons/icon-512.png',
-  './data/meta.json?v=v23a',
-  './data/schedule.json?v=v23a',
-  './data/sessions.json?v=v23a',
-  './data/speakers.json?v=v23a',
-  './data/trials.json?v=v23a',
+  './data/meta.json?v=v23b',
+  './data/schedule.json?v=v23b',
+  './data/sessions.json?v=v23b',
+  './data/speakers.json?v=v23b',
+  './data/trials.json?v=v23b',
 ];
 
 // ---- Install: precache everything ----

@@ -240,6 +240,26 @@ function hmToMin(hm) {
   return parseInt(m[1], 10) * 60 + parseInt(m[2], 10);
 }
 
+/** Render a clickable speaker chip — auto-looks-up tier from AppData.speakers
+ *  when the ref string doesn't already carry a (S)/(A)/(B) suffix.
+ *  Used by edit-view backup options AND concurrent-session items so chips
+ *  consistently show colour for any researched speaker.
+ */
+function renderSpeakerChipAutoTier(ref) {
+  const parsed = parseSpeakerRef(ref);
+  let tier = parsed.tier;
+  if (!tier) {
+    const sp = AppData.speakers[parsed.name];
+    if (sp && sp.tier) tier = sp.tier;
+  }
+  const researched = speakerIsResearched(parsed.name);
+  return `<button class="chip speaker-chip${researched ? ' researched' : ''}" type="button"
+    onclick="event.preventDefault(); event.stopPropagation(); navigateTo('#/speaker/${encodeURIComponent(parsed.name)}')">
+    <span class="chip-name">${escapeHtml(parsed.name)}</span>
+    ${tier ? `<span class="chip-tier ${tier}">${tier}</span>` : ''}
+  </button>`;
+}
+
 // -----------------------------------------------------------
 // Data loading
 // -----------------------------------------------------------
@@ -249,7 +269,7 @@ async function loadData() {
   const files = ['meta.json', 'schedule.json', 'sessions.json', 'speakers.json', 'trials.json'];
   // Cache-bust JSON so users pick up data changes without needing a SW bump.
   // DATA_VERSION should be incremented whenever app/data/*.json changes.
-  const DATA_VERSION = 'v23a';
+  const DATA_VERSION = 'v23b';
   const loaded = await Promise.all(files.map(f =>
     fetch(base + f + '?v=' + DATA_VERSION).then(r => {
       if (!r.ok) throw new Error(`Failed to load ${f}: ${r.status}`);
@@ -1165,18 +1185,10 @@ function renderEditView(main, key) {
             ${renderTopicPillsHtml(bs.topics, { limit: 5 })}
           </div>` : '';
         const locHtml = bs && bs.location ? `<div class="option-note" style="margin-top:4px">🗺️ ${escapeHtml(bs.location.levelLabel)} · ${escapeHtml(bs.location.wing)}</div>` : '';
-        // Clickable speaker chips (were previously just plain text joined with ·)
+        // Clickable speaker chips with auto tier lookup
         const speakerChipsHtml = o.option.keyNames && o.option.keyNames.length ? `
           <div class="option-speakers" style="display:flex; flex-wrap:wrap; gap:4px; margin-top:6px">
-            ${o.option.keyNames.map(ref => {
-              const parsed = parseSpeakerRef(ref);
-              const researched = speakerIsResearched(parsed.name);
-              return `<button class="chip speaker-chip${researched ? ' researched' : ''}" type="button"
-                onclick="event.preventDefault(); event.stopPropagation(); navigateTo('#/speaker/${encodeURIComponent(parsed.name)}')">
-                <span class="chip-name">${escapeHtml(parsed.name)}</span>
-                ${parsed.tier ? `<span class="chip-tier ${parsed.tier}">${parsed.tier}</span>` : ''}
-              </button>`;
-            }).join('')}
+            ${o.option.keyNames.map(renderSpeakerChipAutoTier).join('')}
           </div>
         ` : '';
         // "查看完整詳情" button on every option
@@ -1298,9 +1310,14 @@ function renderEditView(main, key) {
       const starClass = sessionHitsInterests(s) ? 'starred' : '';
       const selected = ov.customSessionId === s.id ? 'selected' : '';
       const locShort = s.location ? `${s.location.levelLabel} · ${s.location.wing}` : s.room;
-      const speakers = (s.speakers && Array.isArray(s.speakers))
-        ? s.speakers.slice(0, 4).map(sp => sp.name || sp).join(' · ')
-        : (s.speakers ? Object.values(s.speakers).flat().slice(0, 4).join(' · ') : '');
+      // Collect up to 4 speaker names (handle flat array OR grouped object)
+      const speakerNames = Array.isArray(s.speakers)
+        ? s.speakers.map(sp => (sp && sp.name) || sp).filter(Boolean)
+        : (s.speakers && typeof s.speakers === 'object'
+            ? Object.values(s.speakers).flat().filter(Boolean)
+            : []);
+      const speakerChipsHtml = speakerNames.slice(0, 4).map(renderSpeakerChipAutoTier).join('');
+      const extraCount = speakerNames.length - 4;
       return `
         <div class="concurrent-item ${starClass} ${selected}" data-sid="${escapeHtml(s.id)}">
           ${star}
@@ -1312,7 +1329,7 @@ function renderEditView(main, key) {
             ${renderTopicPillsHtml(s.topics, { limit: 4 })}
             <span class="format-pill">${escapeHtml(s.formatLabel || s.type || '')}</span>
           </div>
-          ${speakers ? `<div class="ci-speakers">👥 ${escapeHtml(speakers)}</div>` : ''}
+          ${speakerChipsHtml ? `<div class="ci-speakers" style="display:flex; flex-wrap:wrap; gap:3px; margin-top:4px">${speakerChipsHtml}${extraCount > 0 ? `<span class="chip" style="font-size:10px; padding:2px 6px; color:var(--text-muted)">+${extraCount}</span>` : ''}</div>` : ''}
           <div style="font-size:11px; color: var(--text-muted); margin-top:4px">🗺️ ${escapeHtml(locShort)}</div>
           <div style="display:flex; gap:6px; margin-top:6px">
             <span class="ci-select-btn" data-action="select">${selected ? '✓ 已選此場' : '選此場'}</span>
