@@ -1,8 +1,14 @@
 {
-  "buildTime": "2026-04-15T09:48:02.608128+00:00",
-  "dataVersion": "1.0",
-  "projectStatus": "session_d_complete",
+  "buildTime": "2026-04-16T14:30:00+08:00",
+  "dataVersion": "1.1-v22-tags",
+  "projectStatus": "v22_tags_location_concurrent",
   "pdfVersion": "14 April 2026",
+  "v22Changes": [
+    "所有 547 sessions 自動標註 topics[] (21 topics) + trackCategories[] (8 官方分類) + location{levelLabel, wing, walk}",
+    "編輯排程時可展開「同時段所有場次」（依興趣/主題/分類篩選，一鍵切換）",
+    "排程卡片 + 詳情頁顯示官方配色分類標籤 + 主題 pill + 房間 + 樓層位置提示",
+    "新增 12 個 ACS/STEMI + Complications + Vulnerable Plaque 場次為 backup 含 briefing"
+  ],
   "conferenceDays": [
     "2026-05-19",
     "2026-05-20",

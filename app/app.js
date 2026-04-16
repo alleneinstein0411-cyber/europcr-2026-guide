@@ -108,6 +108,139 @@ function formatTime(block) {
 }
 
 // -----------------------------------------------------------
+// Topic/category rendering helpers (v2.2)
+// -----------------------------------------------------------
+
+// Topic label map — short Chinese label for compact display
+const TOPIC_LABELS = {
+  'ACS-STEMI':        'ACS/STEMI',
+  'Complications':    '併發症',
+  'VulnerablePlaque': '脆弱斑塊',
+  'LM':               '左主幹',
+  'Bifurcation':      '分叉',
+  'Calcium':          '鈣化',
+  'CTO':              'CTO',
+  'Imaging':          'IVUS/OCT',
+  'Physiology':       '生理學',
+  'DCB':              'DCB',
+  'TAVI':             'TAVI',
+  'LAA':              'LAA',
+  'Mitral':           '二尖瓣',
+  'Tricuspid':        '三尖瓣',
+  'PE':               'PE',
+  'HF-Shock':         'HF/Shock',
+  'Hypertension':     'RDN',
+  'DAPT':             'DAPT',
+  'AI-Innovation':    'AI',
+  'Simulation':       '模擬',
+  'Access':           '入徑',
+};
+
+const CATEGORY_LABELS = {
+  'Coronary':          'Coronary',
+  'Structural':        'Structural',
+  'HeartFailure':      'Heart Failure',
+  'Hypertension':      'Hypertension',
+  'Peripheral':        'Peripheral',
+  'PulmonaryEmbolism': 'Pulmonary Embolism',
+  'NursesAllied':      'Nurses & Allied',
+  'Sponsored':         'Sponsored',
+};
+
+// Dr. Chang's explicit interest topics — used to star/highlight sessions in concurrent lists
+const INTEREST_TOPICS = ['ACS-STEMI', 'Complications', 'VulnerablePlaque'];
+
+/** Render array of category pills (coloured square + label, official-app style). */
+function renderCategoryPillsHtml(cats) {
+  if (!cats || !cats.length) return '';
+  return cats.map(c => `<span class="cat-pill ${escapeHtml(c)}">${escapeHtml(CATEGORY_LABELS[c] || c)}</span>`).join('');
+}
+
+/** Render array of topic pills (smaller, topic-colour-coded).
+ *  Optional `starred` set highlights pills for user's interest topics.
+ */
+function renderTopicPillsHtml(topics, opts = {}) {
+  if (!topics || !topics.length) return '';
+  const limit = opts.limit || 6;
+  const shown = topics.slice(0, limit);
+  const rest  = topics.length - shown.length;
+  const starInterests = opts.starInterests !== false;
+  const html = shown.map(t => {
+    const label = TOPIC_LABELS[t] || t;
+    const star = starInterests && INTEREST_TOPICS.includes(t) ? '★ ' : '';
+    return `<span class="topic-pill Tag-${escapeHtml(t)}">${star}${escapeHtml(label)}</span>`;
+  }).join('');
+  const more = rest > 0 ? `<span class="topic-pill" style="background: var(--bg-subtle); color: var(--text-muted)">+${rest}</span>` : '';
+  return html + more;
+}
+
+/** Does this session touch one of Dr. Chang's interest topics? */
+function sessionHitsInterests(session) {
+  const t = session && session.topics;
+  return !!(t && t.some(x => INTEREST_TOPICS.includes(x)));
+}
+
+/** Lookup the session (enriched with topics/trackCategories/location) backing a schedule pick or backup. */
+function sessionFor(pickOrBackup) {
+  return pickOrBackup && pickOrBackup.sessionId ? AppData.sessions[pickOrBackup.sessionId] : null;
+}
+
+/** Render location box for session detail. */
+function renderLocationBoxHtml(loc) {
+  if (!loc) return '';
+  const level = loc.levelLabel || '';
+  const wing = loc.wing || '';
+  const walk = loc.walk || '';
+  return `
+    <div class="location-box">
+      <span class="loc-icon">🗺️</span>
+      <div style="flex:1; min-width:0">
+        <span class="loc-level">${escapeHtml(level)}</span>
+        <span class="loc-wing">${escapeHtml(wing)}</span>
+        ${walk ? `<span class="loc-walk">🚶 ${escapeHtml(walk)}</span>` : ''}
+      </div>
+    </div>
+  `;
+}
+
+/** Concurrent sessions for a given (day, HH:MM start).
+ *  Matches by session.day === dayName AND session.timeStart overlaps the block.
+ */
+function findConcurrentSessions(dayName, blockTime) {
+  const [startHM] = blockTime.split('-');
+  const startMin = hmToMin(startHM);
+  const endMin   = blockTime.includes('-') ? hmToMin(blockTime.split('-')[1]) : (startMin + 60);
+  const out = [];
+  for (const sid in AppData.sessions) {
+    const s = AppData.sessions[sid];
+    if (s.day !== dayName) continue;
+    const sStart = hmToMin(s.timeStart);
+    const sEnd   = hmToMin(s.timeEnd || s.timeStart);
+    // Any overlap counts (concurrent = any temporal overlap)
+    if (sEnd > startMin && sStart < endMin) {
+      out.push(s);
+    }
+  }
+  // Stable sort: interest sessions first, then by room code, then by timeStart.
+  out.sort((a, b) => {
+    const ai = sessionHitsInterests(a) ? 0 : 1;
+    const bi = sessionHitsInterests(b) ? 0 : 1;
+    if (ai !== bi) return ai - bi;
+    const tr = (a.timeStart || '').localeCompare(b.timeStart || '');
+    if (tr !== 0) return tr;
+    return (a.room || '').localeCompare(b.room || '');
+  });
+  return out;
+}
+
+function hmToMin(hm) {
+  if (!hm) return 0;
+  const m = hm.match(/(\d{1,2}):(\d{2})/);
+  if (!m) return 0;
+  return parseInt(m[1], 10) * 60 + parseInt(m[2], 10);
+}
+
+// -----------------------------------------------------------
 // Data loading
 // -----------------------------------------------------------
 
@@ -380,6 +513,19 @@ function renderBlock(dayName, block, idx) {
   // Title
   article.querySelector('.block-title').textContent = pick.title || '(無標題)';
 
+  // Category + topic pills — pulled from the backing enriched session
+  const backingSession = sessionFor(pick);
+  if (backingSession) {
+    const pillRow = document.createElement('div');
+    pillRow.className = 'pill-row dense';
+    pillRow.innerHTML = [
+      renderCategoryPillsHtml(backingSession.trackCategories),
+      renderTopicPillsHtml(backingSession.topics, { limit: 5 }),
+      backingSession.room ? `<span class="format-pill">🏛️ ${escapeHtml(backingSession.room.replace(/^ROOM\s*/,''))}</span>` : '',
+    ].filter(Boolean).join('');
+    if (pillRow.innerHTML) article.querySelector('.block-title').after(pillRow);
+  }
+
   // Speakers
   const spList = article.querySelector('.block-speakers');
   (pick.keyNames || []).forEach(ref => {
@@ -547,8 +693,17 @@ function renderSessionDetail(main, sessionId) {
       <span>📅 ${escapeHtml(s.day)} ${escapeHtml(s.date)}</span>
       <span>⏰ ${escapeHtml(s.timeStart)}-${escapeHtml(s.timeEnd)}</span>
       <span>🏛️ ${escapeHtml(s.room)}</span>
-      <span style="text-transform: capitalize">🏷️ ${escapeHtml(s.track || 'n/a')}</span>
+      ${s.formatLabel ? `<span>🎬 ${escapeHtml(s.formatLabel)}</span>` : ''}
     </div>
+
+    ${(s.trackCategories && s.trackCategories.length) || (s.topics && s.topics.length) ? `
+      <div class="pill-row" style="margin-bottom: 12px">
+        ${renderCategoryPillsHtml(s.trackCategories)}
+        ${renderTopicPillsHtml(s.topics, { limit: 10 })}
+      </div>
+    ` : ''}
+
+    ${renderLocationBoxHtml(s.location)}
 
     ${s.sponsor ? `<p style="font-size: 12px; color: var(--text-muted); margin-bottom: 14px">💼 ${escapeHtml(s.sponsor.replace(/^Sponsored by\s+/i, 'Sponsored by '))}</p>` : ''}
 
@@ -982,24 +1137,60 @@ function renderEditView(main, key) {
   main.innerHTML = '';
   main.appendChild(renderBackHeader('編輯排程', `${dayName} ${block.time}`));
 
+  // Pre-compute concurrent sessions (everything happening during this block)
+  const curatedIds = new Set();
+  if (block.pick && block.pick.sessionId) curatedIds.add(block.pick.sessionId);
+  (block.backups || []).forEach(b => { if (b.sessionId) curatedIds.add(b.sessionId); });
+  const concurrent = findConcurrentSessions(dayName, block.time)
+    .filter(s => !curatedIds.has(s.id));
+  const interestConcurrent = concurrent.filter(sessionHitsInterests);
+
+  // Current custom override (if any) — even if not in curated list
+  const ov = UserState.overrides[key] || {};
+  const customSid = ov.customSessionId && !curatedIds.has(ov.customSessionId) ? ov.customSessionId : null;
+
   const body = document.createElement('div');
   body.className = 'detail-body';
   body.innerHTML = `
     <div class="sheet-section">
-      <h3>🎯 選擇場次</h3>
-      ${options.map(o => `
+      <h3>🎯 選擇場次（策展）</h3>
+      ${options.map(o => {
+        const bs = sessionFor(o.option);
+        const pillHtml = bs ? `
+          <div class="pill-row dense" style="margin-top:6px">
+            ${renderCategoryPillsHtml(bs.trackCategories)}
+            ${renderTopicPillsHtml(bs.topics, { limit: 5 })}
+          </div>` : '';
+        const locHtml = bs && bs.location ? `<div class="option-note" style="margin-top:4px">🗺️ ${escapeHtml(bs.location.levelLabel)} · ${escapeHtml(bs.location.wing)}</div>` : '';
+        return `
         <label class="backup-option ${
           (o.type === 'main' && currentIsMain) ||
           (o.type === 'backup' && resolved.backupIdx === o.idx)
             ? 'active' : ''
         }">
           <input type="radio" name="pick" value="${o.type}:${o.idx === null ? '' : o.idx}">
-          <span class="option-label">${o.type === 'main' ? '主選' : `備案 ${o.idx + 1}`}</span>
+          <span class="option-label">${o.type === 'main' ? '★ 主選' : `備案 ${o.idx + 1}`}</span>
           <div class="option-title">${escapeHtml(o.option.title)}</div>
           ${o.option.keyNames ? `<div class="option-speakers">${o.option.keyNames.map(k => escapeHtml(k)).join(' · ')}</div>` : ''}
           ${o.option.note ? `<div class="option-note">${escapeHtml(o.option.note)}</div>` : ''}
+          ${locHtml}
+          ${pillHtml}
         </label>
-      `).join('')}
+      `;
+      }).join('')}
+
+      ${customSid ? (() => {
+        const cs = AppData.sessions[customSid];
+        if (!cs) return '';
+        return `
+          <label class="backup-option active">
+            <input type="radio" name="pick" value="custom:${escapeHtml(customSid)}" checked>
+            <span class="option-label" style="color: var(--accent)">自訂</span>
+            <div class="option-title">${escapeHtml(cs.title)}</div>
+            <div class="option-note">🗺️ ${escapeHtml(cs.location ? cs.location.levelLabel + ' · ' + cs.location.wing : cs.room)}</div>
+          </label>
+        `;
+      })() : ''}
 
       <label class="backup-option" style="background: var(--bg-subtle)">
         <input type="radio" name="pick" value="skip" ${resolved.skipped ? 'checked' : ''}>
@@ -1007,6 +1198,26 @@ function renderEditView(main, key) {
         <div class="option-note">標記為不參加這個時段（休息或逛展場）</div>
       </label>
     </div>
+
+    ${concurrent.length ? `
+    <div class="sheet-section">
+      <button class="reveal-concurrent" id="reveal-concurrent" type="button" aria-expanded="false">
+        <span>🔍 同時段還有 <span class="reveal-count">${concurrent.length}</span> 場${interestConcurrent.length ? ` <span style="color:#d97706; font-weight:700">（★ ${interestConcurrent.length} 場切中你興趣）</span>` : ''}</span>
+        <span class="reveal-arrow">▸</span>
+      </button>
+      <div id="concurrent-panel" style="display:none; margin-top:10px">
+        <div class="concurrent-summary">
+          <strong>為什麼看這個？</strong>策展主選/備案只是 Dr. Chang 的推薦。這裡列出同時段<b>所有其他場次</b>，幫你核對是否錯過有興趣的題目。★ 代表命中你關注的 <b>ACS/STEMI、併發症、脆弱斑塊</b>。
+        </div>
+        <div class="concurrent-filter" id="concurrent-filter">
+          <span class="filter-chip active" data-filter="all">全部 ${concurrent.length}</span>
+          ${interestConcurrent.length ? `<span class="filter-chip interest" data-filter="interest">★ 興趣 ${interestConcurrent.length}</span>` : ''}
+          ${buildConcurrentTopicFilters(concurrent)}
+        </div>
+        <div class="concurrent-list" id="concurrent-list"></div>
+      </div>
+    </div>
+    ` : ''}
 
     <div class="sheet-section">
       <h3>📝 我的備註</h3>
@@ -1030,10 +1241,104 @@ function renderEditView(main, key) {
   `;
   main.appendChild(body);
 
-  // Wire up interactions
+  // Wire tag chips
   $$('.tag-chip', body).forEach(chip => {
     chip.onclick = () => chip.classList.toggle('active');
   });
+
+  // Reveal concurrent panel + render list
+  const revealBtn = $('#reveal-concurrent', body);
+  const panel = $('#concurrent-panel', body);
+  const listEl = $('#concurrent-list', body);
+  let currentFilter = 'all';
+
+  const renderConcurrentList = () => {
+    if (!listEl) return;
+    let items = concurrent;
+    if (currentFilter === 'interest') {
+      items = items.filter(sessionHitsInterests);
+    } else if (currentFilter.startsWith('topic:')) {
+      const topic = currentFilter.split(':')[1];
+      items = items.filter(s => (s.topics || []).includes(topic));
+    } else if (currentFilter.startsWith('cat:')) {
+      const cat = currentFilter.split(':')[1];
+      items = items.filter(s => (s.trackCategories || []).includes(cat));
+    }
+    if (!items.length) {
+      listEl.innerHTML = '<div class="empty-state" style="padding:16px">此篩選下沒有場次</div>';
+      return;
+    }
+    listEl.innerHTML = items.map(s => {
+      const star = sessionHitsInterests(s) ? '<span class="ci-star">⭐</span>' : '';
+      const starClass = sessionHitsInterests(s) ? 'starred' : '';
+      const selected = ov.customSessionId === s.id ? 'selected' : '';
+      const locShort = s.location ? `${s.location.levelLabel} · ${s.location.wing}` : s.room;
+      const speakers = (s.speakers && Array.isArray(s.speakers))
+        ? s.speakers.slice(0, 4).map(sp => sp.name || sp).join(' · ')
+        : (s.speakers ? Object.values(s.speakers).flat().slice(0, 4).join(' · ') : '');
+      return `
+        <div class="concurrent-item ${starClass} ${selected}" data-sid="${escapeHtml(s.id)}">
+          ${star}
+          <div class="ci-top">
+            <div class="ci-title">${escapeHtml(s.title || '(無標題)')}</div>
+            <div class="ci-room">${escapeHtml(s.timeStart || '')}<br>${escapeHtml((s.room || '').replace(/^ROOM\s*/,'R.'))}</div>
+          </div>
+          <div class="pill-row dense">
+            ${renderTopicPillsHtml(s.topics, { limit: 4 })}
+            <span class="format-pill">${escapeHtml(s.formatLabel || s.type || '')}</span>
+          </div>
+          ${speakers ? `<div class="ci-speakers">👥 ${escapeHtml(speakers)}</div>` : ''}
+          <div style="font-size:11px; color: var(--text-muted); margin-top:4px">🗺️ ${escapeHtml(locShort)}</div>
+          <div style="display:flex; gap:6px; margin-top:6px">
+            <span class="ci-select-btn" data-action="select">${selected ? '✓ 已選此場' : '選此場'}</span>
+            <span class="ci-select-btn" data-action="open" style="background: var(--bg-subtle); color: var(--text-muted)">查看詳情 →</span>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    // Wire clicks
+    $$('.concurrent-item', listEl).forEach(el => {
+      const sid = el.dataset.sid;
+      $$('[data-action]', el).forEach(btn => {
+        btn.onclick = (e) => {
+          e.stopPropagation();
+          if (btn.dataset.action === 'select') {
+            // Select as custom override for this block
+            UserState.overrides[key] = { customSessionId: sid };
+            UserState.save();
+            toast('已切換至此場次（自訂）', 'success');
+            // Re-render edit view to reflect
+            renderEditView(main, key);
+          } else if (btn.dataset.action === 'open') {
+            navigateTo(`#/session/${encodeURIComponent(sid)}`);
+          }
+        };
+      });
+      // Clicking the body also opens detail
+      el.onclick = () => navigateTo(`#/session/${encodeURIComponent(sid)}`);
+    });
+  };
+
+  if (revealBtn) {
+    revealBtn.onclick = () => {
+      const open = panel.style.display !== 'none';
+      panel.style.display = open ? 'none' : 'block';
+      revealBtn.classList.toggle('open', !open);
+      revealBtn.setAttribute('aria-expanded', String(!open));
+      if (!open) renderConcurrentList();
+    };
+
+    // Filter chips
+    $$('#concurrent-filter .filter-chip', body).forEach(chip => {
+      chip.onclick = () => {
+        $$('#concurrent-filter .filter-chip', body).forEach(c => c.classList.remove('active'));
+        chip.classList.add('active');
+        currentFilter = chip.dataset.filter;
+        renderConcurrentList();
+      };
+    });
+  }
 
   $('#save-edit', body).onclick = () => {
     saveEdit(dayName, block);
@@ -1046,11 +1351,36 @@ function renderEditView(main, key) {
   const radios = $$('input[name="pick"]', body);
   if (resolved.skipped) {
     radios.forEach(r => { if (r.value === 'skip') r.checked = true; });
+  } else if (customSid) {
+    // custom radio already checked via attribute
   } else if (resolved.isBackup) {
     radios.forEach(r => { if (r.value === `backup:${resolved.backupIdx}`) r.checked = true; });
   } else {
     radios.forEach(r => { if (r.value === 'main:') r.checked = true; });
   }
+}
+
+/** Build topic/category filter chips from the pool of concurrent sessions. */
+function buildConcurrentTopicFilters(sessions) {
+  // Count topics + categories present
+  const topicCount = {}, catCount = {};
+  sessions.forEach(s => {
+    (s.topics || []).forEach(t => { topicCount[t] = (topicCount[t] || 0) + 1; });
+    (s.trackCategories || []).forEach(c => { catCount[c] = (catCount[c] || 0) + 1; });
+  });
+  // Top 6 topics
+  const topTopics = Object.entries(topicCount)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 6);
+  const cats = Object.entries(catCount).sort((a, b) => b[1] - a[1]);
+
+  const catHtml = cats.map(([c, n]) =>
+    `<span class="filter-chip" data-filter="cat:${escapeHtml(c)}">${escapeHtml(CATEGORY_LABELS[c] || c)} ${n}</span>`
+  ).join('');
+  const topicHtml = topTopics.map(([t, n]) =>
+    `<span class="filter-chip" data-filter="topic:${escapeHtml(t)}">${escapeHtml(TOPIC_LABELS[t] || t)} ${n}</span>`
+  ).join('');
+  return catHtml + topicHtml;
 }
 
 function saveEdit(dayName, block) {

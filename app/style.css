@@ -1241,3 +1241,361 @@ a.paper-title {
   .btn-detail, .btn-edit { padding: 8px 12px; }
   .icon-btn { width: 44px; height: 44px; }
 }
+
+/* ============================================================
+ * v2.2 — Official category pills (mirror of programme PDF legend)
+ *   Coronary / Structural / HeartFailure / Hypertension /
+ *   Peripheral / PulmonaryEmbolism / NursesAllied / Sponsored
+ * ============================================================ */
+
+:root {
+  --cat-coronary:          #0ea5b7;   /* cyan-teal — Coronary Interventions */
+  --cat-coronary-bg:       #cffafe;
+  --cat-structural:        #16a34a;   /* green — Structural Disease */
+  --cat-structural-bg:     #dcfce7;
+  --cat-hf:                #581c87;   /* deep purple — Heart Failure */
+  --cat-hf-bg:             #ede9fe;
+  --cat-htn:               #be185d;   /* pink-red — Hypertension */
+  --cat-htn-bg:            #fce7f3;
+  --cat-peri:              #7c3aed;   /* purple — Peripheral */
+  --cat-peri-bg:           #f3e8ff;
+  --cat-pe:                #b91c1c;   /* red — Pulmonary Embolism */
+  --cat-pe-bg:             #fecaca;
+  --cat-nurses:            #0891b2;
+  --cat-nurses-bg:         #cffafe;
+  --cat-sponsored:         #92400e;
+  --cat-sponsored-bg:      #fef3c7;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cat-coronary-bg:       #083a45;
+    --cat-structural-bg:     #052e16;
+    --cat-hf-bg:             #2e1065;
+    --cat-htn-bg:            #500724;
+    --cat-peri-bg:           #3b0764;
+    --cat-pe-bg:             #4c0f0f;
+    --cat-nurses-bg:         #083a45;
+    --cat-sponsored-bg:      #3f2d0a;
+  }
+}
+
+/* The little coloured square + label — mirrors official PDF legend */
+.cat-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 8px 2px 6px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+.cat-pill::before {
+  content: '';
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+  background: currentColor;
+  flex-shrink: 0;
+}
+.cat-pill.Coronary          { color: var(--cat-coronary);   background: var(--cat-coronary-bg); }
+.cat-pill.Structural        { color: var(--cat-structural); background: var(--cat-structural-bg); }
+.cat-pill.HeartFailure      { color: var(--cat-hf);         background: var(--cat-hf-bg); }
+.cat-pill.Hypertension      { color: var(--cat-htn);        background: var(--cat-htn-bg); }
+.cat-pill.Peripheral        { color: var(--cat-peri);       background: var(--cat-peri-bg); }
+.cat-pill.PulmonaryEmbolism { color: var(--cat-pe);         background: var(--cat-pe-bg); }
+.cat-pill.NursesAllied      { color: var(--cat-nurses);     background: var(--cat-nurses-bg); }
+.cat-pill.Sponsored         { color: var(--cat-sponsored);  background: var(--cat-sponsored-bg); }
+
+/* Topic pills — smaller, subtler, pill-shaped.
+   Each topic gets its own colour for quick scanning. */
+:root {
+  --topic-acs-c: #b91c1c; --topic-acs-b: #fee2e2;     /* ACS-STEMI */
+  --topic-cplx-c: #c2410c; --topic-cplx-b: #ffedd5;   /* Complications */
+  --topic-vp-c: #6b21a8; --topic-vp-b: #f3e8ff;       /* VulnerablePlaque */
+  --topic-lm-c: #7c3aed; --topic-lm-b: #ede9fe;       /* LM */
+  --topic-bif-c: #9333ea; --topic-bif-b: #f3e8ff;     /* Bifurcation */
+  --topic-calc-c: #78716c; --topic-calc-b: #f5f5f4;   /* Calcium */
+  --topic-cto-c: #1d4ed8; --topic-cto-b: #dbeafe;     /* CTO */
+  --topic-img-c: #0891b2; --topic-img-b: #cffafe;     /* Imaging */
+  --topic-phys-c: #059669; --topic-phys-b: #d1fae5;   /* Physiology */
+  --topic-dcb-c: #db2777; --topic-dcb-b: #fce7f3;     /* DCB */
+  --topic-tavi-c: #166534; --topic-tavi-b: #dcfce7;   /* TAVI */
+  --topic-laa-c: #a16207; --topic-laa-b: #fef9c3;     /* LAA */
+  --topic-mit-c: #0f766e; --topic-mit-b: #ccfbf1;     /* Mitral */
+  --topic-tri-c: #4338ca; --topic-tri-b: #e0e7ff;     /* Tricuspid */
+  --topic-pe-c: #991b1b; --topic-pe-b: #fecaca;       /* PE */
+  --topic-hf-c: #5b21b6; --topic-hf-b: #ede9fe;       /* HF-Shock */
+  --topic-htn-c: #be185d; --topic-htn-b: #fce7f3;     /* Hypertension */
+  --topic-dapt-c: #ea580c; --topic-dapt-b: #ffedd5;   /* DAPT */
+  --topic-ai-c: #2563eb; --topic-ai-b: #dbeafe;       /* AI-Innovation */
+  --topic-sim-c: #065f46; --topic-sim-b: #a7f3d0;     /* Simulation */
+  --topic-acc-c: #4b5563; --topic-acc-b: #f3f4f6;     /* Access */
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --topic-acs-b: #3f1414; --topic-cplx-b: #3a1f0a;
+    --topic-vp-b: #2d1650; --topic-lm-b: #2e1065;
+    --topic-bif-b: #3b0764; --topic-calc-b: #1c1917;
+    --topic-cto-b: #1e3a8a; --topic-img-b: #083a45;
+    --topic-phys-b: #064e3b; --topic-dcb-b: #500724;
+    --topic-tavi-b: #052e16; --topic-laa-b: #3f2d0a;
+    --topic-mit-b: #042f2e; --topic-tri-b: #1e1b4b;
+    --topic-pe-b: #450a0a; --topic-hf-b: #2e1065;
+    --topic-htn-b: #500724; --topic-dapt-b: #3a1f0a;
+    --topic-ai-b: #1e3a8a; --topic-sim-b: #042f1f;
+    --topic-acc-b: #1f2937;
+  }
+}
+
+.topic-pill {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 10px;
+  font-size: 10.5px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+.topic-pill.Tag-ACS-STEMI       { color: var(--topic-acs-c);  background: var(--topic-acs-b); }
+.topic-pill.Tag-Complications   { color: var(--topic-cplx-c); background: var(--topic-cplx-b); }
+.topic-pill.Tag-VulnerablePlaque{ color: var(--topic-vp-c);   background: var(--topic-vp-b); }
+.topic-pill.Tag-LM              { color: var(--topic-lm-c);   background: var(--topic-lm-b); }
+.topic-pill.Tag-Bifurcation     { color: var(--topic-bif-c);  background: var(--topic-bif-b); }
+.topic-pill.Tag-Calcium         { color: var(--topic-calc-c); background: var(--topic-calc-b); }
+.topic-pill.Tag-CTO             { color: var(--topic-cto-c);  background: var(--topic-cto-b); }
+.topic-pill.Tag-Imaging         { color: var(--topic-img-c);  background: var(--topic-img-b); }
+.topic-pill.Tag-Physiology      { color: var(--topic-phys-c); background: var(--topic-phys-b); }
+.topic-pill.Tag-DCB             { color: var(--topic-dcb-c);  background: var(--topic-dcb-b); }
+.topic-pill.Tag-TAVI            { color: var(--topic-tavi-c); background: var(--topic-tavi-b); }
+.topic-pill.Tag-LAA             { color: var(--topic-laa-c);  background: var(--topic-laa-b); }
+.topic-pill.Tag-Mitral          { color: var(--topic-mit-c);  background: var(--topic-mit-b); }
+.topic-pill.Tag-Tricuspid       { color: var(--topic-tri-c);  background: var(--topic-tri-b); }
+.topic-pill.Tag-PE              { color: var(--topic-pe-c);   background: var(--topic-pe-b); }
+.topic-pill.Tag-HF-Shock        { color: var(--topic-hf-c);   background: var(--topic-hf-b); }
+.topic-pill.Tag-Hypertension    { color: var(--topic-htn-c);  background: var(--topic-htn-b); }
+.topic-pill.Tag-DAPT            { color: var(--topic-dapt-c); background: var(--topic-dapt-b); }
+.topic-pill.Tag-AI-Innovation   { color: var(--topic-ai-c);   background: var(--topic-ai-b); }
+.topic-pill.Tag-Simulation      { color: var(--topic-sim-c);  background: var(--topic-sim-b); }
+.topic-pill.Tag-Access          { color: var(--topic-acc-c);  background: var(--topic-acc-b); }
+
+/* Row of pills (cats + topics) on block cards and in lists */
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 6px 0 4px;
+}
+.pill-row.dense { gap: 3px; }
+.pill-row .format-pill {
+  font-size: 10.5px;
+  font-weight: 500;
+  padding: 1px 7px;
+  border-radius: 10px;
+  background: var(--bg-subtle);
+  color: var(--text-muted);
+  line-height: 1.5;
+  border: 1px solid var(--border);
+}
+
+/* ============================================================
+ * v2.2 — Location info box (on session detail)
+ * ============================================================ */
+
+.location-box {
+  display: flex;
+  gap: 10px;
+  padding: 10px 12px;
+  background: linear-gradient(135deg, #eff6ff 0%, #f0f9ff 100%);
+  border: 1px solid #bfdbfe;
+  border-left: 4px solid #2563eb;
+  border-radius: 8px;
+  margin: 4px 0 14px;
+  font-size: 13px;
+  line-height: 1.45;
+  align-items: flex-start;
+}
+@media (prefers-color-scheme: dark) {
+  .location-box {
+    background: #0b1d3a;
+    border-color: #1e40af;
+  }
+}
+.location-box .loc-icon { font-size: 20px; flex-shrink: 0; line-height: 1; }
+.location-box .loc-level {
+  display: inline-block;
+  padding: 1px 7px;
+  background: #2563eb;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-right: 6px;
+}
+.location-box .loc-wing { font-weight: 600; color: var(--text); }
+.location-box .loc-walk { display: block; font-size: 12px; color: var(--text-muted); margin-top: 3px; }
+
+/* ============================================================
+ * v2.2 — Concurrent sessions (in edit view)
+ * ============================================================ */
+
+.concurrent-filter {
+  display: flex;
+  gap: 5px;
+  overflow-x: auto;
+  padding: 6px 0 10px;
+  margin-bottom: 8px;
+  -webkit-overflow-scrolling: touch;
+  border-bottom: 1px dashed var(--border);
+}
+.concurrent-filter::-webkit-scrollbar { display: none; }
+.filter-chip {
+  padding: 5px 10px;
+  border-radius: 14px;
+  background: var(--bg-subtle);
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+  flex-shrink: 0;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.filter-chip.active {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+.filter-chip.interest {
+  background: #fef3c7;
+  color: #92400e;
+  font-weight: 700;
+}
+.filter-chip.interest.active {
+  background: #f59e0b;
+  color: white;
+}
+
+.concurrent-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.concurrent-item {
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg-elevated);
+  cursor: pointer;
+  transition: all 0.12s;
+  position: relative;
+}
+.concurrent-item:active { background: var(--bg-subtle); }
+.concurrent-item.selected {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+.concurrent-item.starred {
+  border-left: 3px solid #f59e0b;
+  padding-left: 9px;
+}
+.concurrent-item .ci-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.concurrent-item .ci-room {
+  flex-shrink: 0;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  padding: 2px 7px;
+  background: var(--bg-subtle);
+  border-radius: 10px;
+  font-variant-numeric: tabular-nums;
+  max-width: 45%;
+  text-align: right;
+  line-height: 1.3;
+}
+.concurrent-item .ci-title {
+  font-size: 13.5px;
+  font-weight: 600;
+  line-height: 1.35;
+  flex: 1;
+  min-width: 0;
+}
+.concurrent-item .ci-star {
+  position: absolute;
+  top: 8px;
+  right: 9px;
+  font-size: 13px;
+}
+.concurrent-item .ci-speakers {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 3px;
+  line-height: 1.35;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.concurrent-item .ci-select-btn {
+  display: inline-block;
+  margin-top: 7px;
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  background: var(--bg-subtle);
+  color: var(--text);
+  border-radius: 14px;
+}
+.concurrent-item.selected .ci-select-btn {
+  background: var(--accent);
+  color: white;
+}
+.concurrent-summary {
+  padding: 8px 10px;
+  background: var(--bg-subtle);
+  border-radius: 8px;
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+  line-height: 1.45;
+}
+.concurrent-summary strong { color: var(--text); }
+
+/* Collapsible reveal button above concurrent list */
+.reveal-concurrent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 14px;
+  background: var(--bg-subtle);
+  border: 1px dashed var(--border-strong);
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  cursor: pointer;
+  transition: background 0.12s;
+  margin-top: 8px;
+}
+.reveal-concurrent:active { background: var(--border); }
+.reveal-concurrent .reveal-count {
+  color: var(--accent);
+  font-weight: 700;
+}
+.reveal-concurrent .reveal-arrow {
+  transition: transform 0.2s;
+  font-size: 13px;
+}
+.reveal-concurrent.open .reveal-arrow {
+  transform: rotate(90deg);
+}
