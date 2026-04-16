@@ -1550,14 +1550,30 @@ function renderSearchResults(q) {
     return;
   }
 
+  // Flatten speaker names — schema varies: array of {name, role} OR
+  // object {role: [names]} OR null. Throw-safe.
+  const speakerNamesOf = (s) => {
+    const sp = s.speakers;
+    if (!sp) return '';
+    if (Array.isArray(sp)) return sp.map(x => (x && x.name) || x || '').join(' ');
+    if (typeof sp === 'object') return Object.values(sp).flat().filter(Boolean).join(' ');
+    return '';
+  };
+
   const sessions = Object.values(AppData.sessions);
   const matches = sessions.filter(s => {
-    const blob = [
-      s.title, s.subtitle, s.sponsor, s.room, s.type,
-      (s.speakers || []).map(sp => sp.name).join(' '),
-      (s.agenda || []).map(a => (a.title || a.item || '') + ' ' + (a.speaker || '')).join(' ')
-    ].join(' ').toLowerCase();
-    return blob.includes(q);
+    try {
+      const blob = [
+        s.title, s.subtitle, s.sponsor, s.room, s.type, s.formatLabel,
+        (s.topics || []).join(' '),
+        (s.trackCategories || []).join(' '),
+        speakerNamesOf(s),
+        (s.agenda || []).map(a => (a.title || a.item || '') + ' ' + (a.speaker || '')).join(' ')
+      ].join(' ').toLowerCase();
+      return blob.includes(q);
+    } catch (e) {
+      return false;
+    }
   }).slice(0, 50);
 
   if (!matches.length) {

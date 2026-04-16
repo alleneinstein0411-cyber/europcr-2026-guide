@@ -12,7 +12,7 @@
 'use strict';
 
 // Bump this when you want all clients to clear their cache.
-const CACHE_VERSION = 'v2.3.3';
+const CACHE_VERSION = 'v2.3.4';
 const CACHE_NAME = `europcr2026-${CACHE_VERSION}`;
 
 const APP_SHELL = [
