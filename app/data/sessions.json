@@ -229,13 +229,11 @@
     "sponsor": null,
     "speakers": {
       "anchorpersons": [
-        "D. Baghdasaryan",
-        "J"
+        "D. Baghdasaryan"
       ],
       "discussants": [
         "N. Lhoest",
-        "C. Maksutov",
-        "A"
+        "C. Maksutov"
       ]
     },
     "learningObjectives": [
@@ -410,8 +408,7 @@
     "speakers": {
       "anchorpersons": [
         "M. Hudec",
-        "S. Kedev",
-        "L"
+        "S. Kedev"
       ],
       "discussants": [
         "V. Asani",
@@ -1471,8 +1468,7 @@
       ],
       "discussants": [
         "M. Garbi",
-        "G. Nickenig",
-        "H"
+        "G. Nickenig"
       ]
     },
     "learningObjectives": [
@@ -3058,8 +3054,7 @@
       ],
       "discussants": [
         "R. Al-Bawardy",
-        "F. Alqaisi",
-        "A"
+        "F. Alqaisi"
       ]
     },
     "learningObjectives": [
@@ -3200,13 +3195,11 @@
     "speakers": {
       "anchorpersons": [
         "A. Erglis",
-        "Z. Piroth",
-        "M"
+        "Z. Piroth"
       ],
       "discussants": [
         "N. Amabile",
-        "S. Chaichuk",
-        "I"
+        "S. Chaichuk"
       ]
     },
     "learningObjectives": [
@@ -3347,13 +3340,11 @@
     "sponsor": null,
     "speakers": {
       "anchorpersons": [
-        "A. Baranauskas",
-        "A"
+        "A. Baranauskas"
       ],
       "discussants": [
         "M. Abras",
-        "I. Botchorishvili",
-        "P"
+        "I. Botchorishvili"
       ]
     },
     "learningObjectives": [],
@@ -3692,7 +3683,7 @@
     "agenda": [
       {
         "item": "Welcome and session objectives",
-        "speaker": "A 70-year-old low-risk patient with",
+        "speaker": null,
         "pending": false
       },
       {
@@ -3702,7 +3693,7 @@
       },
       {
         "item": "Discussion and audience interaction",
-        "speaker": "A patient with combined severe aortic",
+        "speaker": null,
         "pending": false
       },
       {
@@ -3834,8 +3825,7 @@
       "discussants": [
         "D. Dash",
         "P. Kala",
-        "K. Kyhl",
-        "M"
+        "K. Kyhl"
       ]
     },
     "learningObjectives": [
@@ -4044,8 +4034,7 @@
       ],
       "discussants": [
         "J. Hausleiter",
-        "N. Schofer",
-        "G"
+        "N. Schofer"
       ]
     },
     "learningObjectives": [
@@ -4101,7 +4090,7 @@
       },
       {
         "item": "tree for repair vs. replacement",
-        "speaker": "E. Ho",
+        "speaker": null,
         "pending": false
       },
       {
@@ -4609,8 +4598,7 @@
       ],
       "discussants": [
         "R. Davies",
-        "O. Goktekin",
-        "G"
+        "O. Goktekin"
       ]
     },
     "learningObjectives": [
@@ -5978,7 +5966,6 @@
       "physicianTrainers": [
         "N. Chandra Mohan",
         "A. Mukherjee",
-        "S. thirunavukarasu",
         "D. Tiong"
       ]
     },
@@ -6363,8 +6350,7 @@
       ],
       "discussants": [
         "J. Delgado Silva",
-        "E. Fabris",
-        "A"
+        "E. Fabris"
       ]
     },
     "learningObjectives": [
@@ -6675,7 +6661,7 @@
       },
       {
         "item": "Discussion and audience interaction",
-        "speaker": "A pathologist's view: learning from",
+        "speaker": null,
         "pending": false
       },
       {
@@ -6831,8 +6817,7 @@
       ],
       "discussants": [
         "M. Alasnag",
-        "R. Colleran",
-        "T"
+        "R. Colleran"
       ]
     },
     "learningObjectives": [
@@ -6923,13 +6908,11 @@
     "speakers": {
       "anchorpersons": [
         "E. Margetic",
-        "A. Sakamoto",
-        "S"
+        "A. Sakamoto"
       ],
       "discussants": [
         "N. Cruden",
-        "I. Hadzibegovic",
-        "K"
+        "I. Hadzibegovic"
       ]
     },
     "learningObjectives": [
@@ -7075,13 +7058,11 @@
     "speakers": {
       "anchorpersons": [
         "J. Cabrales",
-        "A. Damonte",
-        "L"
+        "A. Damonte"
       ],
       "discussants": [
         "I. J. Amat-Santos",
-        "L. Medina",
-        "I"
+        "L. Medina"
       ]
     },
     "learningObjectives": [
@@ -7220,8 +7201,7 @@
     "sponsor": null,
     "speakers": {
       "anchorpersons": [
-        "A. W. K. Chan",
-        "N"
+        "A. W. K. Chan"
       ],
       "discussants": [
         "S. Akhmedov",
@@ -7630,8 +7610,7 @@
       ],
       "discussants": [
         "M. Behnes",
-        "E. Christiansen",
-        "C"
+        "E. Christiansen"
       ],
       "mediaDrivers": [
         "M. Kovacic"
@@ -7639,9 +7618,7 @@
       "onstageCoordinators": [
         "J. Boyer"
       ],
-      "cathlabCoordinators": [
-        "J"
-      ]
+      "cathlabCoordinators": []
     },
     "learningObjectives": [
       "To understand the basic pathophysiology and angiographic characteristics of CTOs",
@@ -8341,7 +8318,6 @@
       ],
       "physicianTrainers": [
         "J. Padilla",
-        "S. thirunavukarasu",
         "D. Tiong",
         "N. S. Vega servin"
       ]
@@ -8500,8 +8476,7 @@
       ],
       "discussants": [
         "J. Cavalcante",
-        "G. Nickenig",
-        "M"
+        "G. Nickenig"
       ]
     },
     "learningObjectives": [
@@ -8948,8 +8923,7 @@
       ],
       "discussants": [
         "A. Rakisheva",
-        "H. Tolppanen",
-        "I"
+        "H. Tolppanen"
       ]
     },
     "learningObjectives": [
@@ -9773,12 +9747,10 @@
     "speakers": {
       "anchorpersons": [
         "S. Aziz",
-        "M. A. Bouraghda",
-        "K"
+        "M. A. Bouraghda"
       ],
       "discussants": [
-        "A. Boukabous",
-        "J"
+        "A. Boukabous"
       ]
     },
     "learningObjectives": [],
@@ -9818,8 +9790,7 @@
       ],
       "discussants": [
         "E. O. Fosse",
-        "S. Juntunen",
-        "A"
+        "S. Juntunen"
       ]
     },
     "learningObjectives": [
@@ -9964,13 +9935,11 @@
     "sponsor": null,
     "speakers": {
       "anchorpersons": [
-        "A. Ben Abdessalem",
-        "D"
+        "A. Ben Abdessalem"
       ],
       "discussants": [
         "M. Haude",
-        "T. I. Matei",
-        "D"
+        "T. I. Matei"
       ]
     },
     "learningObjectives": [
@@ -10130,8 +10099,7 @@
       ],
       "discussants": [
         "D. Benedetto",
-        "S. Gorgulu",
-        "J"
+        "S. Gorgulu"
       ],
       "mediaDrivers": [
         "M. Kovacic"
@@ -10139,9 +10107,7 @@
       "onstageCoordinators": [
         "J. Boyer"
       ],
-      "cathlabCoordinators": [
-        "J"
-      ]
+      "cathlabCoordinators": []
     },
     "learningObjectives": [
       "To learn tricks in higher level antegrade CTO intervention",
@@ -10512,9 +10478,7 @@
         "N. Amabile",
         "J. Siller-Matula"
       ],
-      "mediaDrivers": [
-        "S. thirunavukarasu"
-      ],
+      "mediaDrivers": [],
       "physicianTrainers": [
         "N. Chandra Mohan",
         "A. Mukherjee",
@@ -13525,7 +13489,6 @@
       "physicianTrainers": [
         "J. Carrillo Vega",
         "N. Chandra Mohan",
-        "S. thirunavukarasu",
         "D. Tiong"
       ]
     },
@@ -13674,8 +13637,7 @@
       ],
       "discussants": [
         "M. Adam",
-        "A. Asgar",
-        "R"
+        "A. Asgar"
       ]
     },
     "learningObjectives": [
@@ -14341,8 +14303,7 @@
       ],
       "discussants": [
         "F. Bouisset",
-        "M. C. Morice",
-        "P"
+        "M. C. Morice"
       ]
     },
     "learningObjectives": [
@@ -14450,8 +14411,7 @@
       ],
       "discussants": [
         "D. Benedetto",
-        "S. Brugaletta",
-        "J"
+        "S. Brugaletta"
       ]
     },
     "learningObjectives": [
@@ -14918,8 +14878,7 @@
       ],
       "discussants": [
         "P. Chiam",
-        "A. Elguindy",
-        "S"
+        "A. Elguindy"
       ]
     },
     "learningObjectives": [
@@ -16315,7 +16274,6 @@
       "physicianTrainers": [
         "N. Chandra Mohan",
         "A. Mukherjee",
-        "S. thirunavukarasu",
         "D. Tiong"
       ]
     },
@@ -17252,13 +17210,11 @@
     "speakers": {
       "anchorpersons": [
         "B. K. Koo",
-        "U. Mirzoyev",
-        "R"
+        "U. Mirzoyev"
       ],
       "discussants": [
         "N. Bakhshaliyev",
-        "M. C. Kim",
-        "E"
+        "M. C. Kim"
       ]
     },
     "learningObjectives": [
@@ -17792,13 +17748,11 @@
       ],
       "operators": [
         "J. Boeddinghaus",
-        "T. Hovasse",
-        "K"
+        "T. Hovasse"
       ],
       "discussants": [
         "P. Knaapen",
-        "K. Mahadevan",
-        "J"
+        "K. Mahadevan"
       ],
       "mediaDrivers": [
         "M. Kovacic"
@@ -17806,9 +17760,7 @@
       "onstageCoordinators": [
         "A. Masumoto"
       ],
-      "cathlabCoordinators": [
-        "J"
-      ]
+      "cathlabCoordinators": []
     },
     "learningObjectives": [
       "To understand procedure analysis in approaching advanced CTOs",
@@ -18264,7 +18216,6 @@
       ],
       "physicianTrainers": [
         "J. Padilla",
-        "S. thirunavukarasu",
         "D. Tiong",
         "N. S. Vega servin"
       ]
@@ -18905,8 +18856,7 @@
       "discussants": [
         "R. Al-Lamee",
         "Z. Ali",
-        "R. Byrne",
-        "N"
+        "R. Byrne"
       ]
     },
     "learningObjectives": [
@@ -18995,8 +18945,7 @@
       ],
       "discussants": [
         "G. Ghisi",
-        "S. Hennessy",
-        "J"
+        "S. Hennessy"
       ]
     },
     "learningObjectives": [
@@ -19590,13 +19539,11 @@
     "sponsor": null,
     "speakers": {
       "anchorpersons": [
-        "P. Degrell",
-        "K"
+        "P. Degrell"
       ],
       "discussants": [
         "J. Beissel",
-        "B. Honton",
-        "M"
+        "B. Honton"
       ]
     },
     "learningObjectives": [
@@ -19737,13 +19684,11 @@
     "speakers": {
       "anchorpersons": [
         "T. Kilic",
-        "A. Marchese",
-        "G"
+        "A. Marchese"
       ],
       "discussants": [
         "M. Adamo",
-        "A. N. Calik",
-        "M"
+        "A. N. Calik"
       ]
     },
     "learningObjectives": [
@@ -19899,13 +19844,11 @@
       ],
       "operators": [
         "C. Hanratty",
-        "G. Leibundgut",
-        "J"
+        "G. Leibundgut"
       ],
       "discussants": [
         "S. G. Carlier",
-        "M. Egred",
-        "A"
+        "M. Egred"
       ],
       "mediaDrivers": [
         "M. Kovacic"
@@ -19913,9 +19856,7 @@
       "onstageCoordinators": [
         "A. Clement"
       ],
-      "cathlabCoordinators": [
-        "V"
-      ]
+      "cathlabCoordinators": []
     },
     "learningObjectives": [
       "To learn how to select antegrade or retrograde approach for complex CTOs",
@@ -20389,7 +20330,6 @@
         "J. Carrillo Vega",
         "N. Chandra Mohan",
         "A. Mukherjee",
-        "S. thirunavukarasu",
         "D. Tiong"
       ]
     },
@@ -22269,8 +22209,7 @@
       ],
       "discussants": [
         "M. Grygier",
-        "T. Modine",
-        "M"
+        "T. Modine"
       ],
       "cathlabCoordinators": [
         "A. Khokhar"
@@ -22451,8 +22390,7 @@
       ],
       "discussants": [
         "H. S. Aboumarie",
-        "C. Delmas",
-        "R"
+        "C. Delmas"
       ]
     },
     "learningObjectives": [
@@ -23001,13 +22939,11 @@
     "speakers": {
       "anchorpersons": [
         "K. Bainey",
-        "B. G. Libungan",
-        "I"
+        "B. G. Libungan"
       ],
       "discussants": [
         "G. Hirlekar",
-        "A. Lavoie",
-        "F. J"
+        "A. Lavoie"
       ]
     },
     "learningObjectives": [
@@ -23153,8 +23089,7 @@
     "speakers": {
       "anchorpersons": [
         "B. Aminian",
-        "S. Elezi",
-        "T"
+        "S. Elezi"
       ],
       "discussants": [
         "J. Kojuri",
@@ -23448,13 +23383,11 @@
     "speakers": {
       "anchorpersons": [
         "A. J. Fortuno",
-        "F. Malik",
-        "R"
+        "F. Malik"
       ],
       "discussants": [
         "A. Ang",
-        "S. R. Khan",
-        "R"
+        "S. R. Khan"
       ]
     },
     "learningObjectives": [
@@ -23849,13 +23782,11 @@
       ],
       "operators": [
         "R. Garbo",
-        "P. L. Laforgia",
-        "G"
+        "P. L. Laforgia"
       ],
       "discussants": [
         "H. J. Buettner",
-        "O. Goktekin",
-        "A"
+        "O. Goktekin"
       ],
       "mediaDrivers": [
         "M. Kovacic"
@@ -23863,9 +23794,7 @@
       "onstageCoordinators": [
         "A. Masumoto"
       ],
-      "cathlabCoordinators": [
-        "J"
-      ]
+      "cathlabCoordinators": []
     },
     "learningObjectives": [
       "To optimise strategy selection for complex CTO PCI procedures",
@@ -24361,7 +24290,6 @@
     "speakers": {
       "facilitators": [
         "J. Buithieu",
-        "E. Ho",
         "A. Latib"
       ]
     },
@@ -24595,8 +24523,7 @@
       ],
       "discussants": [
         "H. Abdel-Hadi",
-        "Z. Ali",
-        "E"
+        "Z. Ali"
       ]
     },
     "learningObjectives": [
@@ -25735,8 +25662,7 @@
       ],
       "discussants": [
         "M. Hawranek",
-        "V. Mitov",
-        "R"
+        "V. Mitov"
       ]
     },
     "learningObjectives": [
@@ -25852,8 +25778,7 @@
       ],
       "discussants": [
         "J. Brito",
-        "S. Brugaletta",
-        "A"
+        "S. Brugaletta"
       ]
     },
     "learningObjectives": [
@@ -27694,7 +27619,7 @@
       },
       {
         "item": "Discussion and audience interaction",
-        "speaker": "A state-of-the-art CT analysis and TAV",
+        "speaker": null,
         "pending": false
       },
       {
@@ -28862,7 +28787,6 @@
         "F. Maisano"
       ],
       "discussants": [
-        "E. Ho",
         "F. Praz",
         "N. Wunderlich"
       ]

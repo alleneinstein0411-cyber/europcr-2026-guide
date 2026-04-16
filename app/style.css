@@ -959,6 +959,24 @@ a.paper-title {
   line-height: 1.45;
 }
 
+.backup-option .option-detail-link {
+  grid-column: 2;
+  margin-top: 10px;
+  padding: 7px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-radius: 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  line-height: 1.35;
+  transition: background 0.12s;
+}
+.backup-option .option-detail-link:active { background: var(--accent); color: white; }
+.backup-option.active .option-detail-link { border-color: var(--accent); }
+
 /* Note editor */
 .note-editor {
   width: 100%;

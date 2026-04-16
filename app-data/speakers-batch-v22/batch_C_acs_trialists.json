@@ -1,0 +1,121 @@
+{
+  "S. Mehta": {
+    "name": "S. Mehta",
+    "fullName": "Shamir R. Mehta",
+    "institution": "McMaster University / Population Health Research Institute, Hamilton Health Sciences, Canada",
+    "expertise": ["STEMI complete revascularization", "ACS antithrombotic trials", "Thrombectomy", "Large-scale RCT design"],
+    "tier": "S",
+    "oneLiner": "COMPLETE 試驗 PI，奠定 STEMI 多血管病變「完全血運重建」金標準；TOTAL 試驗主持人，終結常規血栓抽吸時代。",
+    "keyContributions": [
+      "COMPLETE (NEJM 2019) — STEMI 多血管病變常規完全血運重建降低 CV death/MI",
+      "TOTAL (NEJM 2015) — 常規血栓抽吸無益，甚至增加中風",
+      "CURRENT-OASIS 7、ACUITY 等大型抗血小板試驗核心設計者"
+    ],
+    "whyListen": "COMPLETE 直接改寫 ESC/ACC 指引 Class I。Dr. Chang 在花蓮處理 STEMI 多血管病變時，Mehta 提供的 staged vs index 時機、FFR/iFR-guided 輔助決策等實戰數據，是每日 cath lab 的核心依據。",
+    "pmids": ["31475795", "39555823"],
+    "extendedBio": "Shamir Mehta 為 McMaster University 內科教授，Hamilton Health Sciences 介入心臟科主任，亦是 Population Health Research Institute (PHRI) 資深科學家。他師承 Salim Yusuf，承接 PHRI 全球大型心血管試驗傳統。三十年來主導或共同主持多個改寫指引的里程碑試驗——CURE (clopidogrel)、OASIS (antithrombotics)、CURRENT-OASIS 7 (clopidogrel loading)、TOTAL (thrombectomy) 與 COMPLETE (complete revascularization)。其試驗方法論嚴謹、樣本量巨大、事件導向 primary endpoint 的風格成為 ACS 研究典範。2024-2026 持續擔任 COMPLETE-2 steering committee 與多項 ACS 試驗指導委員。",
+    "signatureWork": "COMPLETE trial (NEJM 2019, n=4,041)：STEMI 合併多血管病變，隨機分派 index PCI 僅處理 culprit vs. staged 完全血運重建；3 年追蹤 CV death/MI 由 16.7% 降至 7.8% (HR 0.74, P<0.001)。此結果直接寫入 2023 ACC/AHA 與 2023 ESC STEMI guidelines Class I 建議。",
+    "recentActivity": "2024-2026 主導 COMPLETE 次族群分析（2024 NEJM 對 FFR-guided 策略的比較)，積極參與 TWILIGHT post-hoc 分析（2025 EHJ-CVP）探討高風險 PCI 抗血小板策略、CABG 族群的 ticagrelor 單藥治療。同時擔任 COMPLETE-2 (staged timing & physiology-guided) 的核心研究者，預計 2026 公布結果。",
+    "conversationStarter": "「COMPLETE-2 對 staged 時機（index 住院內 vs 45 天內）的敏感度分析出來了嗎？在亞洲族群我們常因健保床位限制無法 index hospital 完成，這個 delayed staged 是否會稀釋 COMPLETE 的效益？」",
+    "recentPapers": [
+      {"title": "Ticagrelor monotherapy post-PCI: total and recurrent events (TWILIGHT sub-study)", "year": 2025, "pmid": "39419783", "relevance": "高風險 PCI 後去除 aspirin 的總事件數分析，直接對應 Dr. Chang 高齡高出血風險患者決策"},
+      {"title": "COMPLETE trial long-term and subgroup analyses", "year": 2024, "pmid": "39555823", "relevance": "STEMI 完全血運重建效益持續驗證"}
+    ]
+  },
+  "K. Bainey": {
+    "name": "K. Bainey",
+    "fullName": "Kevin R. Bainey",
+    "institution": "Mazankowski Alberta Heart Institute, University of Alberta / Canadian VIGOUR Centre, Edmonton, Canada",
+    "expertise": ["STEMI reperfusion (pharmaco-invasive)", "Complete vs culprit-only revascularization", "STEMI networks/systems of care", "Tenecteplase dosing"],
+    "tier": "A",
+    "oneLiner": "STREAM-2 與 COMPLETE-2 核心研究者，專攻無法即時 primary PCI 的 STEMI pharmaco-invasive 策略與多血管病變完全血運重建。",
+    "keyContributions": [
+      "STREAM-2 (Lancet 2023) — 半量 tenecteplase 在老年人 STEMI 的 PI 策略非劣於 primary PCI",
+      "COMPLETE 試驗亞組分析與 SCAI/CCS guidelines 撰寫者",
+      "NACMI 登錄：COVID-19 相關 STEMI 的心電圖與預後指標"
+    ],
+    "whyListen": "花蓮地處偏鄉運送時間長，Bainey 的 pharmaco-invasive 與 hub-spoke 模型是 Dr. Chang 極其實用的參考。他對「何時該先溶栓、再轉送 PCI」在 >60 歲族群的半劑量 TNK 數據，直接對應台灣東部現況。",
+    "pmids": ["41329963", "39689189", "39952376", "41499097"],
+    "extendedBio": "Kevin Bainey 為 University of Alberta 心臟內科教授、Mazankowski Alberta Heart Institute 介入心臟科主任，並任 Canadian VIGOUR Centre 科學領袖。他師承 Paul W. Armstrong（GUSTO 系列開創者），延續 Alberta 對 STEMI 再灌流策略的傳統。研究聚焦：(1) pharmaco-invasive strategy 在無法及時 primary PCI 的地區之可行性；(2) STEMI 多血管病變的完整血運重建時機與策略；(3) STEMI 系統性延遲與城鄉差距。他是 2024 CCS STEMI guideline 與 SCAI STEMI 專家共識的核心撰寫者。",
+    "signatureWork": "STREAM-2 (Lancet 2023, n=604, ≥60 歲)：半量 tenecteplase + 轉送 PCI 策略，在效率（30 天 composite）與安全性（ICH）上與 primary PCI 相當。此試驗為偏遠地區（如花蓮）提供 primary PCI 無法在 120 分鐘內完成時的循證替代方案。",
+    "recentActivity": "2024-2026 密集產出 STREAM-1/2 pooled 分析——≥75 歲族群（2024 Circ Interv）、60-75 歲族群（2025 AHJ）、首小時 PCI (2026 AHJ)、rescue PCI 情境（2025 EHJ ACC）。2026 JAMA Cardiol editorial 重新強調 STEMI 轉送時間的關鍵性。COMPLETE-2 TCT 2024 公布，Bainey 為 co-PI。",
+    "conversationStarter": "「從 STREAM-2 的 hub-spoke 數據看，community hospital 啟動 TNK 的 door-to-needle 若能壓在 30 分鐘內，亞洲網絡是否需要重新定義『timely PCI』的 120 分鐘門檻？花蓮從山區轉送常 >90 分鐘。」",
+    "recentPapers": [
+      {"title": "Pharmaco-invasive strategy with half-dose TNK ≥75y: pooled STREAM-1/2", "year": 2024, "pmid": "39689189", "relevance": "老年 STEMI 無法及時 PCI 的最佳循證策略"},
+      {"title": "Rescue PCI in pharmaco-invasive era: STREAM-2 insights", "year": 2025, "pmid": "41329963", "relevance": "溶栓失敗後 rescue PCI 的時序與預後"},
+      {"title": "Primary PCI within 60 minutes: STREAM-1/2 analysis", "year": 2026, "pmid": "41619999", "relevance": "極早期再灌流與心源性休克顯著降低"}
+    ]
+  },
+  "M. Noc": {
+    "name": "M. Noc",
+    "fullName": "Marko Noc",
+    "institution": "Center for Intensive Internal Medicine, University Medical Centre Ljubljana / Medical Faculty, University of Ljubljana, Slovenia",
+    "expertise": ["Post-cardiac arrest care", "Cardiogenic shock", "Targeted temperature management", "STEMI with OHCA", "VA-ECMO/IABP hemodynamics"],
+    "tier": "A",
+    "oneLiner": "歐洲 post-arrest STEMI 治療先驅，Ljubljana 模型（院前啟動 cath lab + 冷卻）啟發全球 OHCA cardiac-cause 處置流程。",
+    "keyContributions": [
+      "Ljubljana post-arrest 中心模式：OHCA 後 STEMI 的即時 PCI + 冷卻",
+      "CULPRIT-SHOCK 次分析（hypothermia 在 AMI-CS+CA 的角色）",
+      "HEPARIN-STEMI RCT (Circulation 2026) — 院前 UFH pretreatment 增加 IRA 通暢率"
+    ],
+    "whyListen": "Dr. Chang 身為花蓮重症介入醫師，面對 OHCA-STEMI 與心源性休克的決策仰賴歐洲中心的實戰經驗。Noc 的 GLOBAL-MIRACLE 神經預後工具與 IABP on ECMO 血流動力學分析，是 shock team 每日工作的核心參考。",
+    "pmids": ["41910504", "40986817", "40507449", "41815081"],
+    "extendedBio": "Marko Noc 為 Ljubljana 大學醫學院教授、Center for Intensive Internal Medicine 主任。自 1990 年代起他將 Ljubljana 建立為歐洲最早整合 24/7 primary PCI 與重症後照護的中心之一，首創「院前心臟科會診啟動導管室」流程。他的研究線涵蓋：(1) OHCA 後立即冠脈造影與 PCI 指徵；(2) mild induced hypothermia 在心源性休克族群的再評估；(3) mechanical support（IABP、VA-ECMO）的血流動力學監測；(4) STEMI 抗凝前處置。他是 ESC Acute Cardiovascular Care Association 過往主席，也是 EuroPCR shock session 常年主持者。",
+    "signatureWork": "HEPARIN-STEMI RCT (Circulation 2026, n=593)：首次隨機驗證「院前首次醫療接觸時 UFH pretreatment」可讓 IRA TIMI 2-3 flow 由 27% 提升至 43%（RR 1.59, P<0.001），且不增加 BARC 3-5 出血。為長年爭議的 pre-PCI 抗凝問題提供高品質答案。",
+    "recentActivity": "2025-2026 產出豐沛：GLOBAL-MIRACLE registry (2026 Circ Interv) 前瞻驗證 MIRACLE2 score 用於 OHCA 神經預後分層；CULPRIT-SHOCK 子分析 (2025 EHJ ACC) 顯示冷卻在 AMI-CS+CA 效益不顯著；JCM 2025 闡述 VA-ECMO 加 IABP 的血流動力學僅輕微改善；JACC 2026 pooled 分析 AMI-CS 合併 CA 的不良預後。",
+    "conversationStarter": "「HEPARIN-STEMI 的 pre-hospital UFH 在 EMS 人員能力有限的地區（如花蓮山區由救護技術員執行）您認為風險效益比會改變嗎？我們是否應該先從 PCI 中心 1 小時內可達的區域推行？」",
+    "recentPapers": [
+      {"title": "HEPARIN STEMI: Prehospital UFH in STEMI for primary PCI", "year": 2026, "pmid": "41910504", "relevance": "院前抗凝前處置增加 IRA 通暢率 — 可能改寫 STEMI 前處置指引"},
+      {"title": "MIH in infarct-related CS + CA: CULPRIT-SHOCK insights", "year": 2025, "pmid": "40986817", "relevance": "AMI-CS 合併 CA 冷卻效益有限，對 shock team 策略調整"},
+      {"title": "GLOBAL-MIRACLE: Prospective MIRACLE2 validation for OHCA", "year": 2026, "pmid": "41815081", "relevance": "OHCA 早期神經預後分層工具"}
+    ]
+  },
+  "D. Moliterno": {
+    "name": "D. Moliterno",
+    "fullName": "David J. Moliterno",
+    "institution": "Gill Heart and Vascular Institute, University of Kentucky, Lexington, Kentucky, USA",
+    "expertise": ["Acute coronary syndromes", "Antithrombotic/antiplatelet strategies", "Guideline & editorial leadership", "Post-CABG ACS management"],
+    "tier": "A",
+    "oneLiner": "JACC Editor-in-Chief、TWILIGHT 等關鍵抗血小板試驗 steering committee，ACS 抗栓策略的全球意見領袖。",
+    "keyContributions": [
+      "TWILIGHT 系列 (ticagrelor monotherapy post-PCI) 核心指導者",
+      "JACC Editor-in-Chief — 塑造全球心血管文獻標準",
+      "Post-CABG ACS 治療策略共識"
+    ],
+    "whyListen": "Dr. Chang 患者族群常合併高出血風險與既往 CABG，Moliterno 所指導的 TWILIGHT-CABG 次分析直接回答「3 個月 DAPT 後能否安全停 aspirin」這個每天問的問題。他的 JACC editorial 視角也給予 guideline 解讀框架。",
+    "pmids": ["40467138", "39419783", "37587580", "35979636"],
+    "extendedBio": "David Moliterno 為 Jack M. Gill Endowed Chair、University of Kentucky 心血管醫學主任，兼任 Gill Heart and Vascular Institute 副所長。自 1990 年代 GUSTO 系列起，他即是美國 ACS 抗栓研究核心——早期 GP IIb/IIIa 抑制劑、雙重抗血小板劑、以及當前 ticagrelor 單藥時代。2017 年起擔任 JACC Editor-in-Chief（接續 Valentin Fuster 領導），影響全球心血管論文標準與 guideline 方向。臨床研究聚焦在：(1) 高出血風險 PCI 族群的 bleeding-ischemia balance；(2) 既往 CABG 患者的 ACS 治療；(3) 機械循環支持與心源性休克。",
+    "signatureWork": "TWILIGHT steering committee 核心成員——此試驗奠定「PCI 後 3 個月 DAPT 後改 ticagrelor 單藥」在高風險患者中顯著降低 BARC 2/3/5 出血而不增加缺血事件，改寫 ESC/ACC DAPT guidelines。後續 TWILIGHT-CABG、TWILIGHT 亞洲分析、total/recurrent events 分析持續鞏固此策略。",
+    "recentActivity": "2025 JACC editorial「ACS Management Guidelines: Tradition, Innovation, and the Gaps」評論 2025 新 ACS 指引的爭議點，包括 DCB、MCS、CTO；2024-2025 持續與 Mehran 等共同發表 TWILIGHT post-hoc 分析（recurrent events、dyspnea discontinuation）；身為 JACC 主編持續策展 ACS、shock 與 antithrombotic 領域 state-of-the-art reviews。",
+    "conversationStarter": "「TWILIGHT 亞洲亞組有約 20% 病人，但 East Asian 體質與 ticagrelor 呼吸困難風險不同。您如何在 Kentucky 看待亞洲族群的 De-escalation (ticagrelor → clopidogrel) 與 Monotherapy (drop aspirin) 兩條路線的取捨？」",
+    "recentPapers": [
+      {"title": "ACS Management Guidelines: Tradition, Innovation, and the Gaps in Between", "year": 2025, "pmid": "40467138", "relevance": "JACC editorial 對 2025 ACS 新指引爭議的評析"},
+      {"title": "Ticagrelor monotherapy total/recurrent events: TWILIGHT sub-study", "year": 2025, "pmid": "39419783", "relevance": "高風險 PCI DAPT 策略的長期事件分析"},
+      {"title": "TWILIGHT-CABG: Ticagrelor with/without aspirin post-PCI in prior CABG", "year": 2022, "pmid": "35979636", "relevance": "既往 CABG 患者 PCI 後抗血小板策略"}
+    ]
+  },
+  "M. Götberg": {
+    "name": "M. Götberg",
+    "fullName": "Matthias Götberg",
+    "institution": "Skåne University Hospital, Lund University, Lund, Sweden",
+    "expertise": ["Coronary physiology (iFR/FFR/dPR)", "Registry-based RCTs", "SWEDEHEART infrastructure", "PCI outcomes research"],
+    "tier": "S",
+    "oneLiner": "iFR-SWEDEHEART trial 共同 PI (NEJM 2017)，確立 iFR 為 FFR 非劣等替代，改寫全球生理學指引血運重建標準。",
+    "keyContributions": [
+      "iFR-SWEDEHEART (NEJM 2017) — iFR 非劣於 FFR，奠定新一代生理學評估",
+      "iFR 長期追蹤（5 年）與 deferred lesion outcomes",
+      "SWEDEHEART registry-based RCT 方法論先驅"
+    ],
+    "whyListen": "Dr. Chang 每天在 cath lab 決定「這個 intermediate lesion 要不要放」。Götberg 的 iFR-SWEDEHEART 5 年隨訪、與 iFR/FFR discordance 的機制研究，是台灣 physiology-guided PCI 比率持續提升時最關鍵的循證依據。",
+    "pmids": ["28317438", "40010917", "41794768"],
+    "extendedBio": "Matthias Götberg 為 Lund University 心臟內科教授、Skåne University Hospital 介入部門主任，並任 SWEDEHEART 科學委員會成員。他的研究以「bedside-relevant 生理學」為主軸：從 iFR 的臨床驗證（2013 RESOLVE/ADVISE 參與者）、iFR-SWEDEHEART 試驗共同 PI（與 Justin Davies 並肩），到後續 iFR vs FFR discordance 機制、non-hyperemic indices (dPR、RFR) 比較。他同時是 Erik Jørgensen 的 iFR Scandinavian 網絡核心成員，以 SWEDEHEART 此全國性登錄為平台的 registry-based RCT (R-RCT) 推動者之一。",
+    "signatureWork": "iFR-SWEDEHEART (NEJM 2017, n=2,037)：stable angina 與 ACS 患者隨機 iFR-guided vs FFR-guided PCI；1 年 MACE 6.7% vs 6.1% (非劣), iFR 組 procedural discomfort 顯著降低。試驗使用 SWEDEHEART registry 為 enrollment 平台，成為 R-RCT 典範。後續 5 年追蹤於 2022 公布，長期 outcome 持平。",
+    "recentActivity": "2024-2026 持續發表 iFR/FFR 臨床比較研究 (2025 EHJ)、iFR-guided PCI 的 deferred lesion 事件 (2026)、non-culprit lesion physiology 在 STEMI 的角色 (2025)；參與 SWEDEHEART 全國 STEMI 與 NSTE-ACS 登錄分析；擔任多國 physiology trials（如 FAVOR III、FLAVOUR）的 steering committee 與 guideline reviewer。",
+    "conversationStarter": "「iFR-SWEDEHEART 5 年結果讓 iFR 與 FFR 徹底平手。但在 STEMI non-culprit lesions，我們該等多久才做生理學評估？急性期 microvascular dysfunction 會不會騙過 iFR？您對 COMPLETE-2 physiology arm 的預期？」",
+    "recentPapers": [
+      {"title": "Latest iFR vs FFR outcome analysis", "year": 2025, "pmid": "41280556", "relevance": "生理學指引 PCI 的當代實證"},
+      {"title": "iFR/FFR guided PCI long-term outcomes (SWEDEHEART)", "year": 2026, "pmid": "41794768", "relevance": "長期事件比較，對台灣生理學 PCI 比率上升的關鍵參考"},
+      {"title": "Non-hyperemic pressure ratios and PCI decision-making", "year": 2025, "pmid": "40313688", "relevance": "iFR 之外的 non-hyperemic indices 比較"}
+    ]
+  }
+}

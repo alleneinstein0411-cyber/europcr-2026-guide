@@ -1,0 +1,122 @@
+{
+  "P. Libby": {
+    "name": "P. Libby",
+    "fullName": "Peter Libby",
+    "institution": "Brigham and Women's Hospital, Harvard Medical School, Boston, USA",
+    "expertise": ["Atherosclerosis biology", "Vascular inflammation", "Plaque rupture/erosion mechanisms", "Residual inflammatory risk", "CHIP & cardiovascular disease"],
+    "tier": "S",
+    "oneLiner": "全球動脈粥狀硬化與血管發炎研究的教父級人物，定義了「發炎是動脈粥狀硬化核心機制」的現代典範。",
+    "keyContributions": [
+      "CANTOS trial senior investigator — canakinumab 抑制 IL-1β 降低 MACE（NEJM 2017），奠定 anti-inflammation 降 CV risk 的 proof-of-concept",
+      "Plaque erosion vs rupture 概念化（Circulation 1996-onwards），推動 OCT-guided 個體化 ACS 治療",
+      "Clonal Hematopoiesis (CHIP) 與動脈粥狀硬化連結（NEJM 2017；JACC 2020）"
+    ],
+    "whyListen": "Libby 的發炎框架直接影響我們解讀高 hsCRP 病患、選擇 colchicine / GLP-1 RA 作為 secondary prevention 的臨床判斷；聽他 talk 能掌握未來 5 年 residual inflammatory risk 的治療走向。",
+    "pmids": ["41926331", "41384362", "40358623", "39791527", "40561640"],
+    "extendedBio": "Libby 是 Harvard Medical School Mallinckrodt Professor of Medicine，Brigham and Women's Hospital 心血管醫學部資深教授。從 1980 年代起以 vascular smooth muscle cell / endothelial cell 的 cytokine 反應研究奠基，將「atherosclerosis 是慢性發炎疾病」從假說變成 dogma。他是 Braunwald's Heart Disease 長期共同主編，全球被引用超過 35 萬次，為 H-index 最高的臨床心臟學家之一。近年聚焦 CHIP、trained immunity、IL-6 pathway、GLP-1 RA 的 anti-inflammatory effect，持續定義 cardiovascular prevention 的前沿議題。",
+    "signatureWork": "將 atherosclerosis 從「lipid storage disease」重新定義為「chronic inflammatory disease」的典範轉移，在 CANTOS 試驗中以 canakinumab 在正常膽固醇下降低 CV event，首次臨床證明純 anti-inflammatory therapy 可減少 MACE。",
+    "recentActivity": "2025 年於 EHJ 發表 ACS mechanisms, challenges, and new opportunities 綜述（PMID 40358623），整合 plaque erosion、sex differences、AI-based risk scores；2026 年 EHJ 與 Jaffer 團隊合作以 NIRF-OCT 證實 GLP-1 RA liraglutide 在非糖尿病兔子降低 plaque cathepsin 活性（PMID 41926331）。持續推動 Lp(a)、IL-6 axis（ziltivekimab）與 CHIP 作為下一代 residual risk target。",
+    "conversationStarter": "可以問他：在 COLCOT / LoDoCo2 之後，colchicine 在 Asian PCI population 的定位？或 GLP-1 RA 是否應該超越糖尿病/肥胖，作為 post-ACS inflammation modulator？",
+    "recentPapers": [
+      {"title": "GLP-1 receptor agonists reduce atherosclerosis progression and inflammation irrespective of hyperglycaemia and obesity", "year": 2026, "pmid": "41926331", "relevance": "提供 GLP-1 RA 在非糖尿病 ACS 病患的機轉依據，對 off-label 用於 post-MI 高發炎患者有直接啟發"},
+      {"title": "Acute coronary syndromes: mechanisms, challenges, and new opportunities", "year": 2025, "pmid": "40358623", "relevance": "EHJ state-of-the-art ACS review — 整合 erosion/rupture/MINOCA 多機制與 precision ACS 概念"},
+      {"title": "Carotid artery atherosclerosis: mechanisms of instability and clinical implications", "year": 2025, "pmid": "39791527", "relevance": "指引如何在頸動脈 imaging 時識別 non-stenotic high-risk plaque"}
+    ]
+  },
+  "S. Brugaletta": {
+    "name": "S. Brugaletta",
+    "fullName": "Salvatore Brugaletta",
+    "institution": "Hospital Clínic, University of Barcelona, IDIBAPS, Spain",
+    "expertise": ["Intracoronary imaging (NIRS-IVUS, OCT)", "Vulnerable plaque / PROSPECT II", "Bioresorbable scaffolds", "STEMI / thrombectomy", "Functional physiology (QFR, OFR)"],
+    "tier": "A",
+    "oneLiner": "Barcelona 學派 imaging-guided PCI 代表人物，PROSPECT II 共同研究者，橫跨 vulnerable plaque 與日常 complex PCI 實作。",
+    "keyContributions": [
+      "PROSPECT II 共同作者（Lancet 2021）— NIRS-IVUS 確立 lipid-rich plaque 是 non-culprit MACE 的 independent predictor",
+      "EXAMINATION / EXAMINATION-EXTEND 5-year（Lancet 2016）— EES vs BMS 在 STEMI 的長期優勢",
+      "QFR / OFR 功能性評估在 non-culprit lesion 的 prognostic 驗證"
+    ],
+    "whyListen": "Brugaletta 同時有 trial 級的 vulnerable plaque 研究（PROSPECT II）與每天的 complex PCI / STEMI 操作經驗，對於把 NIRS / OCT findings 轉成具體 stenting 決策有非常 operator-friendly 的觀點。",
+    "pmids": ["33714389", "41974604", "40263013", "40451507"],
+    "extendedBio": "Brugaletta 出生 Catania，於 Erasmus MC（Rotterdam）完成 fellowship 在 Patrick Serruys 門下受訓，後回到 Barcelona Hospital Clínic 擔任 Associate Professor 與 Interventional Cardiology Senior Consultant。他橫跨 invasive imaging、bioresorbable scaffold、STEMI 的 mechanistic research，在 ABSORB、EXAMINATION、PROSPECT II 等全球 trial 擔任 key investigator。目前主導 Barcelona iCARDIO 團隊與 TRI-NOCA registry，為 EAPCI / ESC working group 活躍成員。",
+    "signatureWork": "PROSPECT II（Lancet 2021）— 以 combined NIRS-IVUS three-vessel imaging 在 898 例 recent MI 病患證實 lipid-rich + large plaque burden 的 non-culprit lesion 4 年 MACE 率達 13.2%，重建了 vulnerable plaque 的臨床價值，並啟動後續 PROSPECT ABSORB / PREVENT 的介入治療試驗。",
+    "recentActivity": "2025-2026 年持續在 Rev Esp Cardiol、Cardiovasc Revasc Med 發表 QFR 在 AMI non-culprit lesion 的 diagnostic accuracy（PMID 40451507）、calcium morphology 對 functional efficacy 的影響（PMID 40263013）、TRI-NOCA registry 的 sex-related NOCA endotypes（PMID 41974604）。深度參與 EuroPCR complex PCI 與 intracoronary imaging sessions。",
+    "conversationStarter": "可以問他：PROSPECT II + PREVENT 之後，NIRS maxLCBI ≥400 的 non-culprit lesion 在實務上是否該 preemptive stent？以及 Hospital Clínic 日常 STEMI 中 imaging 的 penetration 與 workflow 如何平衡。",
+    "recentPapers": [
+      {"title": "Identification of vulnerable plaques and patients by intracoronary NIRS and IVUS (PROSPECT II)", "year": 2021, "pmid": "33714389", "relevance": "定義 vulnerable plaque 臨床意義的關鍵 RCT，決定是否投資 NIRS catheter"},
+      {"title": "Diagnostic accuracy of QFR for nonculprit intermediate lesions in AMI", "year": 2025, "pmid": "40451507", "relevance": "STEMI 病患 non-culprit 評估：QFR 是否能取代 FFR 節省 wire time"},
+      {"title": "Sex-related differences in non-obstructive CAD endotypes (TRI-NOCA)", "year": 2026, "pmid": "41974604", "relevance": "NOCA / ANOCA 近年熱門，對女性病患 angina workup 分流有直接幫助"}
+    ]
+  },
+  "F. Prati": {
+    "name": "F. Prati",
+    "fullName": "Francesco Prati",
+    "institution": "San Giovanni Addolorata Hospital & CLI Foundation, Rome; UniCamillus University, Italy",
+    "expertise": ["Optical Coherence Tomography (OCT)", "Vulnerable plaque imaging", "CLIMA study", "OCT-guided PCI", "Core lab methodology"],
+    "tier": "A",
+    "oneLiner": "歐洲 OCT 先驅與 CLIMA study PI，把 thin-cap fibroatheroma、lipid arc、MLA 定義為臨床可操作的 high-risk plaque criteria。",
+    "keyContributions": [
+      "CLIMA study（EHJ 2020；JACC Interv 2025 5-year extension）— 四個 OCT criteria 共存預測 cardiac death / TS-MI HR 4.33",
+      "OCT 標準化方法學 Consensus Document（EHJ 2010, 2012）奠定全球 core lab 讀片標準",
+      "OFR（Optical Flow Ratio）OCT-based physiology 驗證（Int J Cardiol 2025）"
+    ],
+    "whyListen": "Prati 提供的 CLIMA 四項 OCT 指標（TCFA、MLA<3.5mm²、lipid arc>180°、macrophage）是 interventionalist 直接可以在 cath lab 做的判斷，比 NIRS 更 accessible — 對台灣以 OCT 為主的中心最能落地。",
+    "pmids": ["40500004", "40995622", "40409498", "39432135", "36534217"],
+    "extendedBio": "Prati 於 La Sapienza Rome 取得 MD-PhD，長期擔任 San Giovanni Addolorata Hospital 心血管部門主任與 Centro per la Lotta Contro l'Infarto (CLI Foundation) 主席。他是歐洲最早把 frequency-domain OCT 系統化應用於 coronary imaging 的臨床研究者，主導 CLIMA registry（1,003 例 proximal LAD OCT）成為全球 vulnerable plaque 研究的 benchmark 之一。同時擔任 UniCamillus International University 教授、EuroPCR 與 TCT OCT sessions 的固定 faculty，並推動 AI-OCT（AutoOCT）與 OFR 等新世代 imaging biomarker。",
+    "signatureWork": "CLIMA 研究（EHJ 2020 原始版；JACC Interv 2025 5-year extension，PMID 40500004）— 在 1,003 例病患的未治療 proximal LAD 病變中證明 TCFA + small MLA + large lipid arc + macrophage 四項 OCT criteria 同時存在的 3.6% 病人，5 年 cardiac death/TS-MI 達 HR 4.33，為目前臨床可操作性最高的 OCT-based vulnerable plaque 定義。",
+    "recentActivity": "2025 年於 JACC Interv 發表 CLIMA 5-year extended follow-up（PMID 40500004）；於 Circ Cardiovasc Imaging 以 Cambridge 團隊共同發表 AutoOCT AI 系統驗證（PMID 40995622）；於 Int J Cardiol 推出 OFR computational FFR 在 CLIMA cohort 的預測價值（PMID 40409498，TCFA + OFR 異常 HR 6.47）。繼續擔任多個 OCT imaging trial 的 core lab。",
+    "conversationStarter": "可以問他：在 PREVENT / PROSPECT ABSORB 之後，CLIMA 四項 criteria 是否該進 ESC PCI guideline？以及 OCT physiology（OFR）什麼時候會取代 FFR wire 成為 one-stop imaging-physiology assessment。",
+    "recentPapers": [
+      {"title": "Long-Term Prognostic Impact of OCT-Derived High-Risk Plaque Features: 5-Year CLIMA", "year": 2025, "pmid": "40500004", "relevance": "CLIMA 長期結果：OCT 看到 TCFA 時要不要 intervene 或 intensify lipid-lowering"},
+      {"title": "AI-Led Whole Coronary Artery OCT Analysis (AutoOCT)", "year": 2025, "pmid": "40995622", "relevance": "AI 自動 OCT 讀片是 cath lab workflow 的未來"},
+      {"title": "Predictive value of OFR (OCT-derived FFR) in the CLIMA study", "year": 2025, "pmid": "40409498", "relevance": "OCT 同時給 morphology + physiology，TCFA+OFR 異常組 HR 6.47"}
+    ]
+  },
+  "G. Stefanini": {
+    "name": "G. Stefanini",
+    "fullName": "Giulio G. Stefanini",
+    "institution": "Humanitas University & IRCCS Humanitas Research Hospital, Milan, Italy",
+    "expertise": ["DAPT optimization", "DES / bioresorbable scaffolds", "TAVI", "Complex PCI outcomes", "Evidence synthesis / meta-analysis"],
+    "tier": "A",
+    "oneLiner": "Humanitas 的 interventional outcome researcher，DAPT / DES / TAVI 大型 meta-analysis 與 RCT 的核心執行者之一。",
+    "keyContributions": [
+      "PARTHENOPE 試驗（JACC 2025）— 個人化 DAPT (3-24m by risk score) vs standard 12m，NACE 顯著降低（18.6% vs 22.2%）",
+      "多部 EuroIntervention / JACC / EHJ DAPT 與 DES 大型 meta-analysis 的 senior / co-author",
+      "Humanitas TAVI / complex PCI registry 多篇高影響力 publications"
+    ],
+    "whyListen": "Stefanini 的研究直接回答我們日常最頭痛的問題：ACS 後 DAPT 到底要 3、6、12 還是 24 個月？PARTHENOPE 提供了 risk-score-based personalization 的 RCT 證據，比過往 MASTER-DAPT / TWILIGHT 更實用。",
+    "pmids": ["40892607", "41916500", "41031428", "41776495"],
+    "extendedBio": "Stefanini 於 Milan 受訓，在 Bern University Hospital 跟隨 Peter Jüni / Stephan Windecker 完成 interventional 與 outcome research fellowship，之後回到 Milan 建立 Humanitas University 的 interventional cardiology academic track，目前為 Biomedical Sciences Associate/Full Professor 與 Cardio Center IRCCS Humanitas 的 Clinical Unit 主任。他特別擅長大型 RCT / meta-analysis 的 methodology，是 EAPCI / ESC guideline 多項推薦背後的 data analyst。近年擴展到 Sirolimus-coated balloon（SCB）、nanocarrier DCB 與 NLR-based risk stratification 的 translational work。",
+    "signatureWork": "PARTHENOPE RCT（JACC 2025，PMID 40892607）— 2,107 例 PCI 病患隨機分派個人化 DAPT（3/6/24m by score）vs 標準 12m，24 個月 NACE 18.6% vs 22.2%（P=0.040），MI 與 urgent TVR 顯著降低且 bleeding 無增加，提供 DAPT duration 個人化的第一個 RCT-level 證據。",
+    "recentActivity": "2025-2026 年擔任 PARTHENOPE 共同資深作者；參與 Sirolimus-coated balloon 相關 AJC 2026（PMID 41916500）與 Cardiovasc Diabetol 2026 nanocarrier SCB vs DES 在糖尿病病患的 RCT（PMID 41776495）。同時以 NLR 在 PCI post-procedure prognostic 的 European registry 共同作者身分發表（Eur J Prev Cardiol 2026，PMID 41031428）。",
+    "conversationStarter": "可以問他：PARTHENOPE 的 risk score 在 Asian / bleeding-prone 族群如何調整？以及 Sirolimus-coated balloon 在糖尿病 small vessel disease 是否已足以挑戰 DES 作為 default 策略。",
+    "recentPapers": [
+      {"title": "Personalized or Standard Duration of DAPT After PCI: The PARTHENOPE RCT", "year": 2025, "pmid": "40892607", "relevance": "直接影響每一個 PCI 病人出院用藥 order — risk-score-based DAPT 可能在 1-2 年內進 guideline"},
+      {"title": "Nanocarrier Sirolimus-Coated Balloon vs DES in Diabetic Small-Vessel PCI", "year": 2026, "pmid": "41776495", "relevance": "台灣高糖尿病 small vessel 病患多，SCB 若 non-inferior 可改變 stock 策略"},
+      {"title": "Neutrophil-to-Lymphocyte Ratio and Clinical Outcomes After PCI", "year": 2026, "pmid": "41031428", "relevance": "NLR 是便宜可用的 inflammation marker，可補充 hsCRP 做 post-PCI risk stratification"}
+    ]
+  },
+  "R. Byrne": {
+    "name": "R. Byrne",
+    "fullName": "Robert A. Byrne",
+    "institution": "Mater Private Network & RCSI University of Medicine and Health Sciences, Dublin, Ireland",
+    "expertise": ["ACS management (ESC guideline chair)", "Drug-coated balloon", "DES / bioresorbable scaffolds", "ISAR-REACT antithrombotic strategy", "Stent thrombosis"],
+    "tier": "S",
+    "oneLiner": "2023 ESC ACS Guidelines 第一作者／主席，從 ISAR-REACT 系列到 EAPCI DCB consensus，塑造當代 PCI 與抗血栓實作的關鍵人物。",
+    "keyContributions": [
+      "2023 ESC Guidelines for the management of ACS 第一作者（EHJ 2023 / EHJ-ACVC 2024）— 全球 ACS 治療 default reference",
+      "ISAR-REACT 5 等 ISAR 系列 — ticagrelor vs prasugrel 在 ACS 的 head-to-head RCT",
+      "EAPCI DCB consensus 與 novel bioresorbable scaffold editorial（EuroIntervention 2023，PMID 37326379）"
+    ],
+    "whyListen": "Byrne 就是 ESC 2023 ACS guideline 的主要撰寫者，聽他講等於拿到 guideline 未被寫進正文的「why」；加上他長期推動 DCB 實證化，對台灣小血管、DES-ISR、bleeding-prone 族群的 DCB 決策有第一手見解。",
+    "pmids": ["37622654", "37740496", "39874263", "37326379"],
+    "extendedBio": "Byrne 於都柏林 RCSI 取得 MD-PhD，於慕尼黑 Deutsches Herzzentrum München 跟隨 Adnan Kastrati / Albert Schömig 完成 interventional cardiology 與 clinical trial methodology 長期訓練，主導 ISAR-REACT 多個 trial 的執行。2018 年回到愛爾蘭擔任 Mater Private Network Cardiovascular Research Institute (CVRI Dublin) 主任與 RCSI 教授，將 Dublin 打造為歐洲北部 trial site hub。2022-2024 年擔任 ESC 2023 ACS Clinical Practice Guidelines Task Force 主席（co-chair with Borja Ibanez），目前持續擔任 EuroIntervention editorial board 與 EAPCI multiple working groups。",
+    "signatureWork": "主導 2023 ESC ACS Guidelines（EHJ 2023, PMID 37622654；EHJ-ACVC 2024, PMID 37740496）— 首次將 STEMI 與 NSTE-ACS 合併為單一 ACS guideline，統整 invasive strategy timing、DAPT 個人化、MINOCA、secondary prevention 等跨譜系建議，目前為全球臨床醫師 ACS 決策的 default text。",
+    "recentActivity": "2025 年於 EHJ-ACVC 發表 ESC ACS quality indicators（PMID 39874263），定義 21 項 QIs 作為各國醫院 ACS 照護 benchmarking 工具；持續在 EuroIntervention 推動 DCB / 新世代 BRS 的 position editorials（PMID 37326379）；擔任 EAPCI / ESC ACS scientific document working groups 主席或 co-chair，主導 2026-2027 DCB consensus 更新。",
+    "conversationStarter": "可以問他：ESC 2023 guideline 中 invasive strategy「within 24h」的 NSTEMI 建議在資源有限的亞洲中心如何落地？以及 DCB-only PCI 對 in-stent restenosis、small vessel、bleeding-prone 病人的 next consensus 方向。",
+    "recentPapers": [
+      {"title": "2023 ESC Guidelines for the Management of Acute Coronary Syndromes", "year": 2023, "pmid": "37622654", "relevance": "每一位 interventional cardiologist 的 daily reference — Byrne 是 first author"},
+      {"title": "ESC Quality Indicators for the Management of ACS", "year": 2025, "pmid": "39874263", "relevance": "21 項 QIs 可直接拿來做花蓮慈濟 ACS pathway audit 與 KPI 制定"},
+      {"title": "Novel Bioresorbable Scaffolds and Lessons from Recent History", "year": 2023, "pmid": "37326379", "relevance": "新世代 BRS 的 clinical-trial-ready criteria"}
+    ]
+  }
+}

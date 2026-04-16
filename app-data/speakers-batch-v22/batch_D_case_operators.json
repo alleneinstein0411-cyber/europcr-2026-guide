@@ -1,0 +1,127 @@
+{
+  "V. Kocka": {
+    "name": "V. Kocka",
+    "fullName": "Viktor Kočka",
+    "institution": "Cardiocenter, Third Faculty of Medicine, Charles University and University Hospital Královské Vinohrady, Prague, Czech Republic",
+    "expertise": ["STEMI / primary PCI", "Bioresorbable scaffolds (COMPARE-ABSORB)", "Pulmonary embolism interventions (PRAGUE-26)", "Early discharge after AMI", "Real-world PCI registries"],
+    "tier": "A",
+    "oneLiner": "布拉格 Vinohrady 介入心臟學核心人物，COMPARE-ABSORB 7 年隨訪核心作者，PRAGUE-26 PE 試驗主導者之一，長期追蹤 STEMI 療效與早期出院策略的代表性捷克學者。",
+    "keyContributions": [
+      "COMPARE-ABSORB 7 年：BVS vs EES 完全吸收後仍見較高 TLR，挑戰「吸收即消失」神話",
+      "AMI 早期出院協議（EDP）：72 小時內出院 100 例，30 天無死亡、成本降 26%",
+      "PRAGUE-26 / RECONNECT-PE 活體 meta 分析：中危 PE 導管介入核心研究者"
+    ],
+    "whyListen": "Kocka 的演講兼具大型 RCT 血統（COMPARE-ABSORB）與在地實作智慧（低風險 STEMI 早期出院協議），對 STEMI 與 complication session 討論 flow、分流、支架選擇特別實用。",
+    "pmids": ["41697654", "41983027", "41643878", "40992510", "40353430"],
+    "extendedBio": "Kočka 在布拉格第三醫學院 Vinohrady 醫院（Widimský 學派正統傳人）擔任心臟中心主治，長期專注急性冠心症與結構性介入。他是 COMPARE-ABSORB BVS vs EES 試驗的核心作者，並推動 PRAGUE 系列（PRAGUE-18、PRAGUE-26 PE 介入）。近年把重心放在 STEMI 後分流與早期出院（EDP）、PCI 後 20 年相對存活率分析、以及 PE 導管介入的系統性評估。他同時是 RECONNECT-PE 活體 meta 分析的捷克代表，在 EuroPCR 講台上常見他以 registry 思維談實戰問題，而非純試驗主義。",
+    "signatureWork": "COMPARE-ABSORB 7 年最終分析（EuroIntervention 2026）—— 證實 BVS 在完全吸收後仍無法超越 EES，為 BVS 故事畫下句點；以及 2026 年 Vasc Health Risk Manag 早期出院協議，展示制度化縮短住院的安全性與成本效益。",
+    "recentActivity": "2025–2026 極活躍：共同發表 COMPARE-ABSORB 7 年（EuroIntervention 2026 Feb）、AMI 早期出院協議驗證（VHRM 2026 Apr）、Am Heart J 活體 PE 介入 meta 設計（2026 Feb）、Int J Cardiol 年輕 STEMI 20 年相對存活（2025 Sep）、以及 Expert Rev 院前延遲 review（2025 May）。研究面跨 STEMI、BVS、PE 導管介入、分流管理多軸。",
+    "conversationStarter": "可問他：「Vinohrady 的低風險 STEMI 72 小時出院協議，台灣高 volume 中心要複製最大的絆腳石是什麼？」或「PRAGUE-26 對中危 PE 導管介入的分層，會如何改寫你對 ESC 2025 PE guideline 的解讀？」",
+    "recentPapers": [
+      {"title": "Bioresorbable vascular scaffold versus metallic drug-eluting stent at high risk of restenosis: 7-year results of COMPARE-ABSORB", "year": 2026, "pmid": "41697654", "relevance": "BVS 最終章：吸收後仍未見益處、TLR 反增"},
+      {"title": "Universal Early Discharge Protocol for Acute Myocardial Infarction: Single-Center Prospective Validation", "year": 2026, "pmid": "41983027", "relevance": "低風險 AMI 72h 出院：安全、省成本"},
+      {"title": "Reperfusion strategies for acute pulmonary embolism: RECONNECT-PE living systematic review", "year": 2026, "pmid": "41643878", "relevance": "PE 介入領域的 living meta，捷克代表 PRAGUE-26"},
+      {"title": "Relative survival over 20 years in younger STEMI patients treated by primary PCI", "year": 2025, "pmid": "40992510", "relevance": "年輕 STEMI 長尾存活結構分析"},
+      {"title": "Pre-hospital delay and mortality in different age groups with ACS: do we have enough evidence?", "year": 2025, "pmid": "40353430", "relevance": "STEMI/NSTEMI 分層院前延遲的時間敏感性"}
+    ]
+  },
+  "R. Colleran": {
+    "name": "R. Colleran",
+    "fullName": "Róisín Colleran",
+    "institution": "Mater Private Network & Cardiovascular Research Institute (CVRI) Dublin; RCSI University of Medicine and Health Sciences, Dublin, Ireland",
+    "expertise": ["DAPT / antiplatelet strategy", "Drug-coated balloons (DCB) for de novo CAD", "Calcified lesion modification (IVUS-guided)", "Coronary restenosis biology", "Patient-reported cath lab experience"],
+    "tier": "A",
+    "oneLiner": "都柏林 Mater / RCSI 介入心臟學核心女性研究者，ISAR-REACT / ISAR-SAFE 時期德國 Munich 血統，現為 CVRI Dublin DCB 與鈣化處理研究的主要推手。",
+    "keyContributions": [
+      "DCB vs DES for de novo CAD 大型 meta 分析（2025）：MACE 相當，但二級指標細節值得警覺",
+      "CYCLOPES 試驗：IVUS-guided 鈣化處理標準化 algorithm 的歐洲多中心研究共同設計者",
+      "ISAR-REACT 系列 alumna，與 Robert A. Byrne 長期搭檔推動 antiplatelet 精準化"
+    ],
+    "whyListen": "Colleran 把 Munich ISAR 派的 RCT 嚴謹性帶進都柏林，演講常以 device 試驗 + real-world registry 雙軌論述，對複雜 PCI 的 device 選擇（DCB vs DES、鈣化 algorithm）特別落地。",
+    "pmids": ["40662340", "41408534", "41704432", "41617603", "41166058"],
+    "extendedBio": "Colleran 為愛爾蘭籍介入心臟學家，在 Munich Deutsches Herzzentrum 受 Adnan Kastrati / Robert A. Byrne 指導，是 ISAR-REACT 5、ISAR-SAFE 等 landmark DAPT 試驗的參與者。回到都柏林後與 Byrne 共同創建 CVRI Dublin（Mater Private + RCSI），以 device 試驗 + 機轉研究 + patient-reported 三個軸心發展。她是 DCB vs DES 全 RCT meta（2025 Catheter Cardiovasc Interv）的共同作者，並在 CYCLOPES 500 人 IVUS-guided 鈣化處理試驗中擔任核心 co-I。2026 年她在 Atheroscler Plus 發表 CRP 與頸動脈再狹窄的 meta，延伸至血管再狹窄的發炎生物學。",
+    "signatureWork": "DCB vs DES for de novo CAD meta 分析（Catheter Cardiovasc Interv 2025）—— 9 個 RCT、4284 病人，MACE 相當但心因性死亡與 all-cause death 出現方向性趨勢，提醒 DCB-only 策略須嚴格選病人。",
+    "recentActivity": "2025–2026：發表 DCB vs DES de novo CAD meta（Catheter Cardiovasc Interv 2025 Jul）、CYCLOPES 設計論文（2025 Dec）、PATCATH 患者體驗問卷試驗（Cardiovasc Revasc Med 2026 Jan）、CRP 與頸動脈再狹窄 meta（Atheroscler Plus 2026 Jan）、以及愛爾蘭 SANTORINI LDL 管理 cohort（Ir J Med Sci 2025）。研究橫跨 device、生物標記、患者體驗。",
+    "conversationStarter": "可問她：「DCB-only for de novo LAD 的 2025 meta 雖 MACE 相當，但心因性死亡的方向性 IRR 1.49 讓你在真實世界中如何選病人？」或「CYCLOPES 的 IVUS 鈣化 algorithm 跟 ECLIPSE / DISRUPT CAD 的 IVL 策略如何分工？」",
+    "recentPapers": [
+      {"title": "Drug Coated Balloons Versus Drug-Eluting Stents in Patients With De Novo Coronary Artery Disease", "year": 2025, "pmid": "40662340", "relevance": "DCB vs DES de novo CAD 大型 RCT meta"},
+      {"title": "CYCLOPES Trial: IVUS-guided algorithm for calcified coronary lesion modification — Design and Rationale", "year": 2025, "pmid": "41408534", "relevance": "歐洲 25 中心 500 人鈣化處理標準化試驗"},
+      {"title": "Pre-procedural CRP levels and carotid or intracranial artery restenosis: systematic review and meta-analysis", "year": 2026, "pmid": "41704432", "relevance": "再狹窄發炎生物標記延伸"},
+      {"title": "EAPCI patient video animation vs standard leaflets in cath lab (PATCATH)", "year": 2026, "pmid": "41617603", "relevance": "Cath lab 患者體驗與知情同意"},
+      {"title": "Lipid-lowering therapy in high/very high-risk patients: Irish SANTORINI cohort", "year": 2025, "pmid": "41166058", "relevance": "二級預防 LDL 達標率 real-world"}
+    ]
+  },
+  "M. Hamilos": {
+    "name": "M. Hamilos",
+    "fullName": "Michalis Hamilos",
+    "institution": "Department of Cardiology, University General Hospital of Heraklion & School of Medicine, University of Crete, Heraklion, Greece",
+    "expertise": ["Coronary physiology (FFR / microcirculation)", "STEMI / primary PCI access", "Cardiorenal syndrome", "Distal transradial access", "Southeastern Europe registries"],
+    "tier": "A",
+    "oneLiner": "克里特島 Heraklion 大學醫院心臟科核心人物，SATURATION 微循環登記與 DR-STEMI（遠端橈動脈 STEMI）試驗的共同領導者，長期推動希臘與東南歐介入物理學研究。",
+    "keyContributions": [
+      "DR-STEMI 試驗：歐洲多中心遠端橈動脈 vs 傳統橈動脈 STEMI 介入 RCT",
+      "SATURATION 東南歐微循環登記：1600 人規模、INOCA / 冠狀微血管功能異常",
+      "Cardiorenal syndrome 利尿劑阻抗與 AKI 的機轉性 review（Life / Front Cardiovasc Med 2026）"
+    ],
+    "whyListen": "Hamilos 同時具 Brussels OLV（De Bruyne 系統）FFR 訓練血統與 Heraklion 大學醫院的在地 volume，演講常把 coronary physiology + acute presentation + 血管通路策略三者串連，對 STEMI session 極貼題。",
+    "pmids": ["40816555", "39672766", "41901004", "41561121", "38918028"],
+    "extendedBio": "Hamilos 在比利時 Aalst OLV Cardiovascular Center（De Bruyne、Bartunek）受 FFR / 微循環訓練，返回希臘後於 Heraklion 大學醫院建立介入物理學核心。他是 DR-STEMI（遠端橈動脈 vs 傳統橈動脈 in STEMI）歐洲多中心 RCT 的 co-I（Patras 的 Tsigkas 主持），以及 SATURATION 東南歐微循環登記（1600 人、跨七國）的 Heraklion 代表。近年拓展到 cardiorenal syndrome（利尿劑阻抗、AKI in AHF 的生物標記機轉）以及瓣膜影像學案例。他在 EuroPCR 的發表主軸常落在 acute syndrome 的血管通路與功能學整合。",
+    "signatureWork": "DR-STEMI RCT（Am Heart J 2025）—— 首個 STEMI 背景下的 distal TRA vs conventional TRA 歐洲多中心隨機試驗，554 人規模，預計改寫 STEMI 血管通路論述。",
+    "recentActivity": "2025–2026：DR-STEMI 設計論文（Am Heart J 2025 Aug，招募中）、SATURATION 微循環登記設計（Cardiovasc Revasc Med 2024 Dec，執行中至 2029）、AKI in AHF 機轉 review（Life 2026 Mar）、Diuretic resistance in cardiorenal syndrome（Front Cardiovasc Med 2026 Jan）、Heart 主動脈瓣腫塊影像案例（2024）。",
+    "conversationStarter": "可問他：「DR-STEMI 在現行東南歐多中心招募中，你認為 distal TRA 在 STEMI 背景下 needle-to-wire time 能真正不劣於傳統 TRA 嗎？」或「SATURATION 對 INOCA 的東南歐 real-world practice，跟北歐 CorMicA 的結果會有什麼 divergence？」",
+    "recentPapers": [
+      {"title": "Distal vs conventional transradial artery access for coronary catheterization in STEMI (DR-STEMI): Rationale and design", "year": 2025, "pmid": "40816555", "relevance": "STEMI distal TRA 歐洲 RCT，直接對應會議主題"},
+      {"title": "SoutheAsTern eUrope microciRculATION (SATURATION) registry — Design and rationale", "year": 2024, "pmid": "39672766", "relevance": "東南歐微循環 / INOCA 登記"},
+      {"title": "Acute Kidney Injury in Acute Heart Failure Revisited: Cardiorenal Disease Severity Marker", "year": 2026, "pmid": "41901004", "relevance": "AMI-HF 並存 AKI 的機轉詮釋"},
+      {"title": "Diuretic resistance in cardiorenal syndrome: mechanisms, monitoring, phenotype-tailored management", "year": 2026, "pmid": "41561121", "relevance": "STEMI 後 HF 利尿阻抗"},
+      {"title": "Unexpected finding on imaging: an aortic valve mass", "year": 2024, "pmid": "38918028", "relevance": "Heart 教學影像案例"}
+    ]
+  },
+  "M. Al-Hijji": {
+    "name": "M. Al-Hijji",
+    "fullName": "Mohammad A. Al-Hijji",
+    "institution": "Cardiology Department, Heart Hospital, Hamad Medical Corporation, Doha, Qatar (formerly Mayo Clinic Rochester)",
+    "expertise": ["STEMI / cardiogenic shock", "Pre-hospital shock team systems", "Primary PCI volume / outcomes", "Cath lab systems of care"],
+    "tier": "B",
+    "oneLiner": "Mayo Clinic 訓練、現任杜哈 Heart Hospital（Hamad Medical Corporation）主治，近年推動國家級院前 shock team 制度並發表顯著死亡率改善數據。",
+    "keyContributions": [
+      "Qatar 國家級院前 shock team implementation（Curr Probl Cardiol 2026）：STEMI 早期院內死亡降至 0.3%",
+      "Mayo Clinic 時期 structural / HFpEF 案例：stiff LA syndrome atrial septostomy（Circ Heart Fail 2017）",
+      "Heart Hospital Doha 高 volume PPCI 中心系統化路徑建置"
+    ],
+    "whyListen": "Al-Hijji 代表 Mayo 訓練 + 中東國家級 shock system 的罕見組合，對 STEMI / shock team 議題有實戰改革經驗，特別適合跟台灣醫學中心討論 ECMO + cath lab 整合。",
+    "pmids": ["41571217", "28694356"],
+    "extendedBio": "Al-Hijji 於美國 Mayo Clinic Rochester 完成心臟內科與介入訓練（2017 年起見於 Mayo Circ Heart Fail 論文），近年轉任 Doha Hamad Medical Corporation Heart Hospital。該院為 Qatar 全國唯一的 PPCI 中心（2022 年 18 個月期間 1,605 例 STEMI，之後 1,735 例），他在 2022 年 7 月帶頭導入 pre-hospital shock team（急診醫、心臟加護、介入、心臟麻醉、ECMO 專科），活化條件包括低血壓、心律不穩、ST 明顯變化、或乳酸升高。導入後早期院內死亡由 1.2% 降至 0.3%（p=0.03）。這代表少見的國家級系統干預數據。他在 PubMed 可驗證論文數較少，屬於 tier B，但系統化改革的經驗非常具體可借鏡。",
+    "signatureWork": "Pre-hospital shock team implementation in Qatar（Curr Probl Cardiol 2026）—— 3,340 例 STEMI 前後對照，展示國家級院前多專科活化如何在 18 個月內將早期死亡降三分之二。",
+    "recentActivity": "2026 Jan 發表 Qatar 院前 shock team 結果論文；較早期於 Mayo（2017）以 atrial septostomy 治療 stiff LA syndrome 發表於 Circ Heart Fail。PubMed 可直接驗證的第一作者 / 共同作者論文以中東 cath lab 運作改革為主軸；公開文獻足跡較 Kocka / Colleran / Hamilos 有限（tier B 依據）。",
+    "conversationStarter": "可問他：「Qatar 全國一個 PPCI 中心的模式下，pre-hospital shock team 早期死亡降三分之二，其中哪一條活化條件（血壓、乳酸、ST）貢獻最大？」或「台灣高 volume 中心要採類似制度，最大瓶頸你認為會是 ECMO 還是跨科決策？」",
+    "recentPapers": [
+      {"title": "Association of pre-hospital shock team implementation with outcomes in STEMI patients", "year": 2026, "pmid": "41571217", "relevance": "核心 signature：國家級院前 shock team 死亡率研究"},
+      {"title": "Atrial Septostomy to Treat Stiff Left Atrium Syndrome", "year": 2017, "pmid": "28694356", "relevance": "Mayo 時期 structural case，顯示訓練背景"}
+    ]
+  },
+  "N. Cruden": {
+    "name": "N. Cruden",
+    "fullName": "Nicholas (Nick) L. Cruden",
+    "institution": "Edinburgh Heart Centre, Royal Infirmary of Edinburgh, Edinburgh, UK (University of Edinburgh / BHF Centre for Cardiovascular Science)",
+    "expertise": ["Complex PCI", "Primary PCI / STEMI outcomes", "LV thrombus post-STEMI", "IVUS imaging & co-registration", "Regenerative CD34+ cell therapy (EXCELLENT trial)"],
+    "tier": "A",
+    "oneLiner": "蘇格蘭 Edinburgh Heart Centre 介入心臟學主治，EXCELLENT CD34+ 細胞心肌再生試驗合著，長期經營 2,600+ 人 STEMI cohort 與 IVUS-angio 融合影像研究。",
+    "keyContributions": [
+      "EXCELLENT 試驗（JACC Heart Fail 2025）：STEMI 後自體擴增 CD34+ 細胞 transendocardial 注射，歐洲多中心再生療法",
+      "Edinburgh 2,608 例 STEMI cohort：LV thrombus 當代發生率 2.4%、無獨立血栓塞風險升高（Am J Med 2019）",
+      "IVUS-coronary angiogram co-registration 新系統驗證（Cardiovasc Revasc Med 2018）"
+    ],
+    "whyListen": "Cruden 背靠 Edinburgh BHF 與 David Newby 的臨床試驗重鎮，演講風格嚴謹務實，結合 STEMI 當代併發症數據（LV thrombus、心室破裂）與影像學落地經驗，對 complication session 非常 actionable。",
+    "pmids": ["40929748", "30871923", "30420279"],
+    "extendedBio": "Cruden 為 Edinburgh 大學醫院介入心臟科主治，隸屬 BHF Centre for Cardiovascular Science（Newby 團隊）。臨床以高 volume STEMI 與複雜 PCI 為主，2019 年在 Am J Med 發表 Edinburgh 2,608 例 primary PCI cohort 的 LV thrombus 1 年結果：發生率僅 2.4%、與血栓塞複合事件無獨立相關，重要地修正了過去抗凝共識。2018 年他是歐洲多中心 IVUS-angio 3D 融合影像系統驗證的共同研究者（Maastricht Pie Medical 合作）。2025 年作為 EXCELLENT 試驗的 UK Edinburgh 代表，參與 STEMI 後 CD34+ 細胞治療研究（JACC Heart Fail 2025）。他的研究軸主要是 STEMI 併發症流行病學 + 介入影像整合 + 再生療法轉譯，完全對應本次 complication / STEMI session。",
+    "signatureWork": "Edinburgh STEMI cohort LV thrombus 1-year outcomes（Am J Med 2019）—— 機械再灌流時代 LV thrombus 僅 2.4%、不增加血栓塞複合事件，挑戰過度抗凝傳統；以及 EXCELLENT（JACC Heart Fail 2025）的 CD34+ 細胞再生試驗合著。",
+    "recentActivity": "2025 年 9 月共同發表 EXCELLENT CD34+ 細胞試驗（JACC Heart Fail）；長期 Edinburgh STEMI registry 的併發症分析仍是他的主軸。公開發表頻率中等，但論文 impact 高，屬穩定 tier A 的 British interventionalist。",
+    "conversationStarter": "可問他：「Edinburgh 2.4% 的 LV thrombus 數據已經過五年，IVUS / CMR routine 普及後你現在的抗凝策略有變嗎？」或「EXCELLENT 的 transendocardial CD34+ 在 STEMI 復原後的時間窗，你認為在亞洲高 volume cath lab 的可行切入點是？」",
+    "recentPapers": [
+      {"title": "Transendocardial Injection of Expanded Autologous CD34+ Cells After Myocardial Infarction: EXCELLENT Trial", "year": 2025, "pmid": "40929748", "relevance": "STEMI 後再生療法，Edinburgh 代表共同作者"},
+      {"title": "Left Ventricular Thrombus After Primary PCI for STEMI: 1-Year Clinical Outcomes", "year": 2019, "pmid": "30871923", "relevance": "當代 STEMI LV thrombus 流行病學經典參考，直接對應 complication 議題"},
+      {"title": "Validation of a Novel System for Co-Registration of Coronary Angiographic and Intravascular Ultrasound Imaging", "year": 2018, "pmid": "30420279", "relevance": "IVUS-angio 融合影像轉譯"}
+    ]
+  }
+}

@@ -247,8 +247,11 @@ function hmToMin(hm) {
 async function loadData() {
   const base = './data/';
   const files = ['meta.json', 'schedule.json', 'sessions.json', 'speakers.json', 'trials.json'];
+  // Cache-bust JSON so users pick up data changes without needing a SW bump.
+  // DATA_VERSION should be incremented whenever app/data/*.json changes.
+  const DATA_VERSION = 'v23';
   const loaded = await Promise.all(files.map(f =>
-    fetch(base + f).then(r => {
+    fetch(base + f + '?v=' + DATA_VERSION).then(r => {
       if (!r.ok) throw new Error(`Failed to load ${f}: ${r.status}`);
       return r.json();
     })
@@ -1162,6 +1165,27 @@ function renderEditView(main, key) {
             ${renderTopicPillsHtml(bs.topics, { limit: 5 })}
           </div>` : '';
         const locHtml = bs && bs.location ? `<div class="option-note" style="margin-top:4px">🗺️ ${escapeHtml(bs.location.levelLabel)} · ${escapeHtml(bs.location.wing)}</div>` : '';
+        // Clickable speaker chips (were previously just plain text joined with ·)
+        const speakerChipsHtml = o.option.keyNames && o.option.keyNames.length ? `
+          <div class="option-speakers" style="display:flex; flex-wrap:wrap; gap:4px; margin-top:6px">
+            ${o.option.keyNames.map(ref => {
+              const parsed = parseSpeakerRef(ref);
+              const researched = speakerIsResearched(parsed.name);
+              return `<button class="chip speaker-chip${researched ? ' researched' : ''}" type="button"
+                onclick="event.preventDefault(); event.stopPropagation(); navigateTo('#/speaker/${encodeURIComponent(parsed.name)}')">
+                <span class="chip-name">${escapeHtml(parsed.name)}</span>
+                ${parsed.tier ? `<span class="chip-tier ${parsed.tier}">${parsed.tier}</span>` : ''}
+              </button>`;
+            }).join('')}
+          </div>
+        ` : '';
+        // "查看完整詳情" button on every option
+        const detailLinkHtml = o.option.sessionId ? `
+          <button type="button" class="option-detail-link"
+            onclick="event.preventDefault(); event.stopPropagation(); navigateTo('#/session/${encodeURIComponent(o.option.sessionId)}')">
+            🔍 查看此場完整詳情（議程 / 學習目標 / 全部講者）→
+          </button>
+        ` : '';
         return `
         <label class="backup-option ${
           (o.type === 'main' && currentIsMain) ||
@@ -1171,10 +1195,11 @@ function renderEditView(main, key) {
           <input type="radio" name="pick" value="${o.type}:${o.idx === null ? '' : o.idx}">
           <span class="option-label">${o.type === 'main' ? '★ 主選' : `備案 ${o.idx + 1}`}</span>
           <div class="option-title">${escapeHtml(o.option.title)}</div>
-          ${o.option.keyNames ? `<div class="option-speakers">${o.option.keyNames.map(k => escapeHtml(k)).join(' · ')}</div>` : ''}
+          ${speakerChipsHtml}
           ${o.option.note ? `<div class="option-note">${escapeHtml(o.option.note)}</div>` : ''}
           ${locHtml}
           ${pillHtml}
+          ${detailLinkHtml}
         </label>
       `;
       }).join('')}

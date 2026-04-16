@@ -1,13 +1,18 @@
 {
   "buildTime": "2026-04-16T14:30:00+08:00",
-  "dataVersion": "1.1-v22-tags",
-  "projectStatus": "v22_tags_location_concurrent",
+  "dataVersion": "1.2-v23-speakers",
+  "projectStatus": "v23_clickable_backups_20_new_speakers",
   "pdfVersion": "14 April 2026",
   "v22Changes": [
     "所有 547 sessions 自動標註 topics[] (21 topics) + trackCategories[] (8 官方分類) + location{levelLabel, wing, walk}",
     "編輯排程時可展開「同時段所有場次」（依興趣/主題/分類篩選，一鍵切換）",
     "排程卡片 + 詳情頁顯示官方配色分類標籤 + 主題 pill + 房間 + 樓層位置提示",
-    "新增 12 個 ACS/STEMI + Complications + Vulnerable Plaque 場次為 backup 含 briefing"
+    "新增 13 個 ACS/STEMI + Complications + Vulnerable Plaque 場次為 backup 含 briefing"
+  ],
+  "v23Changes": [
+    "編輯頁的策展主選 / 備案：講者名字變成可點 chip（連進講者卡），加「🔍 查看此場完整詳情」按鈕（議程 / 學習目標 / 全部講者）",
+    "深度研究 20 位新增 backup 場次的關鍵講者（60 → 80 位）：Libby (S), Sabate (S), Byrne (S), Mehta (S), Götberg (S), 以及 12 位 A 級、1 位 B 級",
+    "清掉 75 個 sessions.json + 3 個 schedule.json 的 PDF 解析單字母講者名碎片"
   ],
   "conferenceDays": [
     "2026-05-19",
@@ -22,7 +27,7 @@
   },
   "counts": {
     "sessions": 547,
-    "speakers": 60,
+    "speakers": 80,
     "trials": 8,
     "scheduledBlocks": 19
   }

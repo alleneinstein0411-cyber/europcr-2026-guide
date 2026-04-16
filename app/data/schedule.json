@@ -259,7 +259,6 @@
               "keyNames": [
                 "A. Erglis",
                 "Z. Piroth",
-                "M",
                 "N. Amabile"
               ],
               "note": "★★★ STEMI + LM + 併發症三合一。Erglis + Piroth + Amabile，三國（匈/拉/烏）複雜案例。",
@@ -447,7 +446,6 @@
               "keyNames": [
                 "E. Margetic",
                 "A. Sakamoto",
-                "S",
                 "N. Cruden"
               ],
               "note": "★ IVUS 引導 PCI 最佳化 + 併發症管理。CVIT（日本）+ 蘇格蘭 + 克羅埃西亞三國案例。",
@@ -523,7 +521,9 @@
         {
           "time": "10:45-12:15",
           "type": "LIVE",
-          "concurrentBackups": ["WED-1015-252A-001"],
+          "concurrentBackups": [
+            "WED-1015-252A-001"
+          ],
           "pick": {
             "sessionId": "WED-1045-MAIN-001",
             "title": "Calcified coronary: LIVE from Clinique Pasteur",
@@ -938,7 +938,6 @@
               "keyNames": [
                 "K. Bainey",
                 "B. G. Libungan",
-                "I",
                 "G. Hirlekar"
               ],
               "note": "★ 多國 STEMI 急性真實案例。加、冰、波三地。失敗案例救援。",

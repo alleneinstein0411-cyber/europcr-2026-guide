@@ -1,0 +1,126 @@
+{
+  "M. Sabate": {
+    "name": "M. Sabate",
+    "fullName": "Manel Sabaté",
+    "institution": "Hospital Clínic de Barcelona / IDIBAPS / University of Barcelona, Spain",
+    "expertise": ["Left main PCI", "Complex/high-risk PCI", "Bioresorbable scaffolds", "STEMI long-term outcomes", "DES comparative trials"],
+    "tier": "S",
+    "oneLiner": "西班牙 Hospital Clínic 介入部門靈魂人物，EXAMINATION 系列與 SUGAR 糖尿病 DES 試驗主導者，把巴塞隆納打造成歐洲左主幹與複雜 PCI 的研究引擎。",
+    "keyContributions": [
+      "EXAMINATION-EXTEND 10 年 STEMI 長期追蹤（LAD vs 非 LAD 子分析，REC Interv Cardiol 2025）",
+      "SUGAR 糖尿病 DES 頭對頭試驗 3 年延伸結果（AES vs Resolute Onyx，Heart 2025）",
+      "MATRIX 基礎上的第四版 PCI-MI 通用定義預後驗證（Circulation 2026）"
+    ],
+    "whyListen": "左主幹、分岔與鈣化病變的操作細節配合當代 DES 與定義學的落地，他的 session 通常把試驗資料直接翻譯成導管室決策，對你在花蓮慈濟的糖尿病與複雜 PCI 族群特別實用。",
+    "pmids": ["41493005", "40562528", "40438646", "40263013"],
+    "extendedBio": "Manel Sabaté 為 Hospital Clínic de Barcelona 介入心臟科主任暨 IDIBAPS 研究員，是西班牙 CIBER-CV 網絡的核心人物，也是歐洲 EXAMINATION / SUGAR / BIOSTEMI 等大型 DES 試驗的主要研究者之一。他長期關注 STEMI 後支架與雙重抗血小板治療最佳化、糖尿病高風險族群的 DES 選擇、以及左主幹與鈣化病變的器械策略，著作橫跨 Circulation、Lancet、JAMA、EuroIntervention。在 ESC/EAPCI 圈內具影響力，近年也帶領團隊投入 IVL（血管內震波）於鈣化病變的影像學與生理學評估。",
+    "signatureWork": "EXAMINATION 試驗系列：STEMI 患者隨機接受 everolimus-eluting stent 或 bare-metal stent，長期追蹤延伸至 10 年（EXAMINATION-EXTEND, NCT04462315），建立當代 STEMI DES 的耐久性證據。近年 SUGAR 試驗把焦點轉到糖尿病族群中 amphilimus-eluting 與 zotarolimus-eluting stent 的頭對頭比較。",
+    "recentActivity": "2025–2026 Sabaté 以 co-author 身分參與 MATRIX 4th UDMI 預後分析（Circulation 2026）、SUGAR 3 年延伸（Heart 2025）、EXAMINATION-EXTEND 10 年 LAD 子分析（REC Interv Cardiol 2025）、以及 IVL 於不同鈣化型態的 OCT/OFR/QFR 評估（Cardiovasc Revasc Med 2025）。他同時活躍於 EuroPCR、ESC Congress 的左主幹與 STEMI session。",
+    "conversationStarter": "可請教他：「在 4th UDMI 下 NSTE-ACS 的 PCI-MI 真的會影響你導管室術中策略嗎？」或「SUGAR 三年結果對你在糖尿病 + 鈣化病變的 DES 選擇有什麼改變？」",
+    "recentPapers": [
+      {"title": "Prognostic Implications of Evolving Universal Definitions of Periprocedural MI in ACS (MATRIX)", "year": 2026, "pmid": "41493005", "relevance": "4th UDMI 才在 NSTE-ACS 呈現預後意義；直接影響術後 troponin 解讀"},
+      {"title": "Amphilimus-eluting vs zotarolimus-eluting stents in DM (SUGAR extended)", "year": 2025, "pmid": "40562528", "relevance": "3 年 TLF 相當，兩種 DES 在糖尿病族群皆可選用"},
+      {"title": "LAD as STEMI culprit vessel: 10-year outcomes (EXAMINATION-EXTEND)", "year": 2025, "pmid": "40438646", "relevance": "LAD vs 非 LAD 10 年 POCE 無差異，但 1 年死亡較高"},
+      {"title": "Hemodynamic pattern and calcium morphology on IVL efficacy", "year": 2025, "pmid": "40263013", "relevance": "Diffuse 鈣化病變 IVL 後 OFR/QFR/MSA 偏低，操作端提示"}
+    ]
+  },
+  "A. Erglis": {
+    "name": "A. Erglis",
+    "fullName": "Andrejs Erglis",
+    "institution": "Pauls Stradins Clinical University Hospital / University of Latvia, Riga",
+    "expertise": ["Complex PCI", "Bifurcation / left main", "CTO", "STEMI networks", "Regenerative cardiology"],
+    "tier": "A",
+    "oneLiner": "拉脫維亞介入心臟醫學的開拓者，帶領 Pauls Stradins 成為波羅的海的 complex PCI 與 STEMI 網絡中心，也是 EUROCTO / Stent-Save a Life 倡議的國家代表。",
+    "keyContributions": [
+      "EUROCTO 試驗拉脫維亞主持人，貢獻最新 EUROCTO + DECISION-CTO 合併 meta-analysis（JACC 2026）",
+      "Stent-Save a Life! 全球 STEMI primary PCI 實務差異調查代表（Cardiovasc Revasc Med 2025）",
+      "Latvian Centre of Cardiology 心臟介入與再生醫學研究所主持人"
+    ],
+    "whyListen": "來自規模相似於台灣地區醫院的北歐 / 波羅的海實務視角，他的 CTO 與左主幹經驗貼近單一中心操作者；對於你在花蓮慈濟規劃 STEMI 網絡與 CTO 進修路徑有借鑑價值。",
+    "pmids": ["41949523", "40764194", "41440857"],
+    "extendedBio": "Andrejs Erglis 為 University of Latvia 心臟與再生醫學研究所所長、Pauls Stradins 大學醫院 Latvian Centre of Cardiology 核心教授。他是拉脫維亞現代介入心臟學的奠基者，建立了全國 STEMI 網絡與 CTO 註冊。他長期參與歐洲 EAPCI / ESC 的多國試驗，包括 EUROCTO、Stent-Save a Life 等國際註冊與倡議，並投入幹細胞與再生醫學用於缺血性心肌病變的早期臨床研究。近年仍親自主刀複雜 bifurcation 與 CTO，並指導博士生。",
+    "signatureWork": "在 EUROCTO 試驗作為拉脫維亞主持人貢獻患者與長期追蹤；該試驗證明 CTO PCI 相較最佳藥物治療可改善單一 CTO 患者的 QoL 與狹心症分數（EUROCTO + DECISION-CTO meta-analysis, JACC 2026, NCT01760083）。也是 Stent-Save a Life 的 Latvia 代表，協助建立東歐 STEMI 治療標準。",
+    "recentActivity": "2025–2026 合著 EUROCTO+DECISION-CTO 合併分析（JACC 2026）、全球 Stent-Save a Life primary PCI 實務調查（Cardiovasc Revasc Med 2025）、沙棘籽油 omega-3/-6/-9 佐劑降殘餘心血管風險 pilot（JCDD 2025）。他同時在 EuroPCR 擔任 LIVE case 示範與 CTO 工作坊。",
+    "conversationStarter": "可請教他：「在單一 CTO 患者，EUROCTO 支持 PCI 改善 QoL，那你在 Riga 如何篩選值得進 CTO 的病人？」或「東歐 STEMI 網絡如何在有限 24/7 資源下維持門對球時間？」",
+    "recentPapers": [
+      {"title": "QoL after PCI or OMT for CTO: EUROCTO + DECISION-CTO meta-analysis", "year": 2026, "pmid": "41949523", "relevance": "單一 CTO 的 PCI 相較 OMT 明顯改善 QoL 與狹心症"},
+      {"title": "Worldwide procedural variations of primary PCI (Stent-Save a Life!)", "year": 2025, "pmid": "40764194", "relevance": "STEMI primary PCI 流程全球比較，區域差異洞察"},
+      {"title": "Sea buckthorn seed lipid extract on residual CV risk (pilot)", "year": 2025, "pmid": "41440857", "relevance": "殘餘風險 add-on 策略；家族研究線"}
+    ]
+  },
+  "Z. Piroth": {
+    "name": "Z. Piroth",
+    "fullName": "Zsolt Piróth",
+    "institution": "Gottsegen National Cardiovascular Center / Hungarian Institute of Cardiology, Budapest",
+    "expertise": ["FFR / coronary physiology", "QFR", "FFR-guided multivessel PCI", "CABG vs PCI comparison"],
+    "tier": "A",
+    "oneLiner": "匈牙利生理學導向 PCI 的代表人物，FAME 系列與 SLIM / FAME 3 長期追蹤的共同作者，把 FFR 從工具推進到多血管決策的骨幹。",
+    "keyContributions": [
+      "FAME 2 11.2 年長期結果（Nat Med 2026）共同作者，證實 FFR-guided PCI 對穩定型 CAD 長期優於 OMT",
+      "FAME 3 5 年結果（Lancet 2025），FFR-guided PCI vs CABG 於三血管疾病的最終分析",
+      "SLIM 試驗（JAMA 2025），NSTEMI 多血管患者 FFR-guided complete vs culprit-only 的里程碑"
+    ],
+    "whyListen": "在 FFR 與 QFR 並行時代，他能同時解釋試驗細節與 real-world learning curve；你在花蓮慈濟推動生理學導向多血管 PCI 時，他是最能直接回答「何時該 defer / 何時 complete」的講者。",
+    "pmids": ["41540107", "40886310", "40174598", "40943705"],
+    "extendedBio": "Zsolt Piróth 是匈牙利 Gottsegen National Cardiovascular Center（前稱 Hungarian Institute of Cardiology）心臟內科醫師，長期投入冠狀動脈生理學研究，與 Aalst 團隊 De Bruyne、Fearon、Pijls 密切合作，是 FAME 2 與 FAME 3 試驗的長期共同研究者。他在 FFR、iFR、QFR、OCT-derived FFR 等多模態生理學評估皆有發表，並主持匈牙利 QFR real-world 驗證研究，探討 learning curve 與臨床偏差。此外他參與歐洲 NSTEMI 多血管試驗（SLIM），以及多中心 PCI vs CABG 長期追蹤。",
+    "signatureWork": "FAME 2（FFR-guided PCI vs OMT）與 FAME 3（FFR-guided PCI vs CABG）兩大試驗的歐洲中心主持人之一。FAME 2 於 Nat Med 2026 公告 11.2 年最終結果，FFR-guided PCI 在死亡 / MI / urgent revasc 的 win ratio 1.25 勝過 OMT；FAME 3 於 Lancet 2025 報告 5 年 PCI vs CABG 在死亡 / stroke / MI 無顯著差異，但 MI 與再血管化較多。",
+    "recentActivity": "2025–2026 連續產出：FAME 2 11.2 年（Nat Med 2026）、FAME 3 5 年（Lancet 2025）、SLIM FFR-guided complete revasc 於 NSTEMI（JAMA 2025）、以及 real-world FFR vs QFR bias 與 learning curve 分析（J Clin Med 2025）。他也是 EuroPCR 生理學 session 的常駐講者。",
+    "conversationStarter": "可請教他：「FAME 2 11 年資料下，FFR≤0.80 就該 stent 嗎？對你於花蓮的 stable CAD 病人如何取捨？」或「在 QFR learning curve 期間，你怎麼驗證自己的結果 bias？」",
+    "recentPapers": [
+      {"title": "FFR-guided PCI vs medical therapy: FAME 2 long-term results", "year": 2026, "pmid": "41540107", "relevance": "11.2 年 win ratio 1.25 支持 FFR-guided PCI"},
+      {"title": "FFR-guided complete vs culprit-only revasc in NSTEMI (SLIM)", "year": 2025, "pmid": "40886310", "relevance": "NSTEMI 多血管 index procedure 完全 FFR-guided 明顯減少 MACE"},
+      {"title": "Real-world FFR vs QFR and learning curve", "year": 2025, "pmid": "40943705", "relevance": "QFR AUC 0.912，但 7% 偏差>0.10，學習曲線存在"},
+      {"title": "FAME 3 5-year follow-up: FFR-PCI vs CABG for 3VD", "year": 2025, "pmid": "40174598", "relevance": "死亡/stroke/MI 無差異，但 MI 與再血管化較多"}
+    ]
+  },
+  "G. Richardt": {
+    "name": "G. Richardt",
+    "fullName": "Gert Richardt",
+    "institution": "Heart Center Segeberger Kliniken (Bad Segeberg) / Asklepios Clinic Bad Oldesloe, Germany",
+    "expertise": ["Complex / high-risk PCI", "Calcified lesions & rotational atherectomy", "Left main PCI", "LIVE case operator", "DAPT / HBR"],
+    "tier": "A",
+    "oneLiner": "德國 Bad Segeberg 重度鈣化與左主幹 PCI 的 LIVE case 招牌操作者，從 rotablation 到 OCT-guided STEMI 多中心試驗都有深厚經驗。",
+    "keyContributions": [
+      "Octogenarian/nonagenarian rotational atherectomy 1 年預後大型單中心系列（Cardiol Ther 2026）",
+      "左主幹 + 糖尿病 10 年 PCI 結果 pooled analysis（J Clin Med 2025）",
+      "COMPARE STEMI ONE 試驗 steering（prasugrel monotherapy + OCT-guided complete revasc, EuroIntervention 2025）"
+    ],
+    "whyListen": "如果你要跟的是重度鈣化、老年、左主幹或 HBR 病人，Richardt 的 LIVE case 幾乎是歐洲最實戰的示範；他對 rotablation + IVUS/OCT + 短 DAPT 的整合決策非常直觀。",
+    "pmids": ["41712093", "41464751", "40375771", "39969452"],
+    "extendedBio": "Gert Richardt 為德國 Bad Segeberg Heart Center 資深主任醫師，也在 Asklepios Bad Oldesloe 擔任心血管與糖尿病醫學中心教授。Bad Segeberg 是德國北部高量 PCI 中心，以鈣化病變、LM 與 bifurcation 的 LIVE demonstration 聞名；他本人與其團隊（Allali、Toelg、Mankerious 等）長年於 EuroPCR、TCT、CRT 等國際會議示範 rotational atherectomy、IVL、bifurcation stenting。學術上活躍於 DES 長期追蹤、短 DAPT、HBR 策略、STEMI OCT guidance 等多中心試驗，著作見於 JACC Interv、EuroIntervention、Lancet 等。",
+    "signatureWork": "長期主持 Bad Segeberg 複雜 PCI 註冊，近期帶領團隊於 Cardiology and Therapy 2026 發表 ≥80 歲重度鈣化病變 rotational atherectomy 1 年預後（MACE 20% vs <80 歲 13%，adj HR 1.78），並在 EuroIntervention 2025 與 Smits 等共同發表 COMPARE STEMI ONE 試驗設計（1 個月 DAPT 後 prasugrel 單藥 ± OCT 引導 staged complete revascularization）。",
+    "recentActivity": "2025–2026 發表：高齡鈣化 RA 結果（Cardiol Ther 2026）、LM + DM 10 年 PCI 資料 pooled analysis（J Clin Med 2025）、COMPARE STEMI ONE 設計文（EuroIntervention 2025）、HBR 女性 vs 男性 1 vs 3 個月 DAPT XIENCE Short DAPT Program（JACC Interv 2025）。他並持續於 EuroPCR Main Arena 做 live case。",
+    "conversationStarter": "可請教他：「≥80 歲鈣化病變做 RA，一年 MACE 20%，你在 pre-procedural 諮商時怎麼跟家屬解釋？」或「COMPARE STEMI ONE 的 1 個月 DAPT + prasugrel mono 會改變你目前的 STEMI 抗血小板策略嗎？」",
+    "recentPapers": [
+      {"title": "In-hospital & 1-year outcomes of octogenarian/nonagenarian rotational atherectomy", "year": 2026, "pmid": "41712093", "relevance": "高齡重度鈣化 RA 的可行性與 1 年 MACE 風險分層"},
+      {"title": "10-year outcomes of LMCA disease with DM treated by PCI", "year": 2025, "pmid": "41464751", "relevance": "糖尿病（特別是 insulin 治療）LM PCI 10 年死亡顯著高"},
+      {"title": "COMPARE STEMI ONE: prasugrel mono + OCT-guided staged complete revasc (protocol)", "year": 2025, "pmid": "40375771", "relevance": "abbreviated DAPT 與 OCT 導引在 STEMI 的整合設計"},
+      {"title": "1- vs 3-month DAPT in HBR women and men undergoing PCI", "year": 2025, "pmid": "39969452", "relevance": "HBR 男女短 DAPT 缺血事件無差異，出血數值較少"}
+    ]
+  },
+  "B. Vaquerizo": {
+    "name": "B. Vaquerizo",
+    "fullName": "Beatriz Vaquerizo",
+    "institution": "Hospital del Mar, IMIM / Universidad Autónoma de Barcelona, Spain",
+    "expertise": ["Complex PCI & PCI complications", "Coronary calcification modification", "IVL / IVUS-guided PCI", "TAVR outcomes", "Women in interventional cardiology"],
+    "tier": "A",
+    "oneLiner": "Hospital del Mar 介入主任，CYCLOPES 鈣化病變 IVUS algorithm 試驗核心研究者，也是歐洲女性介入心臟醫師的代表人物。",
+    "keyContributions": [
+      "CYCLOPES 試驗（IVUS-guided calcium modification algorithm，Catheter Cardiovasc Interv 2025）共同研究者",
+      "OPTI-XIENCE 試驗（intracoronary imaging/physiology 優化高風險 PCI 結果，Int J Cardiol 2025）",
+      "CENTER2 TAVR 資料庫（15,233 例 discordant AS 預後，Struct Heart 2026）"
+    ],
+    "whyListen": "對重度鈣化、IVL 與 PCI 併發症的處理流程是她的強項；她能把 IVUS / OCT 演算法化為每日可用流程，對 Tzu Chi 推行影像導引複雜 PCI 非常實用。",
+    "pmids": ["41858420", "41408534", "40912463", "40263013"],
+    "extendedBio": "Beatriz Vaquerizo 為巴塞隆納 Hospital del Mar 介入心臟科主任、IMIM 研究員、Universidad Autónoma de Barcelona 副教授，也是西班牙 CIBER-CV 成員。她專注於複雜 PCI、鈣化病變的影像導引與 plaque modification、TAVR 與結構性介入，以及 PCI 併發症的預防與處理（perforation、no-reflow、hemodynamic support）。她在 EAPCI / ESC 內長期推動女性介入心臟醫師發展，是 EuroPCR 鈣化與 complications session 的常見講者與主持。",
+    "signatureWork": "CYCLOPES（NCT06678594）是她參與的標誌性研究：500 名 PCI 患者在 25 個歐洲中心使用統一 IVUS-based 鈣化修飾 algorithm，co-primary endpoints 為 MSA 與 1 年 TLF，目的是讓影像導引 calcium modification 成為標準流程。她也參與 OPTI-XIENCE（2025），證實高風險 PCI 使用任何一種影像 / 生理 intracoronary technique 可顯著降低 1 年 TLF（3.4% vs 9.3%）。",
+    "recentActivity": "2025–2026：CYCLOPES 試驗設計論文（Catheter Cardiovasc Interv 2025）、OPTI-XIENCE 高風險 PCI intracoronary imaging 優化（Int J Cardiol 2025）、IVL 鈣化病變 hemodynamic pattern 分析（Cardiovasc Revasc Med 2025）、CENTER2 TAVR discordant AS 1 年死亡率分析（Struct Heart 2026）。她也在 EuroPCR 做 complication management live demonstration。",
+    "conversationStarter": "可請教她：「CYCLOPES IVUS algorithm 你如何訓練團隊？哪一步最容易踩雷？」或「OPTI-XIENCE 顯示任何一種 ICT 都優於單純造影，你怎麼選 OCT vs IVUS？」",
+    "recentPapers": [
+      {"title": "CYCLOPES: IVUS-guided calcium modification algorithm (design)", "year": 2025, "pmid": "41408534", "relevance": "歐洲 25 中心標準化鈣化病變 IVUS algorithm"},
+      {"title": "OPTI-XIENCE: intracoronary techniques improve high-risk PCI outcomes", "year": 2025, "pmid": "40912463", "relevance": "ICT 使 1 年 TLF 從 9.3% 降至 3.4%"},
+      {"title": "Hemodynamic pattern & calcium morphology on IVL efficacy", "year": 2025, "pmid": "40263013", "relevance": "Diffuse 鈣化病變 IVL 後生理學結果較差"},
+      {"title": "Types of aortic stenosis in patients undergoing TAVR (CENTER2)", "year": 2026, "pmid": "41858420", "relevance": "Low-gradient + impaired LVEF 亞組 1 年死亡率最高"}
+    ]
+  }
+}
