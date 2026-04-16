@@ -1183,7 +1183,7 @@ function renderEditView(main, key) {
         const detailLinkHtml = o.option.sessionId ? `
           <button type="button" class="option-detail-link"
             onclick="event.preventDefault(); event.stopPropagation(); navigateTo('#/session/${encodeURIComponent(o.option.sessionId)}')">
-            🔍 查看此場完整詳情（議程 / 學習目標 / 全部講者）→
+            🔍 完整議程・全部講者 →
           </button>
         ` : '';
         return `
