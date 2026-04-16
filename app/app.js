@@ -815,11 +815,20 @@ function renderBriefingBox(b) {
 }
 
 function renderSpeakerChipHtml(name, role) {
-  const researched = speakerIsResearched(name);
+  // Auto-lookup tier from AppData.speakers so every chip shows S/A/B colour
+  // when the speaker has been researched (same behaviour as edit view).
+  const parsed = parseSpeakerRef(name);
+  let tier = parsed.tier;
+  if (!tier) {
+    const sp = AppData.speakers[parsed.name];
+    if (sp && sp.tier) tier = sp.tier;
+  }
+  const researched = speakerIsResearched(parsed.name);
   return `
     <button class="chip speaker-chip${researched ? ' researched' : ''}"
-            onclick="event.stopPropagation(); navigateTo('#/speaker/${encodeURIComponent(name)}')">
-      <span class="chip-name">${escapeHtml(name)}</span>
+            onclick="event.stopPropagation(); navigateTo('#/speaker/${encodeURIComponent(parsed.name)}')">
+      <span class="chip-name">${escapeHtml(parsed.name)}</span>
+      ${tier ? `<span class="chip-tier ${tier}">${tier}</span>` : ''}
       ${role ? `<span style="font-size:10px; color: var(--text-muted); margin-left: 3px">${escapeHtml(role)}</span>` : ''}
     </button>
   `;
