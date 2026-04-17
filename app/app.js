@@ -203,10 +203,22 @@ function renderLocationBoxHtml(loc) {
   `;
 }
 
+/** Formats that Dr. Chang said he's NOT considering this year (limited time):
+ *  - Abstracts: 10-min abstract talks, low operator value
+ *  - ModeratedEPoster: poster discussions, mostly trainees
+ *  These are hidden from the concurrent-session picker by default but can be
+ *  toggled back on from the filter bar (see LOW_VALUE_FORMATS filter chip).
+ */
+const LOW_VALUE_FORMATS = new Set(['Abstracts', 'ModeratedEPoster']);
+
 /** Concurrent sessions for a given (day, HH:MM start).
  *  Matches by session.day === dayName AND session.timeStart overlaps the block.
+ *  Options:
+ *    - includeLowValue (bool): when true, include Abstracts + e-Poster sessions.
+ *      Defaults to false.
  */
-function findConcurrentSessions(dayName, blockTime) {
+function findConcurrentSessions(dayName, blockTime, opts = {}) {
+  const includeLowValue = !!opts.includeLowValue;
   const [startHM] = blockTime.split('-');
   const startMin = hmToMin(startHM);
   const endMin   = blockTime.includes('-') ? hmToMin(blockTime.split('-')[1]) : (startMin + 60);
@@ -214,6 +226,7 @@ function findConcurrentSessions(dayName, blockTime) {
   for (const sid in AppData.sessions) {
     const s = AppData.sessions[sid];
     if (s.day !== dayName) continue;
+    if (!includeLowValue && LOW_VALUE_FORMATS.has(s.type)) continue;
     const sStart = hmToMin(s.timeStart);
     const sEnd   = hmToMin(s.timeEnd || s.timeStart);
     // Any overlap counts (concurrent = any temporal overlap)
@@ -1173,8 +1186,11 @@ function renderEditView(main, key) {
   const curatedIds = new Set();
   if (block.pick && block.pick.sessionId) curatedIds.add(block.pick.sessionId);
   (block.backups || []).forEach(b => { if (b.sessionId) curatedIds.add(b.sessionId); });
-  const concurrent = findConcurrentSessions(dayName, block.time)
-    .filter(s => !curatedIds.has(s.id));
+  // Default view excludes Abstracts + e-Poster (Dr. Chang: "不考慮了 時間有限").
+  // We compute both so a toggle chip can reveal them on demand.
+  const concurrent    = findConcurrentSessions(dayName, block.time).filter(s => !curatedIds.has(s.id));
+  const concurrentAll = findConcurrentSessions(dayName, block.time, { includeLowValue: true }).filter(s => !curatedIds.has(s.id));
+  const hiddenLowValue = concurrentAll.length - concurrent.length;
   const interestConcurrent = concurrent.filter(sessionHitsInterests);
 
   // Current custom override (if any) — even if not in curated list
@@ -1259,6 +1275,7 @@ function renderEditView(main, key) {
           <span class="filter-chip active" data-filter="all">全部 ${concurrent.length}</span>
           ${interestConcurrent.length ? `<span class="filter-chip interest" data-filter="interest">★ 興趣 ${interestConcurrent.length}</span>` : ''}
           ${buildConcurrentTopicFilters(concurrent)}
+          ${hiddenLowValue > 0 ? `<span class="filter-chip" id="toggle-lowvalue" data-filter="includeLowValue" title="Abstracts + e-Poster 預設不顯示">➕ 含 abstract/poster (${hiddenLowValue})</span>` : ''}
         </div>
         <div class="concurrent-list" id="concurrent-list"></div>
       </div>
@@ -1297,10 +1314,11 @@ function renderEditView(main, key) {
   const panel = $('#concurrent-panel', body);
   const listEl = $('#concurrent-list', body);
   let currentFilter = 'all';
+  let showLowValue = false;
 
   const renderConcurrentList = () => {
     if (!listEl) return;
-    let items = concurrent;
+    let items = showLowValue ? concurrentAll : concurrent;
     if (currentFilter === 'interest') {
       items = items.filter(sessionHitsInterests);
     } else if (currentFilter.startsWith('topic:')) {
@@ -1380,12 +1398,23 @@ function renderEditView(main, key) {
       if (!open) renderConcurrentList();
     };
 
-    // Filter chips
+    // Filter chips — special-case the low-value toggle so it stacks
+    // independently of the topic/interest filter.
     $$('#concurrent-filter .filter-chip', body).forEach(chip => {
       chip.onclick = () => {
-        $$('#concurrent-filter .filter-chip', body).forEach(c => c.classList.remove('active'));
-        chip.classList.add('active');
-        currentFilter = chip.dataset.filter;
+        if (chip.dataset.filter === 'includeLowValue') {
+          showLowValue = !showLowValue;
+          chip.classList.toggle('active', showLowValue);
+          chip.textContent = showLowValue
+            ? `➖ 隱藏 abstract/poster (${hiddenLowValue})`
+            : `➕ 含 abstract/poster (${hiddenLowValue})`;
+        } else {
+          $$('#concurrent-filter .filter-chip', body).forEach(c => {
+            if (c.dataset.filter !== 'includeLowValue') c.classList.remove('active');
+          });
+          chip.classList.add('active');
+          currentFilter = chip.dataset.filter;
+        }
         renderConcurrentList();
       };
     });
