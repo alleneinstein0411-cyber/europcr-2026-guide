@@ -1,7 +1,7 @@
 {
-  "buildTime": "2026-04-16T14:30:00+08:00",
-  "dataVersion": "1.2-v23-speakers",
-  "projectStatus": "v23_clickable_backups_20_new_speakers",
+  "buildTime": "2026-04-17T14:00:00+08:00",
+  "dataVersion": "1.4-v241-filter",
+  "projectStatus": "v241_abstract_filter",
   "pdfVersion": "14 April 2026",
   "v22Changes": [
     "所有 547 sessions 自動標註 topics[] (21 topics) + trackCategories[] (8 官方分類) + location{levelLabel, wing, walk}",
@@ -12,7 +12,15 @@
   "v23Changes": [
     "編輯頁的策展主選 / 備案：講者名字變成可點 chip（連進講者卡），加「🔍 查看此場完整詳情」按鈕（議程 / 學習目標 / 全部講者）",
     "深度研究 20 位新增 backup 場次的關鍵講者（60 → 80 位）：Libby (S), Sabate (S), Byrne (S), Mehta (S), Götberg (S), 以及 12 位 A 級、1 位 B 級",
-    "清掉 75 個 sessions.json + 3 個 schedule.json 的 PDF 解析單字母講者名碎片"
+    "清掉 75 個 sessions.json + 3 個 schedule.json 的 PDF 解析單字母講者名碎片",
+    "19 個新備案 keyNames 補上 (S)/(A)/(B) tier 後綴，chip 終於有顏色",
+    "Session 詳情頁的講者 chip 也自動查 tier（之前只有灰底）",
+    "搜尋 bug 修好（speakers 欄位型別不一致造成 filter 報錯）"
+  ],
+  "v24Changes": [
+    "Thu 15:00 主選換：Rota 併發症 Hands-on Sim → Challenges of multivessel disease in ACS（Götberg S anchor + Mehta S disc 雙 S 同台）。理由：rota 併發症國內可訓，Mehta+Götberg 是 EuroPCR 唯一機會",
+    "編輯頁「同時段所有場次」預設過濾掉 Abstracts + e-Poster（你說時間有限不考慮）",
+    "新增「➕ 含 abstract/poster (N)」切換 chip — 萬一想看可臨時切回來"
   ],
   "conferenceDays": [
     "2026-05-19",
